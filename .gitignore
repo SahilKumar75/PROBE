@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+.DS_Store
+**/.DS_Store
+
+.env
+*.key
+secrets.*
+
+outputs/*
+!outputs/.gitkeep
+
+traces/*
+!traces/.gitkeep
