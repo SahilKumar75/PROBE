@@ -1,0 +1,19 @@
+[project]
+name = "probe"
+version = "0.1.0"
+description = "PROBE prototype for novel environment adaptation research"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium>=0.29",
+    "minigrid>=2.3",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
