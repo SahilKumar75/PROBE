@@ -51,6 +51,37 @@ def raw_observation_text(obs: dict) -> str:
     return json.dumps(serializable)
 
 
+def parse_mission_target(mission: str) -> tuple[str, str]:
+    tokens = mission.strip().rstrip(".").split()
+    return tokens[-2], tokens[-1]
+
+
+def target_directly_ahead(obs: dict) -> bool:
+    image = obs["image"]
+    agent_col = image.shape[0] // 2
+    agent_row = image.shape[1] - 1
+    front = image[agent_col][agent_row - 1]
+    front_object = IDX_TO_OBJECT.get(int(front[0]), "")
+    front_color = IDX_TO_COLOR.get(int(front[1]), "")
+    target_color, target_type = parse_mission_target(obs["mission"])
+    return front_object == target_type and front_color == target_color
+
+
+def target_bearing(obs: dict) -> tuple[int, int] | None:
+    image = obs["image"]
+    agent_col = image.shape[0] // 2
+    agent_row = image.shape[1] - 1
+    target_color, target_type = parse_mission_target(obs["mission"])
+    for col in range(image.shape[0]):
+        for row in range(image.shape[1]):
+            if (
+                IDX_TO_OBJECT.get(int(image[col][row][0]), "") == target_type
+                and IDX_TO_COLOR.get(int(image[col][row][1]), "") == target_color
+            ):
+                return agent_row - row, col - agent_col
+    return None
+
+
 def readable_observation(obs: dict) -> str:
     image = obs["image"]
     view_cols, view_rows = image.shape[0], image.shape[1]

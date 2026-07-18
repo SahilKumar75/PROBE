@@ -24,6 +24,7 @@ from probe.stage0.minigrid_policies import (
     llm_minigrid_policy,
     random_minigrid_policy,
 )
+from probe.stage0.probe_agent import ProbeAgent
 from probe.stage0.tracing import TraceLogger, TraceRow, dump_json
 
 
@@ -31,7 +32,9 @@ VARIANTS = {
     "random_policy": random_minigrid_policy,
     "heuristic_policy": heuristic_minigrid_policy,
     "plain_llm_agent": llm_minigrid_policy,
+    "probe_agent": None,
 }
+LLM_VARIANTS = {"plain_llm_agent", "probe_agent"}
 
 
 def _run_episode(variant_name, policy, seed: int, episode_id: int, run_id: str) -> dict:
@@ -45,9 +48,13 @@ def _run_episode(variant_name, policy, seed: int, episode_id: int, run_id: str) 
     truncated = False
     failure_reason = ""
     rows: list[TraceRow] = []
+    agent = ProbeAgent() if variant_name == "probe_agent" else None
 
     while not done:
-        if variant_name in {"heuristic_policy", "plain_llm_agent"}:
+        note = ""
+        if agent is not None:
+            action, note = agent.act(obs, history)
+        elif variant_name == "plain_llm_agent" or variant_name == "heuristic_policy":
             action = policy(obs, history)
         else:
             action = policy(obs)
@@ -79,7 +86,7 @@ def _run_episode(variant_name, policy, seed: int, episode_id: int, run_id: str) 
                 step_count=step_id + 1,
                 success=success,
                 failure_reason=failure_reason,
-                notes="",
+                notes=note,
             )
         )
 
@@ -121,7 +128,7 @@ def _resolve_workers(variant_name: str) -> int:
     override = os.getenv("STAGE0_MAX_WORKERS")
     if override:
         return max(1, int(override))
-    return 8 if variant_name == "plain_llm_agent" else 1
+    return 8 if variant_name in LLM_VARIANTS else 1
 
 
 def run_stage0_minigrid(

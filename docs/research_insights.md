@@ -461,3 +461,19 @@ These are not random failures; they map onto missing architectural components. P
 ### Paper relevance
 
 Use this as the empirical hinge from baseline to method. The baseline is strong (so PROBE is not compared against a straw agent), yet its failures are systematic and nameable, and each names a PROBE module. Report premature done rate and turn to forward ratio as diagnostic metrics that PROBE should improve, alongside success and steps. Note that Stage 0 has fixed known rules, so it motivates the modules but does not yet demonstrate the rule level contradiction and revision contribution; that requires the hidden rule and rule shift stages.
+
+---
+
+## Insight 029: Naive structured belief prompting can backfire, and a gate that only blocks is not enough
+
+### Observation
+
+The first PROBE loop (v1) on GoToObject scored 0.17 against the plain baseline 0.59, a regression. The trace explains it. The plain baseline proposed the done action on 2.4 percent of steps; PROBE v1 proposed done on 57 percent of steps (514 of 904). The verify before done gate correctly blocked 513 of those false dones, so premature done nearly vanished, but each blocked done was overridden to a blind forward. That marched the agent into walls without ever navigating, so failures shifted from premature done to step budget timeout and success fell.
+
+### Why it matters
+
+Two lessons. First, asking the model to reason explicitly about arrival (an adjacent true or false field plus an action) made it over claim arrival and spam the terminal action, the opposite of the intended effect. Structure is not automatically better than a plain prompt. Second, a safety gate that blocks a bad action without substituting a good one merely converts one failure mode into another. The belief and verification idea is sound, shown by the single clean success that went belief, contradiction, verify, done, but the naive realization regressed below the unstructured baseline.
+
+### Paper relevance
+
+A cautionary, honest result for the method section. Report v1 as the negative result that motivates v2. The fixes are specific: tie the done decision to a verifiable observable (the model may choose done only when the cell directly ahead is stated to be the mission target), and on a blocked done substitute a belief driven approach action that navigates toward the believed target rather than a blind forward. Iterating from a documented regression strengthens credibility rather than weakening it.
