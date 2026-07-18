@@ -10,9 +10,7 @@ OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/ap
 OPENROUTER_API_URL = OPENROUTER_BASE_URL + "/chat/completions"
 
 DEFAULT_MODELS = [
-    "meta-llama/llama-3.1-8b-instruct",
-    "google/gemini-2.0-flash-001",
-    "openai/gpt-4o-mini",
+    "meta-llama/llama-3.3-70b-instruct",
 ]
 
 
@@ -24,6 +22,7 @@ class OpenRouterClient:
         temperature: float = 0.2,
         timeout_seconds: int = 60,
         max_retries_per_model: int = 1,
+        max_tokens: int | None = None,
     ):
         self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
         if not self.api_key:
@@ -35,6 +34,8 @@ class OpenRouterClient:
         self.temperature = temperature
         self.timeout_seconds = timeout_seconds
         self.max_retries_per_model = max_retries_per_model
+        env_max_tokens = os.getenv("OPENROUTER_MAX_TOKENS")
+        self.max_tokens = max_tokens if max_tokens is not None else (int(env_max_tokens) if env_max_tokens else None)
         self.last_model_used: str | None = None
 
     def _call_one(self, model: str, system_instruction: str, user_prompt: str) -> str:
@@ -46,6 +47,8 @@ class OpenRouterClient:
                 {"role": "user", "content": user_prompt},
             ],
         }
+        if self.max_tokens is not None:
+            payload["max_tokens"] = self.max_tokens
         body = json.dumps(payload).encode("utf-8")
         req = request.Request(
             OPENROUTER_API_URL,

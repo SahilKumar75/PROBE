@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 import csv
 import json
+import os
 import statistics
 import uuid
 from pathlib import Path
@@ -32,6 +34,96 @@ VARIANTS = {
 }
 
 
+def _run_episode(variant_name, policy, seed: int, episode_id: int, run_id: str) -> dict:
+    env = make_env()
+    obs, info = env.reset(seed=seed * 1000 + episode_id)
+    history: list[dict] = []
+    cumulative_reward = 0.0
+    done = False
+    step_id = 0
+    success = False
+    truncated = False
+    failure_reason = ""
+    rows: list[TraceRow] = []
+
+    while not done:
+        if variant_name in {"heuristic_policy", "plain_llm_agent"}:
+            action = policy(obs, history)
+        else:
+            action = policy(obs)
+
+        next_obs, reward, terminated, truncated, info = env.step(action)
+        done = bool(terminated or truncated)
+        cumulative_reward += float(reward)
+        success = bool(terminated and reward > 0)
+        if truncated and not success:
+            failure_reason = "step_budget_exhausted"
+
+        rows.append(
+            TraceRow(
+                run_id=run_id,
+                variant_name=variant_name,
+                env_id=MINIGRID_ENV_ID,
+                seed=seed,
+                episode_id=episode_id,
+                step_id=step_id,
+                mission_text=obs["mission"],
+                raw_observation=raw_observation_text(obs),
+                structured_observation=str(structured_observation(obs)),
+                chosen_action=ACTION_NAMES[action],
+                action_source=variant_name,
+                reward=float(reward),
+                done=done,
+                truncated=bool(truncated),
+                cumulative_reward=float(cumulative_reward),
+                step_count=step_id + 1,
+                success=success,
+                failure_reason=failure_reason,
+                notes="",
+            )
+        )
+
+        history.append(
+            {
+                "observation": structured_observation(obs),
+                "action": ACTION_NAMES[action],
+                "reward": reward,
+                "terminated": terminated,
+                "truncated": truncated,
+            }
+        )
+        obs = next_obs
+        step_id += 1
+
+    env.close()
+    if success:
+        failure_type = None
+    elif truncated:
+        failure_type = "step_budget_exhausted"
+    elif action == 6:
+        failure_type = "premature_done"
+    elif action == 5:
+        failure_type = "toggle_terminated"
+    else:
+        failure_type = "other"
+    return {
+        "seed": seed,
+        "episode_id": episode_id,
+        "rows": rows,
+        "steps": step_id,
+        "success": success,
+        "cumulative_reward": cumulative_reward,
+        "failure_type": failure_type,
+    }
+
+
+def _resolve_workers(variant_name: str) -> int:
+    override = os.getenv("STAGE0_MAX_WORKERS")
+    if override:
+        return max(1, int(override))
+    return 8 if variant_name == "plain_llm_agent" else 1
+
+
 def run_stage0_minigrid(
     output_dir: Path,
     trace_dir: Path,
@@ -48,86 +140,45 @@ def run_stage0_minigrid(
 
     for variant_name in selected_variants:
         policy = VARIANTS[variant_name]
-        rows: list[TraceRow] = []
         per_seed = defaultdict(lambda: {"episodes": 0, "successes": 0, "steps": [], "timeouts": 0})
         success_count = 0
         cumulative_rewards: list[float] = []
         steps_to_success: list[int] = []
         timeout_count = 0
 
-        for seed in seeds:
-            for episode_id in episode_ids:
-                env = make_env()
-                obs, info = env.reset(seed=seed * 1000 + episode_id)
-                history: list[dict] = []
-                cumulative_reward = 0.0
-                done = False
-                step_id = 0
-                success = False
-                truncated = False
-                failure_reason = ""
+        tasks = [(seed, episode_id) for seed in seeds for episode_id in episode_ids]
+        workers = _resolve_workers(variant_name)
+        if workers > 1:
+            with ThreadPoolExecutor(max_workers=workers) as executor:
+                futures = [
+                    executor.submit(_run_episode, variant_name, policy, seed, episode_id, run_id)
+                    for seed, episode_id in tasks
+                ]
+                episode_results = [future.result() for future in futures]
+        else:
+            episode_results = [
+                _run_episode(variant_name, policy, seed, episode_id, run_id)
+                for seed, episode_id in tasks
+            ]
 
-                while not done:
-                    if variant_name in {"heuristic_policy", "plain_llm_agent"}:
-                        action = policy(obs, history)
-                    else:
-                        action = policy(obs)
-
-                    next_obs, reward, terminated, truncated, info = env.step(action)
-                    done = bool(terminated or truncated)
-                    cumulative_reward += float(reward)
-                    success = bool(terminated and reward > 0)
-                    if truncated and not success:
-                        failure_reason = "step_budget_exhausted"
-
-                    rows.append(
-                        TraceRow(
-                            run_id=run_id,
-                            variant_name=variant_name,
-                            env_id=MINIGRID_ENV_ID,
-                            seed=seed,
-                            episode_id=episode_id,
-                            step_id=step_id,
-                            mission_text=obs["mission"],
-                            raw_observation=raw_observation_text(obs),
-                            structured_observation=str(structured_observation(obs)),
-                            chosen_action=ACTION_NAMES[action],
-                            action_source=variant_name,
-                            reward=int(reward),
-                            done=done,
-                            truncated=bool(truncated),
-                            cumulative_reward=int(cumulative_reward),
-                            step_count=step_id + 1,
-                            success=success,
-                            failure_reason=failure_reason,
-                            notes="",
-                        )
-                    )
-
-                    history.append(
-                        {
-                            "observation": structured_observation(obs),
-                            "action": ACTION_NAMES[action],
-                            "reward": reward,
-                            "terminated": terminated,
-                            "truncated": truncated,
-                        }
-                    )
-                    obs = next_obs
-                    step_id += 1
-
-                per_seed[seed]["episodes"] += 1
-                per_seed[seed]["steps"].append(step_id)
-                cumulative_rewards.append(cumulative_reward)
-                if success:
-                    success_count += 1
-                    per_seed[seed]["successes"] += 1
-                    steps_to_success.append(step_id)
-                else:
+        episode_results.sort(key=lambda result: (result["seed"], result["episode_id"]))
+        rows: list[TraceRow] = []
+        failure_breakdown: dict[str, int] = defaultdict(int)
+        for result in episode_results:
+            rows.extend(result["rows"])
+            seed = result["seed"]
+            per_seed[seed]["episodes"] += 1
+            per_seed[seed]["steps"].append(result["steps"])
+            cumulative_rewards.append(result["cumulative_reward"])
+            if result["success"]:
+                success_count += 1
+                per_seed[seed]["successes"] += 1
+                steps_to_success.append(result["steps"])
+            else:
+                failure_breakdown[result["failure_type"]] += 1
+                if result["failure_type"] == "step_budget_exhausted":
                     timeout_count += 1
                     per_seed[seed]["timeouts"] += 1
-
-                env.close()
 
         batch_suffix = f"_{batch_id}" if batch_id else ""
         trace_path = trace_dir / f"stage0_minigrid_{variant_name}_{run_id}{batch_suffix}.csv"
@@ -145,6 +196,7 @@ def run_stage0_minigrid(
             "median_steps_to_success": statistics.median(steps_to_success) if steps_to_success else None,
             "average_cumulative_reward": statistics.mean(cumulative_rewards) if cumulative_rewards else 0.0,
             "fraction_step_budget_exhausted": timeout_count / (len(seeds) * len(episode_ids)),
+            "failure_breakdown": dict(failure_breakdown),
             "per_seed_summary": {
                 str(seed): {
                     "episodes": data["episodes"],

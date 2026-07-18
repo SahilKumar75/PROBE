@@ -7,6 +7,7 @@ import random
 import os
 
 from probe.stage0.groq_client import GroqClient
+from probe.stage0.minigrid_env import readable_observation
 from probe.stage0.ollama_client import OllamaClient
 from probe.stage0.openrouter_client import OpenRouterClient
 
@@ -48,22 +49,20 @@ def llm_minigrid_policy(obs: dict, history: list[dict], client=None) -> int:
             client = GroqClient()
         else:
             client = OllamaClient()
-    recent_history = history[-2:]
-    direction = int(obs["direction"])
-    front_cell = obs["image"][3][6].tolist()
-    prompt = (
-        "You control an agent in MiniGrid.\n"
-        "Choose exactly one action from this list: left, right, forward, pickup, drop, toggle, done.\n"
-        "Return only the action word and nothing else.\n\n"
-        f"Mission: {obs['mission']}\n"
-        f"Direction: {direction}\n"
-        f"Front cell encoding: {front_cell}\n"
-        f"Visible grid shape: {list(obs['image'].shape)}\n"
-        f"Recent history: {recent_history}\n"
-    )
+    recent_actions = [entry["action"] for entry in history[-5:]]
     system = (
-        "You are selecting one valid MiniGrid action. "
-        "Return only one word from: left, right, forward, pickup, drop, toggle, done."
+        "You control an agent in a MiniGrid gridworld with a partial, forward facing view. "
+        "Reply with exactly one action word and nothing else."
+    )
+    prompt = (
+        "Actions: left (turn 90 degrees left), right (turn 90 degrees right), "
+        "forward (move one cell forward), done (declare you have arrived).\n"
+        "You succeed only by moving into a cell next to the target object named in the mission, then replying done. "
+        "Replying done when you are not next to the target ends the episode as a failure. "
+        "Replying toggle, pickup, or drop also ends the episode, so never use them.\n\n"
+        f"{readable_observation(obs)}\n"
+        f"Recent actions: {recent_actions}\n\n"
+        "Reply with one action word: left, right, forward, or done."
     )
     text = client.generate_text(system_instruction=system, user_prompt=prompt).strip().lower()
 
@@ -76,7 +75,8 @@ def llm_minigrid_policy(obs: dict, history: list[dict], client=None) -> int:
         "toggle": 5,
         "done": 6,
     }
-    first_token = text.split()[0] if text else ""
-    if first_token not in action_map:
-        return 6
-    return action_map[first_token]
+    for token in text.split():
+        cleaned = token.strip(".,!?:;'\"()[]*`").lower()
+        if cleaned in action_map:
+            return action_map[cleaned]
+    return 2

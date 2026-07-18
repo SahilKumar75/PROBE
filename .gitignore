@@ -2,6 +2,8 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.pyc
+*.egg-info/
+.serena/
 
 .DS_Store
 **/.DS_Store

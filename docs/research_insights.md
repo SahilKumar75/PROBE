@@ -381,3 +381,83 @@ Refinement is not revision. The discrete "believed X -> X contradicted -> now be
 ### Paper relevance
 
 Center the method on the Contradiction Detector and Belief Revision Engine. Center the evaluation on recovery-after-rule-change, repeated-error rate, and interactions-to-adapt (efficiency). Use hidden/procedural rules and mid-episode rule shifts so that success reflects adaptation rather than memorized priors.
+
+---
+
+## Insight 024: Backend access, not model quality, is the recurring bottleneck for interactive LLM benchmarks
+
+### Observation
+
+Across many sessions the real LLM baseline was blocked in a sequence of different ways: missing credentials, then Gemini free tier quota (429 RESOURCE_EXHAUSTED), then Ollama with no model installed, then a Groq 403 Cloudflare block, and now an unfunded OpenRouter account. The unfunded account has a signature pattern: paid models return HTTP 402 (insufficient credit) while free model variants return HTTP 429 (upstream rate limiting that unfunded accounts are subject to). A related client defect amplified the 402: the request reserved the model default of 16384 output tokens for what is only a one word action reply, which was fixed by capping max_tokens.
+
+### Why it matters
+
+An interactive benchmark issues one model call per step, so a modest 200 episode protocol becomes thousands of sequential calls. That volume interacts badly with free tier request caps and pay as you go balances. The limiting factor has consistently been the serving arrangement (credentials, quota, funding, access), not whether the model is capable of choosing MiniGrid actions.
+
+### Paper relevance
+
+Strengthens the limitations and methodology discussion: interactive LLM evaluation needs a serving plan decided up front (funded API, local inference with a pulled model, or a batched protocol under free tier caps), and per call token budgets should be bounded because the task output is tiny. This is distinct from Insight 013 (quota) and Insight 014 (local latency); it isolates funding and access as their own feasibility axis.
+
+---
+
+## Insight 025: A capable LLM given raw tensor observations collapses to a single repeated action
+
+### Observation
+
+In the first real Stage 0 validation batch (llama-3.3-70b as plain_llm_agent, 4 episodes on MiniGrid-GoToObject-6x6-N2-v0), the model chose forward on all 720 steps. It walked forward until the 180 step cap on every episode and never turned, for 0 success. The prompt gave only raw numeric encodings: direction as an integer, the front cell as a numeric triple, the grid shape, and a short action history, with no readable description of the visible layout or the target bearing.
+
+### Why it matters
+
+This degeneracy is an observation representation failure, not only a reasoning failure. With no interpretable signal about where the target is or that it is stuck against a wall, the model has no basis to turn, so it repeats its default action. This is confirmed to be the model and not a parser artifact: parse failures default to the done action, which would terminate episodes early, whereas 720 forwards mean the model itself emitted forward every time. It also repeats the pattern of Insight 012 (a naive policy can fail harder than random): random_policy scores 0.06 to 0.07 by occasionally starting adjacent to the target, while the always forward LLM scores 0.0.
+
+### Paper relevance
+
+Strong motivation for the Observation Interpreter as shared machinery that BOTH the baseline and PROBE must use. It is also a methodological warning: a plain LLM baseline fed raw observations is a confounded comparison, because PROBE would then appear to win by having readable observations rather than by belief formation, contradiction detection, and revision. For a fair test, give the baseline the same interpreted observation and let PROBE's advantage come only from the belief and revision loop. The raw observation LLM can optionally be reported as a separate naive reference point.
+
+---
+
+## Insight 026: Compete with AWS on efficiency by measuring the belief loop, not by adding a compression layer
+
+### Observation
+
+A tempting way to differentiate PROBE from AWS is token saving. The phrase hides two very different things. (A) Adaptation efficiency is an outcome: fewer interactions, steps, or tokens to adapt, produced by reusing and revising a belief instead of re-reasoning from scratch. (B) Prompt or context compression is an engineering layer that reduces tokens per call independent of the method. All four surveyed repos are type B: ponytail (minimal code generation), headroom (context compression), markitdown (document to Markdown), caveman (terse output style).
+
+### Why it matters
+
+Type A is a legitimate, measurable research claim that out positions AWS, which itself competes on token and step cost. The saving comes from PROBE's own mechanism, so it supports the thesis. Type B is not novelty for an architecture paper, is orthogonal to the rule shift niche, dilutes the single contribution, and can actively harm the study, since aggressive compression drops the very context needed to detect contradictions. Making token saving the main differentiator would repeat the Session 033 error of claiming shared machinery as the contribution.
+
+### Paper relevance
+
+Report adaptation efficiency as a supporting axis alongside success: interactions to adapt, tokens to recover after a rule change, and repeated error rate. Keep compression out of the contribution. Mention it at most as an implementation detail or an ablation (does cheap compression preserve adaptation), and cite the compression repos in Related Work under efficiency and systems rather than as novelty. The single contribution stays rule level belief plus contradiction driven revision under non stationary rules.
+
+---
+
+## Insight 027: Separate the action interface from the hidden rules, or the baseline is broken and the comparison is unfair
+
+### Observation
+
+MiniGrid-GoToObject-6x6 gives reward only when the agent emits the done action while standing orthogonally adjacent to the target object; the toggle action also ends the episode with zero reward. The original plain LLM prompt never stated this, so even a competent navigator could not score, and combined with raw numeric observations the model emitted forward on every step and timed out (Insight 025). Two separate defects were masquerading as one bad result: an unreadable observation and an undisclosed action interface.
+
+### Why it matters
+
+A baseline must be told the environment ACTION INTERFACE (what each action does and how success is declared). This is different from the environment HIDDEN RULES that PROBE is meant to discover. Conflating them produces a broken baseline and, worse, an unfair later comparison, because PROBE would appear to win by being handed interface facts that the baseline lacked. Stating go next to the target then declare done is fair interface disclosure; it is not rule inference.
+
+### Paper relevance
+
+The method section must distinguish interface knowledge (given to every agent) from rule knowledge (to be discovered). At Stage 0 both the baseline and PROBE receive the same readable observation and the same interface description. PROBE's advantage, tested later on hidden rule and rule shift tasks, must come only from belief formation and revision. As a side note, the done when adjacent mechanic is itself a small candidate hidden rule: a later PROBE demo could withhold it and show PROBE inferring do the done action near the target gives reward from experience, which a plain LLM without a belief loop fails to consolidate.
+
+---
+
+## Insight 028: The plain LLM baseline fails in exactly the two ways PROBE's modules target
+
+### Observation
+
+On the full Stage 0 external baseline (llama-3.3-70b, readable observation plus interface, 200 episodes), the plain LLM reached 0.59 success with a median of 5 steps, about 9x random (0.06 to 0.07) and far above the heuristic (0.0). Its 82 failures split into two clear modes: premature done (54 episodes), where the agent declares arrival while not adjacent to the target, and turning oscillation leading to timeout (28 episodes), visible as an 11 to 1 ratio of turn actions to forward actions across 7250 steps.
+
+### Why it matters
+
+These are not random failures; they map onto missing architectural components. Premature done is a belief error: the agent holds an unverified belief that it has arrived. A loop that maintains an explicit belief about position and verifies it before committing to the terminal action would suppress it. Turning oscillation is a memory error: with no memory that it already turned in this spot, the agent re-explores the same choice. A belief memory that records what has been tried removes the loop. So the plain LLM baseline provides a concrete, measured motivation for the belief and memory parts of PROBE, on the same backbone and the same environment.
+
+### Paper relevance
+
+Use this as the empirical hinge from baseline to method. The baseline is strong (so PROBE is not compared against a straw agent), yet its failures are systematic and nameable, and each names a PROBE module. Report premature done rate and turn to forward ratio as diagnostic metrics that PROBE should improve, alongside success and steps. Note that Stage 0 has fixed known rules, so it motivates the modules but does not yet demonstrate the rule level contradiction and revision contribution; that requires the hidden rule and rule shift stages.

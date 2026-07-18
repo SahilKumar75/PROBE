@@ -44,10 +44,10 @@ class TraceRow:
     structured_observation: str
     chosen_action: str
     action_source: str
-    reward: int
+    reward: float
     done: bool
     truncated: bool
-    cumulative_reward: int
+    cumulative_reward: float
     step_count: int
     success: bool
     failure_reason: str
