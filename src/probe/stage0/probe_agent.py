@@ -61,20 +61,21 @@ def _first_action_word(text: str) -> str:
 
 
 class ProbeAgent:
-    def __init__(self, client=None, force_forward_after: int = 4):
+    def __init__(self, client=None, force_forward_after: int = 4, mode: str | None = None):
         self._client = client
         self.belief = "unknown, target not yet located"
         self.recent_actions: list[str] = []
         self.force_forward_after = force_forward_after
+        self.mode = mode or os.getenv("PROBE_MODE", "full")
+        self.use_belief_prompt = self.mode in ("full", "belief_only")
+        self.use_gate = self.mode in ("full", "gate_only")
 
     def _client_or_default(self):
         if self._client is None:
             self._client = _default_client()
         return self._client
 
-    def act(self, obs: dict, history: list[dict]) -> tuple[int, str]:
-        verified_ahead = target_directly_ahead(obs)
-        target_color, target_type = parse_mission_target(obs["mission"])
+    def _belief_prompt(self, obs: dict, verified_ahead: bool, target_color: str, target_type: str) -> tuple[str, str]:
         ahead_status = "IS" if verified_ahead else "is NOT"
         system = (
             "You are PROBE, an agent that navigates a gridworld by keeping an explicit belief "
@@ -95,36 +96,69 @@ class ProbeAgent:
             '"contradiction" (short note if the latest view contradicts your previous belief, else none), '
             '"action" (one of left, right, forward, done).'
         )
-        text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
-        parsed = _extract_json(text)
+        return system, prompt
 
-        self.belief = str(parsed.get("belief", self.belief))
-        contradiction = str(parsed.get("contradiction", "none"))
+    def _plain_prompt(self, obs: dict, target_color: str, target_type: str) -> tuple[str, str]:
+        system = (
+            "You control an agent in a MiniGrid gridworld with a partial, forward facing view. "
+            "Reply with exactly one action word and nothing else."
+        )
+        prompt = (
+            "Actions: left (turn 90 degrees left), right (turn 90 degrees right), "
+            "forward (move one cell forward), done (declare you have arrived).\n"
+            f"You succeed only by moving next to the {target_color} {target_type}, then replying done. "
+            "Your view shows only what is ahead; if the target is not visible it may be behind you, so turn to search.\n\n"
+            f"{readable_observation(obs)}\n"
+            f"Your recent actions: {self.recent_actions[-6:]}\n\n"
+            "Reply with one action word: left, right, forward, or done."
+        )
+        return system, prompt
 
-        action_word = parsed.get("action")
-        if not isinstance(action_word, str) or action_word.lower() not in ACTION_WORD_TO_IDX:
-            action_word = _first_action_word(text)
-        action = ACTION_WORD_TO_IDX.get(action_word.lower(), 2)
+    def act(self, obs: dict, history: list[dict]) -> tuple[int, str]:
+        verified_ahead = target_directly_ahead(obs)
+        target_color, target_type = parse_mission_target(obs["mission"])
+
+        if self.use_belief_prompt:
+            system, prompt = self._belief_prompt(obs, verified_ahead, target_color, target_type)
+        else:
+            system, prompt = self._plain_prompt(obs, target_color, target_type)
+
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        if self.use_belief_prompt:
+            parsed = _extract_json(text)
+            self.belief = str(parsed.get("belief", self.belief))
+            contradiction = str(parsed.get("contradiction", "none"))
+            action_word = parsed.get("action")
+            if not isinstance(action_word, str) or action_word.lower() not in ACTION_WORD_TO_IDX:
+                action_word = _first_action_word(text)
+            action = ACTION_WORD_TO_IDX.get(action_word.lower(), 2)
+        else:
+            contradiction = "n/a"
+            action = ACTION_WORD_TO_IDX.get(_first_action_word(text), 2)
 
         overrode_done = False
-        if action == 6 and not verified_ahead:
-            action = _approach_action(obs)
-            overrode_done = True
-
         forced_forward = False
-        recent = self.recent_actions[-self.force_forward_after:]
-        if (
-            action in TURN_ACTIONS
-            and len(recent) >= self.force_forward_after
-            and all(entry in ("left", "right") for entry in recent)
-        ):
-            action = 2
-            forced_forward = True
+        if self.use_gate:
+            if action == 6 and not verified_ahead:
+                action = _approach_action(obs)
+                overrode_done = True
+            recent = self.recent_actions[-self.force_forward_after:]
+            if (
+                action in TURN_ACTIONS
+                and len(recent) >= self.force_forward_after
+                and all(entry in ("left", "right") for entry in recent)
+            ):
+                action = 2
+                forced_forward = True
 
         self.recent_actions.append(IDX_TO_ACTION_WORD[action])
 
         note = (
-            f"belief={self.belief} | contradiction={contradiction} | "
+            f"mode={self.mode} | belief={self.belief} | contradiction={contradiction} | "
             f"verified_ahead={verified_ahead} | overrode_done={overrode_done} | "
             f"forced_forward={forced_forward}"
         )

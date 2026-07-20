@@ -477,3 +477,35 @@ Two lessons. First, asking the model to reason explicitly about arrival (an adja
 ### Paper relevance
 
 A cautionary, honest result for the method section. Report v1 as the negative result that motivates v2. The fixes are specific: tie the done decision to a verifiable observable (the model may choose done only when the cell directly ahead is stated to be the mission target), and on a blocked done substitute a belief driven approach action that navigates toward the believed target rather than a blind forward. Iterating from a documented regression strengthens credibility rather than weakening it.
+
+---
+
+## Insight 030: The first PROBE loop beats the plain baseline by eliminating the two named failure modes
+
+### Observation
+
+Over the full 200 episode protocol on the same backbone (llama-3.3-70b), PROBE v2 reached 0.865 success against the plain baseline 0.59, an increase of 27.5 points. The two failure modes that Insight 028 named are eliminated: premature done fell from 54 to 0, and the turn to forward ratio fell from 11 to 1 down to 1.3 to 1, so the oscillation is gone. The remaining 27 failures are all timeouts where the agent cannot relocate a target that is behind it. The verify before done gate fired 101 times and the belief was revised on 3353 of 6478 steps, so the mechanism is active, not incidental.
+
+### Why it matters
+
+It closes the loop from Insight 028: the baseline failures were named, a mechanism was built to target each, and the mechanism removed exactly those failures while raising success. This is the empirical arc a method section wants, and it is clean because the only change from the baseline is the loop, on the same model and environment.
+
+### Paper relevance
+
+Two honesty constraints must travel with this result. First, GoToObject has fixed known rules, so the belief here is about state, not rules; this validates the loop machinery and its benefit, but it is not the rule level contribution, which requires hidden rule and rule shift tasks. Second, part of the gain comes from the deterministic done gate and the approach helper, not only the belief and contradiction reasoning, so an ablation (belief only, gate only, full loop) is needed to attribute the 0.865 honestly. Report the win with both caveats stated, not hidden.
+
+---
+
+## Insight 031: On a navigation task the deterministic gate, not the belief reasoning, drives the gain, which tells us which task the contribution needs
+
+### Observation
+
+The four way ablation on GoToObject (200 episodes each, llama-3.3-70b): baseline 0.59, belief_only 0.54, gate_only 0.85, full 0.865. The deterministic gate carries almost the entire improvement. Belief reasoning alone (belief_only) is slightly below the plain baseline and adds only about 1.5 points on top of the gate. However, belief_only succeeds fastest when it does succeed (median 4 steps) and its dominant failure is spinning (turn to forward 16.7 to 1, 88 timeouts), so its beliefs are usable but it fails to commit them to action without the gate.
+
+### Why it matters
+
+Two lessons. First, a headline that says the belief loop drives performance would be false here; the win is hand coded navigation scaffolding, and that must be stated. Second, the reason is structural, not a failure of the belief machinery: GoToObject is a navigation task, so its success metric rewards motor execution, which a deterministic gate supplies, and it does not reward belief quality. The belief and contradiction reasoning cannot show its value on a task whose metric is walking efficiently.
+
+### Paper relevance
+
+This is the strongest argument yet for the task design of the actual contribution. The rule shift or hidden rule task must be built so that success depends on detecting a rule change and revising the belief, not on motor execution, because there no deterministic gate can substitute for the reasoning. The ablation also flags a concrete engineering gap to address in the method: belief to action, that is, getting the agent to commit to its belief, is currently the weak link and was masked at Stage 0 by the deterministic approach controller. Report the ablation as an honest attribution that redirects the evaluation rather than as a failure.

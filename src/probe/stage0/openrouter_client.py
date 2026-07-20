@@ -66,7 +66,7 @@ class OpenRouterClient:
         choices = data.get("choices", [])
         if not choices:
             raise RuntimeError(f"OpenRouter returned no choices: {data}")
-        text = choices[0].get("message", {}).get("content", "").strip()
+        text = (choices[0].get("message", {}).get("content") or "").strip()
         if not text:
             raise RuntimeError(f"OpenRouter returned no text: {data}")
         return text
@@ -91,6 +91,10 @@ class OpenRouterClient:
                     break
                 except (error.URLError, TimeoutError) as exc:
                     last_error = RuntimeError(f"OpenRouter request failed on {model}: {exc}")
+                    time.sleep(1.0 * (attempt + 1))
+                    continue
+                except RuntimeError as exc:
+                    last_error = exc
                     time.sleep(1.0 * (attempt + 1))
                     continue
         raise last_error if last_error else RuntimeError("OpenRouter: all models failed")
