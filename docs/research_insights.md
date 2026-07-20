@@ -577,3 +577,19 @@ This is the largest and cleanest PROBE advantage measured (bigger than the +0.14
 ### Paper relevance
 
 Use Boss I1 as the headline demonstration of the contribution: a clean, large, significant win with a clear mechanistic story (no single feature overfit because the belief is per combination). Pair it with the rule shift scaling result (belief helps as complexity grows, shift handled on par) to argue that explicit structured belief helps a frozen LLM whenever the rule is too structured or too large to track implicitly, and that the effect is strongest when the plain model would overfit to one factor.
+
+---
+
+## Insight 036: A consistent internal suite pattern, explicit belief helps in the hard regime and ties a strong baseline at easy asymptotes
+
+### Observation
+
+Across three internal bosses on the same backbone, with 50 episode confidence runs, a consistent shape appears. Boss I1 (multi factor): PROBE beats the baseline by +0.33 asymptotic, a decisive and significant win. Boss I2 (competing hypotheses): PROBE wins the ambiguous phase (+0.14) and overall disambiguation (+0.08), both significant, but ties at the late asymptote. Boss I3 (rule shift): PROBE wins pre shift learning of complex rules (+0.12 to +0.14, significant) and ties on post shift adaptation. In every case the significant PROBE advantage is in the harder part of the task (many factors, ambiguous or early evidence, complex or large rules), and a strong frozen LLM tends to catch up at the easy asymptote.
+
+### Why it matters
+
+This is a coherent, defensible narrative for the paper rather than a scattered set of wins and losses. Explicit structured belief helps a frozen LLM precisely where implicit in context reasoning struggles: when the rule is multi factor (overfit risk), when early evidence is ambiguous (premature commitment risk), or when the rule is large or complex (tracking capacity limit). Where the task is easy enough for the model to solve from history, the scaffold neither helps nor hurts much.
+
+### Paper relevance
+
+Frame the contribution as conditional and mechanistic: explicit belief memory and hypothesis tracking help a frozen LLM in the hard regimes named above, with Boss I1 (multi factor) as the strongest single demonstration, and honest ties at easy asymptotes reported rather than hidden. This conditional framing is both accurate to the data and more credible than a blanket dominance claim.
