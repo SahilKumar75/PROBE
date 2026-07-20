@@ -11,6 +11,7 @@ dependencies = [
 [project.optional-dependencies]
 external = [
     "textworld>=1.7",
+    "crafter>=1.8",
 ]
 
 [build-system]
