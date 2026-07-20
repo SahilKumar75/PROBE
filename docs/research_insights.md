@@ -625,3 +625,19 @@ This is a framing and grounding win, not a new feature. It lets the paper positi
 ### Paper relevance
 
 Cite Anthropic and Manus (and LangChain) in related work and method to ground PROBE's belief loop in context engineering. Keep the contribution the same, rule level belief plus contradiction driven revision; context engineering is the field the method sits in and its implementation discipline, not the headline. Explicitly exclude weight or vector compression such as TurboQuant from the contribution; it is serving efficiency, orthogonal to the thesis, and at most a single related work sentence under efficiency (consistent with Insight 026 on not making compression the contribution).
+
+---
+
+## Insight 039: Position PROBE as an explicit, inspectable, in context world model of the rules, against trained world models and skill growers
+
+### Observation
+
+The agentic world models and generalist agents line is the broad field PROBE sits in. Three reference points, separated by whether they train and what they model. Gato (DeepMind) trains one transformer over tokenized states across embodiments. Qwen-AgentWorld trains a language world model, treating environment modeling as a training objective. Alita uses a mostly frozen LLM but self evolves external tools and protocols (MCPs), a Voyager style capability grower, achieving strong GAIA results; it does not track rule beliefs or do contradiction driven revision. These join the existing neighbors Voyager (grows code skills) and Align While Search (estimates object locations in a static world).
+
+### Why it matters
+
+The separation is clean and favorable. Everyone else either trains a model (Gato, Qwen-AgentWorld) or grows capabilities (Voyager, Alita), and AWS estimates state in a static world. PROBE trains nothing and models the environment RULES explicitly, revising them by contradiction under non stationary conditions, with an inspectable trace. The useful vocabulary lift is world model: PROBE's rule belief is a lightweight, explicit, in context world model of the rules, as opposed to a learned neural world model or a skill or tool repertoire.
+
+### Paper relevance
+
+Position PROBE as an explicit, inspectable, frozen LLM world model of the environment rules, maintained and revised in context without training. Extend the comparison table with Gato, Qwen-AgentWorld, and Alita along the two axes trains or not and models rules versus state versus skills. This is framing and citations, not new features; do not build world model training or tool synthesis. Recurring discipline note: several enhancement ideas have arrived (token saving, context engineering, world models); each is cite and frame, not rebuild, and the committed contribution and the locked, validated design stay fixed. With strong results in hand, the priority is finishing the external run and writing, not adding axes.
