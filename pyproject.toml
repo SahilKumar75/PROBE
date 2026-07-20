@@ -8,6 +8,11 @@ dependencies = [
     "minigrid>=2.3",
 ]
 
+[project.optional-dependencies]
+external = [
+    "textworld>=1.7",
+]
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
