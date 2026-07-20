@@ -540,4 +540,24 @@ The gain came from making revision surgical and from remembering ruled out const
 
 ### Paper relevance
 
-Report the before and after of the revision design as evidence that the revision mechanism, not just belief presence, matters: blind wipe and re explore recovered slowly and lost post shift, while surgical revision with a ruled out memory recovered fast and won. Use 6 by 6 as the clean showcase (PROBE wins learning, adaptation, and recovery). Keep the 9 by 9 recovery lag (11.7 versus 5.0) as an honest limits point: with many mappings to relearn in a bounded window, methodical elimination is slow to first correct even though overall post shift accuracy still edges the baseline.
+Report the before and after of the revision design as evidence that the revision mechanism, not just belief presence, matters: blind wipe and re explore recovered slowly, while surgical revision with a ruled out memory recovered fast and made recovery at least on par with the baseline. The revision fix is a real improvement to the mechanism and should be reported as such.
+
+### Correction from the 50 episode confidence run (Insight 034)
+
+The post shift wins reported above (0.46 at 6 by 6, 0.28 at 9 by 9 beating the baseline) came from a 20 episode run and did NOT survive at 50 episodes. With 95 percent confidence intervals the post shift gaps are about zero and not significant. Do not claim a post shift adaptation win. The surviving, significant claim is the learning (pre shift) benefit. See Insight 034.
+
+---
+
+## Insight 034: With 50 episodes and confidence intervals, the learning benefit is significant and the post shift adaptation benefit is not
+
+### Observation
+
+Rule shift, 50 episodes per cell, mean and 95 percent confidence interval, with a two sample gap CI for baseline versus PROBE. Pre shift (learning): 3 by 3 gap +0.028 [-0.024, +0.081] not significant; 6 by 6 gap +0.137 [+0.071, +0.204] significant; 9 by 9 gap +0.116 [+0.058, +0.173] significant. Post shift (adaptation): 3 by 3 gap +0.045 [+0.011, +0.079] significant but tiny; 6 by 6 gap +0.003 [-0.057, +0.062] not significant; 9 by 9 gap +0.010 [-0.039, +0.059] not significant.
+
+### Why it matters
+
+This is the statistically grounded version of the rule shift result and it supersedes the small sample readings. Explicit rule belief significantly improves learning of complex rules (6 by 6 and 9 by 9), and the effect is absent when the rule is small enough to hold implicitly (3 by 3). The post shift adaptation advantage is not supported: PROBE ties the history based baseline at 6 and 9. A strong frozen LLM re infers a shifted rule from history about as well as the structured agent does, so the value of the belief scaffold is in learning capacity, not in faster re adaptation, at least with this backbone and these settings.
+
+### Paper relevance
+
+Commit to the significant claim only: explicit belief memory significantly improves a frozen LLM's ability to learn complex rules, with the benefit appearing once the rule exceeds what the model tracks implicitly, and with rule shifts handled on par with a strong baseline. Report the full CI table. Frame a post shift adaptation win as future work requiring either a harder adaptation regime or a mechanism that beats history based re inference. This honest scoping is the credible contribution and avoids a claim that would fail replication.
