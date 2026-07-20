@@ -609,3 +609,19 @@ This is a coherent, honest, and statistically supported core result. Explicit st
 ### Paper relevance
 
 Present the six boss suite as the empirical heart of the paper, with a single crossover style table and the conditional framing (explicit belief helps in the hard regime, matches a strong baseline at easy asymptotes). Lead with I1 and I5 as the cleanest demonstrations and I6 as the integrated one. Report the regression sweep as evidence of robustness. External benchmarks, a weaker backbone, and writing remain as breadth and future work, but the internal suite already substantiates the committed contribution.
+
+---
+
+## Insight 038: PROBE's mechanisms are a principled instance of context engineering; use that to frame and ground the paper, not to add a new contribution
+
+### Observation
+
+Current context engineering practice (Anthropic effective context engineering, Manus lessons from building an agent, LangChain context engineering) names exactly the mechanisms PROBE already implements. Structured note taking or external agentic memory corresponds to PROBE's confirmed and ruled out belief memory. Recitation, restating the goal each step to fight lost in the middle, corresponds to PROBE surfacing the belief every step. Preserve failure states so the model can adapt corresponds to PROBE's ruled out set and contradiction signal. Right altitude and structured prompts correspond to PROBE's interface disclosure prompts.
+
+### Why it matters
+
+This is a framing and grounding win, not a new feature. It lets the paper position PROBE within an active, credible line of practice and cite it, describing PROBE as a principled context engineering design specialized for rule level adaptation and revision, rather than an ad hoc scaffold. It also suggests marginal result improvements on the longer or harder tasks (stronger recitation of objective plus belief, history compaction near context limits, cleaner prompt sections), which are hygiene and would not move the internal suite that is already near ceiling.
+
+### Paper relevance
+
+Cite Anthropic and Manus (and LangChain) in related work and method to ground PROBE's belief loop in context engineering. Keep the contribution the same, rule level belief plus contradiction driven revision; context engineering is the field the method sits in and its implementation discipline, not the headline. Explicitly exclude weight or vector compression such as TurboQuant from the contribution; it is serving efficiency, orthogonal to the thesis, and at most a single related work sentence under efficiency (consistent with Insight 026 on not making compression the contribution).
