@@ -593,3 +593,19 @@ This is a coherent, defensible narrative for the paper rather than a scattered s
 ### Paper relevance
 
 Frame the contribution as conditional and mechanistic: explicit belief memory and hypothesis tracking help a frozen LLM in the hard regimes named above, with Boss I1 (multi factor) as the strongest single demonstration, and honest ties at easy asymptotes reported rather than hidden. This conditional framing is both accurate to the data and more credible than a blanket dominance claim.
+
+---
+
+## Insight 037: The complete internal boss suite, six for six, is the paper's core empirical result
+
+### Observation
+
+The full internal suite is done with 50 episode confidence runs and a regression sweep. PROBE significantly beats the history baseline on the primary metric of every boss: I1 multi factor (asymptote +0.33, 0.99 vs 0.67), I2 competing hypotheses (ambiguous +0.14, overall +0.08), I3 rule shift (learning +0.12 to +0.14), I4 probe or progress (reward per step +0.26), I5 relational (early +0.26, overall +0.16, and a persistent asymptote edge reaching 1.00), and I6 mixed multi factor plus shift (pre +0.22, post +0.24, post late +0.29). A regression sweep at small scale confirms 6 of 6 with no regression from the shared code. Ties appear only at the easy asymptotes of the simplest single factor bosses (I2, I3, I4).
+
+### Why it matters
+
+This is a coherent, honest, and statistically supported core result. Explicit structured belief helps a frozen LLM across a spectrum of rule structures, multi factor, ambiguous or confounded, complex or large, relational, and combined novelty, and the advantage is largest exactly where implicit in context reasoning is weakest. Two especially clean cases stand out: relational (I5), where PROBE reaches perfect accuracy and stays ahead even at the asymptote because the belief generalizes the relation while flat history does not; and mixed (I6), where PROBE finally wins post shift adaptation because the shifted rule is complex enough that the baseline cannot re infer it from history, tying together the multi factor benefit (I1) and the revision benefit.
+
+### Paper relevance
+
+Present the six boss suite as the empirical heart of the paper, with a single crossover style table and the conditional framing (explicit belief helps in the hard regime, matches a strong baseline at easy asymptotes). Lead with I1 and I5 as the cleanest demonstrations and I6 as the integrated one. Report the regression sweep as evidence of robustness. External benchmarks, a weaker backbone, and writing remain as breadth and future work, but the internal suite already substantiates the committed contribution.
