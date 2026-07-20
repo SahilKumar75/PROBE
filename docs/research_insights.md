@@ -561,3 +561,19 @@ This is the statistically grounded version of the rule shift result and it super
 ### Paper relevance
 
 Commit to the significant claim only: explicit belief memory significantly improves a frozen LLM's ability to learn complex rules, with the benefit appearing once the rule exceeds what the model tracks implicitly, and with rule shifts handled on par with a strong baseline. Report the full CI table. Frame a post shift adaptation win as future work requiring either a harder adaptation regime or a mechanism that beats history based re inference. This honest scoping is the credible contribution and avoids a claim that would fail replication.
+
+---
+
+## Insight 035: Multi factor rules are where explicit belief most decisively beats a plain LLM
+
+### Observation
+
+On Boss I1, a static rule whose correct key depends on both a color and a shape (built to be non reducible to one feature), 50 episodes with 95 percent CIs: overall accuracy baseline 0.61 versus PROBE 0.88 (gap +0.27), and late asymptotic accuracy baseline 0.67 versus PROBE 0.99 (gap +0.33), both significant. The baseline plateaus near 0.67, the signature of overfitting to a single feature, while PROBE, tracking each color and shape combination explicitly, essentially solves the rule.
+
+### Why it matters
+
+This is the largest and cleanest PROBE advantage measured (bigger than the +0.14 learning gap on rule shift). It isolates the mechanism: a plain LLM reasoning from history tends to latch onto one predictive feature and stops, whereas an explicit per combination belief memory forces the agent to represent the full rule, so it does not collapse to a single factor. Multi factor structure is therefore the regime where the contribution is most visible.
+
+### Paper relevance
+
+Use Boss I1 as the headline demonstration of the contribution: a clean, large, significant win with a clear mechanistic story (no single feature overfit because the belief is per combination). Pair it with the rule shift scaling result (belief helps as complexity grows, shift handled on par) to argue that explicit structured belief helps a frozen LLM whenever the rule is too structured or too large to track implicitly, and that the effect is strongest when the plain model would overfit to one factor.
