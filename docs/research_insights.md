@@ -525,3 +525,19 @@ This is the first measured, complexity dependent benefit for the explicit belief
 ### Paper relevance
 
 This supports an honest, defensible thesis: explicit rule level belief helps a frozen LLM track rules that are too complex to hold implicitly, with the benefit growing as complexity grows, while the current revision mechanism recovers correctly but slowly. It is a nuanced positive result with a clear boundary and a named next improvement, which is stronger and more credible than an unqualified claim of dominance. Report the crossover table, state the statistical caveat (tens of episodes per cell, consistent trend, wider confidence needs more seeds), and frame revision and belief to action as the identified direction for improvement.
+
+---
+
+## Insight 033: Surgical revision over a structured belief memory beats wipe and re explore, and makes PROBE win both axes
+
+### Observation
+
+Replacing the wipe to unknown revision with a structured belief memory fixed the weak link. The memory holds, per cue, the confirmed key and the set of ruled out keys in the current regime. On a contradiction (a confirmed key later fails) only that cue is reset and its ruled out set restarts at the just failed key; other confirmed cues are untouched. The LLM still selects the action, told to exploit confirmed cues and, for unknown cues, to pick a key not yet ruled out. Result versus baseline, pre shift 0.86/0.52/0.36 versus 0.80/0.38/0.25 at 3/6/9, post shift 0.68/0.46/0.28 versus 0.71/0.39/0.25, recovery 2.3/5.8/11.7 versus 2.3/6.0/5.0. PROBE now wins pre shift at all sizes, wins post shift at 6 and 9 (it lost before), and recovery is on par or better at 3 and 6.
+
+### Why it matters
+
+The gain came from making revision surgical and from remembering ruled out constraints, which lets re exploration deduce (eliminate wrong keys until one remains) instead of guessing from scratch. This is the concrete realization of the Belief Memory and Belief Revision modules for a symbolic rule, and it converts the earlier learning only benefit into a learning and adaptation benefit at moderate to high complexity.
+
+### Paper relevance
+
+Report the before and after of the revision design as evidence that the revision mechanism, not just belief presence, matters: blind wipe and re explore recovered slowly and lost post shift, while surgical revision with a ruled out memory recovered fast and won. Use 6 by 6 as the clean showcase (PROBE wins learning, adaptation, and recovery). Keep the 9 by 9 recovery lag (11.7 versus 5.0) as an honest limits point: with many mappings to relearn in a bounded window, methodical elimination is slow to first correct even though overall post shift accuracy still edges the baseline.
