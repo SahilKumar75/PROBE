@@ -509,3 +509,19 @@ Two lessons. First, a headline that says the belief loop drives performance woul
 ### Paper relevance
 
 This is the strongest argument yet for the task design of the actual contribution. The rule shift or hidden rule task must be built so that success depends on detecting a rule change and revising the belief, not on motor execution, because there no deterministic gate can substitute for the reasoning. The ablation also flags a concrete engineering gap to address in the method: belief to action, that is, getting the agent to commit to its belief, is currently the weak link and was masked at Stage 0 by the deterministic approach controller. Report the ablation as an honest attribution that redirects the evaluation rather than as a failure.
+
+---
+
+## Insight 032: Explicit rule belief helps a frozen LLM as rule complexity grows, on the learning axis; revision is the weak link
+
+### Observation
+
+On the rule shift boss with llama-3.3-70b, a scaling study over rule size (3 by 3, 6 by 6, 9 by 9) shows a clear crossover on pre shift learning accuracy. baseline versus PROBE pre shift: 0.80 versus 0.80 at 3, 0.38 versus 0.49 at 6, 0.25 versus 0.33 at 9. So PROBE ties when the rule is small enough for the model to hold implicitly and pulls ahead by about 30 percent relative once the rule is larger. Post shift accuracy is a wash (PROBE slightly behind at 3 and 6, slightly ahead at 9), and PROBE has worse recovery speed and more repeated errors at every size.
+
+### Why it matters
+
+This is the first measured, complexity dependent benefit for the explicit belief scaffold, and it matches the hypothesis that structure helps once the state exceeds what the model can track in context. It also localizes the remaining problem precisely: the contradiction driven revision (wipe the belief to unknown, then re explore) is correct but slow, so recovery lags. The value of PROBE is on the learning side, and belief to action or revision is the mechanism to strengthen, the same weak link seen in the Stage 0 ablation (Insight 031).
+
+### Paper relevance
+
+This supports an honest, defensible thesis: explicit rule level belief helps a frozen LLM track rules that are too complex to hold implicitly, with the benefit growing as complexity grows, while the current revision mechanism recovers correctly but slowly. It is a nuanced positive result with a clear boundary and a named next improvement, which is stronger and more credible than an unqualified claim of dominance. Report the crossover table, state the statistical caveat (tens of episodes per cell, consistent trend, wider confidence needs more seeds), and frame revision and belief to action as the identified direction for improvement.
