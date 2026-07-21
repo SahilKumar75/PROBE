@@ -42,6 +42,55 @@ class MultiFactorBaselineAgent:
         return _parse_key(text, keys), ""
 
 
+class MultiFactorReActAgent:
+    def __init__(self, client=None):
+        self._client = client
+        self.thoughts: list[str] = []
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def _scratchpad(self, window: int = 6) -> str:
+        recent = self.thoughts[-window:]
+        if not recent:
+            return "none yet"
+        return " | ".join(recent)
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        colors, shapes, keys = obs["colors"], obs["shapes"], obs["keys"]
+        system = (
+            "You solve tasks by interleaving reasoning and action. At each step first write a short Thought that "
+            "reasons about the hidden rule from the evidence, then choose an Action. Reply only with a JSON object."
+        )
+        prompt = (
+            f"Colors are {colors}, shapes are {shapes}, keys are {keys}. "
+            "Each (color, shape) pair has one correct key, and the key can depend on BOTH the color and the shape, "
+            "not just one of them.\n"
+            f"Your earlier thoughts: {self._scratchpad()}\n"
+            f"Recent history: {_history_text(history)}\n"
+            f"Current: color={obs['color']}, shape={obs['shape']}\n"
+            'Reply with one JSON object with keys: "thought" (short reasoning about the rule) and '
+            f'"action" (one key letter from {keys}).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        thought = parsed.get("thought")
+        action = parsed.get("action")
+        if isinstance(action, str) and action.strip().upper() in set(keys):
+            key = action.strip().upper()
+        else:
+            key = _parse_key(text, keys)
+        note = thought.strip() if isinstance(thought, str) else ""
+        self.thoughts.append(note or f"chose {key}")
+        return key, note
+
+
 class MultiFactorProbeAgent:
     def __init__(self, client=None):
         self._client = client

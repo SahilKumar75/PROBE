@@ -641,3 +641,19 @@ The separation is clean and favorable. Everyone else either trains a model (Gato
 ### Paper relevance
 
 Position PROBE as an explicit, inspectable, frozen LLM world model of the environment rules, maintained and revised in context without training. Extend the comparison table with Gato, Qwen-AgentWorld, and Alita along the two axes trains or not and models rules versus state versus skills. This is framing and citations, not new features; do not build world model training or tool synthesis. Recurring discipline note: several enhancement ideas have arrived (token saving, context engineering, world models); each is cite and frame, not rebuild, and the committed contribution and the locked, validated design stay fixed. With strong results in hand, the priority is finishing the external run and writing, not adding axes.
+
+---
+
+## Insight 040: The advantage survives a stronger baseline and a weaker backbone
+
+### Observation
+
+Two follow up runs on the multi factor boss (I1) probed the two obvious objections to the headline result. First, a ReAct style baseline was added on the same 70B backbone: it reasons before acting and keeps a scratchpad of its own thoughts, but holds no structured belief and no contradiction detector. On asymptotic accuracy the plain baseline reached 0.669, ReAct reached 0.846, and PROBE reached 0.994; PROBE beats ReAct by +0.148 [0.100, 0.195] and ReAct beats plain history by +0.177 [0.105, 0.250]. Second, the plain baseline and PROBE were rerun on meta-llama/llama-3.1-8b-instruct, an order of magnitude smaller: the baseline fell to 0.411 overall while PROBE held 0.684, a gap of +0.273 [0.226, 0.320], about the same absolute size as the +0.268 gap on the 70B model.
+
+### Why it matters
+
+Both are the objections a reviewer raises first. The ReAct result shows the win is not merely from surfacing a reasoning trace, since ReAct already supplies that and still loses to PROBE by a significant margin; the structured belief and its revision carry the remaining gap. The weaker backbone result shows the win is not an artifact of a strong model, since the loop delivers a gain of the same absolute size on a much smaller model and rescues most of the accuracy the small model loses on its own. This is exactly the pattern a scaffold that supplies missing structure should show.
+
+### Paper relevance
+
+Reported as a new subsection (Stronger Baseline and Weaker Backbone) with a table, and reflected in the abstract, the single backbone paragraph, and the limitations. The frontier gpt-4.1 confirmation remains the one open backbone check. Discipline note: these are confirmations of the committed contribution on the existing boss, not new axes; the locked design and the contribution are unchanged.

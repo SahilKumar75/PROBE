@@ -8,12 +8,13 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.multifactor.agents import MultiFactorBaselineAgent, MultiFactorProbeAgent
+from probe.multifactor.agents import MultiFactorBaselineAgent, MultiFactorProbeAgent, MultiFactorReActAgent
 from probe.multifactor.env import MultiFactorEnv
 
 
 VARIANTS = {
     "baseline_mf": MultiFactorBaselineAgent,
+    "react_mf": MultiFactorReActAgent,
     "probe_mf": MultiFactorProbeAgent,
 }
 
