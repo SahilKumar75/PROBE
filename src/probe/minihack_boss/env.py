@@ -4,7 +4,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-import gym
+import gymnasium as gym
 import minihack  # noqa: F401  registers the MiniHack environments on import
 import numpy as np
 
@@ -12,23 +12,15 @@ import numpy as np
 OBS_KEYS = ("tty_chars", "chars", "colors", "message", "blstats")
 
 
-def make_env(env_id: str, seed: int):
-    env = gym.make(env_id, observation_keys=OBS_KEYS)
-    try:
-        env.seed(seed)
-    except Exception:
-        pass
-    return env
+def make_env(env_id: str):
+    return gym.make(env_id, observation_keys=OBS_KEYS)
 
 
 def action_labels(env) -> list[str]:
     acts = getattr(env, "actions", None)
     if acts is None:
         acts = getattr(getattr(env, "unwrapped", env), "actions", None)
-    labels = []
-    for a in acts or []:
-        labels.append(getattr(a, "name", str(a)))
-    return labels
+    return [getattr(a, "name", str(a)) for a in (acts or [])]
 
 
 def _decode_message(obs: dict) -> str:
@@ -42,12 +34,21 @@ def _decode_message(obs: dict) -> str:
         return ""
 
 
+def _lines_from_grid(grid) -> str:
+    lines = []
+    for row in np.asarray(grid):
+        lines.append("".join(chr(int(c)) for c in row).rstrip())
+    while lines and not lines[-1].strip():
+        lines.pop()
+    return "\n".join(lines)
+
+
 def describe(obs: dict) -> dict:
     tty = obs.get("tty_chars")
-    lines: list[str] = []
     if tty is not None:
-        for row in np.asarray(tty):
-            lines.append("".join(chr(int(c)) for c in row).rstrip())
-        while lines and not lines[-1].strip():
-            lines.pop()
-    return {"screen": "\n".join(lines), "message": _decode_message(obs)}
+        screen = _lines_from_grid(tty)
+    elif obs.get("chars") is not None:
+        screen = _lines_from_grid(obs["chars"])
+    else:
+        screen = ""
+    return {"screen": screen, "message": _decode_message(obs)}

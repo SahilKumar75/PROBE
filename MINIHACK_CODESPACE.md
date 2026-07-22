@@ -24,10 +24,10 @@ MiniHack (NetHack via `nle`) does not run on the macOS + Python 3.13 + NumPy 2 s
 4. Confirm MiniHack actually registers environments:
 
    ```
-   .venv-mh/bin/python -c "import warnings; warnings.filterwarnings('ignore'); import gym, minihack; print('envs:', len([s for s in gym.envs.registry.env_specs if 'MiniHack' in s]))"
+   .venv-mh/bin/python -c "import warnings; warnings.filterwarnings('ignore'); import gymnasium as g, minihack; print('envs:', len([e for e in g.envs.registry if 'MiniHack' in e]))"
    ```
 
-   Expect a nonzero count. If it prints 0, stop and report the output.
+   Expect a nonzero count (about 161). MiniHack registers into gymnasium, not classic gym. If it prints 0, stop and report the output.
 
 5. Set the OpenRouter key (do not commit it):
 

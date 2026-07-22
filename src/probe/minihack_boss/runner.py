@@ -20,8 +20,8 @@ TRACE_FIELDS = ["run_id", "variant", "env_id", "seed", "step", "action", "reward
 
 
 def _play(variant, env_id, seed, budget, run_id) -> dict:
-    env = make_env(env_id, seed)
-    reset = env.reset()
+    env = make_env(env_id)
+    reset = env.reset(seed=seed)
     obs = reset[0] if isinstance(reset, tuple) else reset
     actions = action_labels(env)
     agent = VARIANTS[variant]()
@@ -33,7 +33,12 @@ def _play(variant, env_id, seed, budget, run_id) -> dict:
 
     for step in range(budget):
         idx, note = agent.act(describe(obs), actions, history)
-        obs, reward, done, info = env.step(idx)
+        out = env.step(idx)
+        if len(out) == 5:
+            obs, reward, terminated, truncated, info = out
+            done = bool(terminated or truncated)
+        else:
+            obs, reward, done, info = out
         total_reward += float(reward)
         steps = step + 1
         if float(reward) > 0:
