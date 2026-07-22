@@ -82,7 +82,14 @@ def run_minihack(
 
     summaries: dict[str, dict] = {}
     for variant in selected:
-        results = [_play(variant, env_id, seed, budget, run_id) for seed in seeds]
+        print(f"[{variant}] running {len(seeds)} seeds on {env_id}", flush=True)
+        results = []
+        for seed in seeds:
+            r = _play(variant, env_id, seed, budget, run_id)
+            print(f"  [{variant}] seed {seed}: success={r['success']:.0f} steps={r['steps']} reward={r['reward']:.2f}", flush=True)
+            results.append(r)
+        done = sum(r["success"] for r in results)
+        print(f"[{variant}] done: {done:.0f}/{len(results)} solved", flush=True)
         results.sort(key=lambda r: r["seed"])
         all_rows = [row for r in results for row in r["rows"]]
 
