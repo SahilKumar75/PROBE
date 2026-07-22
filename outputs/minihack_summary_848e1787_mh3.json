@@ -1,0 +1,24 @@
+{
+  "baseline_mh": {
+    "run_id": "848e1787",
+    "variant": "baseline_mh",
+    "env_id": "MiniHack-MazeWalk-9x9-v0",
+    "episodes": 20,
+    "budget": 50,
+    "success_rate": 0.2,
+    "mean_reward": -0.0745000000000001,
+    "mean_steps": 42.9,
+    "trace_file": "/workspaces/PROBE/traces/minihack_baseline_mh_848e1787_mh3.csv"
+  },
+  "probe_mh": {
+    "run_id": "848e1787",
+    "variant": "probe_mh",
+    "env_id": "MiniHack-MazeWalk-9x9-v0",
+    "episodes": 20,
+    "budget": 50,
+    "success_rate": 0.3,
+    "mean_reward": 0.13699999999999998,
+    "mean_steps": 39.7,
+    "trace_file": "/workspaces/PROBE/traces/minihack_probe_mh_848e1787_mh3.csv"
+  }
+}
