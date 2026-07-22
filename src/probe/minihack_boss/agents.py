@@ -63,6 +63,10 @@ class MiniHackProbeAgent:
     def __init__(self, client=None):
         self._client = client
         self.belief = "no plan yet; I need to locate the goal and a path to it"
+        self.blocked: dict[str, set[int]] = {}
+        self.prev_screen: str | None = None
+        self.prev_key: str | None = None
+        self.prev_index: int | None = None
 
     def _client_or_default(self):
         if self._client is None:
@@ -70,15 +74,24 @@ class MiniHackProbeAgent:
         return self._client
 
     def act(self, obs: dict, actions: list[str], history: list[dict]) -> tuple[int, str]:
+        screen = obs["screen"]
+        key = screen[:400]
+        if self.prev_screen is not None and screen == self.prev_screen and self.prev_index is not None:
+            self.blocked.setdefault(self.prev_key, set()).add(self.prev_index)
+        blocked = self.blocked.setdefault(key, set())
+        avoid = sorted(actions[i] for i in blocked if i < len(actions))
+
         system = (
             "You play a NetHack level while keeping an explicit running belief about the layout, where the goal is, "
             "and your plan to reach it. Update the belief when the screen contradicts it. Reply only with a JSON object."
         )
         prompt = (
             f"Message: {obs['message'] or 'none'}\n"
-            f"Screen:\n{obs['screen']}\n\n"
+            f"Screen:\n{screen}\n\n"
             f"Your current belief and plan: {self.belief}\n"
             f"Recent actions: {_recent(history)}\n"
+            f"Directions that hit a wall from this exact spot (the view did not change): {avoid or 'none'}. "
+            "Do not repeat those; if a direction does not move you, it is a wall, so try a different one.\n"
             f"{TIPS}\n"
             f"Actions:\n{_numbered(actions)}\n"
             'Reply with one JSON object with keys: "belief" (a short updated statement of the layout, where the goal '
@@ -96,4 +109,13 @@ class MiniHackProbeAgent:
             index = number
         else:
             index = _select(text, actions)
+
+        if index in blocked:
+            untried = [i for i in range(len(actions)) if i not in blocked]
+            if untried:
+                index = untried[0]
+
+        self.prev_screen = screen
+        self.prev_key = key
+        self.prev_index = index
         return index, f"belief={self.belief[:150]}"

@@ -59,6 +59,7 @@ class TWProbeAgent:
     def __init__(self, client=None):
         self._client = client
         self.belief = "no plan yet"
+        self.tried_here: dict[str, set[str]] = {}
 
     def _client_or_default(self):
         if self._client is None:
@@ -67,6 +68,10 @@ class TWProbeAgent:
 
     def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
         commands = obs["admissible"]
+        state_key = obs["description"][:200]
+        tried = self.tried_here.setdefault(state_key, set())
+        avoid = sorted(c for c in tried if c in commands)
+
         system = (
             "You play a text adventure game while keeping an explicit running belief about the world and a plan toward "
             "the objective. Reply only with a JSON object."
@@ -77,6 +82,8 @@ class TWProbeAgent:
             f"Inventory: {obs['inventory']}\n"
             f"Your current belief and plan: {self.belief}\n"
             f"Recent actions: {_recent(history)}\n"
+            f"From this location you have already tried, without progress: {avoid or 'nothing yet'}. "
+            "If you keep returning to the same location, you are in a loop; pick a command you have not tried here.\n"
             f"Available commands:\n{_numbered(commands)}\n"
             'Reply with one JSON object with keys: "belief" (a short updated statement of what you now know about the '
             'world and your current plan to reach the objective), "command_number" (the integer of the command to take).'
@@ -93,4 +100,10 @@ class TWProbeAgent:
             command = commands[number]
         else:
             command = _select(text, commands)
+
+        if command in tried:
+            untried = [c for c in commands if c not in tried]
+            if untried:
+                command = untried[0]
+        tried.add(command)
         return command, f"belief={self.belief[:150]}"
