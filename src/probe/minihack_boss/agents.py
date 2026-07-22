@@ -36,6 +36,10 @@ def _recent(history: list[dict], window: int = 8) -> list[str]:
 class MiniHackBaselineAgent:
     def __init__(self, client=None):
         self._client = client
+        self.blocked: dict[str, set[int]] = {}
+        self.prev_screen: str | None = None
+        self.prev_key: str | None = None
+        self.prev_index: int | None = None
 
     def _client_or_default(self):
         if self._client is None:
@@ -43,11 +47,20 @@ class MiniHackBaselineAgent:
         return self._client
 
     def act(self, obs: dict, actions: list[str], history: list[dict]) -> tuple[int, str]:
+        screen = obs["screen"]
+        key = screen[:400]
+        if self.prev_screen is not None and screen == self.prev_screen and self.prev_index is not None:
+            self.blocked.setdefault(self.prev_key, set()).add(self.prev_index)
+        blocked = self.blocked.setdefault(key, set())
+        avoid = sorted(actions[i] for i in blocked if i < len(actions))
+
         system = "You play a NetHack level. Reach the goal. Reply with only the number of the action."
         prompt = (
             f"Message: {obs['message'] or 'none'}\n"
-            f"Screen:\n{obs['screen']}\n\n"
+            f"Screen:\n{screen}\n\n"
             f"Recent actions: {_recent(history)}\n"
+            f"Directions that hit a wall from this exact spot (the view did not change): {avoid or 'none'}. "
+            "Do not repeat those; if a direction does not move you, it is a wall, so try a different one.\n"
             f"{TIPS}\n"
             f"Actions:\n{_numbered(actions)}\n"
             "Reply with the number of the best action."
@@ -56,7 +69,15 @@ class MiniHackBaselineAgent:
             text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
         except Exception:
             text = ""
-        return _select(text, actions), ""
+        index = _select(text, actions)
+        if index in blocked:
+            untried = [i for i in range(len(actions)) if i not in blocked]
+            if untried:
+                index = untried[0]
+        self.prev_screen = screen
+        self.prev_key = key
+        self.prev_index = index
+        return index, ""
 
 
 class MiniHackProbeAgent:
