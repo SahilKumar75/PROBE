@@ -8,12 +8,13 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.crafter_boss.agents import ACTIONS, CrafterBaselineAgent, CrafterProbeAgent
+from probe.crafter_boss.agents import ACTIONS, CrafterBaselineAgent, CrafterProbeAgent, CrafterReflexionAgent
 from probe.crafter_boss.env import describe, id_to_name, make_env
 
 
 VARIANTS = {
     "baseline_cf": CrafterBaselineAgent,
+    "reflexion_cf": CrafterReflexionAgent,
     "probe_cf": CrafterProbeAgent,
 }
 
@@ -56,6 +57,7 @@ def _play(variant, seed, budget, run_id) -> dict:
             break
 
     final_unlocked = sorted(k for k, v in info["achievements"].items() if v > 0)
+    print(f"  [{variant}] seed {seed}: achievements={len(final_unlocked)} reward={total_reward:.2f} steps={steps}", flush=True)
     return {"seed": seed, "variant": variant, "achievements": len(final_unlocked), "unlocked": final_unlocked, "reward": total_reward, "steps": steps, "rows": rows}
 
 

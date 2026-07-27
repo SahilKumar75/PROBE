@@ -102,3 +102,47 @@ class CrafterProbeAgent:
         else:
             index = _select(text, ACTIONS)
         return index, f"belief={self.belief[:150]}"
+
+
+class CrafterReflexionAgent:
+    def __init__(self, client=None):
+        self._client = client
+        self.reflection = "none yet"
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[int, str]:
+        system = (
+            "You play Crafter. Reason briefly, keep a short running self reflection of what you have learned about the "
+            "game, then choose an action. Reply only with a JSON object."
+        )
+        prompt = (
+            f"Vitals: {obs['vitals']}\n"
+            f"Inventory: {obs['resources']}\n"
+            f"Achievements unlocked: {obs['achievements']}\n"
+            f"Nearby: {obs['nearby']}\n"
+            f"Your running self reflection: {self.reflection}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"{TIPS}\n"
+            f"Actions:\n{_numbered(ACTIONS)}\n"
+            'Reply with one JSON object with keys: "thought" (brief reasoning), "reflection" (your updated lesson), '
+            '"action_number" (the integer of the action to take).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        reflection = parsed.get("reflection")
+        if isinstance(reflection, str) and reflection.strip():
+            self.reflection = reflection.strip()[:400]
+        number = parsed.get("action_number")
+        if isinstance(number, int) and 0 <= number < len(ACTIONS):
+            index = number
+        else:
+            index = _select(text, ACTIONS)
+        return index, f"reflection={self.reflection[:150]}"
