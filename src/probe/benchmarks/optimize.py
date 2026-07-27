@@ -18,15 +18,16 @@ def _run_episode(env, solver) -> dict:
     solver.reset()
     obs = env.reset()
     rewards: list[int] = []
-    segments: list[int] = []
     mem_max = 0
+    cache_hits = 0
     start = time.perf_counter()
     for _ in range(env.horizon):
         key = solver.act(obs)
+        if getattr(solver, "last_cached", False):
+            cache_hits += 1
         next_obs, reward, done, info = env.step(key)
         solver.update(info["cue"], key, reward)
         rewards.append(reward)
-        segments.append(info.get("segment", 0))
         mem_max = max(mem_max, solver.memory())
         obs = next_obs
         if done:
@@ -44,6 +45,7 @@ def _run_episode(env, solver) -> dict:
         "wrong": wrong,
         "memory_max": mem_max,
         "steps": n,
+        "cache_hit_rate": cache_hits / n if n else 0.0,
         "us_per_step": 1e6 * elapsed / n if n else 0.0,
     }
 
@@ -78,6 +80,7 @@ def evaluate(benchmark: str, level: str, solver_name: str, seeds: int) -> dict:
         "wrong_bound": wrong_bound,
         "memory_max": mean("memory_max"),
         "memory_bound": memory_bound,
+        "cache_hit_rate": mean("cache_hit_rate"),
         "us_per_step": mean("us_per_step"),
     }
 
@@ -112,14 +115,15 @@ def _assertions(rows: list[dict]) -> list[tuple[str, bool, str]]:
 
 def main(seeds: int = 200) -> None:
     rows = report(seeds)
-    header = f"{'benchmark':<11}{'level':<9}{'solver':<16}{'overall':>8}{'asympt':>8}{'wrong':>8}{'bound':>7}{'mem':>7}{'membnd':>8}{'us/step':>9}"
+    header = f"{'benchmark':<11}{'level':<9}{'solver':<16}{'overall':>8}{'asympt':>8}{'wrong':>8}{'bound':>7}{'mem':>7}{'membnd':>8}{'skip%':>7}{'us/step':>9}"
     print(header)
     print("-" * len(header))
     for r in rows:
         print(
             f"{r['benchmark']:<11}{r['level']:<9}{r['solver']:<16}"
             f"{r['overall_acc']:>8.3f}{r['asymptotic_acc']:>8.3f}"
-            f"{r['wrong']:>8.1f}{r['wrong_bound']:>7d}{r['memory_max']:>7.1f}{r['memory_bound']:>8d}{r['us_per_step']:>9.2f}"
+            f"{r['wrong']:>8.1f}{r['wrong_bound']:>7d}{r['memory_max']:>7.1f}{r['memory_bound']:>8d}"
+            f"{r['cache_hit_rate'] * 100:>7.1f}{r['us_per_step']:>9.2f}"
         )
     print("\nInvariants that must always hold (no API):")
     all_pass = True
@@ -132,6 +136,13 @@ def main(seeds: int = 200) -> None:
     print("\nOptimization targets (lowest probe_core asymptotic accuracy, room to improve):")
     for r in weak:
         print(f"  {r['benchmark']}/{r['level']}: asymptotic={r['asymptotic_acc']:.3f} recovery cost wrong={r['wrong']:.1f}")
+
+    probe_rows = [r for r in rows if r["solver"] == "probe_core"]
+    skip = statistics.mean(r["cache_hit_rate"] for r in probe_rows)
+    print("\nStability gate saving (skip%: steps a confirmed belief resolves with no model call, zero accuracy risk):")
+    print(f"  average across levels: {skip * 100:.1f}% of steps need no model call")
+    for r in sorted(probe_rows, key=lambda r: r["cache_hit_rate"], reverse=True)[:3]:
+        print(f"  best: {r['benchmark']}/{r['level']} skips {r['cache_hit_rate'] * 100:.1f}%")
 
 
 if __name__ == "__main__":

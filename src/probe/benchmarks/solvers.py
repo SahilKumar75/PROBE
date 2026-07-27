@@ -7,14 +7,17 @@ class EliminationSolver:
     def __init__(self, seed: int = 0):
         self.confirmed: dict[str, str] = {}
         self.ruled_out: dict[str, set[str]] = {}
+        self.last_cached = False
 
     def reset(self) -> None:
         self.confirmed = {}
         self.ruled_out = {}
+        self.last_cached = False
 
     def act(self, obs: dict) -> str:
         cue, keys = obs["cue"], obs["keys"]
         self.ruled_out.setdefault(cue, set())
+        self.last_cached = cue in self.confirmed
         if cue in self.confirmed:
             return self.confirmed[cue]
         for key in keys:
