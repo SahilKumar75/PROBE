@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor
 import csv
 import json
 import os
@@ -7,12 +8,13 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.minihack_boss.agents import MiniHackBaselineAgent, MiniHackProbeAgent
+from probe.minihack_boss.agents import MiniHackBaselineAgent, MiniHackProbeAgent, MiniHackReflexionAgent
 from probe.minihack_boss.env import action_labels, describe, make_env
 
 
 VARIANTS = {
     "baseline_mh": MiniHackBaselineAgent,
+    "reflexion_mh": MiniHackReflexionAgent,
     "probe_mh": MiniHackProbeAgent,
 }
 
@@ -80,14 +82,23 @@ def run_minihack(
     seeds = seeds if seeds is not None else list(range(10))
     selected = variant_names or list(VARIANTS.keys())
 
+    workers = int(os.getenv("MINIHACK_MAX_WORKERS", "1"))
+
     summaries: dict[str, dict] = {}
     for variant in selected:
-        print(f"[{variant}] running {len(seeds)} seeds on {env_id}", flush=True)
-        results = []
-        for seed in seeds:
-            r = _play(variant, env_id, seed, budget, run_id)
-            print(f"  [{variant}] seed {seed}: success={r['success']:.0f} steps={r['steps']} reward={r['reward']:.2f}", flush=True)
-            results.append(r)
+        print(f"[{variant}] running {len(seeds)} seeds on {env_id} (workers={workers})", flush=True)
+        if workers > 1:
+            with ThreadPoolExecutor(max_workers=workers) as executor:
+                futures = [executor.submit(_play, variant, env_id, seed, budget, run_id) for seed in seeds]
+                results = [future.result() for future in futures]
+            for r in results:
+                print(f"  [{variant}] seed {r['seed']}: success={r['success']:.0f} steps={r['steps']} reward={r['reward']:.2f}", flush=True)
+        else:
+            results = []
+            for seed in seeds:
+                r = _play(variant, env_id, seed, budget, run_id)
+                print(f"  [{variant}] seed {seed}: success={r['success']:.0f} steps={r['steps']} reward={r['reward']:.2f}", flush=True)
+                results.append(r)
         done = sum(r["success"] for r in results)
         print(f"[{variant}] done: {done:.0f}/{len(results)} solved", flush=True)
         results.sort(key=lambda r: r["seed"])
