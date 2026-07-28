@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 import csv
 import json
 import os
@@ -88,7 +88,7 @@ def run_minihack(
     for variant in selected:
         print(f"[{variant}] running {len(seeds)} seeds on {env_id} (workers={workers})", flush=True)
         if workers > 1:
-            with ThreadPoolExecutor(max_workers=workers) as executor:
+            with ProcessPoolExecutor(max_workers=workers) as executor:
                 futures = [executor.submit(_play, variant, env_id, seed, budget, run_id) for seed in seeds]
                 results = [future.result() for future in futures]
             for r in results:
