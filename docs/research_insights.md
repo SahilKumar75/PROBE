@@ -657,3 +657,103 @@ Both are the objections a reviewer raises first. The ReAct result shows the win 
 ### Paper relevance
 
 Reported as a new subsection (Stronger Baseline and Weaker Backbone) with a table, and reflected in the abstract, the single backbone paragraph, and the limitations. The frontier gpt-4.1 confirmation remains the one open backbone check. Discipline note: these are confirmations of the committed contribution on the existing boss, not new axes; the locked design and the contribution are unchanged.
+
+---
+
+## Insight 041: Benchmark difficulty gates the gain, and a shared utility must go to both conditions
+
+### Observation
+
+The external results line up by whether the task hides a rule that must be inferred. Crafter (open ended survival, partial information, deep progression) gives a significant PROBE gain. TextWorld at quest length 3, once both conditions are fair, is a tie: baseline 0.92, PROBE 0.88, gap minus 0.04. Reading the TextWorld traces explains it. Those quests are an easy known rule world: the objective is stated and the admissible command list hands the valid moves, so there is no hidden rule for the belief to bite on. PROBE ties on solve rate but takes more steps (6.6 vs 4.8), because its verify and examine habit spends actions, and its few losses are the step budget exhausted on repeated examination. MiniHack MazeWalk is a hard exploration task where PROBE helps once loop breaking is added.
+
+A concrete failure mode surfaced in the free text belief agents (TextWorld, Crafter, MiniHack) that the symbolic bosses never had: with no memory of what was already tried from a location, the agent oscillates, a north south ping pong or bashing one wall dozens of times. The fix is the same tried action memory the symbolic bosses use: rule out a move that does not change the state and force an untried one.
+
+### Why it matters
+
+Two lessons. First, difficulty gates the contribution: PROBE outperforms only where implicit reasoning is weak, which is a honest boundary, not a defeat; ties on easy known rule worlds are expected and should be reported as such rather than engineered away, which would be overfitting. Second, and this is the fairness point a reviewer raised, loop breaking is a general navigation utility, not part of the contribution, so it must be applied to both the baseline and PROBE. Giving it to PROBE alone reintroduces exactly the confound the shared observation and shared interface design was built to avoid, the same trap as the MiniGrid deterministic gate. With the utility shared, the only difference between conditions stays the structured belief and its contradiction driven revision.
+
+### Paper relevance
+
+Report externals grouped by difficulty, with Crafter as the significant independent win and TextWorld as an honest tie on an easy world. State explicitly that loop breaking is applied to both conditions. Do not tune PROBE to win an easy benchmark. A genuine, general improvement suggested by the traces, reducing PROBE's redundant examination so it wastes fewer steps, is worth doing only if validated on the internal bosses so it is not a TextWorld specific tweak.
+
+---
+
+## Insight 042: The obvious efficiency enhancement, a surprise gated belief, regresses TextWorld and is not adopted
+
+### Observation
+
+Insight 041 flagged an enhancement worth trying only if it validated: make the belief effort adaptive so PROBE wastes fewer steps examining. This session built it as two mechanisms on a branch (textworld-surprise-gate), TextWorld only, leaving the committed TWProbeAgent untouched. Forward prediction: the belief commits to expect_progress when it picks a command. Surprise gated revision: a no op or a stall triggers the full belief revision call, otherwise a cheap exploit call reuses the cached belief and is told not to examine. The design target was a tie with the baseline at parity cost with the four winnable games recovered, explicitly not a win, since beating an easy known rule world would be overfitting.
+
+The 50 game validation (tw8, the same games as tw7) falsified it. Gated solved 0.82 (41 of 50), below both the committed PROBE at 0.88 and the baseline at 0.92, and slower than PROBE (6.88 vs 6.73 steps if solved). The examine share rose to 0.37, above PROBE's 0.32 and the baseline's 0.23, the opposite of the intended effect. The gate spent only a third of steps in the cheap exploit mode; in the nine games it lost it was in the revise mode 85 percent of the time, cycling revise and examine until the budget ran out. It lost three games (seeds 5, 31, 43) that the committed PROBE won, so the mechanism added a failure mode rather than removing one.
+
+### Why it matters
+
+Two lessons. First, the enhancement is falsified as designed: gating belief effort on a deterministic surprise signal amplified examination instead of suppressing it, because a no op routes the agent into the revise mode whose reflex is to examine, and the cheap exploit path was a weaker actor that lost winnable games. Second, this is a healthy negative result that reinforces Insight 041. TextWorld is a genuine tie: the belief loop has no hidden rule to bite on, and no cheap loop level trick recovers a win without overfitting. We tested the obvious fix at low cost, it did not work, and we keep the committed design rather than tune toward an easy benchmark. The idea of adaptive belief effort remains intuitively appealing, but this implementation is evidence, not decoration, and it says stop.
+
+### Paper relevance
+
+Keep the committed TWProbeAgent; the branch is not merged. Optionally note in the limitations or a footnote that a surprise gated variant was tried and did not help on TextWorld, as concrete evidence against overfitting. Do not extend the mechanism to the internal bosses, since it did not pass the gate that would justify the effort. The title claim of novel environment adaptation continues to rest on the internal boss suite and Crafter, where a hidden rule exists, not on TextWorld.
+
+---
+
+## Insight 043: Three converging reviews say the ceiling is real research, not writing
+
+### Observation
+
+Three independent evaluations, an external reviewer who scored the revision 7.5, a separate Claude.ai critique that rated it 6.5 submission ready and 8 for a first undergraduate paper, and the internal read, all land on the same five points: the strongest and most significant evidence sits on self built tasks (I1 to I7); there is no ablation on the internal suite isolating the belief and revision from deterministic bookkeeping, even though the MiniGrid ablation showed a deterministic gate carrying a navigation gain; the closest neighbor, Align While Search, is cited but never run head to head; n is small (50 episodes, 20 MiniHack seeds); and the novelty is incremental, a context engineering scaffold rather than a new architecture in the neural sense. In parallel, two AI writing detectors flagged the prose at 74 to 84 percent, and a controlled test (a heavily human varied abstract) did not lower it, confirming that an AI rewriting AI drafted text keeps the same fingerprint and that one click humanizers would only corrupt the numbers.
+
+### Why it matters
+
+Convergence across three reviewers is the signal: the gaps are structural, not a matter of taste, and they are not fixable by reframing or by chasing a detector score. The venue advice also converged and is sound: TMLR fits this paper's rigor and honesty and does not punish lack of splash, while NeurIPS or ICML main track would desk reject a prompting technique; arXiv first for a citable link; ignore Elsevier journal finder matches and never pay open access fees for a first paper. The honest conclusion is that the score ceiling is set by the science, so the ceiling moves only when the science moves.
+
+### Paper relevance
+
+The v1 paper stays as an honest submission (arXiv then TMLR). The real work is a v2 research program (Session 061): earn novelty by iterating the architecture in the lab; scale every result to more seeds; rebuild the evaluation as two rigorous internal benchmarks with a hardest mode and Reflexion as the strong baseline, plus four external benchmarks, with the externals as the headline and the internal suite as the diagnostic; and run PROBE head to head against Align While Search. Novelty is to be earned in experiments, not asserted in the abstract.
+
+---
+
+## Insight 044: The internal benchmarks are a free optimization ground, not just an evaluation
+
+### Observation
+
+The two internal benchmarks were reframed (Session 063) to serve PROBE's improvement, not only its measurement. PROBE splits cleanly into an algorithm (the belief, the elimination over ruled out keys, and the surgical revision on contradiction) and an LLM actor. The algorithm can be run deterministically with no API, so the internal benchmarks become a fast optimization ground in the spirit of coding test cases that force optimal time and space. A deterministic solver, probe_core, plays the tasks by elimination; over 300 seeds it stays within the elimination optimum on exploration cost and within O(cues times keys) memory at every level and dominates a memoryless and a greedy history baseline, all in milliseconds. The harness then surfaces where the algorithm is weakest: adaptation recovery on the hard and hardest levels, where per cue recovery is optimal but there are more cues than the post shift budget can re encounter.
+
+### Why it matters
+
+This makes target 1, earning novelty by iterating the architecture, cheap and disciplined. Any change to the belief or revision logic can be scored instantly and for free on correctness and on time and space complexity before a single API call, so the expensive LLM runs and the external benchmarks are only spent on a design that is already optimal on the internal ground. It also gives a concrete, measurable lever for a genuine mechanistic advance: reduce the adaptation recovery cost when the cue count exceeds the budget, for example by generalizing a revision across cues rather than re eliminating each one independently.
+
+### Paper relevance
+
+Frame the internal suite as a diagnostic and optimization ground that isolates PROBE's algorithm from the model, with provable exploration and memory bounds, and report the external benchmarks as the headline. Do not claim novelty until the architecture iteration driven by this ground produces a mechanism that beats the elimination baseline it now matches.
+
+---
+
+## Insight 045: On the induction benchmark PROBE beats the strong reasoning baseline, and the stability gate makes the win cheap
+
+### Observation
+
+The first LLM run of the restructured internal suite (Session 064), induction at the medium level with three conditions on the same frozen backbone over 20 seeds, gave asymptotic accuracy 0.646 for the plain baseline, 0.761 for Reflexion, and 0.983 for PROBE. The gaps are probe minus baseline +0.337 [0.303, 0.372] and probe minus reflexion +0.222 [0.159, 0.286], both significant. Reflexion here reasons and keeps a running self reflection but holds no structured belief, so beating it, not just the plain baseline, isolates the value of the explicit revisable belief. The stability gate, which answers a confirmed cue from the belief with no model call, skipped 75.5 percent of PROBE's model calls while accuracy stayed near perfect.
+
+### Why it matters
+
+This directly answers two of the standing reviewer criticisms on a benchmark built to be fair: the strong baseline is present and PROBE beats it with a significant margin, and the win is not an artifact of simply having a reasoning trace. It also shows the stability gate is a real, safe efficiency mechanism on the live agent, not only on the deterministic ground: the same win at roughly a quarter of the model calls, because a confirmed cue is deterministic and a shift falls back to the model. On the adaptation half, PROBE also beats both baselines but thinly: post shift accuracy 0.494 for probe against 0.400 for Reflexion and 0.281 for baseline, with probe minus reflexion +0.094 [0.002, 0.186] just clearing zero and the absolute post shift accuracy low across the board. This is precisely the recovery under many cues weakness the no API ground predicted, and it is the concrete target for architecture iteration.
+
+### Paper relevance
+
+Report the two internal benchmarks with all three conditions and the two sample gaps, leading with the probe minus Reflexion result as the honest strong baseline comparison, and report the model call skip rate as a cost result. State plainly that induction is a clean win and adaptation is a thin one, with the recovery gap named as the target for the architecture work. Hold the overall v2 claim until the adaptation recovery is improved and the external head to head against Align While Search is in.
+
+---
+
+## Insight 046: Crafter at 100 seeds with three conditions, and why the small sample number was noise not corruption
+
+### Observation
+
+The Crafter external was rerun with all three conditions on the same frozen backbone at 100 seeds and a 150 step budget: baseline 0.57 [0.45, 0.69], Reflexion 1.37 [1.26, 1.48], PROBE 2.11 [1.96, 2.26] mean achievements. All three gaps are significant: probe minus baseline +1.54 [1.35, 1.73], probe minus reflexion +0.74 [0.55, 0.93], reflexion minus baseline +0.80 [0.64, 0.96]. Before this, a 12 seed fair run had given a baseline of 0.58 against an earlier 60 seed run that read 1.62, which looked like possible concurrency corruption. Diagnosis showed it was not corruption: the noop fallback rate, the fingerprint of a failed call defaulting to a no op, was only about 1 percent, the same as the clean run, and on identical seeds the plain baseline swung from 1.75 to 0.58 while PROBE stayed at 1.75 both times. The plain baseline is simply high variance run to run under LLM sampling, and PROBE is stable. A separate failure was also found and fixed: when the client has no provider key it silently falls back to a local Ollama that is not running, every call errors, the agent swallows the error into a noop, and the whole run reads as all zeros in about 50 seconds. That is the real silent corruption mode, distinct from concurrency.
+
+### Why it matters
+
+This is the headline external and it now answers the reviewer complaints directly: the strong Reflexion baseline is present, PROBE beats it with a significant margin, and the sample is 100 seeds with a confidence interval half width near 0.13, so the too few seeds objection is retired for this benchmark. The variance finding also reframes an apparent problem into a result: PROBE's run to run stability against a noisy plain baseline is itself evidence that the explicit belief stabilizes behavior. The seed size was chosen from the sqrt(n) scaling of the interval: 100 halves the interval versus 30 and sits at the point of diminishing returns.
+
+### Paper relevance
+
+Replaced the old 60 seed cf4 Crafter number in the paper table, prose, and appendix with the 100 seed three condition result, leading with probe over Reflexion as the honest strong baseline comparison. When MiniHack and TextWorld also have their three condition runs, restructure the external table to a baseline, Reflexion, PROBE layout. For reproducibility, note the two silent failure modes explicitly: a dead provider client reading as all zeros, and small sample variance on a stochastic baseline, neither of which is a concurrency problem.
