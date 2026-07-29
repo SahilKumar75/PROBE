@@ -1,0 +1,29 @@
+[probe_mh] running 10 seeds on MiniHack-River-Narrow-v0 (workers=1)
+  [probe_mh] seed 10: success=0 steps=120 reward=-0.11
+  [probe_mh] seed 11: success=0 steps=120 reward=-0.20
+  [probe_mh] seed 12: success=0 steps=120 reward=-0.14
+  [probe_mh] seed 13: success=0 steps=120 reward=-0.19
+  [probe_mh] seed 14: success=0 steps=120 reward=-0.11
+  [probe_mh] seed 15: success=0 steps=120 reward=-0.14
+  [probe_mh] seed 16: success=0 steps=120 reward=-0.22
+  [probe_mh] seed 17: success=0 steps=120 reward=-0.13
+  [probe_mh] seed 18: success=0 steps=120 reward=-0.21
+  [probe_mh] seed 19: success=0 steps=120 reward=-0.11
+[probe_mh] done: 0/10 solved
+{
+  "run_id": "76cb7906",
+  "summary_file": "/workspaces/PROBE/outputs/minihack_summary_76cb7906_mhc_probe_mh_10.json",
+  "variants": {
+    "probe_mh": {
+      "run_id": "76cb7906",
+      "variant": "probe_mh",
+      "env_id": "MiniHack-River-Narrow-v0",
+      "episodes": 10,
+      "budget": 120,
+      "success_rate": 0.0,
+      "mean_reward": -0.156,
+      "mean_steps": 120,
+      "trace_file": "/workspaces/PROBE/traces/minihack_probe_mh_76cb7906_mhc_probe_mh_10.csv"
+    }
+  }
+}
