@@ -757,3 +757,19 @@ This is the headline external and it now answers the reviewer complaints directl
 ### Paper relevance
 
 Replaced the old 60 seed cf4 Crafter number in the paper table, prose, and appendix with the 100 seed three condition result, leading with probe over Reflexion as the honest strong baseline comparison. When MiniHack and TextWorld also have their three condition runs, restructure the external table to a baseline, Reflexion, PROBE layout. For reproducibility, note the two silent failure modes explicitly: a dead provider client reading as all zeros, and small sample variance on a stochastic baseline, neither of which is a concurrency problem.
+
+---
+
+## Insight 047: PROBE loses to Reflexion on MiniHack River-Narrow, and the trace says why, which sets the architecture iteration
+
+### Observation
+
+MiniHack River-Narrow at 50 seeds, three conditions: baseline 0.00, Reflexion 0.16 (8 of 50), PROBE 0.02 (1 of 50). Reflexion significantly beats PROBE (gap 0.14 [0.03, 0.25], excludes zero); PROBE sits at baseline. Trace analysis (scripts/analyze_mh.py) shows neither agent discovers the hidden rule, which is to push a boulder into the water to bridge it: the word bridge appears in notes 0 times for PROBE and 3 times for Reflexion. Both agents wander looking for a walkable path, so Reflexion's wins are exploration luck, not rule discovery. PROBE's beliefs read identically to Reflexion's reflections (the staircase is east, water blocks, explore east): the MiniHack ProbeAgent had been reduced to a plain path planner and lost the rule level belief that defines PROBE. Because water does not kill, failure is silent, so the contradiction detector never fires and the belief is never revised. PROBE also repeated one direction 1987 times, re-exploring dead ends.
+
+### Why it matters
+
+This is a real negative result and it is diagnostic, not just a score. It shows two structural gaps in the current live agent: the belief is framed around layout and goal rather than around how the world works, and the revision engine only triggers on hard contradictions (like death), not on silent stagnation. Both gaps are general, not MiniHack specific, so fixing them is architecture iteration (target 1) rather than benchmark tuning.
+
+### Paper relevance
+
+Five candidate mechanics, framed by what Reflexion structurally cannot do (it only reflects on outcomes): mechanic hypothesis (belief about how the world works), stagnation as contradiction (falsify the belief when the frontier has not advanced in K steps), active experimentation (choose the action that best tests the belief, for example shove the boulder), competing hypotheses plus elimination (port the deterministic EliminationSolver into the live agent), and anti repeat memory (a tried and failed slot). Build in two gated rounds: round 1 is mechanic hypothesis plus stagnation as contradiction plus active experimentation; round 2 is elimination plus anti repeat, only if needed. Every round is tested on the no-API ground first, then regression checked on the internal suite and on Crafter (which already wins at 2.11 and must not regress), then on MiniHack. Report the MiniHack loss honestly whatever happens; if the mechanics turn it around, that is the clearest evidence that the explicit revisable belief, not a reasoning trace, is doing the work.
