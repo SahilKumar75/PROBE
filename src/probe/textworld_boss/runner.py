@@ -8,12 +8,13 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.textworld_boss.agents import TWBaselineAgent, TWProbeAgent
+from probe.textworld_boss.agents import TWBaselineAgent, TWProbeAgent, TWReflexionAgent
 from probe.textworld_boss.env import clean_observation, make_game, start
 
 
 VARIANTS = {
     "baseline_tw": TWBaselineAgent,
+    "reflexion_tw": TWReflexionAgent,
     "probe_tw": TWProbeAgent,
 }
 
