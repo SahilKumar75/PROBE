@@ -145,43 +145,70 @@ class MiniHackReflexionAgent:
         return index, f"reflection={self.reflection[:150]}"
 
 
+STAGNATION_WINDOW = 12
+STAGNATION_DISTINCT = 4
+
+
 class MiniHackProbeAgent:
     def __init__(self, client=None):
         self._client = client
         self.belief = "no plan yet; I need to locate the goal and a path to it"
+        self.mechanics = "unknown; I do not yet know how the obstacles here work, so I must discover it by trying to interact with things"
         self.blocked: dict[str, set[int]] = {}
         self.prev_screen: str | None = None
         self.prev_key: str | None = None
         self.prev_index: int | None = None
+        self.recent_keys: list[str] = []
+        self.steps = 0
 
     def _client_or_default(self):
         if self._client is None:
             self._client = _default_client()
         return self._client
 
+    def _stagnant(self) -> bool:
+        window = self.recent_keys[-STAGNATION_WINDOW:]
+        return len(window) >= STAGNATION_WINDOW and len(set(window)) <= STAGNATION_DISTINCT
+
     def act(self, obs: dict, actions: list[str], history: list[dict]) -> tuple[int, str]:
         screen = obs["screen"]
         key = screen[:400]
+        self.steps += 1
         if self.prev_screen is not None and screen == self.prev_screen and self.prev_index is not None:
             self.blocked.setdefault(self.prev_key, set()).add(self.prev_index)
         blocked = self.blocked.setdefault(key, set())
         avoid = sorted(actions[i] for i in blocked if i < len(actions))
+        self.recent_keys.append(key)
+
+        experiment = self._stagnant() or (self.mechanics.startswith("unknown") and self.steps % STAGNATION_WINDOW == 0)
+        contradiction = ""
+        if experiment:
+            contradiction = (
+                "CONTRADICTION: your plan has not made progress recently, so your belief about the path is falsified. "
+                "The way forward is probably not just walking around an obstacle. Form a NEW mechanics hypothesis about "
+                "this level (for example, water may need to be acted on rather than avoided; a boulder next to you may be "
+                "pushable by walking into it, which can fill water and make a crossing). Then choose an EXPERIMENTAL "
+                "action that directly tests one mechanic, even if it does not look like immediate progress toward the goal.\n"
+            )
 
         system = (
-            "You play a NetHack level while keeping an explicit running belief about the layout, where the goal is, "
-            "and your plan to reach it. Update the belief when the screen contradicts it. Reply only with a JSON object."
+            "You play a NetHack level. Keep two explicit beliefs: a layout belief (where the goal is and your plan), and "
+            "a mechanics belief (how this world works and how to get past obstacles). When progress stalls, treat it as "
+            "evidence your belief is wrong, revise it, and act to test a mechanic rather than repeating navigation. Reply "
+            "only with a JSON object."
         )
         prompt = (
             f"Message: {obs['message'] or 'none'}\n"
             f"Screen:\n{screen}\n\n"
-            f"Your current belief and plan: {self.belief}\n"
+            f"Layout belief and plan: {self.belief}\n"
+            f"Mechanics belief (how this world works, and what you have ruled out): {self.mechanics}\n"
             f"Recent actions: {_recent(history)}\n"
-            f"Directions that hit a wall from this exact spot (the view did not change): {avoid or 'none'}. "
-            "Do not repeat those; if a direction does not move you, it is a wall, so try a different one.\n"
+            f"Directions that hit a wall from this exact spot (the view did not change): {avoid or 'none'}.\n"
+            f"{contradiction}"
             f"{TIPS}\n"
             f"Actions:\n{_numbered(actions)}\n"
-            'Reply with one JSON object with keys: "belief" (a short updated statement of the layout, where the goal '
-            'is, and your next move) and "action_number" (the integer of the action to take).'
+            'Reply with one JSON object with keys: "belief" (layout and your next move), "mechanics" (your updated theory '
+            'of how to get past obstacles here, and what you have ruled out), and "action_number" (the integer action).'
         )
         try:
             text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
@@ -190,13 +217,16 @@ class MiniHackProbeAgent:
 
         parsed = _extract_json(text)
         self.belief = str(parsed.get("belief", self.belief))[:400]
+        mech = parsed.get("mechanics")
+        if isinstance(mech, str) and mech.strip():
+            self.mechanics = mech.strip()[:400]
         number = parsed.get("action_number")
         if isinstance(number, int) and 0 <= number < len(actions):
             index = number
         else:
             index = _select(text, actions)
 
-        if index in blocked:
+        if not experiment and index in blocked:
             untried = [i for i in range(len(actions)) if i not in blocked]
             if untried:
                 index = untried[0]
@@ -204,4 +234,5 @@ class MiniHackProbeAgent:
         self.prev_screen = screen
         self.prev_key = key
         self.prev_index = index
-        return index, f"belief={self.belief[:150]}"
+        tag = " | EXPERIMENT" if experiment else ""
+        return index, f"belief={self.belief[:80]} | mech={self.mechanics[:80]}{tag}"
