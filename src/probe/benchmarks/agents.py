@@ -119,6 +119,10 @@ class ProbeAgent:
         self.ruled_out.setdefault(cue, set())
 
         signal = self._revise_from_last(history)
+
+        if cue in self.confirmed and signal == "none":
+            return self.confirmed[cue], f"cached {self.confirmed[cue]} (no model call)"
+
         confirmed_text = json.dumps(self.confirmed) if self.confirmed else "none yet"
         current_ruled = sorted(self.ruled_out.get(cue, set()))
         confirmed_here = self.confirmed.get(cue)

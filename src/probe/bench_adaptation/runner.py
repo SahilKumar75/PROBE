@@ -163,6 +163,7 @@ def run_adaptation(
             "post_shift_accuracy": _ci95(post),
             "repeated_error_mean": statistics.mean(m["repeated_error"] for m in per_episode),
             "recovery_steps_mean": statistics.mean(m["recovery_steps"] for m in per_episode),
+            "model_call_skip_rate": (sum(1 for r in all_rows if r["note"].startswith("cached")) / len(all_rows)) if all_rows else 0.0,
             "trace_file": str(trace_path),
         }
 

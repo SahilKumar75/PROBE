@@ -131,6 +131,7 @@ def run_induction(
             "episodes": len(episodes),
             "overall_accuracy": _ci95(overall),
             "asymptotic_accuracy": _ci95(asymptotic),
+            "model_call_skip_rate": (sum(1 for r in all_rows if r["note"].startswith("cached")) / len(all_rows)) if all_rows else 0.0,
             "trace_file": str(trace_path),
         }
 

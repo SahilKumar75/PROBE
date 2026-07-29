@@ -19,3 +19,7 @@ traces/*
 !traces/.gitkeep
 
 graphify-out/
+
+# local run logs and pid files
+*.log
+*.pid
