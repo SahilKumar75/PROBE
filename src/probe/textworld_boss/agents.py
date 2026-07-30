@@ -609,3 +609,130 @@ class TWProbe4Agent:
         self.last_state, self.last_cmd, self.last_score = state, command, score
         tag = " | STUCK" if stuck else ""
         return command, f"belief={self.belief[:60]} | rule={self.rule[:60]}{tag}"
+
+
+class TWProbe5Agent:
+    """Anti-loop probe: probe4's efficiency plus a hard rule against repeating.
+
+    Loss analysis (probe1's 44 TextWorld losses, all time-outs): lost games have
+    a 39% command-repeat rate vs 14% in won games. They loop, re-examining the
+    same object (examine portal x3), redoing the same manipulation (drop passkey
+    x2, open portal x2), and ping-ponging between two rooms (go east <-> go
+    west), until the 30-move budget runs out. probe4's anti-repeat only blocked
+    moves that changed NOTHING, so state-changing loops slipped through. probe5
+    adds three memories that between them kill all three loop types:
+      1. Examine-once: a sensing command (examine/look/inventory/search) already
+         issued this episode is blocked; sensing is idempotent, once is enough.
+      2. Full no-repeat: any non-sensing command already issued that did not
+         raise the score is avoided, even if it changed the room (this also
+         breaks the go east/west ping-pong, since neither raised the score).
+      3. Least-used fallback: if every command is blocked, take the least-used
+         one, so the agent still moves rather than deadlocking.
+    Everything else is probe4 (lean prompt, low examining, budget-aware, novelty
+    stuck detector). Same per-step token cost.
+    """
+
+    def __init__(self, client=None):
+        self._client = client
+        self.belief = "I have just arrived and do not yet know the layout or the goal."
+        self.rule = "unknown; I must discover what earns score by trying actions that change the world and watching the score"
+        self.seen_states: set[str] = set()
+        self.steps_since_progress = 0
+        self.last_score = 0
+        self.issued_sensing: set[str] = set()
+        self.unproductive: set[str] = set()
+        self.cmd_uses: dict[str, int] = {}
+        self.last_cmd = None
+        self.last_state = None
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def _blocked(self, c: str) -> bool:
+        if _is_sensing(c):
+            return c in self.issued_sensing
+        return c in self.unproductive
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        commands = obs["admissible"]
+        state = repr(sorted(commands))
+        score = int(obs.get("score", 0))
+
+        # after the fact: did the PREVIOUS command earn score? if not, it is
+        # unproductive (sensing goes to its own idempotent set)
+        if self.last_cmd is not None and score <= self.last_score:
+            if _is_sensing(self.last_cmd):
+                self.issued_sensing.add(self.last_cmd)
+            else:
+                self.unproductive.add(self.last_cmd)
+
+        progress = score > self.last_score or state not in self.seen_states
+        self.seen_states.add(state)
+        self.steps_since_progress = 0 if progress else self.steps_since_progress + 1
+        stuck = self.steps_since_progress >= STUCK_STEPS
+
+        avoid = sorted(c for c in commands if self._blocked(c))
+        stuck_line = ""
+        if stuck:
+            stuck_line = (
+                "You seem STUCK. Take a DIFFERENT world-changing action you have not tried (move, take, open, put, "
+                "unlock); do NOT examine or look, and do NOT repeat anything in the avoid list.\n"
+            )
+
+        system = (
+            "You play a text adventure with a hidden objective and a 30-move budget, so every move must count. Keep a "
+            "short situation belief and a short rule belief. PREFER actions that change the world; examine only with a "
+            "specific reason; NEVER repeat a move that did nothing and NEVER re-examine what you already examined. "
+            "Reply only with a JSON object."
+        )
+        prompt = (
+            f"{HIDDEN}\n"
+            f"Current score: {score} of a possible {obs['max_score']}.\n"
+            f"Location: {obs['description'][:600]}\n"
+            f"Inventory: {obs['inventory']}\n"
+            f"Situation belief and plan: {self.belief}\n"
+            f"Rule belief (what earns score, and what you ruled out): {self.rule}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"Do NOT choose any of these (already tried, led nowhere): {avoid or 'none'}.\n"
+            f"{stuck_line}"
+            f"Available commands:\n{_numbered(commands)}\n"
+            'Reply with one JSON object with keys: "belief" (situation and next step), "rule" (updated theory of what '
+            'raises the score), and "command_number" (the integer command).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        self.belief = str(parsed.get("belief", self.belief))[:400]
+        rule = parsed.get("rule")
+        if isinstance(rule, str) and rule.strip():
+            self.rule = rule.strip()[:400]
+        number = parsed.get("command_number")
+        if isinstance(number, int) and 0 <= number < len(commands):
+            command = commands[number]
+        else:
+            command = _select(text, commands)
+
+        # override a blocked pick: prefer an untried, non-sensing, non-blocked
+        # command; then any untried non-blocked; then the least-used command
+        if self._blocked(command):
+            untried_action = [c for c in commands if not self._blocked(c) and c not in self.cmd_uses and not _is_sensing(c)]
+            untried_any = [c for c in commands if not self._blocked(c) and c not in self.cmd_uses]
+            open_cmds = [c for c in commands if not self._blocked(c)]
+            if untried_action:
+                command = untried_action[0]
+            elif untried_any:
+                command = untried_any[0]
+            elif open_cmds:
+                command = open_cmds[0]
+            else:
+                command = min(commands, key=lambda c: self.cmd_uses.get(c, 0))
+
+        self.cmd_uses[command] = self.cmd_uses.get(command, 0) + 1
+        self.last_cmd, self.last_state, self.last_score = command, state, score
+        tag = " | STUCK" if stuck else ""
+        return command, f"belief={self.belief[:55]} | avoid={len(avoid)}{tag}"
