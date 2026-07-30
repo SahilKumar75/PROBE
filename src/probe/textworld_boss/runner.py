@@ -57,6 +57,7 @@ def _play(variant, game_file, seed, budget, run_id) -> dict:
         if done or won:
             break
 
+    print(f"[{variant}] seed {seed}: won={won} score={score}/{max_score} steps={steps}", flush=True)
     return {"seed": seed, "variant": variant, "won": won, "score": score, "max_score": max_score, "steps": steps, "rows": rows}
 
 
@@ -80,6 +81,7 @@ def run_textworld(
 
     summaries: dict[str, dict] = {}
     for variant in selected:
+        print(f"=== running {variant}: {len(seeds)} seeds, budget {budget}, {workers} workers ===", flush=True)
         with ThreadPoolExecutor(max_workers=workers) as executor:
             futures = [executor.submit(_play, variant, games[seed], seed, budget, run_id) for seed in seeds]
             results = [future.result() for future in futures]
@@ -106,6 +108,7 @@ def run_textworld(
             "mean_steps_if_solved": statistics.mean([r["steps"] for r in results if r["won"]]) if any(r["won"] for r in results) else None,
             "trace_file": str(trace_path),
         }
+        print(f"=== {variant} DONE: solve_rate {summaries[variant]['solve_rate']:.3f} ({sum(1 for r in results if r['won'])}/{len(results)}) ===", flush=True)
 
     batch_suffix = f"_{batch_id}" if batch_id else ""
     summary_path = output_dir / f"textworld_summary_{run_id}{batch_suffix}.json"
