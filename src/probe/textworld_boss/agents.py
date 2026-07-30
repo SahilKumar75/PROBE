@@ -490,3 +490,122 @@ class TWProbe3Agent:
         self.last_state, self.last_cmd, self.last_score = state, command, score
         tag = " | STUCK" if stuck else ""
         return command, f"belief={self.belief[:60]} | rule={self.rule[:60]}{tag}"
+
+
+def _is_sensing(cmd: str) -> bool:
+    return cmd.lower().startswith(("examine", "look", "inventory", "search"))
+
+
+class TWProbe4Agent:
+    """Efficiency-first probe: win by wasting fewer turns, not by thinking more.
+
+    Diagnosis: every one of probe1's 44 TextWorld losses is a budget time-out
+    (30 turns, task unfinished), not a wrong answer. So the way to beat probe1
+    is to spend more of the 30 turns on progress. probe3 kept probe1's brain and
+    added anti-repeat but STILL examined 42% (its stuck rule forced examines).
+    probe4 keeps the cheap adds and fixes the waste:
+      1. Discourage examining in the prompt (prefer world-changing actions).
+      2. When stuck, force an untried NON-sensing action (probe3 could pick an
+         examine, which was the bug).
+      3. Do not treat "rule still unknown" as stuck (that fired the nudge every
+         early step and drove examining); stuck is purely a lack-of-progress
+         streak.
+      4. Keep probe3's novelty stuck detector and episode-wide anti-repeat.
+    Same lean single-belief prompt as probe1, so per-step token cost is unchanged.
+    """
+
+    def __init__(self, client=None):
+        self._client = client
+        self.belief = "I have just arrived and do not yet know the layout or the goal."
+        self.rule = "unknown; I must discover what earns score by trying actions that change the world and watching the score"
+        self.seen_states: set[str] = set()
+        self.steps_since_progress = 0
+        self.last_score = 0
+        self.dead: dict[str, set[str]] = {}
+        self.tried_here: dict[str, set[str]] = {}
+        self.last_state = None
+        self.last_cmd = None
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        commands = obs["admissible"]
+        state = repr(sorted(commands))
+        score = int(obs.get("score", 0))
+        tried = self.tried_here.setdefault(state, set())
+
+        if self.last_state is not None and self.last_cmd is not None:
+            if state == self.last_state and score <= self.last_score and not _is_sensing(self.last_cmd):
+                self.dead.setdefault(self.last_state, set()).add(self.last_cmd)
+
+        progress = score > self.last_score or state not in self.seen_states
+        self.seen_states.add(state)
+        self.steps_since_progress = 0 if progress else self.steps_since_progress + 1
+        # stuck is purely a lack-of-progress streak; an unknown rule is NOT stuck
+        stuck = self.steps_since_progress >= STUCK_STEPS
+
+        dead_here = self.dead.get(state, set()) & set(commands)
+        avoid = sorted(set(c for c in tried if c in commands) | dead_here)
+        stuck_line = ""
+        if stuck:
+            stuck_line = (
+                "You seem STUCK. Take a DIFFERENT world-changing action you have not tried here (move, take, open, "
+                "put, unlock); do NOT examine or look. Avoid the dead-end commands above.\n"
+            )
+
+        system = (
+            "You play a text adventure with a hidden objective and a 30-move budget, so every move must count. Keep a "
+            "short situation belief and a short rule belief. PREFER actions that change the world (move, take, open, "
+            "put, unlock) and examine only when you have a specific reason; do not waste moves looking around. Reply "
+            "only with a JSON object."
+        )
+        prompt = (
+            f"{HIDDEN}\n"
+            f"Current score: {score} of a possible {obs['max_score']}.\n"
+            f"Location: {obs['description'][:600]}\n"
+            f"Inventory: {obs['inventory']}\n"
+            f"Situation belief and plan: {self.belief}\n"
+            f"Rule belief (what earns score, and what you ruled out): {self.rule}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"Commands that led nowhere here, avoid them: {avoid or 'none'}.\n"
+            f"{stuck_line}"
+            f"Available commands:\n{_numbered(commands)}\n"
+            'Reply with one JSON object with keys: "belief" (situation and next step), "rule" (updated theory of what '
+            'raises the score), and "command_number" (the integer command).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        self.belief = str(parsed.get("belief", self.belief))[:400]
+        rule = parsed.get("rule")
+        if isinstance(rule, str) and rule.strip():
+            self.rule = rule.strip()[:400]
+        number = parsed.get("command_number")
+        if isinstance(number, int) and 0 <= number < len(commands):
+            command = commands[number]
+        else:
+            command = _select(text, commands)
+
+        if stuck:
+            # prefer an untried, non-dead, NON-sensing action; then any untried; then keep
+            nonsense = [c for c in commands if c not in tried and c not in dead_here and not _is_sensing(c)]
+            fresh = [c for c in commands if c not in tried and c not in dead_here]
+            if nonsense:
+                command = nonsense[0]
+            elif fresh:
+                command = fresh[0]
+        elif command in dead_here:
+            alive = [c for c in commands if c not in dead_here]
+            if alive:
+                command = alive[0]
+
+        tried.add(command)
+        self.last_state, self.last_cmd, self.last_score = state, command, score
+        tag = " | STUCK" if stuck else ""
+        return command, f"belief={self.belief[:60]} | rule={self.rule[:60]}{tag}"
