@@ -8,7 +8,7 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.textworld_boss.agents import TWBaselineAgent, TWProbeAgent, TWReflexionAgent
+from probe.textworld_boss.agents import TWBaselineAgent, TWProbe2Agent, TWProbeAgent, TWReflexionAgent
 from probe.textworld_boss.env import clean_observation, make_game, start
 
 
@@ -16,6 +16,7 @@ VARIANTS = {
     "baseline_tw": TWBaselineAgent,
     "reflexion_tw": TWReflexionAgent,
     "probe_tw": TWProbeAgent,
+    "probe2_tw": TWProbe2Agent,
 }
 
 TRACE_FIELDS = ["run_id", "variant", "seed", "step", "command", "reward", "score", "max_score", "won", "note"]

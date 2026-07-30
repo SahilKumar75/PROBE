@@ -150,7 +150,7 @@ This strengthens methodological credibility by showing that weak evidence was no
 
 ### Observation
 
-The roadmap became meaningfully more concrete only after external benchmarks were selected by stage: Stage 0 MiniGrid, Stage 1-2 TextWorld, Stage 3 MiniHack provisional, Stage 4 Crafter, Stage 6 ARC-AGI-1, Stage 7 ARC-AGI-2, Final Boss ARC-AGI-3.
+The roadmap became meaningfully more concrete only after external benchmarks were selected by stage: Stage 0 MiniGrid, Stage 1-2 TextWorld, Stage 3 MiniHack provisional, Stage 4 Crafter, Stage 6 ARC-AGI-1, Stage 7 ARC-AGI-2, Final Boss ARC-AGI-3. (v2 update, Session 068: the ARC target is the interactive ARC-AGI-3 only; static ARC-AGI-1 and ARC-AGI-2 are dropped as build targets, optional footnotes only.)
 
 ### Why it matters
 
@@ -777,3 +777,17 @@ Five candidate mechanics, framed by what Reflexion structurally cannot do (it on
 ### Round 1 result
 
 Round 1 (mechanic hypothesis plus stagnation as contradiction plus active experimentation, commit 896271f, MiniHack agent only) was built and tested. MiniHack River-Narrow probe rose from 0.02 to 0.20 at clean n=50: probe minus baseline +0.20 [0.09, 0.31] significant, probe minus reflexion +0.04 [minus 0.11, 0.19] a directional lead not yet significant at n=50. The significant loss to Reflexion became a lead, and PROBE now significantly beats the plain baseline. Trace evidence confirms the mechanism rather than luck: mechanic word hits in PROBE's belief notes before versus after were bridge 0 to 46, boulder 42 to 253, rule 0 to 329, fill 0 to 7, so the belief now hypothesizes about the crossing rule instead of reading as pure navigation. This is the clearest single piece of evidence that the explicit revisable belief, not a reasoning trace, does the work. Next: port the three mechanics to Crafter as general additions and regression check that Crafter holds at or above 2.11 and the internal suite does not drop; only then keep them.
+
+## Insight 048: Stagnation-as-contradiction misfires under sparse terminal reward, causing hypothesis thrashing
+
+### Observation
+
+On the hidden-rule TextWorld external (external #3, n=100, objective withheld), the three conditions tied: baseline 0.55, reflexion 0.57, probe 0.56, every pairwise CI straddling zero. The traces explain the tie. TextWorld's reward is TERMINAL: the score is 0 until the whole task is finished, then 1. Round 1's stagnation-as-contradiction fires on "no score gain", so under a terminal reward it fired on essentially every step (24 to 27 of 30 on the games probe lost), even while the agent was making genuine progress. That put the agent in permanent experiment mode, where it swapped its single rule hypothesis every step and never committed to a coherent multi-step plan (seed 16: examine chest, drop kettle, take key, lock safe; seed 47 re-ran "examine gate" at steps 0, 27, 29). Probe's sensing share was actually the lowest of the three (0.34 vs reflexion 0.47), so this is not the old over-examine problem; it is thrashing. The identical failure shows in the ARC-AGI-3 smoke (cycling rotate/mirror/swap hypotheses without converging), so it is a general weakness of the Round 1 design, not TextWorld-specific.
+
+### Why it matters
+
+It names a precise, general gap: a per-step score-delta is the wrong progress signal whenever reward is sparse or terminal, which is common in exactly the interactive, hidden-rule environments PROBE targets (TextWorld here, ARC-AGI-3 next, Crafter's rarer achievements, the internal adaptation half). The contribution's whole premise is contradiction-driven revision, so the contradiction signal has to be right; a signal that fires constantly is as useless as one that never fires.
+
+### The fix under test (TWProbe2Agent, probe2_tw)
+
+Four changes, kept in a separate variant so the head-to-head stays clean. (1) Novelty progress signal: progress is a score gain OR a change in the admissible-command SET (moved room, opened door, took object), not the description text, because examining changes the text but not the set. A first cut using description/object-name novelty was too generous and fired contradiction only 1/30, so it was tightened to the admissible set. (2) Score-drought trigger: many distinct world-states explored with the score still zero is the terminal-reward-appropriate contradiction. (3) Plan-commit gate: follow a committed plan for a few steps before re-falsifying. (4) Round 2 mechanics, brought forward because the diagnosis points straight at them: competing hypotheses plus elimination (hold a set, rule out with evidence) and episode-wide anti-repeat. Acceptance is honest: probe2 must beat the tie with CI off zero and no overfitting, or TextWorld is reported as a consistency-check tie (reinforcing Insight 041 that no cheap loop trick recovers a TextWorld win) and the mechanics are kept only where they demonstrably help.
