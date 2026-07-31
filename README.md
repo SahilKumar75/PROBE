@@ -19,26 +19,35 @@ The belief in PROBE ranges over the environment rules and dynamics, meaning how 
 ## Repository layout
 
 ```
-src/probe/
-  constants.py
-  stage0/
-    boss_i0.py            internal hidden rule environment used as a smoke test
-    minigrid_env.py       external benchmark wrapper (MiniGrid GoToObject)
-    minigrid_policies.py  random, heuristic and language model baselines
-    minigrid_runner.py    evaluation loop and trace capture for the external boss
-    runner.py             evaluation loop for the internal boss
-    tracing.py            trace schema and writers
-    gemini_client.py      language model backend
-    groq_client.py        language model backend
-    ollama_client.py      local language model backend
-    openrouter_client.py  language model backend with automatic model fallback
+src/probe/                the agent and environment code, one package per boss
+  stage0/                 baseline loop on MiniGrid, plus the LLM backend clients
+  multifactor/ competing/ rule_shift/ probe_progress/ relational/ mixed/
+                          the original internal diagnostic bosses (I1 to I7)
+  benchmarks/ bench_induction/ bench_adaptation/
+                          the v2 internal benchmarks (rule induction, rule
+                          adaptation) with shared baseline/reflexion/probe
+                          agents and deterministic no-API solvers
+  textworld_boss/         hidden-rule TextWorld external (baseline, reflexion,
+                          probe1 and the probe2-5.2 variant line)
+  minihack_boss/          MiniHack River-Narrow external (hidden crossing rule)
+  crafter_boss/           Crafter external (the headline anchor, n=100)
+  arc_boss/               ARC-AGI-3 external, offline on the official ARCEngine
+                          example games (interpreter, agents, runner)
 scripts/
-  run_stage0.py             run the internal boss evaluation
-  run_stage0_minigrid.py    run the external MiniGrid evaluation
-  aggregate_stage0_minigrid.py  aggregate batched runs
-config/
-  stage0_protocol.md      locked Stage 0 evaluation protocol
-docs/                     research notes tracked alongside the code
+  run_*.py                one runner per boss (textworld, minihack, crafter,
+                          arc, internal suites)
+  run_tw_chunked.sh       parallel launchers: many single-worker processes over
+  run_mh_chunked.sh       disjoint seed chunks (tatsu and NLE are not
+  run_arc_chunked.sh      thread-safe), logs land in runlogs/
+  compute_cis.py          recompute confidence intervals from saved traces
+  analyze_mh.py           MiniHack trace analyzer
+config/                   locked evaluation protocols
+docs/                     research notes tracked alongside the code, including
+                          research_insights.md and the codespace setup guide
+traces/                   per-step CSV traces (gitignored, force-add results)
+outputs/                  per-run summary JSON (gitignored, force-add results)
+runlogs/                  local run logs and pid files (gitignored; the tracked
+                          minihack per-seed logs live in runlogs/minihack/)
 ```
 
 ## Setup

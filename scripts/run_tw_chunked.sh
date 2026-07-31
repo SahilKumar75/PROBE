@@ -6,6 +6,7 @@
 set -a
 . .env 2>/dev/null
 set +a
+mkdir -p runlogs
 
 MODEL="${OPENROUTER_MODELS:-meta-llama/llama-3.3-70b-instruct}"
 MAXTOK="${OPENROUTER_MAX_TOKENS:-512}"
@@ -28,7 +29,7 @@ for V in $VARIANTS; do
       TEXTWORLD_BUDGET="$BUDGET" TEXTWORLD_QUEST="$QUEST" \
       TEXTWORLD_ROOMS="$ROOMS" TEXTWORLD_OBJECTS="$OBJECTS" \
       TEXTWORLD_MAX_WORKERS=1 TEXTWORLD_BATCH_ID="twc_${V}_${START}" \
-      PYTHONPATH=src python3 -u scripts/run_textworld.py > "twc_${V}_${START}.log" 2>&1 &
+      PYTHONPATH=src python3 -u scripts/run_textworld.py > "runlogs/twc_${V}_${START}.log" 2>&1 &
     sleep 3
     START=$((START + CHUNK))
   done
@@ -38,7 +39,7 @@ echo "launched $(jobs -p | wc -l) worker processes"
 wait
 echo "==== ALL CHUNKS DONE ===="
 for V in $VARIANTS; do
-  n=$(cat twc_${V}_*.log 2>/dev/null | grep -c "\[$V\] seed")
-  w=$(cat twc_${V}_*.log 2>/dev/null | grep "\[$V\] seed" | grep -c "won=True")
+  n=$(cat runlogs/twc_${V}_*.log 2>/dev/null | grep -c "\[$V\] seed")
+  w=$(cat runlogs/twc_${V}_*.log 2>/dev/null | grep "\[$V\] seed" | grep -c "won=True")
   echo "$V: solved ${w}/${n}"
 done
