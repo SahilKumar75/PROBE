@@ -846,3 +846,157 @@ class TWProbe51Agent:
         self.last_state, self.last_score = state, score
         tag = " | STUCK" if stuck else ""
         return command, f"belief={self.belief[:55]} | capped={len(avoid)}{tag}"
+
+
+_ROOM_RE = re.compile(r"-= ([^=]+?) =-")
+_OBJ_RE = re.compile(r"^(?:take|examine|open|close|unlock|lock) ([a-zA-Z' -]+?)(?: from .*| with .*)?$")
+_GO_RE = re.compile(r"^go (north|south|east|west)$")
+
+
+class TWProbe52Agent:
+    """Probe 5.2: probe5.1's soft-cap anti-loop plus a WORLD MAP memory.
+
+    The union analysis showed 92/100 games are winnable by at least one agent,
+    so the ~0.56 plateau is not a task cap; it is wandering. Every earlier
+    variant carried only NEGATIVE memory (tried/dead/capped commands) and saw
+    just the current room plus 6 recent actions, so it forgot what it had seen
+    (a locked chest two rooms back, an exit never taken) and wandered blind.
+    probe5.2 adds the missing POSITIVE memory:
+      - a map of every room visited: its exits (and where they lead once
+        traversed) and the objects seen there (parsed from the admissible
+        commands, which is robust to prose changes);
+      - the map is shown each turn, so the model can plan a route back to a
+        remembered object once it acquires something new, instead of rediscovering.
+    Caps are tuned for map use: sensing 1 (idempotent), movement (go X) 3
+    (backtracking legitimately reuses moves), everything else 2.
+    """
+
+    def __init__(self, client=None):
+        self._client = client
+        self.belief = "I have just arrived and do not yet know the layout or the goal."
+        self.rule = "unknown; I must discover what earns score by trying actions that change the world and watching the score"
+        self.seen_states: set[str] = set()
+        self.steps_since_progress = 0
+        self.last_score = 0
+        self.cmd_uses: dict[str, int] = {}
+        self.rooms: dict[str, dict] = {}
+        self.cur_room: str | None = None
+        self.last_room: str | None = None
+        self.last_go: str | None = None
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def _cap(self, c: str) -> int:
+        if _is_sensing(c):
+            return 1
+        if _GO_RE.match(c):
+            return 3
+        return 2
+
+    def _blocked(self, c: str) -> bool:
+        return self.cmd_uses.get(c, 0) >= self._cap(c)
+
+    def _update_map(self, obs: dict, commands: list[str]) -> None:
+        m = _ROOM_RE.search(obs.get("description", ""))
+        room = m.group(1).strip() if m else (self.cur_room or "start")
+        entry = self.rooms.setdefault(room, {"exits": {}, "objects": set()})
+        for c in commands:
+            g = _GO_RE.match(c)
+            if g:
+                entry["exits"].setdefault(g.group(1), "?")
+            o = _OBJ_RE.match(c)
+            if o:
+                entry["objects"].add(o.group(1).strip()[:24])
+        # record the connection the last successful move revealed
+        if self.last_room and self.last_go and room != self.last_room:
+            self.rooms.setdefault(self.last_room, {"exits": {}, "objects": set()})["exits"][self.last_go] = room
+        self.last_room = self.cur_room
+        self.cur_room = room
+
+    def _render_map(self) -> str:
+        parts = []
+        for name, e in list(self.rooms.items())[:6]:
+            exits = ", ".join(f"{d}->{t}" for d, t in list(e["exits"].items())[:4]) or "none seen"
+            objs = ", ".join(sorted(e["objects"])[:5]) or "none seen"
+            here = " (YOU ARE HERE)" if name == self.cur_room else ""
+            parts.append(f"{name}{here}: exits[{exits}] things[{objs}]")
+        return " | ".join(parts)[:500]
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        commands = obs["admissible"]
+        state = repr(sorted(commands))
+        score = int(obs.get("score", 0))
+        self._update_map(obs, commands)
+
+        progress = score > self.last_score or state not in self.seen_states
+        self.seen_states.add(state)
+        self.steps_since_progress = 0 if progress else self.steps_since_progress + 1
+        stuck = self.steps_since_progress >= STUCK_STEPS
+
+        avoid = sorted(c for c in commands if self._blocked(c))
+        stuck_line = ""
+        if stuck:
+            stuck_line = (
+                "You seem STUCK. Use your map: go to a room or exit you have not fully explored, or apply something "
+                "in your inventory to a thing you remember seeing. Do NOT examine or look; do NOT pick from the avoid list.\n"
+            )
+
+        system = (
+            "You play a text adventure with a hidden objective and a 30-move budget, so every move must count. You "
+            "have a MAP of everything seen so far; use it to plan routes instead of wandering, and to return to "
+            "remembered things once you hold a relevant item. PREFER actions that change the world; examine each "
+            "thing at most once; do not repeat a move that led nowhere. Reply only with a JSON object."
+        )
+        prompt = (
+            f"{HIDDEN}\n"
+            f"Current score: {score} of a possible {obs['max_score']}.\n"
+            f"Location: {obs['description'][:500]}\n"
+            f"Inventory: {obs['inventory']}\n"
+            f"MAP so far: {self._render_map()}\n"
+            f"Situation belief and plan: {self.belief}\n"
+            f"Rule belief (what earns score, and what you ruled out): {self.rule}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"Do NOT choose any of these (used enough, led nowhere): {avoid or 'none'}.\n"
+            f"{stuck_line}"
+            f"Available commands:\n{_numbered(commands)}\n"
+            'Reply with one JSON object with keys: "belief" (situation and next step), "rule" (updated theory of what '
+            'raises the score), and "command_number" (the integer command).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        self.belief = str(parsed.get("belief", self.belief))[:400]
+        rule = parsed.get("rule")
+        if isinstance(rule, str) and rule.strip():
+            self.rule = rule.strip()[:400]
+        number = parsed.get("command_number")
+        if isinstance(number, int) and 0 <= number < len(commands):
+            command = commands[number]
+        else:
+            command = _select(text, commands)
+
+        if self._blocked(command):
+            untried_action = [c for c in commands if not self._blocked(c) and c not in self.cmd_uses and not _is_sensing(c)]
+            untried_any = [c for c in commands if not self._blocked(c) and c not in self.cmd_uses]
+            open_cmds = [c for c in commands if not self._blocked(c)]
+            if untried_action:
+                command = untried_action[0]
+            elif untried_any:
+                command = untried_any[0]
+            elif open_cmds:
+                command = open_cmds[0]
+            else:
+                command = min(commands, key=lambda c: self.cmd_uses.get(c, 0))
+
+        self.cmd_uses[command] = self.cmd_uses.get(command, 0) + 1
+        g = _GO_RE.match(command)
+        self.last_go = g.group(1) if g else None
+        self.last_score = score
+        tag = " | STUCK" if stuck else ""
+        return command, f"belief={self.belief[:45]} | rooms={len(self.rooms)}{tag}"
