@@ -736,3 +736,113 @@ class TWProbe5Agent:
         self.last_cmd, self.last_state, self.last_score = command, state, score
         tag = " | STUCK" if stuck else ""
         return command, f"belief={self.belief[:55]} | avoid={len(avoid)}{tag}"
+
+
+class TWProbe51Agent:
+    """Probe 5.1: probe5's anti-loop, but with a soft cap instead of a hard block.
+
+    probe5 blocked any non-sensing command after ONE non-scoring use, which was
+    too strict: some winnable games need a command twice (cross a room, come
+    back with a key), so the hard block broke them and probe5 fell to 0.44 from
+    probe1's 0.56 even though its won games were very clean. probe5.1 keeps the
+    anti-loop but loosens the cap:
+      - sensing (examine/look/inventory/search): cap 1 (idempotent, once is enough)
+      - every other command: cap 2 (allow a legitimate repeat, block the 3rd+)
+    This still kills the wasteful 3x+ loops seen in the losses (examine portal
+    x3, go east/west ping-pong) while letting a necessary second use through.
+    Everything else is probe4/probe5 (lean prompt, low examining, budget-aware).
+    """
+
+    def __init__(self, client=None):
+        self._client = client
+        self.belief = "I have just arrived and do not yet know the layout or the goal."
+        self.rule = "unknown; I must discover what earns score by trying actions that change the world and watching the score"
+        self.seen_states: set[str] = set()
+        self.steps_since_progress = 0
+        self.last_score = 0
+        self.cmd_uses: dict[str, int] = {}
+        self.last_state = None
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def _cap(self, c: str) -> int:
+        return 1 if _is_sensing(c) else 2
+
+    def _blocked(self, c: str) -> bool:
+        return self.cmd_uses.get(c, 0) >= self._cap(c)
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        commands = obs["admissible"]
+        state = repr(sorted(commands))
+        score = int(obs.get("score", 0))
+
+        progress = score > self.last_score or state not in self.seen_states
+        self.seen_states.add(state)
+        self.steps_since_progress = 0 if progress else self.steps_since_progress + 1
+        stuck = self.steps_since_progress >= STUCK_STEPS
+
+        avoid = sorted(c for c in commands if self._blocked(c))
+        stuck_line = ""
+        if stuck:
+            stuck_line = (
+                "You seem STUCK. Take a DIFFERENT world-changing action (move, take, open, put, unlock); do NOT "
+                "examine or look, and do NOT pick anything in the avoid list.\n"
+            )
+
+        system = (
+            "You play a text adventure with a hidden objective and a 30-move budget, so every move must count. Keep a "
+            "short situation belief and a short rule belief. PREFER actions that change the world; examine each thing "
+            "only once; do not repeat the same move more than twice. Reply only with a JSON object."
+        )
+        prompt = (
+            f"{HIDDEN}\n"
+            f"Current score: {score} of a possible {obs['max_score']}.\n"
+            f"Location: {obs['description'][:600]}\n"
+            f"Inventory: {obs['inventory']}\n"
+            f"Situation belief and plan: {self.belief}\n"
+            f"Rule belief (what earns score, and what you ruled out): {self.rule}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"Do NOT choose any of these (already used enough, led nowhere): {avoid or 'none'}.\n"
+            f"{stuck_line}"
+            f"Available commands:\n{_numbered(commands)}\n"
+            'Reply with one JSON object with keys: "belief" (situation and next step), "rule" (updated theory of what '
+            'raises the score), and "command_number" (the integer command).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        self.belief = str(parsed.get("belief", self.belief))[:400]
+        rule = parsed.get("rule")
+        if isinstance(rule, str) and rule.strip():
+            self.rule = rule.strip()[:400]
+        number = parsed.get("command_number")
+        if isinstance(number, int) and 0 <= number < len(commands):
+            command = commands[number]
+        else:
+            command = _select(text, commands)
+
+        # override a capped pick: prefer untried non-sensing, then untried, then
+        # any not-yet-capped command, then the least-used
+        if self._blocked(command):
+            untried_action = [c for c in commands if not self._blocked(c) and c not in self.cmd_uses and not _is_sensing(c)]
+            untried_any = [c for c in commands if not self._blocked(c) and c not in self.cmd_uses]
+            open_cmds = [c for c in commands if not self._blocked(c)]
+            if untried_action:
+                command = untried_action[0]
+            elif untried_any:
+                command = untried_any[0]
+            elif open_cmds:
+                command = open_cmds[0]
+            else:
+                command = min(commands, key=lambda c: self.cmd_uses.get(c, 0))
+
+        self.cmd_uses[command] = self.cmd_uses.get(command, 0) + 1
+        self.last_state, self.last_score = state, score
+        tag = " | STUCK" if stuck else ""
+        return command, f"belief={self.belief[:55]} | capped={len(avoid)}{tag}"
