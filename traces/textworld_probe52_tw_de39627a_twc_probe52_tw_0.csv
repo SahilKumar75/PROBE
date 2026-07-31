@@ -1,0 +1,506 @@
+run_id,variant,seed,step,command,reward,score,max_score,won,note
+de39627a,probe52_tw,0,0,examine Canadian limited edition safe,0.0,0,1,False,belief=I am in the Laundromat with a binder and a Ca | rooms=1
+de39627a,probe52_tw,0,1,examine binder,0.0,0,1,False,belief=I am in the Laundromat with a binder and a Ca | rooms=1
+de39627a,probe52_tw,0,2,insert binder into Canadian limited edition safe,0.0,0,1,False,belief=I am in the Laundromat with a binder and a Ca | rooms=1
+de39627a,probe52_tw,0,3,close Canadian limited edition safe,0.0,0,1,False,belief=I am in the Laundromat with a binder and a Ca | rooms=1
+de39627a,probe52_tw,0,4,go north,0.0,0,1,False,belief=Since closing the safe didn't provide new inf | rooms=1
+de39627a,probe52_tw,0,5,go south,0.0,0,1,False,belief=The current situation is that I'm in a shower | rooms=2
+de39627a,probe52_tw,0,6,examine Canadian limited edition latchkey,0.0,0,1,False,belief=The current situation is that I'm in a laundr | rooms=2
+de39627a,probe52_tw,0,7,take Canadian limited edition latchkey,0.0,0,1,False,belief=The current situation is that I'm in a laundr | rooms=2
+de39627a,probe52_tw,0,8,open Canadian limited edition safe,0.0,0,1,False,belief=The current situation is that I'm in a laundr | rooms=2
+de39627a,probe52_tw,0,9,take binder from Canadian limited edition safe,0.0,0,1,False,belief=The current situation is that I'm in a laundr | rooms=2
+de39627a,probe52_tw,0,10,go north,0.0,0,1,False,belief=The current situation is that I'm in a laundr | rooms=2
+de39627a,probe52_tw,0,11,examine gate,0.0,0,1,False,belief=The current situation is that I'm in the Show | rooms=2
+de39627a,probe52_tw,0,12,open gate,0.0,0,1,False,belief=The current situation is that I'm in the Show | rooms=2
+de39627a,probe52_tw,0,13,go east,0.0,0,1,False,belief=The current situation is that I'm in the Show | rooms=2
+de39627a,probe52_tw,0,14,take pair of headphones,0.0,0,1,False,"belief=I'm in the Cellar area, and I need to explore | rooms=3"
+de39627a,probe52_tw,0,15,go west,0.0,0,1,False,belief=I'm in the Cellar area with a pair of headpho | rooms=3
+de39627a,probe52_tw,0,16,go south,0.0,0,1,False,belief=I'm in the Shower area with a pair of headpho | rooms=3
+de39627a,probe52_tw,0,17,go north,0.0,0,1,False,belief=I'm in the Laundromat area with a pair of hea | rooms=3
+de39627a,probe52_tw,0,18,go south,0.0,0,1,False,belief=I'm in the Shower area with a pair of headpho | rooms=3
+de39627a,probe52_tw,0,19,insert Canadian limited edition latchkey into Canadian limited edition safe,0.0,0,1,False,belief=I'm in the Laundromat area with a pair of hea | rooms=3
+de39627a,probe52_tw,0,20,take Canadian limited edition latchkey from Canadian limited edition safe,0.0,0,1,False,belief=I've inserted the Canadian limited edition la | rooms=3
+de39627a,probe52_tw,0,21,close Canadian limited edition safe,0.0,0,1,False,belief=I've inserted the Canadian limited edition la | rooms=3
+de39627a,probe52_tw,0,22,look,0.0,0,1,False,belief=I've closed the Canadian limited edition safe | rooms=3
+de39627a,probe52_tw,0,23,drop Canadian limited edition latchkey,0.0,0,1,False,belief=I've closed the Canadian limited edition safe | rooms=3
+de39627a,probe52_tw,0,24,drop binder,0.0,0,1,False,belief=I should explore new areas to find clues or i | rooms=3
+de39627a,probe52_tw,0,25,examine pair of headphones,0.0,0,1,False,belief=I should explore new areas to find clues or i | rooms=3
+de39627a,probe52_tw,0,26,inventory,0.0,0,1,False,belief=I should explore new areas to find clues or i | rooms=3
+de39627a,probe52_tw,0,27,open Canadian limited edition safe,0.0,0,1,False,belief=I should explore new areas to find clues or i | rooms=3
+de39627a,probe52_tw,0,28,insert pair of headphones into Canadian limited edition safe,0.0,0,1,False,belief=I should try to use the pair of headphones in | rooms=3
+de39627a,probe52_tw,0,29,take pair of headphones from Canadian limited edition safe,0.0,0,1,False,belief=I should try to use the pair of headphones in | rooms=3
+de39627a,probe52_tw,1,0,unlock cuboid gate with cuboid keycard,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=1
+de39627a,probe52_tw,1,1,examine cabinet,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=1
+de39627a,probe52_tw,1,2,examine cuboid gate,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=1
+de39627a,probe52_tw,1,3,open cuboid gate,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=1
+de39627a,probe52_tw,1,4,go north,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=1
+de39627a,probe52_tw,1,5,go south,0.0,0,1,False,belief=I am in the Studio with a cuboid keycard and  | rooms=2
+de39627a,probe52_tw,1,6,go west,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=2
+de39627a,probe52_tw,1,7,take key,0.0,0,1,False,belief=I am in the Dish-Pit with a cuboid keycard an | rooms=3
+de39627a,probe52_tw,1,8,examine safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a cuboid keycard, a | rooms=3"
+de39627a,probe52_tw,1,9,examine platter,0.0,0,1,False,"belief=I am in the Dish-Pit with a cuboid keycard, a | rooms=3"
+de39627a,probe52_tw,1,10,open safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a cuboid keycard, a | rooms=3"
+de39627a,probe52_tw,1,11,look,0.0,0,1,False,"belief=I am in the Dish-Pit with a cuboid keycard, a | rooms=3"
+de39627a,probe52_tw,1,12,go east,0.0,0,1,False,"belief=I am in the Dish-Pit with a cuboid keycard, a | rooms=3"
+de39627a,probe52_tw,1,13,go north,0.0,0,1,False,"belief=I am in the Cookhouse with a key, a cuboid ke | rooms=3"
+de39627a,probe52_tw,1,14,go south,0.0,0,1,False,"belief=I am in the Studio with a key, a cuboid keyca | rooms=3"
+de39627a,probe52_tw,1,15,go north,0.0,0,1,False,"belief=I am in the Cookhouse with a key, a cuboid ke | rooms=3"
+de39627a,probe52_tw,1,16,go south,0.0,0,1,False,"belief=I am in the Studio with a key, a cuboid keyca | rooms=3"
+de39627a,probe52_tw,1,17,go west,0.0,0,1,False,"belief=I am in the Cookhouse with a key, a cuboid ke | rooms=3"
+de39627a,probe52_tw,1,18,put cuboid keycard on platter,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,19,put key on platter,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,20,take cuboid keycard from platter,0.0,0,1,False,belief=I am in the Dish-Pit with a key on the platte | rooms=3
+de39627a,probe52_tw,1,21,take key from platter,0.0,0,1,False,belief=I am in the Dish-Pit with a key on the platte | rooms=3
+de39627a,probe52_tw,1,22,insert key into safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,23,insert cuboid keycard into safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,24,close safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,25,open safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,26,take cuboid keycard from safe,0.0,0,1,False,"belief=I am in the Dish-Pit with a key, a cuboid key | rooms=3"
+de39627a,probe52_tw,1,27,go east,0.0,0,1,False,belief=I am in the Dish-Pit with a cuboid keycard an | rooms=3
+de39627a,probe52_tw,1,28,open cabinet,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=3
+de39627a,probe52_tw,1,29,insert cuboid keycard into cabinet,0.0,0,1,False,belief=I am in the Cookhouse with a cuboid keycard a | rooms=3
+de39627a,probe52_tw,2,0,examine portal,0.0,0,1,False,belief=I am in the Bedchamber and need to explore th | rooms=1
+de39627a,probe52_tw,2,1,examine bed stand,0.0,0,1,False,belief=I am in the Bedchamber and need to explore th | rooms=1
+de39627a,probe52_tw,2,2,examine safe,0.0,0,1,False,belief=I am in the Bedchamber and need to explore th | rooms=1
+de39627a,probe52_tw,2,3,unlock safe with latchkey,0.0,0,1,False,belief=I am in the Bedchamber and need to explore th | rooms=1
+de39627a,probe52_tw,2,4,open safe,0.0,0,1,False,belief=I am in the Bedchamber and have unlocked the  | rooms=1
+de39627a,probe52_tw,2,5,examine textbook,0.0,0,1,False,belief=I am in the Bedchamber and have opened the sa | rooms=1
+de39627a,probe52_tw,2,6,take textbook from safe,0.0,0,1,False,belief=I am in the Bedchamber and have opened the sa | rooms=1
+de39627a,probe52_tw,2,7,go south,0.0,0,1,False,belief=I am in the Bedchamber and have opened the sa | rooms=1
+de39627a,probe52_tw,2,8,go north,0.0,0,1,False,belief=I am in the Bedchamber and have opened the sa | rooms=2
+de39627a,probe52_tw,2,9,open portal,0.0,0,1,False,"belief=I am in the Bedchamber and have a textbook, l | rooms=2"
+de39627a,probe52_tw,2,10,insert latchkey into safe,0.0,0,1,False,"belief=I am in the Bedchamber with a textbook, latch | rooms=2"
+de39627a,probe52_tw,2,11,close safe,0.0,0,1,False,"belief=I am in the Bedchamber with a textbook, latch | rooms=2"
+de39627a,probe52_tw,2,12,go west,0.0,0,1,False,"belief=I am in the Bedchamber with a textbook, latch | rooms=2"
+de39627a,probe52_tw,2,13,go east,0.0,0,1,False,belief=I am in the Kitchen with a textbook and a sta | rooms=3
+de39627a,probe52_tw,2,14,go south,0.0,0,1,False,belief=I am in the Bedchamber with a textbook and a  | rooms=3
+de39627a,probe52_tw,2,15,go north,0.0,0,1,False,belief=I am in the Workshop with a textbook and a st | rooms=3
+de39627a,probe52_tw,2,16,open safe,0.0,0,1,False,belief=I am in the Bedchamber with a textbook and a  | rooms=3
+de39627a,probe52_tw,2,17,take latchkey from safe,0.0,0,1,False,"belief=I am in the Bedchamber with a textbook, a sta | rooms=3"
+de39627a,probe52_tw,2,18,go south,0.0,0,1,False,"belief=I am in the Bedchamber with a latchkey, a sta | rooms=3"
+de39627a,probe52_tw,2,19,go north,0.0,0,1,False,"belief=I am in the Workshop with a latchkey, a stapl | rooms=3"
+de39627a,probe52_tw,2,20,go west,0.0,0,1,False,"belief=I am in the Bedchamber with a latchkey, a sta | rooms=3 | STUCK"
+de39627a,probe52_tw,2,21,go east,0.0,0,1,False,"belief=I am in the Kitchen with a latchkey, a staple | rooms=3"
+de39627a,probe52_tw,2,22,go west,0.0,0,1,False,"belief=I am in the Bedchamber with a latchkey, a sta | rooms=3"
+de39627a,probe52_tw,2,23,examine nest of beetles,0.0,0,1,False,"belief=I am in the Kitchen with a latchkey, a staple | rooms=3"
+de39627a,probe52_tw,2,24,go east,0.0,0,1,False,"belief=I am in the Kitchen with a latchkey, a staple | rooms=3"
+de39627a,probe52_tw,2,25,insert latchkey into safe,0.0,0,1,False,"belief=I am in the Bedchamber with a latchkey, a sta | rooms=3"
+de39627a,probe52_tw,2,26,close portal,0.0,0,1,False,belief=I am in the Bedchamber and have inserted the  | rooms=3 | STUCK
+de39627a,probe52_tw,2,27,insert staple into safe,0.0,0,1,False,belief=I am in the Bedchamber and have inserted the  | rooms=3
+de39627a,probe52_tw,2,28,take staple from safe,0.0,0,1,False,belief=I am in the Bedchamber and have inserted the  | rooms=3
+de39627a,probe52_tw,2,29,put staple on bed stand,0.0,0,1,False,belief=I am in the Bedchamber and have taken the sta | rooms=3
+de39627a,probe52_tw,3,0,unlock box with keycard,0.0,0,1,False,belief=I am in a bedroom with several objects and ex | rooms=1
+de39627a,probe52_tw,3,1,examine box,0.0,0,1,False,"belief=I have unlocked the box, and my next step is  | rooms=1"
+de39627a,probe52_tw,3,2,examine bench,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,3,examine bookshelf,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,4,examine insect,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,5,drop insect,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,6,take insect,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,7,lock box with keycard,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,8,go west,0.0,0,1,False,belief=I have a keycard and an insect in the bedroom | rooms=1
+de39627a,probe52_tw,3,9,go east,0.0,0,1,False,belief=I am in the basement with a keycard and an in | rooms=2
+de39627a,probe52_tw,3,10,go west,0.0,0,1,False,belief=I am in the basement with a keycard and an in | rooms=2
+de39627a,probe52_tw,3,11,go east,0.0,0,1,False,belief=I am in the basement with a keycard and an in | rooms=2
+de39627a,probe52_tw,3,12,go west,0.0,0,1,False,belief=I am in the bedroom with a keycard and an ins | rooms=2
+de39627a,probe52_tw,3,13,go east,0.0,0,1,False,belief=I am in the basement with a keycard and an in | rooms=2
+de39627a,probe52_tw,3,14,unlock box with keycard,0.0,0,1,False,belief=I am in the bedroom with a keycard and an ins | rooms=2 | STUCK
+de39627a,probe52_tw,3,15,drop keycard,0.0,0,1,False,belief=I am in the bedroom with a keycard and an ins | rooms=2 | STUCK
+de39627a,probe52_tw,3,16,take keycard,0.0,0,1,False,belief=I am in the bedroom with a keycard and an ins | rooms=2
+de39627a,probe52_tw,3,17,look,0.0,0,1,False,belief=I am in the bedroom with a keycard and an ins | rooms=2
+de39627a,probe52_tw,3,18,open box,0.0,0,1,False,belief=I am in the bedroom with a keycard and an ins | rooms=2
+de39627a,probe52_tw,3,19,examine nest of bats,0.0,0,1,False,"belief=I am in the bedroom with a keycard, an insect | rooms=2"
+de39627a,probe52_tw,3,20,take nest of bats from box,0.0,0,1,False,"belief=I am in the bedroom with a keycard, an insect | rooms=2"
+de39627a,probe52_tw,3,21,put nest of bats on bench,1.0,1,1,True,"belief=I am in the bedroom with a keycard, an insect | rooms=2"
+de39627a,probe52_tw,4,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,4,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+de39627a,probe52_tw,4,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+de39627a,probe52_tw,4,3,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+de39627a,probe52_tw,4,4,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+de39627a,probe52_tw,4,5,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+de39627a,probe52_tw,4,6,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+de39627a,probe52_tw,4,7,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3 | STUCK
+de39627a,probe52_tw,4,8,go north,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,9,go south,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,10,go north,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,11,go south,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,12,inventory,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,13,drop controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,14,look,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,15,take controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,16,eat legume,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,17,examine controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,18,drop controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,19,take controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,20,examine controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,21,inventory,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,22,look,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,23,drop controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3
+de39627a,probe52_tw,4,24,examine controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,25,inventory,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,26,look,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,27,take controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,28,drop controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,4,29,examine controller,0.0,0,1,False,belief=I need to explore new paths and apply items f | rooms=3 | STUCK
+de39627a,probe52_tw,5,0,unlock gate with passkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,5,1,go south,0.0,0,1,False,belief=I have unlocked the gate and my next step is  | rooms=1
+de39627a,probe52_tw,5,2,go north,0.0,0,1,False,belief=I am in the Cookhouse and my next step is to  | rooms=2
+de39627a,probe52_tw,5,3,go south,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+de39627a,probe52_tw,5,4,go north,0.0,0,1,False,belief=I am in the Cookhouse and my next step is to  | rooms=2
+de39627a,probe52_tw,5,5,go south,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+de39627a,probe52_tw,5,6,go north,0.0,0,1,False,belief=I am in the Cookhouse and my next step is to  | rooms=2
+de39627a,probe52_tw,5,7,lock gate with passkey,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2 | STUCK
+de39627a,probe52_tw,5,8,inventory,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2 | STUCK
+de39627a,probe52_tw,5,9,unlock gate with passkey,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2 | STUCK
+de39627a,probe52_tw,5,10,drop cloak,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2 | STUCK
+de39627a,probe52_tw,5,11,take cloak,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+de39627a,probe52_tw,5,12,look,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+de39627a,probe52_tw,5,13,open gate,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+de39627a,probe52_tw,5,14,go east,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+de39627a,probe52_tw,5,15,examine coffer,0.0,0,1,False,belief=I am in the Study and my next step is to exam | rooms=3
+de39627a,probe52_tw,5,16,examine desk,0.0,0,1,False,belief=I am in the Study and my next step is to exam | rooms=3
+de39627a,probe52_tw,5,17,open coffer,0.0,0,1,False,belief=I am in the Study and my next step is to open | rooms=3
+de39627a,probe52_tw,5,18,insert passkey into coffer,0.0,0,1,False,belief=I am in the Study and have opened the coffer. | rooms=3
+de39627a,probe52_tw,5,19,take passkey from coffer,0.0,0,1,False,belief=I am in the Study and have opened the coffer. | rooms=3
+de39627a,probe52_tw,5,20,close gate,1.0,1,1,True,belief=I am in the Study and have the passkey. My ne | rooms=3
+de39627a,probe52_tw,6,0,examine workbench,0.0,0,1,False,"belief=I am in the basement with a gate, workbench,  | rooms=1"
+de39627a,probe52_tw,6,1,examine gate,0.0,0,1,False,"belief=I am in the basement with a gate, workbench,  | rooms=1"
+de39627a,probe52_tw,6,2,unlock gate with latchkey,0.0,0,1,False,"belief=I am in the basement with a gate, workbench,  | rooms=1"
+de39627a,probe52_tw,6,3,open gate,0.0,0,1,False,"belief=I am in the basement with a gate, workbench,  | rooms=1"
+de39627a,probe52_tw,6,4,go east,0.0,0,1,False,"belief=I am in the basement with a gate, workbench,  | rooms=1"
+de39627a,probe52_tw,6,5,examine soap dispenser,0.0,0,1,False,belief=I am in the sauna with a soap dispenser and s | rooms=2
+de39627a,probe52_tw,6,6,go west,0.0,0,1,False,belief=I am in the sauna with a soap dispenser and s | rooms=2
+de39627a,probe52_tw,6,7,put knife on workbench,0.0,0,1,False,belief=I am in the basement with a workbench and som | rooms=2
+de39627a,probe52_tw,6,8,go south,0.0,0,1,False,belief=I am in the basement with a workbench and som | rooms=2
+de39627a,probe52_tw,6,9,go north,0.0,0,1,False,belief=I am in the Lounge and my next step is to exp | rooms=3
+de39627a,probe52_tw,6,10,take knife from workbench,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=3
+de39627a,probe52_tw,6,11,go east,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=3
+de39627a,probe52_tw,6,12,go south,0.0,0,1,False,belief=I am in the Sauna and my next step is to expl | rooms=3
+de39627a,probe52_tw,6,13,go north,0.0,0,1,False,belief=I am in the Cookhouse and my next step is to  | rooms=4
+de39627a,probe52_tw,6,14,go west,0.0,0,1,False,belief=I am in the Sauna and my next step is to expl | rooms=4
+de39627a,probe52_tw,6,15,go east,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,6,16,take soap dispenser,1.0,1,1,True,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,7,0,examine chest,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,7,1,examine gate,0.0,0,1,False,"belief=I have examined the chest, and now I need to  | rooms=1"
+de39627a,probe52_tw,7,2,go south,0.0,0,1,False,"belief=I have examined the chest and gate, and now I | rooms=1"
+de39627a,probe52_tw,7,3,go north,0.0,0,1,False,belief=I am in the Washroom and I need to explore th | rooms=2
+de39627a,probe52_tw,7,4,go west,0.0,0,1,False,belief=I am in the Dish-Pit and I need to explore th | rooms=2
+de39627a,probe52_tw,7,5,go east,0.0,0,1,False,belief=I am in the Lounge and I need to explore the  | rooms=3
+de39627a,probe52_tw,7,6,go west,0.0,0,1,False,belief=I am in the Dish-Pit and I need to explore th | rooms=3
+de39627a,probe52_tw,7,7,go east,0.0,0,1,False,belief=I am in the Lounge and I need to explore the  | rooms=3
+de39627a,probe52_tw,7,8,go west,0.0,0,1,False,belief=I am in the Dish-Pit and I need to explore th | rooms=3
+de39627a,probe52_tw,7,9,go east,0.0,0,1,False,belief=I am in the Lounge and I need to explore the  | rooms=3
+de39627a,probe52_tw,7,10,go south,0.0,0,1,False,belief=I am in the Dish-Pit and I need to explore th | rooms=3 | STUCK
+de39627a,probe52_tw,7,11,go north,0.0,0,1,False,belief=I am in the Dish-Pit and I need to explore th | rooms=3 | STUCK
+de39627a,probe52_tw,7,12,go south,0.0,0,1,False,belief=I am in the Dish-Pit and I need to explore th | rooms=3 | STUCK
+de39627a,probe52_tw,7,13,go north,0.0,0,1,False,belief=I am in the Washroom and I need to explore th | rooms=3 | STUCK
+de39627a,probe52_tw,7,14,close chest,0.0,0,1,False,"belief=I need to explore new areas, and since I have | rooms=3 | STUCK"
+de39627a,probe52_tw,7,15,close gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,16,open gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,17,open chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,18,look,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,19,inventory,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,20,close chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,21,close gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3 | STUCK
+de39627a,probe52_tw,7,22,open chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3 | STUCK
+de39627a,probe52_tw,7,23,open gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,24,examine chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,25,examine gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,26,inventory,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,27,look,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3
+de39627a,probe52_tw,7,28,close chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3 | STUCK
+de39627a,probe52_tw,7,29,close gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=3 | STUCK
+de39627a,probe52_tw,8,0,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,8,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+de39627a,probe52_tw,8,2,go west,0.0,0,1,False,belief=I am in a cubicle with a locked type 8 box an | rooms=3
+de39627a,probe52_tw,8,3,take type 8 passkey from mantelpiece,0.0,0,1,False,"belief=I am in a study with a box, a mantelpiece, an | rooms=3"
+de39627a,probe52_tw,8,4,examine box,0.0,0,1,False,"belief=I am in a study with a box, a hatch, and a ty | rooms=3"
+de39627a,probe52_tw,8,5,examine hatch,0.0,0,1,False,"belief=I am in a study with a box, a hatch, and a ty | rooms=3"
+de39627a,probe52_tw,8,6,examine mantelpiece,0.0,0,1,False,"belief=I am in a study with a box, a hatch, and a ty | rooms=3"
+de39627a,probe52_tw,8,7,open box,0.0,0,1,False,"belief=I am in a study with a box, a hatch, and a ty | rooms=3"
+de39627a,probe52_tw,8,8,insert type 8 passkey into box,0.0,0,1,False,"belief=I am in a study with a box, a hatch, and a ty | rooms=3"
+de39627a,probe52_tw,8,9,go east,0.0,0,1,False,"belief=I am in a study with a box, a hatch, and a ty | rooms=3"
+de39627a,probe52_tw,8,10,go west,0.0,0,1,False,belief=I am in a cubicle with a locked type 8 box an | rooms=3
+de39627a,probe52_tw,8,11,go north,0.0,0,1,False,belief=I am in a study with a box containing a type  | rooms=3
+de39627a,probe52_tw,8,12,go south,0.0,0,1,False,"belief=I am in an office with a legume, and my next  | rooms=3"
+de39627a,probe52_tw,8,13,take type 8 passkey from box,0.0,0,1,False,belief=I am in a study with a box containing a type  | rooms=3
+de39627a,probe52_tw,8,14,go east,0.0,0,1,False,"belief=I am in a study with a box, a mantelpiece, an | rooms=3 | STUCK"
+de39627a,probe52_tw,8,15,unlock type 8 box with type 8 passkey,1.0,1,1,True,belief=I am in a cubicle with a locked type 8 box an | rooms=3
+de39627a,probe52_tw,9,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,9,1,examine counter,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,9,2,examine gate,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,9,3,open gate,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,9,4,go west,0.0,0,1,False,belief=I have just opened the gate and my score hasn | rooms=1
+de39627a,probe52_tw,9,5,go south,0.0,0,1,False,belief=I am in the Bedchamber and my next step is to | rooms=2
+de39627a,probe52_tw,9,6,go north,0.0,0,1,False,belief=I am in the Sauna and my next step is to expl | rooms=3
+de39627a,probe52_tw,9,7,go east,0.0,0,1,False,belief=I am in the Bedchamber and my next step is to | rooms=3
+de39627a,probe52_tw,9,8,open locker,0.0,0,1,False,belief=I am in the Basement and my next step is to i | rooms=3
+de39627a,probe52_tw,9,9,examine locker,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=3
+de39627a,probe52_tw,9,10,put sandwich on counter,0.0,0,1,False,belief=I am in the Basement and my next step is to t | rooms=3
+de39627a,probe52_tw,9,11,take sandwich from counter,0.0,0,1,False,belief=I am in the Basement and my next step is to t | rooms=3
+de39627a,probe52_tw,9,12,go west,0.0,0,1,False,belief=I am in the Basement with the sandwich in my  | rooms=3
+de39627a,probe52_tw,9,13,go south,0.0,0,1,False,belief=I am in the Bedchamber with the sandwich in m | rooms=3
+de39627a,probe52_tw,9,14,go north,0.0,0,1,False,belief=I am in the Sauna with the sandwich in my inv | rooms=3
+de39627a,probe52_tw,9,15,go east,0.0,0,1,False,belief=I am in the Bedchamber with the sandwich in m | rooms=3
+de39627a,probe52_tw,9,16,go north,0.0,0,1,False,belief=I am in the Basement and my next step is to g | rooms=3 | STUCK
+de39627a,probe52_tw,9,17,take keycard from shelf,0.0,0,1,False,belief=I am in the Spare Room and my next step is to | rooms=4
+de39627a,probe52_tw,9,18,go south,0.0,0,1,False,belief=I am in the Spare Room with a keycard and a s | rooms=4
+de39627a,probe52_tw,9,19,go west,0.0,0,1,False,belief=I am in the Basement with a keycard and a san | rooms=4
+de39627a,probe52_tw,9,20,go east,0.0,0,1,False,belief=I am in the Bedchamber with a keycard and a s | rooms=4
+de39627a,probe52_tw,9,21,close gate,0.0,0,1,False,belief=I am in the Basement. My next step is to go n | rooms=4
+de39627a,probe52_tw,9,22,insert keycard into locker,0.0,0,1,False,belief=I am in the Basement and my next step is to i | rooms=4
+de39627a,probe52_tw,9,23,take keycard from locker,0.0,0,1,False,belief=I am in the Basement and my next step is to t | rooms=4
+de39627a,probe52_tw,9,24,open gate,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,9,25,put keycard on counter,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,9,26,take keycard from counter,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,9,27,examine keycard,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,9,28,examine sandwich,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,9,29,insert keycard into locker,0.0,0,1,False,belief=I am in the Basement and my next step is to e | rooms=4
+de39627a,probe52_tw,10,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,10,1,examine type 2 chest,0.0,0,1,False,belief=I have just arrived in the attic and do not y | rooms=1
+de39627a,probe52_tw,10,2,examine portal,0.0,0,1,False,belief=I have just arrived in the attic and do not y | rooms=1
+de39627a,probe52_tw,10,3,open portal,0.0,0,1,False,belief=I have just arrived in the attic and do not y | rooms=1
+de39627a,probe52_tw,10,4,go south,0.0,0,1,False,belief=I have just opened the portal and my next ste | rooms=1
+de39627a,probe52_tw,10,5,go north,0.0,0,1,False,belief=I am in the Bedchamber and my next step is to | rooms=2
+de39627a,probe52_tw,10,6,open type 2 chest,0.0,0,1,False,belief=I am in the Attic and my next step is to inte | rooms=2
+de39627a,probe52_tw,10,7,go west,0.0,0,1,False,belief=I am in the Attic and my next step is to expl | rooms=2
+de39627a,probe52_tw,10,8,take type 2 key,0.0,0,1,False,belief=I am in the Spare Room and my next step is to | rooms=3
+de39627a,probe52_tw,10,9,insert type 2 key into chest,0.0,0,1,False,"belief=I am in the Spare Room with a type 2 key, fon | rooms=3"
+de39627a,probe52_tw,10,10,go east,0.0,0,1,False,"belief=I am in the Spare Room with a type 2 key, fon | rooms=3"
+de39627a,probe52_tw,10,11,go south,0.0,0,1,False,belief=I am in the Attic with a fondue and a teaspoo | rooms=3
+de39627a,probe52_tw,10,12,close portal,0.0,0,1,False,belief=I am in the Attic with a fondue and a teaspoo | rooms=3
+de39627a,probe52_tw,10,13,take broccoli,0.0,0,1,False,belief=I am in the Bedchamber with a fondue and a te | rooms=3
+de39627a,probe52_tw,10,14,go west,0.0,0,1,False,"belief=I am in the Bedchamber with a fondue, a teasp | rooms=3"
+de39627a,probe52_tw,10,15,go east,0.0,0,1,False,"belief=I am in the Chamber with a fondue, a teaspoon | rooms=4"
+de39627a,probe52_tw,10,16,open portal,0.0,0,1,False,"belief=I am in the Bedchamber with a fondue, a teasp | rooms=4"
+de39627a,probe52_tw,10,17,go north,0.0,0,1,False,"belief=I am in the Bedchamber with a fondue, a teasp | rooms=4"
+de39627a,probe52_tw,10,18,go south,0.0,0,1,False,"belief=I am in the Attic with a fondue, a teaspoon,  | rooms=4"
+de39627a,probe52_tw,10,19,eat broccoli,0.0,0,1,False,"belief=I am in the Bedchamber with a fondue, a teasp | rooms=4"
+de39627a,probe52_tw,10,20,go north,0.0,0,1,False,"belief=I am in the Bedchamber with a fondue, a teasp | rooms=4"
+de39627a,probe52_tw,10,21,go west,0.0,0,1,False,belief=I am in the Attic with a fondue and a teaspoo | rooms=4
+de39627a,probe52_tw,10,22,take type 2 key from chest,0.0,0,1,False,belief=I am in the Spare Room with a fondue and a te | rooms=4
+de39627a,probe52_tw,10,23,go east,0.0,0,1,False,"belief=I am in the Spare Room with a fondue, a teasp | rooms=4"
+de39627a,probe52_tw,10,24,insert type 2 key into type 2 chest,0.0,0,1,False,"belief=I am in the Attic with a fondue, a teaspoon,  | rooms=4"
+de39627a,probe52_tw,10,25,insert fondue into type 2 chest,0.0,0,1,False,"belief=I am in the Attic with a fondue, a teaspoon,  | rooms=4"
+de39627a,probe52_tw,10,26,take fondue from type 2 chest,0.0,0,1,False,belief=I am in the Attic with a fondue in the type 2 | rooms=4
+de39627a,probe52_tw,10,27,eat fondue,0.0,0,1,False,belief=I am in the Attic with a fondue and a teaspoo | rooms=4
+de39627a,probe52_tw,10,28,close portal,0.0,0,1,False,"belief=I am in the Attic with a teaspoon, having jus | rooms=4"
+de39627a,probe52_tw,10,29,insert teaspoon into type 2 chest,0.0,0,1,False,"belief=I am in the Attic with a teaspoon, having jus | rooms=4"
+de39627a,probe52_tw,11,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,11,1,take key from bench,0.0,0,1,False,belief=I have just arrived in the sauna and do not y | rooms=2
+de39627a,probe52_tw,11,2,unlock locker with key,0.0,0,1,False,belief=I am in the sauna with a key and need to expl | rooms=2
+de39627a,probe52_tw,11,3,examine locker,0.0,0,1,False,belief=I am in the sauna with an unlocked locker and | rooms=2
+de39627a,probe52_tw,11,4,examine safe,0.0,0,1,False,belief=I am in the sauna with an unlocked locker and | rooms=2
+de39627a,probe52_tw,11,5,examine bench,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,11,6,examine counter,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,11,7,examine key,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,11,8,go west,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2 | STUCK
+de39627a,probe52_tw,11,9,go east,0.0,0,1,False,belief=I am in the kitchen and need to explore the s | rooms=2
+de39627a,probe52_tw,11,10,lock locker with key,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,11,11,unlock locker with key,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,11,12,look,0.0,0,1,False,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,11,13,open locker,1.0,1,1,True,belief=I am in the sauna and need to explore the spa | rooms=2
+de39627a,probe52_tw,12,0,examine gateway,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,12,1,examine locker,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,12,2,take rectangular keycard from locker,0.0,0,1,False,belief=I have examined the locker and seen a keycard | rooms=1
+de39627a,probe52_tw,12,3,open gateway,0.0,0,1,False,belief=I have taken the keycard and my next step is  | rooms=1
+de39627a,probe52_tw,12,4,unlock rectangular locker with rectangular keycard,0.0,0,1,False,belief=I have taken the keycard and my next step is  | rooms=1
+de39627a,probe52_tw,12,5,examine rectangular locker,0.0,0,1,False,belief=I have unlocked the rectangular locker and my | rooms=1
+de39627a,probe52_tw,12,6,open rectangular locker,0.0,0,1,False,"belief=The rectangular locker is now unlocked, and t | rooms=1"
+de39627a,probe52_tw,12,7,take cloak from rectangular locker,1.0,1,1,True,belief=The rectangular locker is now unlocked and op | rooms=1
+de39627a,probe52_tw,13,0,examine coffer,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,13,1,go east,0.0,0,1,False,"belief=I have examined the coffer and it's closed, m | rooms=1"
+de39627a,probe52_tw,13,2,go west,0.0,0,1,False,"belief=I have examined the coffer and it's closed, m | rooms=2"
+de39627a,probe52_tw,13,3,go east,0.0,0,1,False,belief=I need to explore the environment and interac | rooms=2
+de39627a,probe52_tw,13,4,put chocolate bar on shelf,0.0,0,1,False,belief=I am in the Laundromat and need to explore an | rooms=2
+de39627a,probe52_tw,13,5,open cabinet,0.0,0,1,False,belief=I am in the Laundromat and have placed the ch | rooms=2
+de39627a,probe52_tw,13,6,take sponge from cabinet,0.0,0,1,False,belief=I am in the Laundromat and have opened the ca | rooms=2
+de39627a,probe52_tw,13,7,examine portal,0.0,0,1,False,"belief=I am in the Laundromat with a sponge. Next, I | rooms=2"
+de39627a,probe52_tw,13,8,examine cabinet,0.0,0,1,False,belief=I am in the Laundromat with a sponge. Since e | rooms=2
+de39627a,probe52_tw,13,9,examine chocolate bar,0.0,0,1,False,belief=I am in the Laundromat with a sponge and an o | rooms=2
+de39627a,probe52_tw,13,10,examine shelf,0.0,0,1,False,belief=I am in the Laundromat with a sponge and an o | rooms=2
+de39627a,probe52_tw,13,11,take chocolate bar from shelf,0.0,0,1,False,belief=I am in the Laundromat with a sponge and an o | rooms=2
+de39627a,probe52_tw,13,12,put chocolate bar on shelf,0.0,0,1,False,belief=I am in the Laundromat with a sponge and an o | rooms=2
+de39627a,probe52_tw,13,13,put sponge on shelf,1.0,1,1,True,belief=I am in the Laundromat with a sponge and an o | rooms=2
+de39627a,probe52_tw,14,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,14,1,unlock American style box with American style passkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+de39627a,probe52_tw,14,2,open American style box,0.0,0,1,False,"belief=I have unlocked the American style box, and m | rooms=2"
+de39627a,probe52_tw,14,3,examine pair of pants,0.0,0,1,False,belief=I have unlocked and opened the American style | rooms=2
+de39627a,probe52_tw,14,4,take pair of pants from American style box,1.0,1,1,True,belief=I have unlocked and opened the American style | rooms=2
+de39627a,probe52_tw,15,0,go west,0.0,0,1,False,belief=I am in the Canteen with unknown exits and no | rooms=1
+de39627a,probe52_tw,15,1,close door,0.0,0,1,False,belief=I am in the Canteen with unknown exits and no | rooms=2
+de39627a,probe52_tw,15,2,examine mug,0.0,0,1,False,belief=I am in the Kitchenette with a door and a mug | rooms=2
+de39627a,probe52_tw,15,3,examine door,0.0,0,1,False,belief=I am in the Kitchenette with a door and a mug | rooms=2
+de39627a,probe52_tw,15,4,open door,0.0,0,1,False,belief=I am in the Kitchenette with a door and a mug | rooms=2
+de39627a,probe52_tw,15,5,go north,0.0,0,1,False,belief=I am in the Kitchenette with a door and a mug | rooms=2
+de39627a,probe52_tw,15,6,take raspberry,0.0,0,1,False,belief=I am in the Workshop with an armchair and a r | rooms=3
+de39627a,probe52_tw,15,7,put raspberry on armchair,0.0,0,1,False,belief=I am in the Workshop with an armchair and I h | rooms=3
+de39627a,probe52_tw,15,8,go east,0.0,0,1,False,belief=I have placed the raspberry on the armchair a | rooms=3
+de39627a,probe52_tw,15,9,take mop from table,1.0,1,1,True,"belief=I am in the shower and I see a mop, a sponge, | rooms=4"
+de39627a,probe52_tw,16,0,examine chest,0.0,0,1,False,belief=I have just arrived in the Steam Room and nee | rooms=1
+de39627a,probe52_tw,16,1,examine hatch,0.0,0,1,False,belief=I am in the Steam Room with a kettle and need | rooms=1
+de39627a,probe52_tw,16,2,go west,0.0,0,1,False,belief=I am in the Steam Room with a kettle and need | rooms=1
+de39627a,probe52_tw,16,3,examine safe,0.0,0,1,False,belief=I am in the Studio with a kettle and need to  | rooms=2
+de39627a,probe52_tw,16,4,examine case,0.0,0,1,False,belief=I am in the Studio with a kettle and need to  | rooms=2
+de39627a,probe52_tw,16,5,take key from case,0.0,0,1,False,belief=I am in the Studio with a kettle and need to  | rooms=2
+de39627a,probe52_tw,16,6,unlock safe with key,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,7,examine keycard,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,8,examine kettle,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,9,go east,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,10,go west,0.0,0,1,False,belief=I am in the Steam Room with a kettle and a ke | rooms=2
+de39627a,probe52_tw,16,11,open safe,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,12,insert key into safe,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,13,take keycard from case,0.0,0,1,False,"belief=I am in the Studio with a kettle and a key, a | rooms=2"
+de39627a,probe52_tw,16,14,go east,0.0,0,1,False,belief=I am in the Studio with a kettle and a keycar | rooms=2
+de39627a,probe52_tw,16,15,unlock chest with keycard,1.0,1,1,True,belief=I am in the Steam Room with a kettle and a ke | rooms=2
+de39627a,probe52_tw,17,0,examine suitcase,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,17,1,insert loaf of bread into suitcase,0.0,0,1,False,"belief=I have examined the suitcase, and now I need  | rooms=1"
+de39627a,probe52_tw,17,2,close suitcase,0.0,0,1,False,belief=I have inserted the loaf of bread into the su | rooms=1
+de39627a,probe52_tw,17,3,go north,0.0,0,1,False,belief=I have closed the suitcase and now I want to  | rooms=1
+de39627a,probe52_tw,17,4,go east,0.0,0,1,False,belief=I am in the pantry and want to explore the su | rooms=2
+de39627a,probe52_tw,17,5,take key from mantle,0.0,0,1,False,belief=I am in the Bar and want to explore the surro | rooms=3
+de39627a,probe52_tw,17,6,examine chest,0.0,0,1,False,belief=I am in the Bar and want to explore the surro | rooms=3
+de39627a,probe52_tw,17,7,open chest,0.0,0,1,False,belief=I am in the Bar and want to explore the surro | rooms=3
+de39627a,probe52_tw,17,8,insert key into chest,0.0,0,1,False,belief=I am in the Bar and want to explore the surro | rooms=3
+de39627a,probe52_tw,17,9,go west,0.0,0,1,False,"belief=I have inserted the key into the chest, and m | rooms=3"
+de39627a,probe52_tw,17,10,examine fly larva,0.0,0,1,False,belief=I am in the Pantry and my next step is to exp | rooms=3
+de39627a,probe52_tw,17,11,take fly larva,0.0,0,1,False,belief=I am in the Pantry and my next step is to exp | rooms=3
+de39627a,probe52_tw,17,12,go east,0.0,0,1,False,belief=I am in the Pantry and my next step is to exp | rooms=3
+de39627a,probe52_tw,17,13,examine mantle,0.0,0,1,False,belief=I am in the Bar and my next step is to explor | rooms=3
+de39627a,probe52_tw,17,14,put fly larva on mantle,0.0,0,1,False,belief=I am in the Bar and my next step is to explor | rooms=3
+de39627a,probe52_tw,17,15,take key from chest,0.0,0,1,False,belief=I am in the Bar and my next step is to explor | rooms=3
+de39627a,probe52_tw,17,16,go west,0.0,0,1,False,"belief=I am in the Bar with a key, and my next step  | rooms=3"
+de39627a,probe52_tw,17,17,go east,0.0,0,1,False,"belief=I am in the Pantry with a key, and my next st | rooms=3"
+de39627a,probe52_tw,17,18,go west,0.0,0,1,False,"belief=I am in the Bar with a key, and my next step  | rooms=3"
+de39627a,probe52_tw,17,19,go north,0.0,0,1,False,"belief=I am in the Pantry with a key, and my next st | rooms=3"
+de39627a,probe52_tw,17,20,go south,0.0,0,1,False,"belief=I am in the Kitchen with a key, and my next s | rooms=4"
+de39627a,probe52_tw,17,21,go south,0.0,0,1,False,"belief=I am in the Pantry with a key, and my next st | rooms=4"
+de39627a,probe52_tw,17,22,open suitcase,0.0,0,1,False,belief=I am in the Salon with a key and I see a suit | rooms=4
+de39627a,probe52_tw,17,23,take loaf of bread from suitcase,0.0,0,1,False,belief=I am in the Salon with a key and I see a loaf | rooms=4
+de39627a,probe52_tw,17,24,go north,0.0,0,1,False,belief=I am in the Salon with a key and a loaf of br | rooms=4
+de39627a,probe52_tw,17,25,go south,0.0,0,1,False,belief=I am in the Pantry with a key and a loaf of b | rooms=4
+de39627a,probe52_tw,17,26,look,0.0,0,1,False,belief=I am in the Salon with a key and a loaf of br | rooms=4
+de39627a,probe52_tw,17,27,insert key into suitcase,0.0,0,1,False,belief=I am in the Salon with a key and a loaf of br | rooms=4
+de39627a,probe52_tw,17,28,drop loaf of bread,0.0,0,1,False,belief=I am in the Salon with a key and a loaf of br | rooms=4
+de39627a,probe52_tw,17,29,inventory,0.0,0,1,False,belief=I am in the Salon with a key and a loaf of br | rooms=4
+de39627a,probe52_tw,18,0,examine mantelpiece,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,18,1,put stick of butter on mantelpiece,0.0,0,1,False,belief=I have examined the mantelpiece and now I wan | rooms=1
+de39627a,probe52_tw,18,2,put type 6 keycard on mantelpiece,0.0,0,1,False,belief=I have put the stick of butter on the mantelp | rooms=1
+de39627a,probe52_tw,18,3,go west,0.0,0,1,False,belief=I have put the type 6 keycard on the mantelpi | rooms=1
+de39627a,probe52_tw,18,4,examine type 6 chest,0.0,0,1,False,belief=I am in the Studio with a type 6 chest and a  | rooms=2
+de39627a,probe52_tw,18,5,examine gate,0.0,0,1,False,belief=I am in the Studio with a type 6 chest and a  | rooms=2
+de39627a,probe52_tw,18,6,go east,0.0,0,1,False,belief=I am in the Studio with a closed gate. My nex | rooms=2
+de39627a,probe52_tw,18,7,take type 6 keycard from mantelpiece,0.0,0,1,False,belief=I am in the Chamber with a mantelpiece contai | rooms=2
+de39627a,probe52_tw,18,8,examine stick of butter,0.0,0,1,False,belief=I am in the Chamber with a type 6 keycard and | rooms=2
+de39627a,probe52_tw,18,9,go west,0.0,0,1,False,belief=I am in the Chamber with a type 6 keycard and | rooms=2 | STUCK
+de39627a,probe52_tw,18,10,unlock type 6 chest with type 6 keycard,0.0,0,1,False,belief=I am in the Studio with a type 6 keycard and  | rooms=2
+de39627a,probe52_tw,18,11,open type 6 chest,0.0,0,1,False,belief=I am in the Studio with a type 6 keycard and  | rooms=2
+de39627a,probe52_tw,18,12,take shadfly from type 6 chest,1.0,1,1,True,belief=I am in the Studio with a type 6 keycard and  | rooms=2
+de39627a,probe52_tw,19,0,unlock TextWorld limited edition safe with TextWorld limited edition passkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,19,1,open TextWorld limited edition safe,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,19,2,examine cashew,0.0,0,1,False,belief=I have just opened the safe and found a cashe | rooms=1
+de39627a,probe52_tw,19,3,go west,0.0,0,1,False,belief=I have examined the cashew and it didn't rais | rooms=1
+de39627a,probe52_tw,19,4,examine toolbox,0.0,0,1,False,belief=I am in a cubicle with a toolbox and a closed | rooms=2
+de39627a,probe52_tw,19,5,examine gate,0.0,0,1,False,belief=I am in a cubicle with a toolbox and a closed | rooms=2
+de39627a,probe52_tw,19,6,open toolbox,0.0,0,1,False,belief=I am in a cubicle with a toolbox and a closed | rooms=2
+de39627a,probe52_tw,19,7,insert TextWorld limited edition passkey into toolbox,0.0,0,1,False,belief=I am in a cubicle with an open toolbox and a  | rooms=2
+de39627a,probe52_tw,19,8,take TextWorld limited edition passkey from toolbox,0.0,0,1,False,belief=I am in a cubicle with an open toolbox and a  | rooms=2
+de39627a,probe52_tw,19,9,go east,0.0,0,1,False,belief=I am in a cubicle with an open toolbox and a  | rooms=2
+de39627a,probe52_tw,19,10,take cashew from TextWorld limited edition safe,0.0,0,1,False,belief=I am in the Laundry Place with an open TextWo | rooms=2
+de39627a,probe52_tw,19,11,go west,0.0,0,1,False,"belief=I am in the Laundry Place with a cashew, and  | rooms=2"
+de39627a,probe52_tw,19,12,examine TextWorld limited edition passkey,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,13,look,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,14,insert TextWorld limited edition passkey into toolbox,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,15,take TextWorld limited edition passkey from toolbox,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,16,close toolbox,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,17,go east,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,18,insert TextWorld limited edition passkey into TextWorld limited edition safe,0.0,0,1,False,"belief=I am in the Laundry Place with a cashew, burg | rooms=2"
+de39627a,probe52_tw,19,19,go west,0.0,0,1,False,"belief=I am in the Laundry Place with a cashew, burg | rooms=2"
+de39627a,probe52_tw,19,20,open toolbox,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,21,insert cashew into toolbox,0.0,0,1,False,"belief=I am in the Cubicle with a cashew, burger, an | rooms=2"
+de39627a,probe52_tw,19,22,insert burger into toolbox,0.0,0,1,False,belief=I am in the Cubicle with a burger and a toolb | rooms=2
+de39627a,probe52_tw,19,23,take burger from toolbox,0.0,0,1,False,belief=I am in the Cubicle with a burger and a toolb | rooms=2
+de39627a,probe52_tw,19,24,eat burger,0.0,0,1,False,belief=I am in the Cubicle with a burger and a toolb | rooms=2
+de39627a,probe52_tw,19,25,take cashew from toolbox,0.0,0,1,False,belief=I am in the Cubicle with a toolbox containing | rooms=2
+de39627a,probe52_tw,19,26,go east,0.0,0,1,False,belief=I am in the Cubicle with a cashew. My next st | rooms=2
+de39627a,probe52_tw,19,27,take TextWorld limited edition passkey from TextWorld limited edition safe,0.0,0,1,False,belief=I am in the Laundry Place with a cashew. My n | rooms=2
+de39627a,probe52_tw,19,28,close TextWorld limited edition safe,0.0,0,1,False,belief=I am in the Laundry Place with a cashew and a | rooms=2
+de39627a,probe52_tw,19,29,lock TextWorld limited edition safe with TextWorld limited edition passkey,0.0,0,1,False,belief=I am in the Laundry Place with a cashew and a | rooms=2
+de39627a,probe52_tw,20,0,unlock cuboid safe with cuboid latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,20,1,open cuboid safe,0.0,0,1,False,"belief=I have unlocked the cuboid safe, and my next  | rooms=1"
+de39627a,probe52_tw,20,2,look,0.0,0,1,False,"belief=I have opened the cuboid safe, and my next st | rooms=1"
+de39627a,probe52_tw,20,3,go north,0.0,0,1,False,belief=I have opened the cuboid safe and found it em | rooms=1
+de39627a,probe52_tw,20,4,take passkey,0.0,0,1,False,belief=I am in the sauna with a passkey and a cuboid | rooms=2
+de39627a,probe52_tw,20,5,go east,0.0,0,1,False,belief=I am in the sauna with a passkey and a cuboid | rooms=2
+de39627a,probe52_tw,20,6,go west,0.0,0,1,False,belief=I am in the Garage with a passkey and a cuboi | rooms=3
+de39627a,probe52_tw,20,7,go north,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=3
+de39627a,probe52_tw,20,8,go south,0.0,0,1,False,belief=I am in the Study with a passkey and a cuboid | rooms=4
+de39627a,probe52_tw,20,9,go east,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4
+de39627a,probe52_tw,20,10,go west,0.0,0,1,False,belief=I am in the Garage with a passkey and a cuboi | rooms=4
+de39627a,probe52_tw,20,11,go east,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4
+de39627a,probe52_tw,20,12,go west,0.0,0,1,False,belief=I am in the Garage with a passkey and a cuboi | rooms=4
+de39627a,probe52_tw,20,13,go north,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4 | STUCK
+de39627a,probe52_tw,20,14,go south,0.0,0,1,False,belief=I am in the Study with a passkey and a cuboid | rooms=4 | STUCK
+de39627a,probe52_tw,20,15,unlock safe with passkey,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4 | STUCK
+de39627a,probe52_tw,20,16,open safe,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4
+de39627a,probe52_tw,20,17,examine worm,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4
+de39627a,probe52_tw,20,18,take worm,0.0,0,1,False,belief=I am in the Sauna with a passkey and a cuboid | rooms=4
+de39627a,probe52_tw,20,19,go south,0.0,0,1,False,"belief=I am in the Sauna with a passkey, a cuboid la | rooms=4"
+de39627a,probe52_tw,20,20,put worm on bar,0.0,0,1,False,"belief=I am in the Salon with a passkey, a cuboid la | rooms=4"
+de39627a,probe52_tw,20,21,insert cuboid latchkey into cuboid safe,0.0,0,1,False,"belief=I am in the Salon with a passkey, a cuboid la | rooms=4"
+de39627a,probe52_tw,20,22,examine cuboid safe,0.0,0,1,False,belief=I am in the Salon with a passkey and a worm o | rooms=4
+de39627a,probe52_tw,20,23,examine bar,0.0,0,1,False,belief=I am in the Salon with a passkey and a worm o | rooms=4
+de39627a,probe52_tw,20,24,insert passkey into cuboid safe,0.0,0,1,False,belief=I am in the Salon with a passkey and a worm o | rooms=4
+de39627a,probe52_tw,20,25,take worm from bar,0.0,0,1,False,belief=I am in the Salon with a passkey inserted int | rooms=4
+de39627a,probe52_tw,20,26,insert worm into cuboid safe,0.0,0,1,False,belief=I am in the Salon with a worm and a passkey i | rooms=4
+de39627a,probe52_tw,20,27,close cuboid safe,0.0,0,1,False,belief=I am in the Salon with a worm and a passkey i | rooms=4
+de39627a,probe52_tw,20,28,open cuboid safe,0.0,0,1,False,belief=I am in the Salon with a worm and a passkey i | rooms=4
+de39627a,probe52_tw,20,29,take cuboid latchkey from cuboid safe,0.0,0,1,False,belief=I am in the Salon with a worm and a passkey i | rooms=4
+de39627a,probe52_tw,21,0,go west,0.0,0,1,False,belief=I am in the Kitchen with a shadfly and a pass | rooms=1
+de39627a,probe52_tw,21,1,take type 0 keycard from counter,0.0,0,1,False,belief=I am in the Canteen with a shadfly and a coun | rooms=2
+de39627a,probe52_tw,21,2,go east,0.0,0,1,False,belief=I am in the Canteen with a shadfly and a type | rooms=2
+de39627a,probe52_tw,21,3,unlock type 0 chest with type 0 keycard,1.0,1,1,True,belief=I am in the Kitchen with a shadfly and a type | rooms=2
+de39627a,probe52_tw,22,0,examine passageway,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=1
+de39627a,probe52_tw,22,1,examine glove,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=1
+de39627a,probe52_tw,22,2,take glove,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=1
+de39627a,probe52_tw,22,3,examine butterfly,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=1
+de39627a,probe52_tw,22,4,examine legume,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=1
+de39627a,probe52_tw,22,5,go south,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=1
+de39627a,probe52_tw,22,6,examine iron,0.0,0,1,False,belief=I am in the Laundromat and I need to explore  | rooms=2
+de39627a,probe52_tw,22,7,take iron,0.0,0,1,False,belief=I am in the Laundromat and I need to explore  | rooms=2
+de39627a,probe52_tw,22,8,go north,0.0,0,1,False,belief=I am in the Laundromat and I need to explore  | rooms=2
+de39627a,probe52_tw,22,9,examine stand,0.0,0,1,False,belief=I am in the Pantry and I need to explore the  | rooms=2
+de39627a,probe52_tw,22,10,put iron on stand,1.0,1,1,True,belief=I am in the Pantry and I need to explore the  | rooms=2
+de39627a,probe52_tw,23,0,open type X locker,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+de39627a,probe52_tw,23,1,take formless key from type X locker,0.0,0,1,False,belief=I have found a formless key in the type X loc | rooms=1
+de39627a,probe52_tw,23,2,unlock formless chest with formless key,0.0,0,1,False,belief=I have a formless key and my next step is to  | rooms=1
+de39627a,probe52_tw,23,3,open formless chest,1.0,1,1,True,belief=I have unlocked the formless chest and my nex | rooms=1
+de39627a,probe52_tw,24,0,unlock box with passkey,0.0,0,1,False,"belief=I am in the Study with a passkey, and my next | rooms=1"
+de39627a,probe52_tw,24,1,examine chest,0.0,0,1,False,belief=I am in the Study with a passkey and an unloc | rooms=1
+de39627a,probe52_tw,24,2,examine box,0.0,0,1,False,belief=I am in the Study with a passkey and an unloc | rooms=1
+de39627a,probe52_tw,24,3,go west,0.0,0,1,False,belief=I am in the Study with a passkey and an unloc | rooms=1
+de39627a,probe52_tw,24,4,go east,0.0,0,1,False,belief=I am in the Laundromat with a passkey. My nex | rooms=2
+de39627a,probe52_tw,24,5,lock box with passkey,0.0,0,1,False,belief=I am in the Study with a passkey and a locked | rooms=2
+de39627a,probe52_tw,24,6,examine passkey,0.0,0,1,False,belief=I am in the Study with a passkey and a locked | rooms=2
+de39627a,probe52_tw,24,7,unlock box with passkey,0.0,0,1,False,belief=I am in the Study with a passkey and a locked | rooms=2
+de39627a,probe52_tw,24,8,lock box with passkey,0.0,0,1,False,belief=I am in the Study with a passkey and a locked | rooms=2
+de39627a,probe52_tw,24,9,go west,0.0,0,1,False,belief=I am in the Study with a passkey and a locked | rooms=2 | STUCK
+de39627a,probe52_tw,24,10,put passkey on table,0.0,0,1,False,belief=I am in the Laundromat with a passkey and a c | rooms=2 | STUCK
+de39627a,probe52_tw,24,11,examine gate,0.0,0,1,False,belief=I am in the Laundromat with a passkey and a c | rooms=2
+de39627a,probe52_tw,24,12,take passkey from table,0.0,0,1,False,belief=I am in the Laundromat with a passkey and a c | rooms=2
+de39627a,probe52_tw,24,13,go east,0.0,0,1,False,belief=I am in the Laundromat with a passkey and a c | rooms=2
+de39627a,probe52_tw,24,14,drop passkey,0.0,0,1,False,"belief=I am in the Study with a passkey, a locked bo | rooms=2"
+de39627a,probe52_tw,24,15,take passkey,0.0,0,1,False,belief=I am in the Study with a passkey on the groun | rooms=2
+de39627a,probe52_tw,24,16,go west,0.0,0,1,False,"belief=I am in the Study with a passkey, a locked bo | rooms=2"
+de39627a,probe52_tw,24,17,examine table,0.0,0,1,False,"belief=I am in the Laundromat with a passkey, a clos | rooms=2"
+de39627a,probe52_tw,24,18,put passkey on table,0.0,0,1,False,"belief=I am in the Laundromat with a passkey, a clos | rooms=2"
+de39627a,probe52_tw,24,19,take passkey from table,0.0,0,1,False,belief=I am in the Laundromat with a passkey on the  | rooms=2
+de39627a,probe52_tw,24,20,go east,0.0,0,1,False,belief=I should go back to the Study and try to use  | rooms=2 | STUCK
+de39627a,probe52_tw,24,21,inventory,0.0,0,1,False,belief=I should try to unlock the chest with the pas | rooms=2 | STUCK
+de39627a,probe52_tw,24,22,drop passkey,0.0,0,1,False,belief=I should try to unlock the gate with the pass | rooms=2 | STUCK
+de39627a,probe52_tw,24,23,take passkey,0.0,0,1,False,belief=I should pick up the passkey and head to the  | rooms=2 | STUCK
+de39627a,probe52_tw,24,24,look,0.0,0,1,False,belief=I should head to the Laundromat and try unloc | rooms=2 | STUCK
+de39627a,probe52_tw,24,25,examine box,0.0,0,1,False,belief=I should try unlocking the chest with the pas | rooms=2 | STUCK
+de39627a,probe52_tw,24,26,examine chest,0.0,0,1,False,belief=I should try unlocking the chest with the pas | rooms=2 | STUCK
+de39627a,probe52_tw,24,27,examine passkey,0.0,0,1,False,belief=I should try unlocking the chest with the pas | rooms=2 | STUCK
+de39627a,probe52_tw,24,28,inventory,0.0,0,1,False,"belief=I should try to unlock the chest, but since ' | rooms=2 | STUCK"
+de39627a,probe52_tw,24,29,look,0.0,0,1,False,belief=I should go to the Laundromat to explore the  | rooms=2 | STUCK

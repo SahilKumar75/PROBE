@@ -1,0 +1,471 @@
+run_id,variant,seed,step,command,reward,score,max_score,won,note
+a14061d4,probe4_tw,50,0,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,50,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,50,2,take type 1 passkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,50,3,unlock type 1 chest with type 1 passkey,0.0,0,1,False,"belief=I have a type 1 passkey and an iron, and my next step is to  | rule=Using items, especially passkeys, might raise the score, as "
+a14061d4,probe4_tw,50,4,open type 1 chest,0.0,0,1,False,"belief=I have unlocked the type 1 chest and my next step is to open | rule=Using items, especially passkeys, and interacting with chest"
+a14061d4,probe4_tw,50,5,take pair of headphones from type 1 chest,1.0,1,1,True,"belief=I have unlocked and opened the type 1 chest, and my next ste | rule=Using items, especially passkeys, and interacting with chest"
+a14061d4,probe4_tw,51,0,go south,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving might reveal more about the world and po"
+a14061d4,probe4_tw,51,1,go east,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving might reveal more about the world and po"
+a14061d4,probe4_tw,51,2,take tablet,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but interacting with objects might reveal more abou"
+a14061d4,probe4_tw,51,3,examine tablet,0.0,0,1,False,"belief=I have the tablet, and since examining it might provide info | rule=Interacting with objects, especially examining them, might r"
+a14061d4,probe4_tw,51,4,put tablet on bar,1.0,1,1,True,"belief=I have the tablet and since examining it didn't provide any  | rule=Interacting with objects, especially placing them in differe"
+a14061d4,probe4_tw,52,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,52,1,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,52,2,open hatch,0.0,0,1,False,"belief=I have tried moving north and it led nowhere, my next step i | rule=Movement actions might raise the score, but only if they lea"
+a14061d4,probe4_tw,52,3,go east,0.0,0,1,False,"belief=I have opened the hatch, my next step is to try moving east  | rule=Movement actions to new locations might raise the score, ope"
+a14061d4,probe4_tw,52,4,go west,0.0,0,1,False,"belief=I need to try moving west through the hatch to see if it lea | rule=Movement actions to new locations might raise the score, ope"
+a14061d4,probe4_tw,52,5,go north,0.0,0,1,False,"belief=I need to try moving west through the hatch to see if it lea | rule=Movement actions to new locations might raise the score, ope"
+a14061d4,probe4_tw,52,6,take butterfly,0.0,0,1,False,"belief=I need to try moving in a different direction to see if it l | rule=Movement actions to new locations might raise the score, int"
+a14061d4,probe4_tw,52,7,go south,0.0,0,1,False,belief=I should try to move to a new location or interact with obje | rule=Movement actions to new locations and interacting with objec
+a14061d4,probe4_tw,52,8,go east,0.0,0,1,False,belief=I'm in the bedroom and I should try to move to a new locatio | rule=Movement actions to new locations might raise the score. I'l
+a14061d4,probe4_tw,52,9,go north,0.0,0,1,False,belief=I'm in the cookhouse and I should try to move to a new locat | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,10,look,0.0,0,1,False,belief=I'm in the spare room and should try to move to a new locati | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,11,inventory,0.0,0,1,False,belief=I'm in the spare room and should try to move to a new locati | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,12,eat stick of butter,0.0,0,1,False,belief=I'm in the spare room and should try to move to a new locati | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,13,drop butterfly,0.0,0,1,False,belief=I'm in the spare room and should try to move to a new locati | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,14,take butterfly,0.0,0,1,False,belief=I'm in the spare room and should try to move to a new locati | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,15,inventory,0.0,0,1,False,belief=I'm in the spare room with a butterfly and should try to mov | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,16,inventory,0.0,0,1,False,belief=I'm in the spare room with a butterfly and should try to mov | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,17,look,0.0,0,1,False,belief=I'm in the spare room with a butterfly and should try to mov | rule=Movement actions to new locations or interacting with object
+a14061d4,probe4_tw,52,18,go south,0.0,0,1,False,"belief=I'm in the spare room with a butterfly and should try to mov | rule=Movement actions to new locations might raise the score, whi"
+a14061d4,probe4_tw,52,19,go west,0.0,0,1,False,"belief=I'm in the cookhouse with a butterfly and should try to move | rule=Movement actions to new locations might raise the score, whi"
+a14061d4,probe4_tw,52,20,go east,0.0,0,1,False,"belief=I'm in the bedroom with a butterfly and should try to move t | rule=Movement actions to new locations might raise the score, whi"
+a14061d4,probe4_tw,52,21,take knife from counter,0.0,0,1,False,belief=I'm in the cookhouse with a butterfly and should try to move | rule=Movement actions to new locations and interactions with obje
+a14061d4,probe4_tw,52,22,go north,0.0,0,1,False,"belief=I'm in the cookhouse with a butterfly and a knife, and I sho | rule=Movement actions to new locations and interactions with obje"
+a14061d4,probe4_tw,52,23,go south,0.0,0,1,False,"belief=I'm in the spare room with a butterfly and a knife, and I sh | rule=Movement actions to new locations might raise the score, whi"
+a14061d4,probe4_tw,52,24,take salad,0.0,0,1,False,"belief=I'm in the cookhouse with a butterfly and a knife, and I sho | rule=Movement actions to new locations and interactions with obje"
+a14061d4,probe4_tw,52,25,put knife on counter,0.0,0,1,False,"belief=I'm in the cookhouse with a butterfly, knife, and salad, and | rule=Movement actions to new locations and interactions with obje"
+a14061d4,probe4_tw,52,26,put salad on counter,0.0,0,1,False,"belief=I'm in the cookhouse with a butterfly, knife, and salad, and | rule=Movement actions to new locations and interactions with obje"
+a14061d4,probe4_tw,52,27,go west,0.0,0,1,False,belief=I'm in the cookhouse with a butterfly and salad on the count | rule=Movement actions to new locations and interactions with obje
+a14061d4,probe4_tw,52,28,go east,0.0,0,1,False,"belief=I'm in the bedroom with a butterfly and should try to move t | rule=Movement actions to new locations, especially through open p"
+a14061d4,probe4_tw,52,29,go north,0.0,0,1,False,"belief=I'm in the cookhouse with a butterfly and should try to move | rule=Movement actions to new locations, especially through open p"
+a14061d4,probe4_tw,53,0,unlock chest with passkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,53,1,examine chest,0.0,0,1,False,"belief=I have unlocked the chest, my next step is to examine the ch | rule=Unlocking the chest did not change the score, so the next st"
+a14061d4,probe4_tw,53,2,open chest,0.0,0,1,False,"belief=I need to investigate the chest's contents, and since examin | rule=Unlocking and examining the chest didn't change the score, s"
+a14061d4,probe4_tw,53,3,take iron from chest,0.0,0,1,False,"belief=I've opened the chest and found an iron, my next step is to  | rule=Unlocking and examining the chest didn't change the score, b"
+a14061d4,probe4_tw,53,4,insert grape into chest,0.0,0,1,False,"belief=I've taken the iron, my next step is to try using it or putt | rule=Interacting with the chest's contents might raise the score,"
+a14061d4,probe4_tw,53,5,insert iron into cabinet,1.0,1,1,True,belief=I've taken the iron and now I'll try using it or putting it  | rule=Interacting with the chest's contents and using or placing i
+a14061d4,probe4_tw,54,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,54,1,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,54,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,54,3,take whisk,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,54,4,go east,0.0,0,1,False,"belief=I have a whisk and a teacup, and I'm in a kitchenette. My ne | rule=unknown; I must discover what earns score by trying actions "
+a14061d4,probe4_tw,54,5,open trunk,0.0,0,1,False,"belief=I have a whisk and a teacup, and I'm in a basement with a cl | rule=unknown; I must discover what earns score by trying actions "
+a14061d4,probe4_tw,54,6,insert teacup into trunk,0.0,0,1,False,"belief=I have a whisk and a teacup, and I'm in a basement with an o | rule=unknown, but possibly using or placing items in the trunk or"
+a14061d4,probe4_tw,54,7,insert whisk into trunk,0.0,0,1,False,"belief=I have a whisk and a teacup in the trunk, and I'm in a basem | rule=Possibly using or placing items in the trunk or other locati"
+a14061d4,probe4_tw,54,8,close trunk,0.0,0,1,False,"belief=I have placed items in the trunk, now I should try to remove | rule=Using or placing items in the trunk or other locations could"
+a14061d4,probe4_tw,54,9,open trunk,0.0,0,1,False,"belief=I have closed the trunk with items inside, now I should try  | rule=Using or placing items in the trunk or other locations could"
+a14061d4,probe4_tw,54,10,take teacup from trunk,0.0,0,1,False,belief=I have opened the trunk and found a whisk and a teacup. My n | rule=Using or placing items in the trunk or other locations could
+a14061d4,probe4_tw,54,11,take whisk from trunk,0.0,0,1,False,belief=I have taken the teacup from the trunk and my next step is t | rule=Using or placing items in the trunk or other locations could
+a14061d4,probe4_tw,54,12,go north,0.0,0,1,False,"belief=I have taken the whisk and teacup from the trunk, and my nex | rule=Using or placing items in the trunk or other locations could"
+a14061d4,probe4_tw,54,13,go south,0.0,0,1,False,"belief=I am in an office with a cabinet containing a cashew, and I  | rule=Using or placing items in the cabinet or other locations cou"
+a14061d4,probe4_tw,54,14,go west,0.0,0,1,False,belief=I am in a basement with an empty trunk and exits to the nort | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,15,go east,0.0,0,1,False,"belief=I am in a kitchenette with a whisk and a teacup, and my next | rule=Using or placing items in specific locations or interacting "
+a14061d4,probe4_tw,54,16,go west,0.0,0,1,False,"belief=I am in a basement with a whisk and a teacup, and my next st | rule=Using or placing items in specific locations or interacting "
+a14061d4,probe4_tw,54,17,drop teacup,0.0,0,1,False,"belief=I am in a kitchenette with a whisk and a teacup, and my next | rule=Using or placing items in specific locations or interacting "
+a14061d4,probe4_tw,54,18,take teacup,0.0,0,1,False,belief=I am in a kitchenette with a whisk and a dropped teacup. My  | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,19,drop whisk,0.0,0,1,False,belief=I am in a kitchenette with a whisk and a teacup. My next ste | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,20,take whisk,0.0,0,1,False,belief=I am in a kitchenette with a whisk on the ground and a teacu | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,21,inventory,0.0,0,1,False,belief=I am in a kitchenette with a whisk and a teacup. My next ste | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,22,drop teacup,0.0,0,1,False,belief=I am in a kitchenette with a whisk and a teacup. My next ste | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,23,drop whisk,0.0,0,1,False,belief=I am in a kitchenette with a whisk and a dropped teacup. My  | rule=Using or placing items in specific locations or interacting  | STUCK
+a14061d4,probe4_tw,54,24,go east,0.0,0,1,False,belief=I am in a kitchenette with a whisk on the ground. My next st | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,25,go north,0.0,0,1,False,belief=I am in a basement with an empty trunk and multiple exits. M | rule=Using or placing items in specific locations or interacting 
+a14061d4,probe4_tw,54,26,take cashew from cabinet,0.0,0,1,False,"belief=I am in an office with a cabinet containing a cashew. My nex | rule=Interacting with objects or environments, such as taking ite"
+a14061d4,probe4_tw,54,27,eat cashew,1.0,1,1,True,"belief=I am in an office with a cabinet and I have a cashew. My nex | rule=Interacting with objects or environments, such as taking or "
+a14061d4,probe4_tw,55,0,go north,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving might earn score"
+a14061d4,probe4_tw,55,1,go south,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving might earn score, and exploring new area"
+a14061d4,probe4_tw,55,2,go south,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving to new areas might earn score"
+a14061d4,probe4_tw,55,3,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=moving to new areas might earn score
+a14061d4,probe4_tw,55,4,examine trunk,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=moving to new areas or interacting with objects might earn s
+a14061d4,probe4_tw,55,5,examine portal,0.0,0,1,False,"belief=The trunk is closed and strong, so I should try to open it,  | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,6,close portal,0.0,0,1,False,"belief=The portal is available and can be interacted with, so the n | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,7,open portal,0.0,0,1,False,"belief=The portal is closed, and the next step is to try to open it | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,8,inventory,0.0,0,1,False,"belief=The portal is open, and the next step is to investigate what | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,9,close portal,0.0,0,1,False,"belief=The portal is open, and the next step is to investigate what | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,10,examine trunk,0.0,0,1,False,"belief=The portal is closed, and the next step is to investigate th | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,11,examine portal,0.0,0,1,False,"belief=The trunk is the most promising object to interact with, and | rule=Interacting with objects, especially ones that can be opened"
+a14061d4,probe4_tw,55,12,go south,0.0,0,1,False,"belief=The trunk is still the most promising object to interact wit | rule=Interacting with objects in a physical way, such as moving o | STUCK"
+a14061d4,probe4_tw,55,13,close box,0.0,0,1,False,"belief=The box seems like a promising object to interact with, and  | rule=Interacting with objects in a physical way, such as moving o | STUCK"
+a14061d4,probe4_tw,55,14,open box,0.0,0,1,False,"belief=The box is a key object, and interacting with it physically  | rule=Interacting with objects in a physical way, such as moving o"
+a14061d4,probe4_tw,55,15,examine box,0.0,0,1,False,"belief=The box is open, and the next step is to examine its content | rule=Interacting with objects physically, like moving or taking t"
+a14061d4,probe4_tw,55,16,examine box,0.0,0,1,False,"belief=The box is open, and the next step is to interact with its c | rule=Interacting with objects physically, like moving or taking t"
+a14061d4,probe4_tw,55,17,examine box,0.0,0,1,False,"belief=The box is open, and the next step is to take something from | rule=Interacting with objects physically, like moving or taking t"
+a14061d4,probe4_tw,55,18,inventory,0.0,0,1,False,"belief=The box is open, and the next step is to take something from | rule=Interacting with objects physically, like moving or taking t"
+a14061d4,probe4_tw,55,19,look,0.0,0,1,False,"belief=The next step is to move to a different location to find an  | rule=Interacting with objects physically, like moving or taking t | STUCK"
+a14061d4,probe4_tw,55,20,go north,0.0,0,1,False,"belief=The next step is to move to a different location to find an  | rule=Interacting with objects physically, like moving or taking t | STUCK"
+a14061d4,probe4_tw,55,21,inventory,0.0,0,1,False,"belief=The next step is to interact with the trunk, as it's a newly | rule=Interacting with newly discovered objects, especially those  | STUCK"
+a14061d4,probe4_tw,55,22,look,0.0,0,1,False,"belief=Try taking the trunk as it's a new interaction and might pro | rule=Interacting with newly discovered objects, especially those  | STUCK"
+a14061d4,probe4_tw,55,23,examine portal,0.0,0,1,False,"belief=Take the trunk to potentially raise the score, as it's a new | rule=Interacting with newly discovered objects, especially those  | STUCK"
+a14061d4,probe4_tw,55,24,examine portal,0.0,0,1,False,"belief=Take the trunk to potentially raise the score, as it's a new | rule=Interacting with newly discovered objects, especially those  | STUCK"
+a14061d4,probe4_tw,55,25,open portal,0.0,0,1,False,"belief=Take the trunk to potentially raise the score, as it's a new | rule=Interacting with newly discovered objects, especially those  | STUCK"
+a14061d4,probe4_tw,55,26,look,0.0,0,1,False,"belief=Since 'take trunk' is not directly available, and 'open port | rule=Interacting with new objects or areas, especially those that | STUCK"
+a14061d4,probe4_tw,55,27,examine trunk,0.0,0,1,False,"belief=The next logical step is to interact with the trunk since mo | rule=Interacting with new objects, especially those that can be t | STUCK"
+a14061d4,probe4_tw,55,28,close portal,0.0,0,1,False,"belief=The trunk is the focal point, and since it's closed, the nex | rule=Interacting with objects in a way that changes their state ( | STUCK"
+a14061d4,probe4_tw,55,29,examine trunk,0.0,0,1,False,"belief=The next logical step is to interact with the trunk in a dif | rule=Interacting with objects to change their state, especially o | STUCK"
+a14061d4,probe4_tw,56,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,56,1,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,56,2,inventory,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,56,3,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,56,4,put Canadian key on shelf,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,56,5,take Canadian key from shelf,0.0,0,1,False,belief=I have just put the Canadian key on the shelf and the score  | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,56,6,drop Canadian key,0.0,0,1,False,"belief=I have the Canadian key and a berry, and I'm in the garage.  | rule=unknown; I must discover what earns score by trying actions "
+a14061d4,probe4_tw,56,7,take Canadian key,0.0,0,1,False,belief=I have dropped the Canadian key and I'm in the garage with a | rule=unknown; trying actions that involve the Canadian key or the
+a14061d4,probe4_tw,56,8,put berry on shelf,0.0,0,1,False,belief=I have the Canadian key and a berry in the garage. My next s | rule=Using the Canadian key or the berry in a new way might raise
+a14061d4,probe4_tw,56,9,put Canadian key on shelf,0.0,0,1,False,belief=I have the Canadian key and a berry in the garage. My next s | rule=Using the Canadian key or the berry in a new way might raise
+a14061d4,probe4_tw,56,10,take berry from shelf,0.0,0,1,False,belief=I have put the Canadian key on the shelf and I need to try u | rule=Using the Canadian key or the berry in a new way might raise
+a14061d4,probe4_tw,56,11,eat berry,0.0,0,1,False,belief=I have the berry and need to try using it in a different way | rule=Using the Canadian key or the berry in a new way might raise
+a14061d4,probe4_tw,56,12,take Canadian key from shelf,0.0,0,1,False,belief=I've already eaten the berry and it didn't change the score. | rule=Using the Canadian key or the berry in a new way might raise
+a14061d4,probe4_tw,56,13,examine Canadian key,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,14,examine shelf,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,15,go north,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,16,go south,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,17,inventory,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,18,look,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,19,put Canadian key on shelf,0.0,0,1,False,belief=I have the Canadian key and my next step is to try using it  | rule=Using the Canadian key in a new way might raise the score. D
+a14061d4,probe4_tw,56,20,take Canadian key from shelf,0.0,0,1,False,"belief=I need to use the Canadian key to unlock something, possibly | rule=Using the Canadian key in a new way might raise the score. D"
+a14061d4,probe4_tw,56,21,drop Canadian key,0.0,0,1,False,"belief=I need to use the Canadian key to unlock something. My next  | rule=Using the Canadian key in a new way, such as unlocking, migh | STUCK"
+a14061d4,probe4_tw,56,22,take Canadian key,0.0,0,1,False,"belief=I need to use the Canadian key to unlock something. My next  | rule=Using the Canadian key in a new way, such as unlocking, migh"
+a14061d4,probe4_tw,56,23,inventory,0.0,0,1,False,belief=I have the Canadian key and need to find a door or lock to u | rule=Using the Canadian key to unlock something might raise the s
+a14061d4,probe4_tw,56,24,look,0.0,0,1,False,belief=I have the Canadian key and need to find a door or lock to u | rule=Using the Canadian key to unlock something might raise the s
+a14061d4,probe4_tw,56,25,go north,0.0,0,1,False,belief=I have the Canadian key and need to find a door or lock to u | rule=Using the Canadian key to unlock something might raise the s
+a14061d4,probe4_tw,56,26,examine gateway,0.0,0,1,False,belief=I have the Canadian key and need to find a door or lock to u | rule=Using the Canadian key to unlock something might raise the s
+a14061d4,probe4_tw,56,27,drop Canadian key,0.0,0,1,False,belief=I have the Canadian key and need to find a door or lock to u | rule=Using the Canadian key to unlock or open something might rai | STUCK
+a14061d4,probe4_tw,56,28,take Canadian key,0.0,0,1,False,"belief=I dropped the Canadian key and need to pick it up to use it, | rule=Using the Canadian key to unlock or open something might rai"
+a14061d4,probe4_tw,56,29,open Canadian locker,0.0,0,1,False,"belief=I have the Canadian key and my next step is to use it to ope | rule=Using the Canadian key to unlock or open something, specific"
+a14061d4,probe4_tw,57,0,unlock chest with key,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,57,1,open chest,0.0,0,1,False,"belief=I have unlocked the chest and my next step is to open it, as | rule=Using the key to unlock the chest did not change the score, "
+a14061d4,probe4_tw,57,2,take Canadian limited edition keycard from chest,0.0,0,1,False,"belief=I have found a Canadian limited edition keycard in the chest | rule=Using the key to unlock the chest did not change the score, "
+a14061d4,probe4_tw,57,3,examine portal,0.0,0,1,False,"belief=I have the Canadian limited edition keycard and a key, my ne | rule=Taking or manipulating new objects might increase the score,"
+a14061d4,probe4_tw,57,4,go west,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard, my next | rule=Using keys or keycards to unlock objects and taking or manip"
+a14061d4,probe4_tw,57,5,go east,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard, my next | rule=Using keys or keycards to unlock objects and taking or manip"
+a14061d4,probe4_tw,57,6,take binder,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard, my next | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,7,examine binder,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard, my next | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,8,open Canadian limited edition box,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard, my next | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,9,insert Canadian limited edition keycard into chest,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard, my next | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,10,insert key into chest,0.0,0,1,False,"belief=I have a key and a Canadian limited edition keycard in the c | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,11,take key from chest,0.0,0,1,False,"belief=I have inserted the key into the chest, my next step is to t | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,12,go west,0.0,0,1,False,"belief=I have the key and binder, my next step is to explore a new  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,13,go east,0.0,0,1,False,"belief=I have the key and binder, my next step is to explore a new  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,14,examine portal,0.0,0,1,False,"belief=I have the key and binder, and I'm in a cubicle with a chest | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,15,examine chest,0.0,0,1,False,"belief=I have the key and binder, and I'm in a cubicle with a chest | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,16,take Canadian limited edition keycard from chest,0.0,0,1,False,"belief=I have the key, binder, and a Canadian limited edition keyca | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,17,go west,0.0,0,1,False,"belief=I have the key, binder, and a Canadian limited edition keyca | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,18,go east,0.0,0,1,False,"belief=I am in a shower with a key, binder, and Canadian limited ed | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,19,examine portal,0.0,0,1,False,"belief=I am in a cubicle with a key, binder, and Canadian limited e | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,20,insert key into chest,0.0,0,1,False,"belief=I am in a cubicle with a key, binder, and Canadian limited e | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,21,insert Canadian limited edition keycard into Canadian limited edition box,0.0,0,1,False,"belief=I am in a cubicle with a key, binder, and Canadian limited e | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,22,take Canadian limited edition keycard from Canadian limited edition box,0.0,0,1,False,"belief=I am in a cubicle with a binder and a used Canadian limited  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,23,insert Canadian limited edition keycard into chest,0.0,0,1,False,"belief=I am in a cubicle with a binder and a used Canadian limited  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,24,take Canadian limited edition keycard from chest,0.0,0,1,False,"belief=I am in a cubicle with a binder and a used Canadian limited  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,25,go west,0.0,0,1,False,"belief=I am in a cubicle with a binder and a used Canadian limited  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,26,go east,0.0,0,1,False,"belief=I am in a shower with a binder and a used Canadian limited e | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,27,examine portal,0.0,0,1,False,"belief=I am in a cubicle with a binder, a Canadian limited edition  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,28,close Canadian limited edition box,0.0,0,1,False,"belief=I am in a cubicle with a binder, a Canadian limited edition  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,57,29,go west,0.0,0,1,False,"belief=I am in a cubicle with a binder, a Canadian limited edition  | rule=Using keys or keycards to unlock objects, taking or manipula"
+a14061d4,probe4_tw,58,0,unlock hatch with key,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,58,1,open hatch,0.0,0,1,False,"belief=I have unlocked the hatch, my next step is to open it to see | rule=unknown, but unlocking the hatch did not change the score, s"
+a14061d4,probe4_tw,58,2,go north,0.0,0,1,False,"belief=I have opened the hatch, my next step is to examine what's i | rule=Unlocking the hatch didn't change the score, but maybe going"
+a14061d4,probe4_tw,58,3,go south,0.0,0,1,False,"belief=I'm in the basement with an open hatch to the south and a su | rule=Unlocking the hatch didn't change the score, but moving to a"
+a14061d4,probe4_tw,58,4,go west,0.0,0,1,False,belief=I'm in the canteen with an open hatch to the north and an un | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,5,go east,0.0,0,1,False,belief=I'm in the cookhouse with an open path to the east and I hav | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,6,go north,0.0,0,1,False,belief=I'm in the canteen with an open hatch to the north and I hav | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,7,go south,0.0,0,1,False,"belief=I'm in the basement with an open hatch to the south and I ha | rule=Moving to a new location, especially through an open hatch, "
+a14061d4,probe4_tw,58,8,go north,0.0,0,1,False,"belief=I'm in the canteen with an open hatch to the north and I hav | rule=Moving to a new location, especially through an open hatch, "
+a14061d4,probe4_tw,58,9,go south,0.0,0,1,False,"belief=I'm in the basement with an open hatch to the south and I ha | rule=Moving to a new location, especially through an open hatch, "
+a14061d4,probe4_tw,58,10,close hatch,0.0,0,1,False,"belief=I'm in the canteen with an open hatch to the north and I hav | rule=Moving to a new location, especially through an open hatch,  | STUCK"
+a14061d4,probe4_tw,58,11,drop bug,0.0,0,1,False,belief=I'm in the canteen with a closed hatch to the north and I ha | rule=Moving to a new location or taking a different action like d | STUCK
+a14061d4,probe4_tw,58,12,drop peanut,0.0,0,1,False,belief=I'm in the canteen with a closed hatch to the north and I ha | rule=Moving to a new location or taking a different action like d
+a14061d4,probe4_tw,58,13,take peanut,0.0,0,1,False,"belief=I'm in the canteen with a closed hatch to the north, a key,  | rule=Moving to a new location, taking a different action like dro"
+a14061d4,probe4_tw,58,14,open hatch,0.0,0,1,False,"belief=I'm in the canteen with a closed hatch to the north, a key,  | rule=Moving to a new location or taking a different action like o"
+a14061d4,probe4_tw,58,15,go north,0.0,0,1,False,"belief=I'm in the canteen with a closed hatch to the north, a key,  | rule=Moving to a new location might raise the score, and taking o"
+a14061d4,probe4_tw,58,16,go south,0.0,0,1,False,belief=I'm in the basement with an open hatch to the south and a cr | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,17,go west,0.0,0,1,False,belief=I'm in the canteen with an open hatch to the north and a bug | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,18,go east,0.0,0,1,False,belief=I'm in the cookhouse with an open path to the east and I hav | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,19,go north,0.0,0,1,False,belief=I'm in the canteen with an open hatch to the north and an un | rule=Moving to a new location might raise the score. I'll try goi
+a14061d4,probe4_tw,58,20,go south,0.0,0,1,False,"belief=I'm in the basement with an open hatch to the south and an u | rule=Moving to a new location, especially through an open path, m"
+a14061d4,probe4_tw,58,21,go north,0.0,0,1,False,"belief=I'm in the canteen with an open hatch to the north and an un | rule=Moving to a new location, especially through an open path, m"
+a14061d4,probe4_tw,58,22,go south,0.0,0,1,False,"belief=I'm in the basement with an open hatch to the south and an u | rule=Moving to a new location, especially through an open path, m"
+a14061d4,probe4_tw,58,23,close hatch,0.0,0,1,False,"belief=I'm in the canteen with an open hatch to the north and an un | rule=Moving to a new location, taking objects, or interacting wit | STUCK"
+a14061d4,probe4_tw,58,24,drop key,0.0,0,1,False,belief=I'm in the canteen with an open hatch to the north and an un | rule=Moving to a new location might raise the score. I will avoid | STUCK
+a14061d4,probe4_tw,58,25,go west,0.0,0,1,False,belief=I'm in the canteen with an open hatch to the north and an un | rule=Moving to a new location might raise the score. I will avoid
+a14061d4,probe4_tw,58,26,go east,0.0,0,1,False,belief=I'm in the cookhouse with an unblocked path to the east. My  | rule=Moving to a new location might raise the score. I will avoid
+a14061d4,probe4_tw,58,27,take key,0.0,0,1,False,belief=I'm in the canteen with an unblocked path to the west and a  | rule=Moving to a new location and interacting with objects might 
+a14061d4,probe4_tw,58,28,lock hatch with key,0.0,0,1,False,"belief=I'm in the canteen with an unblocked path to the west and a  | rule=Moving to a new location, interacting with objects, and usin"
+a14061d4,probe4_tw,58,29,unlock hatch with key,0.0,0,1,False,"belief=I'm in the canteen with an unblocked path to the west and a  | rule=Moving to a new location, interacting with objects, and usin"
+a14061d4,probe4_tw,59,0,go north,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, need to try actions that change the world to discov"
+a14061d4,probe4_tw,59,1,unlock chest with key,0.0,0,1,False,"belief=I have a key and a locked chest, my next step is to try to u | rule=using a key to unlock something might raise the score"
+a14061d4,probe4_tw,59,2,open chest,0.0,0,1,False,"belief=I have unlocked the chest, my next step is to open it and se | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,3,examine chest,0.0,0,1,False,"belief=I have opened the chest, my next step is to examine its cont | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,4,examine gate,0.0,0,1,False,"belief=I have opened the chest, my next step is to examine its cont | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,5,open gate,0.0,0,1,False,"belief=I have a key and a gate in front of me, my next step is to t | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,6,go east,0.0,0,1,False,"belief=I have a key and I just opened the gate, my next step is to  | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,7,go west,0.0,0,1,False,"belief=I have a key and I just opened the gate, my next step is to  | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,8,go south,0.0,0,1,False,"belief=I have a key and an open gate, my next step is to go through | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,9,go north,0.0,0,1,False,"belief=I have a key and an unguarded exit to the north, my next ste | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,10,go east,0.0,0,1,False,"belief=I have a key and an unguarded exit to the south, my next ste | rule=using a key to unlock something and then opening the unlocke"
+a14061d4,probe4_tw,59,11,examine display,0.0,0,1,False,"belief=I have a key and a locked display, my next step is to unlock | rule=using a key to unlock something might raise the score, explo"
+a14061d4,probe4_tw,59,12,close gate,1.0,1,1,True,"belief=I have a key and a locked display, my next step is to unlock | rule=using a key to unlock something might raise the score, explo | STUCK"
+a14061d4,probe4_tw,60,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,60,1,take mop,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,60,2,open hatch,0.0,0,1,False,"belief=I have a mop and need to explore the environment to understa | rule=unknown, but taking the mop did not change the score, so my "
+a14061d4,probe4_tw,60,3,go north,0.0,0,1,False,"belief=I have a mop and need to explore the environment. Next, I'll | rule=Taking the mop did not change the score, so using the mop or"
+a14061d4,probe4_tw,60,4,go south,0.0,0,1,False,"belief=I have a mop and need to explore the environment. Next, I'll | rule=Taking the mop did not change the score, so using the mop or"
+a14061d4,probe4_tw,60,5,go east,0.0,0,1,False,"belief=I have a mop and need to explore the environment. Next, I'll | rule=Using the mop or exploring a new area might raise the score."
+a14061d4,probe4_tw,60,6,take type B key,0.0,0,1,False,"belief=I have a mop and need to explore the environment. Next, I'll | rule=Using the mop or exploring a new area might raise the score."
+a14061d4,probe4_tw,60,7,unlock type B chest with type B key,0.0,0,1,False,"belief=I have a mop and a type B key, and I'm in a cubicle. Next, I | rule=Using keys to unlock chests and exploring new areas might ra"
+a14061d4,probe4_tw,60,8,open type B chest,0.0,0,1,False,"belief=I have a mop and a type B key, and I'm in a cubicle with an  | rule=Using keys to unlock chests and exploring new areas might ra"
+a14061d4,probe4_tw,60,9,take keyboard from type B chest,1.0,1,1,True,"belief=I have a mop, a type B key, and a keyboard in a cubicle. Nex | rule=Using keys to unlock chests, taking items, and exploring new"
+a14061d4,probe4_tw,61,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,61,1,examine rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,61,2,take latchkey from rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,61,3,go east,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I need to explore | rule=unknown, but possibly taking or moving objects could raise t"
+a14061d4,probe4_tw,61,4,go west,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I need to explore | rule=unknown, but possibly taking or moving objects could raise t"
+a14061d4,probe4_tw,61,5,examine cuboid box,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I need to explore | rule=unknown, but possibly taking, moving, or unlocking objects c"
+a14061d4,probe4_tw,61,6,take cuboid latchkey,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I need to unlock  | rule=unknown, but possibly taking, moving, or unlocking objects c"
+a14061d4,probe4_tw,61,7,unlock cuboid box with cuboid latchkey,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I need to unlock  | rule=unknown, but possibly taking, moving, or unlocking objects c"
+a14061d4,probe4_tw,61,8,open cuboid box,0.0,0,1,False,"belief=I have unlocked the cuboid box, my next step is to open it t | rule=possibly taking, moving, or unlocking objects could raise th"
+a14061d4,probe4_tw,61,9,examine cuboid box,0.0,0,1,False,"belief=I have opened the cuboid box, my next step is to examine its | rule=possibly taking, moving, unlocking, or opening objects could"
+a14061d4,probe4_tw,61,10,put cuboid latchkey on rack,0.0,0,1,False,"belief=I have opened the cuboid box, my next step is to examine its | rule=possibly taking, moving, unlocking, or opening objects could"
+a14061d4,probe4_tw,61,11,insert loaf of bread into cuboid box,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I've already open | rule=Taking, moving, unlocking, or opening objects might raise th"
+a14061d4,probe4_tw,61,12,close cuboid box,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread in the cuboid box. My  | rule=Taking, moving, unlocking, opening, and putting objects into"
+a14061d4,probe4_tw,61,13,go east,0.0,0,1,False,"belief=I have a latchkey and a cuboid box with a loaf of bread insi | rule=Taking, moving, unlocking, opening, and putting objects into"
+a14061d4,probe4_tw,61,14,go west,0.0,0,1,False,"belief=I have a latchkey and I'm in a garage with a locked locker a | rule=Taking, moving, unlocking, opening, and putting objects into"
+a14061d4,probe4_tw,61,15,open cuboid box,0.0,0,1,False,"belief=I have a latchkey and I'm in a shower with a closed cuboid b | rule=Taking, moving, unlocking, opening, and putting objects into"
+a14061d4,probe4_tw,61,16,take loaf of bread from cuboid box,0.0,0,1,False,"belief=I have a latchkey, a loaf of bread is visible, and I'm in a  | rule=Taking, moving, unlocking, opening, and putting objects into"
+a14061d4,probe4_tw,61,17,go east,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, and I'm in a shower w | rule=Moving to a different location might raise the score. Taking"
+a14061d4,probe4_tw,61,18,unlock locker with latchkey,1.0,1,1,True,"belief=I have a latchkey and a loaf of bread, and I'm in a garage w | rule=Moving to a different location, taking, moving, unlocking, o"
+a14061d4,probe4_tw,62,0,take spherical latchkey from chair,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,62,1,unlock spherical box with spherical latchkey,0.0,0,1,False,"belief=I have the spherical latchkey and my next step is to try to  | rule=Possibly, interacting with objects or unlocking things could"
+a14061d4,probe4_tw,62,2,open spherical box,0.0,0,1,False,"belief=I have the spherical latchkey and my next step is to try to  | rule=Possibly, interacting with objects or unlocking things could"
+a14061d4,probe4_tw,62,3,take keyboard from spherical box,1.0,1,1,True,"belief=I have the spherical latchkey and the spherical box is open, | rule=Possibly, interacting with objects, unlocking things, or acq"
+a14061d4,probe4_tw,63,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,63,1,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,63,2,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,63,3,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,63,4,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,63,5,insert fork into portmanteau,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,63,6,take fork from portmanteau,0.0,0,1,False,"belief=I have just inserted the fork into the portmanteau and I'm i | rule=unknown, but inserting the fork into the portmanteau didn't "
+a14061d4,probe4_tw,63,7,close portmanteau,0.0,0,1,False,"belief=I'm in the Salon with a fork, and taking it out of the portm | rule=Inserting the fork into the portmanteau and taking it out di"
+a14061d4,probe4_tw,63,8,open portmanteau,0.0,0,1,False,"belief=I'm in the Salon with a fork, and closing the portmanteau di | rule=Inserting the fork into the portmanteau, taking it out, and "
+a14061d4,probe4_tw,63,9,examine portmanteau,0.0,0,1,False,"belief=I'm in the Salon with a fork, and opening the portmanteau di | rule=Inserting the fork into the portmanteau, taking it out, clos"
+a14061d4,probe4_tw,63,10,drop fork,0.0,0,1,False,"belief=I'm in the Salon with a fork, and examining the portmanteau  | rule=Inserting the fork into the portmanteau, taking it out, clos"
+a14061d4,probe4_tw,63,11,take fork,0.0,0,1,False,"belief=I dropped the fork, and now I should try to take it back to  | rule=Dropping the fork might be the key, and now I'll test if tak"
+a14061d4,probe4_tw,63,12,examine gate,0.0,0,1,False,"belief=I have the fork, and my next step is to try to use it or put | rule=Taking the fork might be the key, and now I'll test if using"
+a14061d4,probe4_tw,63,13,close gate,0.0,0,1,False,"belief=I have the fork and the gate is open, my next step is to try | rule=Taking the fork might be the key, and using it or putting it"
+a14061d4,probe4_tw,63,14,open gate,0.0,0,1,False,"belief=I have the fork and the gate is closed, my next step is to t | rule=Using the fork or putting it somewhere might be the key to r"
+a14061d4,probe4_tw,63,15,examine fork,0.0,0,1,False,"belief=I have the fork and the gate is open, my next step is to try | rule=Using the fork or putting it somewhere might be the key to r"
+a14061d4,probe4_tw,63,16,inventory,0.0,0,1,False,"belief=I have the fork and the gate is open, my next step is to try | rule=Using the fork or putting it somewhere might be the key to r"
+a14061d4,probe4_tw,63,17,go east,0.0,0,1,False,belief=I have the fork and need to find another object or location  | rule=Using the fork or putting it somewhere might be the key to r
+a14061d4,probe4_tw,63,18,take kettle,0.0,0,1,False,belief=I have the fork and need to find another object or location  | rule=Using the fork or putting it somewhere might be the key to r
+a14061d4,probe4_tw,63,19,insert kettle into fridge,0.0,0,1,False,"belief=I have the fork and kettle, and I need to find another objec | rule=Using the fork or putting it somewhere, and interacting with"
+a14061d4,probe4_tw,63,20,insert fork into fridge,0.0,0,1,False,"belief=I have the fork and the kettle is in the fridge. Next, I'll  | rule=Inserting objects into the fridge might be the key to raisin"
+a14061d4,probe4_tw,63,21,take kettle from fridge,0.0,0,1,False,"belief=I have inserted the fork into the fridge, next I'll try to t | rule=Inserting objects into the fridge and possibly manipulating "
+a14061d4,probe4_tw,63,22,take fork from fridge,0.0,0,1,False,"belief=I have the kettle, next I'll try to take the fork from the f | rule=Inserting and manipulating objects inside the fridge might b"
+a14061d4,probe4_tw,63,23,take loaf of bread from fridge,0.0,0,1,False,"belief=I have the fork and kettle, next I'll try to take the loaf o | rule=Inserting and manipulating objects inside the fridge, and po"
+a14061d4,probe4_tw,63,24,insert loaf of bread into fridge,0.0,0,1,False,"belief=I have the loaf of bread, fork, and kettle, next I'll try to | rule=Inserting and manipulating objects inside the fridge, and po"
+a14061d4,probe4_tw,63,25,close fridge,0.0,0,1,False,"belief=I have the loaf of bread in the fridge and I'm carrying a fo | rule=Inserting and manipulating objects inside the fridge, and po"
+a14061d4,probe4_tw,63,26,open fridge,0.0,0,1,False,"belief=I have just closed the fridge and I'm carrying a fork and a  | rule=Inserting and manipulating objects inside the fridge, and po"
+a14061d4,probe4_tw,63,27,insert fork into fridge,0.0,0,1,False,belief=I have opened the fridge and I'm carrying a fork and a kettl | rule=Inserting objects into the fridge might be the key to raisin
+a14061d4,probe4_tw,63,28,insert kettle into fridge,0.0,0,1,False,"belief=I have inserted the fork into the fridge, next I'll try to i | rule=Inserting objects into the fridge might be the key to raisin"
+a14061d4,probe4_tw,63,29,take fork from fridge,0.0,0,1,False,"belief=I have inserted the kettle into the fridge, next I'll try to | rule=Inserting objects into the fridge and possibly removing them"
+a14061d4,probe4_tw,64,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,64,1,take fudge scented key,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,64,2,unlock fudge scented box with fudge scented key,0.0,0,1,False,belief=I have a fudge scented key and will try to use it to unlock  | rule=Using the fudge scented key to unlock the fudge scented box 
+a14061d4,probe4_tw,64,3,open fudge scented box,1.0,1,1,True,belief=I have unlocked the fudge scented box and will try to open i | rule=Using the fudge scented key to unlock the fudge scented box 
+a14061d4,probe4_tw,65,0,open door,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,65,1,go south,0.0,0,1,False,"belief=I have opened the door and now I need to explore the new spa | rule=Trying to open the door did not increase the score, so it mi"
+a14061d4,probe4_tw,65,2,go north,0.0,0,1,False,"belief=I am in a chamber and need to explore the space. My next ste | rule=Moving to a new location might raise the score, as trying to"
+a14061d4,probe4_tw,65,3,go west,0.0,0,1,False,belief=I am in a chamber and need to explore the space. My next ste | rule=Moving to a new location might raise the score. Trying to op
+a14061d4,probe4_tw,65,4,go west,0.0,0,1,False,belief=I am in a chamber and need to explore the space. My next ste | rule=Moving to a new location might raise the score.
+a14061d4,probe4_tw,65,5,unlock type 4 chest with type 4 passkey,0.0,0,1,False,"belief=I am in a closet with a locked chest and a passkey, my next  | rule=Using the correct key to unlock a locked object might raise "
+a14061d4,probe4_tw,65,6,open type 4 chest,0.0,0,1,False,belief=I am in a closet with an unlocked type 4 chest and a passkey | rule=Using the correct key to unlock a locked object and then ope
+a14061d4,probe4_tw,65,7,go east,0.0,0,1,False,"belief=I am in a closet with an open type 4 chest and a passkey, my | rule=Using the correct key to unlock a locked object and then ope"
+a14061d4,probe4_tw,65,8,take iron,0.0,0,1,False,"belief=I am in a launderette with an empty basket, an open door, an | rule=Using the correct key to unlock a locked object and then ope"
+a14061d4,probe4_tw,65,9,insert iron into basket,1.0,1,1,True,belief=I am in a launderette with an iron and a type 4 passkey. My  | rule=Using the correct key to unlock a locked object and then ope
+a14061d4,probe4_tw,66,0,take ladle from chest,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,66,1,go north,0.0,0,1,False,"belief=I have a ladle and need to explore the kitchenette to discov | rule=unknown, but taking the ladle did not change the score, so I"
+a14061d4,probe4_tw,66,2,go south,0.0,0,1,False,"belief=I have a ladle and need to explore the office to discover th | rule=unknown, but taking the ladle did not change the score, so I"
+a14061d4,probe4_tw,66,3,take shadfly from chest,0.0,0,1,False,"belief=I have a ladle and need to explore the kitchenette and beyon | rule=unknown, but taking the ladle did not change the score, so I"
+a14061d4,probe4_tw,66,4,go north,0.0,0,1,False,"belief=I have a ladle and a shadfly, and I need to explore the kitc | rule=Taking the ladle and shadfly did not change the score, so I "
+a14061d4,probe4_tw,66,5,open door,0.0,0,1,False,belief=I need to explore new locations to see if it changes the sco | rule=Moving to new locations or interacting with objects like doo
+a14061d4,probe4_tw,66,6,go east,0.0,0,1,False,belief=I am in the Office location and my next step is to explore a | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,7,go east,0.0,0,1,False,belief=I am in the Vault location and my next step is to explore a  | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,8,go west,0.0,0,1,False,belief=I am in the Washroom location and my next step is to explore | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,9,go west,0.0,0,1,False,belief=I am in the Vault location and my next step is to explore a  | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,10,go south,0.0,0,1,False,belief=I am in the Office location and my next step is to explore a | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,11,go north,0.0,0,1,False,belief=I am in the Kitchenette location and my next step is to expl | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,12,go east,0.0,0,1,False,belief=I am in the Office location and my next step is to explore a | rule=Moving to new locations or interacting with doors might rais
+a14061d4,probe4_tw,66,13,close door,0.0,0,1,False,belief=I am in the Vault location and my next step is to take the s | rule=Moving to new locations or interacting with doors and object | STUCK
+a14061d4,probe4_tw,66,14,take shirt from counter,1.0,1,1,True,belief=I am in the Vault location and my next step is to take the s | rule=Moving to new locations or interacting with doors and object
+a14061d4,probe4_tw,67,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown
+a14061d4,probe4_tw,67,1,go west,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving to a new location might give a score inc"
+a14061d4,probe4_tw,67,2,go east,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving to a new location might give a score inc"
+a14061d4,probe4_tw,67,3,drop cuboid latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=moving to a new location or using an object might give a sco
+a14061d4,probe4_tw,67,4,take cuboid latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=moving to a new location or using an object might give a sco
+a14061d4,probe4_tw,67,5,inventory,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Worksh | rule=Moving to a new location, using an object, or taking an obje"
+a14061d4,probe4_tw,67,6,drop sock,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Worksh | rule=Moving to a new location, using an object, or taking an obje"
+a14061d4,probe4_tw,67,7,take sock,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock on the ground, and I'm | rule=Moving to a new location, using an object, or taking an obje"
+a14061d4,probe4_tw,67,8,examine cuboid latchkey,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Worksh | rule=Using an object, especially the cuboid latchkey, might give "
+a14061d4,probe4_tw,67,9,examine sock,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Worksh | rule=Using an object, especially the cuboid latchkey, might give "
+a14061d4,probe4_tw,67,10,go west,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Worksh | rule=Using an object, especially the cuboid latchkey, might give "
+a14061d4,probe4_tw,67,11,unlock cuboid chest with cuboid latchkey,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Bedcha | rule=Using an object, especially the cuboid latchkey, might give "
+a14061d4,probe4_tw,67,12,examine portal,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Bedcha | rule=Using an object, especially the cuboid latchkey, might give "
+a14061d4,probe4_tw,67,13,lock cuboid chest with cuboid latchkey,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Bedcha | rule=Using the cuboid latchkey to unlock objects is likely to rai"
+a14061d4,probe4_tw,67,14,examine portal,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Bedcha | rule=Using the cuboid latchkey to unlock objects is likely to rai"
+a14061d4,probe4_tw,67,15,drop cuboid latchkey,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Bedcha | rule=Using the cuboid latchkey to unlock objects is likely to rai"
+a14061d4,probe4_tw,67,16,examine portal,0.0,0,1,False,"belief=I have the cuboid latchkey and a sock, and I'm in the Bedcha | rule=Using the cuboid latchkey to unlock objects is likely to rai"
+a14061d4,probe4_tw,67,17,take cuboid latchkey,0.0,0,1,False,"belief=I need to unlock the portal, but first I need the cuboid lat | rule=Using the cuboid latchkey to unlock objects is likely to rai"
+a14061d4,probe4_tw,67,18,unlock cuboid chest with cuboid latchkey,0.0,0,1,False,belief=I have the cuboid latchkey and need to use it to unlock some | rule=Using the cuboid latchkey to unlock objects is likely to rai
+a14061d4,probe4_tw,67,19,open cuboid chest,0.0,0,1,False,belief=I have unlocked the cuboid chest and my next step is to open | rule=Using the cuboid latchkey to unlock objects and then opening
+a14061d4,probe4_tw,67,20,take novel from cuboid chest,1.0,1,1,True,"belief=I have opened the cuboid chest and found a novel inside. My  | rule=Using the cuboid latchkey to unlock objects, opening them, a"
+a14061d4,probe4_tw,68,0,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,68,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,68,2,open display,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,68,3,examine display,0.0,0,1,False,"belief=I have opened the display, my next step is to examine it to  | rule=So far, opening the display did not raise the score, but it "
+a14061d4,probe4_tw,68,4,insert cookie into display,0.0,0,1,False,"belief=I have opened the display and I'm carrying a cookie. My next | rule=So far, opening the display and examining it did not raise t"
+a14061d4,probe4_tw,68,5,take cookie from display,0.0,0,1,False,"belief=I have inserted the cookie into the display, and my next ste | rule=So far, opening the display and examining it did not raise t"
+a14061d4,probe4_tw,68,6,drop cookie,0.0,0,1,False,"belief=I have the cookie, and my next step is to drop it to see if  | rule=So far, opening the display, examining the display, insertin"
+a14061d4,probe4_tw,68,7,take cookie,0.0,0,1,False,"belief=I dropped the cookie, and my next step is to take it to see  | rule=So far, opening the display, examining the display, insertin"
+a14061d4,probe4_tw,68,8,go south,0.0,0,1,False,"belief=I am in the cellar with a cookie, my next step is to try mov | rule=So far, interacting with the display and cookie in various w"
+a14061d4,probe4_tw,68,9,go south,0.0,0,1,False,"belief=I am in the cookery with a cookie, my next step is to try mo | rule=So far, interacting with the display and cookie did not rais"
+a14061d4,probe4_tw,68,10,go east,0.0,0,1,False,"belief=I am in the washroom with a cookie, my next step is to try m | rule=Moving to a new location might earn score, avoid going north"
+a14061d4,probe4_tw,68,11,go west,0.0,0,1,False,"belief=I am in the cookhouse with a cookie, my next step is to try  | rule=Moving to a new location might earn score, avoid unnecessary"
+a14061d4,probe4_tw,68,12,go north,0.0,0,1,False,"belief=I am in the washroom with a cookie, my next step is to try m | rule=Moving to a new location might earn score, avoid unnecessary"
+a14061d4,probe4_tw,68,13,go north,0.0,0,1,False,"belief=I am in the washroom with a cookie, my next step is to try m | rule=Moving to a new location might earn score, avoid unnecessary"
+a14061d4,probe4_tw,68,14,go south,0.0,0,1,False,"belief=I am in the cellar with a cookie, my next step is to try mov | rule=Moving to a new location might earn score, avoid unnecessary"
+a14061d4,probe4_tw,68,15,take apple,0.0,0,1,False,"belief=I am in the cookery with a cookie, my next step is to try ta | rule=Moving to a new location might not earn score, interacting w"
+a14061d4,probe4_tw,68,16,examine candy bar,0.0,0,1,False,"belief=I am in the cookery with a cookie and an apple, my next step | rule=Interacting with objects, especially food items, could be th"
+a14061d4,probe4_tw,68,17,examine candy bar,0.0,0,1,False,"belief=I am in the cookery with a cookie and an apple, my next step | rule=Interacting with objects, especially food items, could be th"
+a14061d4,probe4_tw,68,18,examine cookie,0.0,0,1,False,"belief=I am in the cookery with a cookie and an apple, my next step | rule=Interacting with objects, especially food items, could be th"
+a14061d4,probe4_tw,68,19,eat cookie,0.0,0,1,False,"belief=I am in the cookery with a cookie and an apple, my next step | rule=Interacting with food items, especially consuming them, coul"
+a14061d4,probe4_tw,68,20,eat apple,0.0,0,1,False,"belief=I am in the cookery with an apple, my next step is to eat th | rule=Interacting with food items, especially consuming them, coul"
+a14061d4,probe4_tw,68,21,take candy bar,0.0,0,1,False,"belief=I am in the cookery after eating the apple, my next step is  | rule=Consuming food items seems to be the key to increasing the s"
+a14061d4,probe4_tw,68,22,eat candy bar,0.0,0,1,False,"belief=I am in the cookery with a candy bar, my next step is to eat | rule=Consuming food items seems to be the key to increasing the s"
+a14061d4,probe4_tw,68,23,go north,0.0,0,1,False,"belief=I am in the cookery, I just ate the candy bar and my score d | rule=Consuming food items seems to be the key to increasing the s"
+a14061d4,probe4_tw,68,24,go south,0.0,0,1,False,"belief=I am in the cellar, the display is empty, my next step is to | rule=Consuming food items may not be the key, exploring new locat"
+a14061d4,probe4_tw,68,25,go south,0.0,0,1,False,"belief=I am in the cookery, my next step is to explore the surround | rule=Exploring new locations or interacting with objects could ra"
+a14061d4,probe4_tw,68,26,go north,0.0,0,1,False,"belief=I am in the washroom, my next step is to explore the surroun | rule=Exploring new locations or interacting with objects could ra"
+a14061d4,probe4_tw,68,27,go south,0.0,0,1,False,"belief=I am in the cookery, my next step is to explore the surround | rule=Exploring new locations or interacting with objects could ra"
+a14061d4,probe4_tw,68,28,go east,0.0,0,1,False,"belief=I am in the washroom, my next step is to explore the surroun | rule=Exploring new locations or interacting with objects could ra"
+a14061d4,probe4_tw,68,29,go west,0.0,0,1,False,"belief=I am in the cookhouse, my next step is to go west to find an | rule=Exploring new locations, especially exits, could raise the s"
+a14061d4,probe4_tw,69,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,69,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,69,2,examine gateway,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,69,3,drop nest of toads,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,69,4,examine nest of toads,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown
+a14061d4,probe4_tw,69,5,take nest of toads,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but taking or manipulating objects might be relevan"
+a14061d4,probe4_tw,69,6,put nest of toads on bookshelf,0.0,0,1,False,"belief=I have the nest of toads and need to try using it or placing | rule=Taking or manipulating objects, especially placing them in s"
+a14061d4,probe4_tw,69,7,take nest of toads from bookshelf,0.0,0,1,False,"belief=I have placed the nest of toads on the bookshelf and need to | rule=Taking or manipulating objects, especially placing them in s"
+a14061d4,probe4_tw,69,8,inventory,0.0,0,1,False,"belief=I have the nest of toads and need to try moving it to a diff | rule=Taking or manipulating objects, especially moving them aroun"
+a14061d4,probe4_tw,69,9,go west,0.0,0,1,False,"belief=I have the nest of toads in the office and need to try movin | rule=Moving objects, especially the nest of toads, to new locatio"
+a14061d4,probe4_tw,69,10,put nest of toads on stand,0.0,0,1,False,"belief=I have the nest of toads in the office and need to try movin | rule=Moving objects, especially the nest of toads, to new locatio"
+a14061d4,probe4_tw,69,11,take nest of toads from stand,0.0,0,1,False,"belief=I have the nest of toads on the stand and need to try moving | rule=Moving objects, especially the nest of toads, to new locatio"
+a14061d4,probe4_tw,69,12,take laptop from stand,0.0,0,1,False,"belief=I have the nest of toads and need to try moving it to a diff | rule=Moving objects, especially the nest of toads, to new locatio"
+a14061d4,probe4_tw,69,13,take loaf of bread,0.0,0,1,False,"belief=I have the laptop and nest of toads, and my next step is to  | rule=Moving objects, especially the nest of toads and laptop, to "
+a14061d4,probe4_tw,69,14,go east,0.0,0,1,False,"belief=I have the laptop and nest of toads, and my next step is to  | rule=Moving objects, especially the nest of toads and laptop, to "
+a14061d4,probe4_tw,69,15,put laptop on bookshelf,1.0,1,1,True,"belief=I have the laptop and nest of toads, and my next step is to  | rule=Moving objects, especially the nest of toads and laptop, to "
+a14061d4,probe4_tw,70,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,70,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,70,2,take stick of butter,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,70,3,insert stick of butter into cabinet,0.0,0,1,False,"belief=I have a stick of butter and a bug, and I'm in a launderette | rule=unknown; I must discover what earns score by trying actions "
+a14061d4,probe4_tw,70,4,take stick of butter from cabinet,0.0,0,1,False,"belief=I have a bug and a stick of butter in the cabinet, in a laun | rule=unknown; I must discover what earns score by trying actions "
+a14061d4,probe4_tw,70,5,examine portal,0.0,0,1,False,belief=I have a bug and a stick of butter in the launderette. My ne | rule=unknown; trying actions that change the world to discover wh
+a14061d4,probe4_tw,70,6,open portal,0.0,0,1,False,belief=I have a bug and a stick of butter in the launderette. My ne | rule=unknown; trying actions that change the world to discover wh
+a14061d4,probe4_tw,70,7,go north,0.0,0,1,False,"belief=I have a bug and a stick of butter in the launderette, and I | rule=unknown; trying actions that change the world to discover wh"
+a14061d4,probe4_tw,70,8,go south,0.0,0,1,False,"belief=I have a bug and a stick of butter in the office, and I just | rule=unknown; trying actions that change the world to discover wh"
+a14061d4,probe4_tw,70,9,go west,0.0,0,1,False,"belief=I have a bug and a stick of butter in the launderette, and I | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,70,10,go east,0.0,0,1,False,"belief=I am in a cookhouse with a bug and a stick of butter, and I  | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,70,11,take Microsoft style keycard from cabinet,0.0,0,1,False,"belief=I am in a launderette with a bug and a stick of butter, and  | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,70,12,unlock Microsoft style chest with Microsoft style keycard,0.0,0,1,False,"belief=I am in a launderette with a bug, a stick of butter, and a M | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,70,13,open Microsoft style chest,0.0,0,1,False,"belief=I am in a launderette with a bug, a stick of butter, and a M | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,70,14,examine Microsoft style chest,0.0,0,1,False,"belief=I am in a launderette with a bug, a stick of butter, and a M | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,70,15,insert bug into Microsoft style chest,1.0,1,1,True,"belief=I am in a launderette with a bug, a stick of butter, and a M | rule=Trying actions that change the world, such as moving or taki"
+a14061d4,probe4_tw,71,0,go east,0.0,0,1,False,"belief=I have just arrived and do not yet know the layout or the go | rule=unknown, but moving or interacting with objects might raise "
+a14061d4,probe4_tw,71,1,go west,0.0,0,1,False,"belief=I'm in a washroom with an empty cabinet and a board, and I n | rule=moving to new locations might raise the score, since I got a"
+a14061d4,probe4_tw,71,2,open hatch,0.0,0,1,False,"belief=I'm in a studio with a box and a closed hatch, and I need to | rule=moving to new locations or interacting with objects might ra"
+a14061d4,probe4_tw,71,3,go north,0.0,0,1,False,"belief=I'm in a studio with a box and an open hatch, and I need to  | rule=moving to new locations or interacting with objects might ra"
+a14061d4,probe4_tw,71,4,go south,0.0,0,1,False,"belief=I'm in a salon with a shelf and an open hatch, and I need to | rule=moving to new locations might raise the score, and since goi"
+a14061d4,probe4_tw,71,5,go east,0.0,0,1,False,"belief=I'm in a studio with a box and an open hatch, and I need to  | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,6,go west,0.0,0,1,False,"belief=I'm in a washroom with an empty cabinet and a board, and I n | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,7,go north,0.0,0,1,False,"belief=I'm in a studio with a box and an open hatch, and I need to  | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,8,go east,0.0,0,1,False,"belief=I'm in a salon with an open hatch and a shelf, and I need to | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,9,go west,0.0,0,1,False,"belief=I'm in a chamber with an open wall and a nest of ticks, and  | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,10,go south,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a shelf, and I need  | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,11,go north,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a box, and I need to | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,12,go south,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a shelf, and I need  | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,13,go north,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a box, and I need to | rule=moving to new locations might raise the score, trying unbloc"
+a14061d4,probe4_tw,71,14,close hatch,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a shelf, and I need  | rule=moving to new locations, trying unblocked paths, and changin | STUCK"
+a14061d4,probe4_tw,71,15,examine shelf,0.0,0,1,False,"belief=I'm in a chamber with a closed hatch and a shelf, and I need | rule=moving to new locations, trying unblocked paths, and changin"
+a14061d4,probe4_tw,71,16,open hatch,0.0,0,1,False,"belief=I'm in a chamber with a closed hatch and a shelf, and I need | rule=moving to new locations, trying unblocked paths, and changin"
+a14061d4,probe4_tw,71,17,look,0.0,0,1,False,"belief=I'm in a chamber with a closed hatch and a shelf, and I need | rule=moving to new locations, trying unblocked paths, and changin"
+a14061d4,probe4_tw,71,18,inventory,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a shelf, and I need  | rule=moving to new locations, trying unblocked paths, and changin"
+a14061d4,probe4_tw,71,19,examine hatch,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and a shelf, and I need  | rule=moving to new locations, trying unblocked paths, and changin"
+a14061d4,probe4_tw,71,20,examine shelf,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and I need to explore to | rule=moving to new locations, trying unblocked paths, and changin | STUCK"
+a14061d4,probe4_tw,71,21,close hatch,0.0,0,1,False,"belief=I'm in a chamber with an open hatch and I need to explore to | rule=moving to new locations, trying unblocked paths, and changin | STUCK"
+a14061d4,probe4_tw,71,22,go east,0.0,0,1,False,"belief=I'm in a chamber with a closed hatch and I need to explore t | rule=moving to new locations, trying unblocked paths, and changin | STUCK"
+a14061d4,probe4_tw,71,23,take nest of ticks,1.0,1,1,True,"belief=I'm in a chamber with a revealed mantelpiece and a nest of t | rule=moving to new locations, trying unblocked paths, and changin | STUCK"
+a14061d4,probe4_tw,72,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,72,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,72,2,take key from recliner,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,72,3,lock box with key,1.0,1,1,True,"belief=I have a key and need to explore how it can be used to inter | rule=Interacting with objects, especially using the key, might in"
+a14061d4,probe4_tw,73,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,73,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,73,2,open passageway,0.0,0,1,False,"belief=I am in a cubicle with a closed passageway to the east and a | rule=unknown, but trying to move to new locations may earn score"
+a14061d4,probe4_tw,73,3,go east,0.0,0,1,False,"belief=I am in a cubicle with a now open passageway to the east and | rule=Trying to move to new locations may earn score, and since th"
+a14061d4,probe4_tw,73,4,go north,0.0,0,1,False,belief=I am in a steam room with a passageway to the west and an en | rule=Trying to move to new locations may earn score. Since moving
+a14061d4,probe4_tw,73,5,go south,0.0,0,1,False,belief=I am in a bedroom with an exit to the south. My next step is | rule=Trying to move to new locations may earn score. Moving in di
+a14061d4,probe4_tw,73,6,go west,0.0,0,1,False,belief=I am in a steam room with an exit to the west and an iron on | rule=Trying to move to new locations and interacting with objects
+a14061d4,probe4_tw,73,7,go west,0.0,0,1,False,belief=I am in a cubicle with a fudge scented locker and a passagew | rule=Trying to move to new locations and interacting with objects
+a14061d4,probe4_tw,73,8,take fudge scented latchkey from board,0.0,0,1,False,"belief=I am in a scullery with a fudge scented latchkey on a board  | rule=Interacting with objects, especially taking or moving them, "
+a14061d4,probe4_tw,73,9,go east,0.0,0,1,False,"belief=I am in a scullery with a fudge scented latchkey and an onio | rule=Interacting with objects, especially taking or moving them, "
+a14061d4,probe4_tw,73,10,close passageway,0.0,0,1,False,"belief=I am in a scullery with a fudge scented latchkey and an onio | rule=Interacting with objects, especially taking or moving them, "
+a14061d4,probe4_tw,73,11,open passageway,0.0,0,1,False,"belief=I am in a scullery with a fudge scented latchkey and an onio | rule=Interacting with objects, especially taking or moving them, "
+a14061d4,probe4_tw,73,12,go east,0.0,0,1,False,"belief=I am in a passageway with a fudge scented latchkey and an on | rule=Interacting with objects, especially taking or moving them, "
+a14061d4,probe4_tw,73,13,take iron,0.0,0,1,False,"belief=I am in a steam room with a fudge scented latchkey and an on | rule=Interacting with objects, especially taking or moving them, "
+a14061d4,probe4_tw,73,14,go north,0.0,0,1,False,"belief=I am in a steam room with a fudge scented latchkey, an onion | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,15,go south,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,16,go west,0.0,0,1,False,"belief=I am in a steam room with a fudge scented latchkey, an iron, | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,17,go west,0.0,0,1,False,"belief=I am in a cubicle with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,18,go east,0.0,0,1,False,"belief=I am in a scullery with a fudge scented latchkey, an iron, a | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,19,go east,0.0,0,1,False,"belief=I am in a cubicle with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,20,go north,0.0,0,1,False,"belief=I am in a steam room with a fudge scented latchkey, an iron, | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,21,examine fudge scented latchkey,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,22,inventory,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,23,drop fudge scented latchkey,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor, | STUCK"
+a14061d4,probe4_tw,73,24,take fudge scented latchkey,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey on the groun | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,25,look,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,26,go south,0.0,0,1,False,"belief=I am in a bedroom with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,27,go west,0.0,0,1,False,"belief=I am in a steam room with a fudge scented latchkey, an iron, | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,73,28,unlock fudge scented locker with fudge scented latchkey,1.0,1,1,True,"belief=I am in a cubicle with a fudge scented latchkey, an iron, an | rule=Using keys to unlock objects, taking objects from the floor,"
+a14061d4,probe4_tw,74,0,open gate,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,2,close gate,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,3,open gate,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,4,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,5,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,6,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,7,examine rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,8,put cashew on rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,9,put peanut on rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or the go | rule=unknown; I must discover what earns score by trying actions 
+a14061d4,probe4_tw,74,10,put cookie on rack,0.0,0,1,False,"belief=I have put the peanut on the rack and the score hasn't chang | rule=I still don't know what earns score, but I suspect it might "
+a14061d4,probe4_tw,74,11,take cookie from rack,0.0,0,1,False,"belief=I have put the cookie on the rack and the score hasn't chang | rule=I still don't know what earns score, but I suspect it might "
+a14061d4,probe4_tw,74,12,drop cookie,0.0,0,1,False,"belief=I have the cookie, my next step is to try dropping it to see | rule=I still don't know what earns score, but I suspect it might "
+a14061d4,probe4_tw,74,13,take cookie,0.0,0,1,False,"belief=I dropped the cookie, now I should try taking it to see if p | rule=I still don't know what earns score, but I suspect it might "
+a14061d4,probe4_tw,74,14,eat cookie,0.0,0,1,False,"belief=I have the cookie, my next step is to try eating it to see i | rule=I suspect that interacting with the cookie in different ways"
+a14061d4,probe4_tw,74,15,go north,0.0,0,1,False,"belief=I've eaten the cookie and my score hasn't changed, my next s | rule=I still suspect that interacting with objects in different w"
+a14061d4,probe4_tw,74,16,take chocolate bar,0.0,0,1,False,belief=I'm in the basement with a chocolate bar on the floor and an | rule=I suspect that taking or interacting with objects in differe
+a14061d4,probe4_tw,74,17,eat chocolate bar,0.0,0,1,False,belief=I'm in the basement with a chocolate bar in my inventory. My | rule=I suspect that consuming or interacting with objects in diff
+a14061d4,probe4_tw,74,18,look,0.0,0,1,False,belief=I'm in the basement after eating the chocolate bar. My next  | rule=I suspect that consuming or interacting with objects in diff
+a14061d4,probe4_tw,74,19,go south,0.0,0,1,False,belief=I'm in the basement and need to find a way out or interact w | rule=I suspect that moving to new locations or interacting with o
+a14061d4,probe4_tw,74,20,take cashew from rack,0.0,0,1,False,belief=I'm in a spare room with a rack containing a peanut and a ca | rule=I suspect that taking or interacting with objects might rais
+a14061d4,probe4_tw,74,21,take peanut from rack,0.0,0,1,False,belief=I'm in a spare room with a rack containing a peanut. My next | rule=I suspect that taking or interacting with objects might rais
+a14061d4,probe4_tw,74,22,put peanut on rack,0.0,0,1,False,"belief=I'm in a spare room with a rack and I have a peanut and a ca | rule=I suspect that taking or interacting with objects, and possi"
+a14061d4,probe4_tw,74,23,put cashew on rack,0.0,0,1,False,belief=I'm in a spare room with a rack and I have a cashew. My next | rule=I suspect that putting objects back on the rack might raise 
+a14061d4,probe4_tw,74,24,examine rack,0.0,0,1,False,belief=I'm in a spare room with a rack and I have put the cashew on | rule=I suspect that putting objects back on the rack might raise 
+a14061d4,probe4_tw,74,25,go west,0.0,0,1,False,belief=I'm in a spare room with a rack and I have put the cashew an | rule=I suspect that putting objects back on the rack might raise 
+a14061d4,probe4_tw,74,26,take insect,0.0,0,1,False,"belief=I'm in a recreation zone with an exit to the east and an ins | rule=I suspect that interacting with objects in the environment, "
+a14061d4,probe4_tw,74,27,go east,0.0,0,1,False,belief=I'm in a recreation zone with an insect in my inventory. My  | rule=I still suspect that interacting with objects in the environ
+a14061d4,probe4_tw,74,28,go north,0.0,0,1,False,"belief=I'm in a recreation zone with an insect in my inventory. My  | rule=I suspect that interacting with objects in the environment, "
+a14061d4,probe4_tw,74,29,go north,0.0,0,1,False,"belief=I'm in a basement with an insect, and my next step is to exp | rule=I suspect that moving to new locations, especially those hin"

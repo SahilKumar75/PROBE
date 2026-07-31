@@ -1,0 +1,505 @@
+run_id,variant,seed,step,command,reward,score,max_score,won,note
+aebaa8d0,probe52_tw,25,0,examine cuboid safe,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,25,1,go west,0.0,0,1,False,belief=I have examined the cuboid safe and now I wan | rooms=1
+aebaa8d0,probe52_tw,25,2,go east,0.0,0,1,False,belief=I am in the Shower location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,3,go west,0.0,0,1,False,belief=I am in the Studio location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,4,take cuboid keycard from board,0.0,0,1,False,belief=I am in the Studio location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,5,examine gate,0.0,0,1,False,belief=I am in the Shower location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,6,examine board,0.0,0,1,False,belief=I am in the Shower location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,7,examine mat,0.0,0,1,False,belief=I am in the Shower location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,8,drop candy bar,0.0,0,1,False,belief=I am in the Shower location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,9,go east,0.0,0,1,False,belief=I am in the Shower location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,25,10,unlock cuboid safe with cuboid keycard,1.0,1,1,True,belief=I am in the Studio location and I want to exp | rooms=2
+aebaa8d0,probe52_tw,26,0,examine chest,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,26,1,examine gate,0.0,0,1,False,"belief=I have examined the chest and it's open, my n | rooms=1"
+aebaa8d0,probe52_tw,26,2,go north,0.0,0,1,False,belief=I am at the gate and it is open. My next step | rooms=1
+aebaa8d0,probe52_tw,26,3,go south,0.0,0,1,False,belief=I am in the Studio and the entranceway to the | rooms=2
+aebaa8d0,probe52_tw,26,4,close chest,0.0,0,1,False,belief=I am in the Canteen and the entranceway to th | rooms=2
+aebaa8d0,probe52_tw,26,5,go north,0.0,0,1,False,belief=I am in the Canteen and the entranceway to th | rooms=2
+aebaa8d0,probe52_tw,26,6,go south,0.0,0,1,False,belief=I am in the Studio and the entranceway to the | rooms=2
+aebaa8d0,probe52_tw,26,7,open chest,0.0,0,1,False,belief=I am in the Canteen and I need to try new act | rooms=2
+aebaa8d0,probe52_tw,26,8,close chest,0.0,0,1,False,belief=I am in the Canteen and I need to try new act | rooms=2
+aebaa8d0,probe52_tw,26,9,close gate,0.0,0,1,False,belief=I am in the Canteen and I need to try new act | rooms=2
+aebaa8d0,probe52_tw,26,10,open chest,0.0,0,1,False,belief=I am in the Canteen and I need to try new act | rooms=2
+aebaa8d0,probe52_tw,26,11,go north,0.0,0,1,False,belief=I am in the Canteen and I need to try new act | rooms=2
+aebaa8d0,probe52_tw,26,12,examine stand,0.0,0,1,False,belief=I am in the Studio and I need to explore new  | rooms=2
+aebaa8d0,probe52_tw,26,13,go south,0.0,0,1,False,belief=I am in the Studio and I need to explore new  | rooms=2
+aebaa8d0,probe52_tw,26,14,open gate,0.0,0,1,False,belief=I am in the Canteen and I need to explore new | rooms=2
+aebaa8d0,probe52_tw,26,15,inventory,0.0,0,1,False,belief=I am in the Canteen and I need to explore new | rooms=2
+aebaa8d0,probe52_tw,26,16,close gate,0.0,0,1,False,belief=I am in the Canteen and I need to explore new | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,17,open gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,18,look,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,19,examine chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,20,examine gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,21,inventory,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,22,look,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,23,close chest,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,24,close gate,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,25,examine chest,0.0,0,1,False,belief=I need to explore the unknown area south of t | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,26,examine gate,0.0,0,1,False,belief=I need to explore the unknown area south of t | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,27,inventory,0.0,0,1,False,belief=I should head to the Studio to see if there's | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,28,look,0.0,0,1,False,belief=I should head to the Studio to see if there's | rooms=2 | STUCK
+aebaa8d0,probe52_tw,26,29,open chest,0.0,0,1,False,belief=I should head to the Studio to see if there's | rooms=2 | STUCK
+aebaa8d0,probe52_tw,27,0,examine trunk,0.0,0,1,False,belief=I am in the attic with a trunk and an unknown | rooms=1
+aebaa8d0,probe52_tw,27,1,go east,0.0,0,1,False,belief=I am in the attic with a trunk and an unknown | rooms=1
+aebaa8d0,probe52_tw,27,2,open gate,0.0,0,1,False,belief=I am in the attic with a trunk and an unknown | rooms=2
+aebaa8d0,probe52_tw,27,3,go north,0.0,0,1,False,belief=I am in the Canteen with several objects and  | rooms=2
+aebaa8d0,probe52_tw,27,4,go south,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=3
+aebaa8d0,probe52_tw,27,5,go west,0.0,0,1,False,belief=I am in the Canteen with several objects and  | rooms=3
+aebaa8d0,probe52_tw,27,6,go east,0.0,0,1,False,belief=I am in the Attic with a trunk and an entranc | rooms=3
+aebaa8d0,probe52_tw,27,7,go west,0.0,0,1,False,"belief=I am in the Canteen with a bowl, gate, non-eu | rooms=3"
+aebaa8d0,probe52_tw,27,8,go east,0.0,0,1,False,belief=I am in the Attic with a trunk. My next step  | rooms=3
+aebaa8d0,probe52_tw,27,9,go west,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,10,inventory,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,11,look,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,12,examine trunk,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,13,inventory,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,14,look,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,15,examine trunk,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,16,inventory,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,17,look,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,18,examine trunk,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,19,go east,0.0,0,1,False,belief=I am in the Attic and my next step is to go t | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,20,go north,0.0,0,1,False,belief=I am in the Canteen and my next step is to go | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,21,go south,0.0,0,1,False,belief=I am in the Spare Room and my next step is to | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,22,close gate,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,23,take non-euclidean passkey,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3 | STUCK
+aebaa8d0,probe52_tw,27,24,lock non-euclidean chest with non-euclidean passkey,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,27,25,unlock non-euclidean chest with non-euclidean passkey,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,27,26,examine bowl,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,27,27,examine gate,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,27,28,open gate,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,27,29,go north,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,28,0,examine gateway,0.0,0,1,False,"belief=I am in a bedroom with a cd and a gateway, an | rooms=1"
+aebaa8d0,probe52_tw,28,1,take cd,0.0,0,1,False,belief=I am in a bedroom with a cd and a gateway. Si | rooms=1
+aebaa8d0,probe52_tw,28,2,examine cd,0.0,0,1,False,belief=I am in a bedroom with a cd and a gateway. My | rooms=1
+aebaa8d0,probe52_tw,28,3,open gateway,0.0,0,1,False,belief=I am in a bedroom with a cd and a gateway. Si | rooms=1
+aebaa8d0,probe52_tw,28,4,go south,0.0,0,1,False,belief=I am in a bedroom with a cd and an open gatew | rooms=1
+aebaa8d0,probe52_tw,28,5,go north,0.0,0,1,False,belief=I am in the Scullery and my next step is to e | rooms=2
+aebaa8d0,probe52_tw,28,6,go south,0.0,0,1,False,belief=I am in the Bedroom and my next step is to ex | rooms=2
+aebaa8d0,probe52_tw,28,7,go east,0.0,0,1,False,belief=I am in the Scullery and my next step is to e | rooms=2
+aebaa8d0,probe52_tw,28,8,go west,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=3
+aebaa8d0,probe52_tw,28,9,go north,0.0,0,1,False,belief=I am in the Scullery and my next step is to e | rooms=3
+aebaa8d0,probe52_tw,28,10,go west,0.0,0,1,False,belief=I am in the Bedroom and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,28,11,take licorice strip,0.0,0,1,False,belief=I am in the Laundromat and my next step is to | rooms=4
+aebaa8d0,probe52_tw,28,12,examine licorice strip,0.0,0,1,False,belief=I am in the Laundromat and my next step is to | rooms=4
+aebaa8d0,probe52_tw,28,13,examine shelf,0.0,0,1,False,belief=I am in the Laundromat and my next step is to | rooms=4
+aebaa8d0,probe52_tw,28,14,take stick of butter from shelf,0.0,0,1,False,belief=I am in the Laundromat and my next step is to | rooms=4
+aebaa8d0,probe52_tw,28,15,eat licorice strip,0.0,0,1,False,belief=I am in the Laundromat with a stick of butter | rooms=4
+aebaa8d0,probe52_tw,28,16,eat stick of butter,1.0,1,1,True,belief=I am in the Laundromat with a stick of butter | rooms=4
+aebaa8d0,probe52_tw,29,0,unlock chest with latchkey,0.0,0,1,False,belief=I am in the Scullery with a latchkey and need | rooms=1
+aebaa8d0,probe52_tw,29,1,open chest,0.0,0,1,False,belief=I am in the Scullery with an unlocked chest a | rooms=1
+aebaa8d0,probe52_tw,29,2,go west,0.0,0,1,False,belief=I am in the Scullery with an unlocked chest a | rooms=1
+aebaa8d0,probe52_tw,29,3,go east,0.0,0,1,False,belief=I am in the Cellar with a closed gate and an  | rooms=2
+aebaa8d0,probe52_tw,29,4,take fresh laundry scented key from chest,0.0,0,1,False,belief=I am in the Scullery with a chest containing  | rooms=2
+aebaa8d0,probe52_tw,29,5,go west,0.0,0,1,False,belief=I am in the Scullery with a fresh laundry sce | rooms=2
+aebaa8d0,probe52_tw,29,6,open gate,0.0,0,1,False,belief=I am in the Cellar with a fresh laundry scent | rooms=2
+aebaa8d0,probe52_tw,29,7,go south,0.0,0,1,False,belief=I am in the Cellar with a fresh laundry scent | rooms=2
+aebaa8d0,probe52_tw,29,8,go north,0.0,0,1,False,belief=I am in the Studio with a fresh laundry scent | rooms=3
+aebaa8d0,probe52_tw,29,9,go east,0.0,0,1,False,belief=I am in the Cellar with a fresh laundry scent | rooms=3
+aebaa8d0,probe52_tw,29,10,go west,0.0,0,1,False,belief=I am in the Scullery with a fresh laundry sce | rooms=3
+aebaa8d0,probe52_tw,29,11,go east,0.0,0,1,False,belief=I am in the Cellar with a fresh laundry scent | rooms=3
+aebaa8d0,probe52_tw,29,12,close chest,0.0,0,1,False,belief=I am in the Scullery with a fresh laundry sce | rooms=3
+aebaa8d0,probe52_tw,29,13,lock chest with latchkey,0.0,0,1,False,belief=I am in the Scullery with a fresh laundry sce | rooms=3
+aebaa8d0,probe52_tw,29,14,unlock chest with latchkey,0.0,0,1,False,belief=I am in the Scullery with a fresh laundry sce | rooms=3
+aebaa8d0,probe52_tw,29,15,examine chest,0.0,0,1,False,belief=I am in the Scullery with a fresh laundry sce | rooms=3
+aebaa8d0,probe52_tw,29,16,lock fresh laundry scented chest with fresh laundry scented key,1.0,1,1,True,belief=I am in the Scullery with a fresh laundry sce | rooms=3
+aebaa8d0,probe52_tw,30,0,examine safe,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,30,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,30,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,30,3,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,30,4,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,30,5,open safe,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,30,6,take blender from safe,0.0,0,1,False,belief=I have opened the safe and found a blender. M | rooms=3
+aebaa8d0,probe52_tw,30,7,go west,0.0,0,1,False,belief=I have the blender and I'm in the Canteen. My | rooms=3
+aebaa8d0,probe52_tw,30,8,examine trunk,0.0,0,1,False,"belief=I am in the Bedchamber with a blender, key, a | rooms=3"
+aebaa8d0,probe52_tw,30,9,open trunk,0.0,0,1,False,"belief=I am in the Bedchamber with a blender, key, a | rooms=3"
+aebaa8d0,probe52_tw,30,10,insert mop into trunk,0.0,0,1,False,"belief=I am in the Bedchamber with a blender, key, a | rooms=3"
+aebaa8d0,probe52_tw,30,11,insert blender into trunk,0.0,0,1,False,"belief=I am in the Bedchamber with a blender, key, a | rooms=3"
+aebaa8d0,probe52_tw,30,12,go south,0.0,0,1,False,"belief=I am in the Bedchamber with a key, and I just | rooms=3"
+aebaa8d0,probe52_tw,30,13,go north,0.0,0,1,False,"belief=I am in the Cookery with a key, and my next s | rooms=4"
+aebaa8d0,probe52_tw,30,14,go east,0.0,0,1,False,"belief=I am in the Bedchamber with a key, and my nex | rooms=4"
+aebaa8d0,probe52_tw,30,15,insert key into safe,0.0,0,1,False,"belief=I am in the Canteen with a key, and my next s | rooms=4"
+aebaa8d0,probe52_tw,30,16,close safe,0.0,0,1,False,belief=I am in the Canteen with a key inserted into  | rooms=4
+aebaa8d0,probe52_tw,30,17,open safe,0.0,0,1,False,belief=I am in the Canteen with an open safe. My nex | rooms=4
+aebaa8d0,probe52_tw,30,18,take key from safe,0.0,0,1,False,belief=I am in the Canteen with an open safe and a k | rooms=4
+aebaa8d0,probe52_tw,30,19,look,0.0,0,1,False,"belief=I am in the Canteen with a key, and my next s | rooms=4"
+aebaa8d0,probe52_tw,30,20,close safe,0.0,0,1,False,"belief=I am in the Canteen with a key, and my next s | rooms=4"
+aebaa8d0,probe52_tw,30,21,lock safe with key,0.0,0,1,False,"belief=I am in the Canteen with a key, and my next s | rooms=4"
+aebaa8d0,probe52_tw,30,22,drop key,0.0,0,1,False,belief=I am in the Canteen with a key and my next st | rooms=4
+aebaa8d0,probe52_tw,30,23,take key,0.0,0,1,False,belief=I am in the Canteen with a key on the ground. | rooms=4
+aebaa8d0,probe52_tw,30,24,unlock safe with key,0.0,0,1,False,belief=I am in the Canteen with a key in my inventor | rooms=4
+aebaa8d0,probe52_tw,30,25,inventory,0.0,0,1,False,belief=I am in the Canteen with a key in my inventor | rooms=4
+aebaa8d0,probe52_tw,30,26,examine key,0.0,0,1,False,belief=I am in the Canteen with a key and an unlocke | rooms=4
+aebaa8d0,probe52_tw,30,27,drop key,0.0,0,1,False,belief=I am in the Canteen with a key and an unlocke | rooms=4
+aebaa8d0,probe52_tw,30,28,take key,0.0,0,1,False,belief=I am in the Canteen with a key on the ground  | rooms=4
+aebaa8d0,probe52_tw,30,29,lock safe with key,0.0,0,1,False,belief=I am in the Canteen with a key and an unlocke | rooms=4
+aebaa8d0,probe52_tw,31,0,lock rectangular box with rectangular latchkey,0.0,0,1,False,belief=I am in the Sauna with a rectangular latchkey | rooms=1
+aebaa8d0,probe52_tw,31,1,unlock rectangular box with rectangular latchkey,0.0,0,1,False,belief=I am in the Sauna with a locked rectangular b | rooms=1
+aebaa8d0,probe52_tw,31,2,examine rectangular box,0.0,0,1,False,belief=I am in the Sauna with an unlocked rectangula | rooms=1
+aebaa8d0,probe52_tw,31,3,open rectangular box,0.0,0,1,False,belief=I am in the Sauna with a closed rectangular b | rooms=1
+aebaa8d0,probe52_tw,31,4,take key from rectangular box,0.0,0,1,False,belief=I am in the Sauna with an open rectangular bo | rooms=1
+aebaa8d0,probe52_tw,31,5,go east,0.0,0,1,False,belief=I am in the Sauna with an open rectangular bo | rooms=1
+aebaa8d0,probe52_tw,31,6,examine safe,0.0,0,1,False,"belief=I am in the Cookhouse with a key, a rectangul | rooms=2"
+aebaa8d0,probe52_tw,31,7,examine portal,0.0,0,1,False,"belief=I am in the Cookhouse with a key, a rectangul | rooms=2"
+aebaa8d0,probe52_tw,31,8,lock safe with key,1.0,1,1,True,"belief=I am in the Cookhouse with a key, a rectangul | rooms=2"
+aebaa8d0,probe52_tw,32,0,open hatch,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,32,1,examine mantelpiece,0.0,0,1,False,"belief=I have just opened the hatch, and my next ste | rooms=1"
+aebaa8d0,probe52_tw,32,2,put nest of insects on mantelpiece,0.0,0,1,False,belief=I have examined the mantelpiece and it's stab | rooms=1
+aebaa8d0,probe52_tw,32,3,go north,0.0,0,1,False,belief=I have put the nest of insects on the mantelp | rooms=1
+aebaa8d0,probe52_tw,32,4,examine durian,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=2
+aebaa8d0,probe52_tw,32,5,examine board,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=2
+aebaa8d0,probe52_tw,32,6,go south,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=2
+aebaa8d0,probe52_tw,32,7,go west,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=2
+aebaa8d0,probe52_tw,32,8,take gummy bear,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=3
+aebaa8d0,probe52_tw,32,9,examine hatch,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=3
+aebaa8d0,probe52_tw,32,10,go east,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=3
+aebaa8d0,probe52_tw,32,11,go north,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=3
+aebaa8d0,probe52_tw,32,12,take durian,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=3
+aebaa8d0,probe52_tw,32,13,put durian on board,0.0,0,1,False,belief=I need to explore the surroundings and intera | rooms=3
+aebaa8d0,probe52_tw,32,14,put gummy bear on board,0.0,0,1,False,belief=I need to continue exploring and interacting  | rooms=3
+aebaa8d0,probe52_tw,32,15,go south,0.0,0,1,False,belief=I need to continue exploring and interacting  | rooms=3
+aebaa8d0,probe52_tw,32,16,go west,0.0,0,1,False,belief=I need to continue exploring and interacting  | rooms=3
+aebaa8d0,probe52_tw,32,17,go south,0.0,0,1,False,belief=I need to continue exploring and interacting  | rooms=3
+aebaa8d0,probe52_tw,32,18,examine bench,0.0,0,1,False,belief=I need to continue exploring and interacting  | rooms=4
+aebaa8d0,probe52_tw,32,19,go north,0.0,0,1,False,belief=I need to continue exploring to find new obje | rooms=4
+aebaa8d0,probe52_tw,32,20,go east,0.0,0,1,False,belief=I need to continue exploring to find new obje | rooms=4
+aebaa8d0,probe52_tw,32,21,go west,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4
+aebaa8d0,probe52_tw,32,22,go east,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4
+aebaa8d0,probe52_tw,32,23,take nest of insects from mantelpiece,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4 | STUCK
+aebaa8d0,probe52_tw,32,24,close hatch,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4 | STUCK
+aebaa8d0,probe52_tw,32,25,put nest of insects on mantelpiece,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4 | STUCK
+aebaa8d0,probe52_tw,32,26,look,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4
+aebaa8d0,probe52_tw,32,27,open hatch,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4
+aebaa8d0,probe52_tw,32,28,close hatch,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4
+aebaa8d0,probe52_tw,32,29,inventory,0.0,0,1,False,belief=I need to explore new areas and interact with | rooms=4
+aebaa8d0,probe52_tw,33,0,lock locker with latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,33,1,go east,0.0,0,1,False,belief=I have locked the locker and now I want to se | rooms=1
+aebaa8d0,probe52_tw,33,2,go north,0.0,0,1,False,belief=I am in a cubicle and want to explore new are | rooms=2
+aebaa8d0,probe52_tw,33,3,go south,0.0,0,1,False,belief=I am in the kitchen and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,4,go north,0.0,0,1,False,belief=I am in the Cubicle and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,5,examine mug,0.0,0,1,False,belief=I am in the Kitchen and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,6,take mug,0.0,0,1,False,belief=I am in the Kitchen and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,7,examine latchkey,0.0,0,1,False,belief=I am in the Kitchen and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,8,go south,0.0,0,1,False,belief=I am in the Kitchen and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,9,go north,0.0,0,1,False,belief=I am in the Cubicle and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,10,go south,0.0,0,1,False,belief=I am in the Kitchen and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,11,go west,0.0,0,1,False,belief=I am in the Cubicle and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,12,examine locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,13,go east,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,14,go west,0.0,0,1,False,belief=I am in the Cubicle and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,15,unlock locker with latchkey,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,16,examine pear,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,17,go east,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,18,go west,0.0,0,1,False,belief=I am in the Cubicle and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,19,open locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,20,take fly larva from locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,21,look,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,22,inventory,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,23,take pear,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,24,eat pear,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,25,insert fly larva into locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,26,insert latchkey into locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,27,close locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,28,open locker,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,33,29,examine fly larva,0.0,0,1,False,belief=I am in the Cookery and want to explore new a | rooms=3
+aebaa8d0,probe52_tw,34,0,examine glass,0.0,0,1,False,belief=I am in the Cookery with a glass nearby. My n | rooms=1
+aebaa8d0,probe52_tw,34,1,go north,0.0,0,1,False,belief=I am in the Cookery with a glass nearby. My n | rooms=1
+aebaa8d0,probe52_tw,34,2,go east,0.0,0,1,False,belief=I am in the Cookhouse with unblocked exits. M | rooms=2
+aebaa8d0,probe52_tw,34,3,take gummy bear from suitcase,0.0,0,1,False,belief=I am in the Pantry with an opened suitcase co | rooms=3
+aebaa8d0,probe52_tw,34,4,examine gummy bear,0.0,0,1,False,"belief=I am in the Pantry with a gummy bear, and my  | rooms=3"
+aebaa8d0,probe52_tw,34,5,examine suitcase,0.0,0,1,False,belief=I am in the Pantry with a gummy bear and a su | rooms=3
+aebaa8d0,probe52_tw,34,6,close suitcase,0.0,0,1,False,belief=I am in the Pantry with a gummy bear and a su | rooms=3
+aebaa8d0,probe52_tw,34,7,open suitcase,0.0,0,1,False,belief=I am in the Pantry with a gummy bear and a su | rooms=3
+aebaa8d0,probe52_tw,34,8,eat gummy bear,1.0,1,1,True,belief=I am in the Pantry with a gummy bear and an o | rooms=3
+aebaa8d0,probe52_tw,35,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,35,1,examine insect,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,35,2,examine rack,0.0,0,1,False,belief=I have examined the insect and now I want to  | rooms=1
+aebaa8d0,probe52_tw,35,3,put knife on rack,0.0,0,1,False,"belief=I have examined the insect and the rack, now  | rooms=1"
+aebaa8d0,probe52_tw,35,4,drop shadfly,0.0,0,1,False,"belief=I have examined the insect and the rack, and  | rooms=1"
+aebaa8d0,probe52_tw,35,5,take shadfly,0.0,0,1,False,belief=I have dropped the shadfly and now I want to  | rooms=1
+aebaa8d0,probe52_tw,35,6,examine knife,0.0,0,1,False,belief=I have the shadfly and want to try using it o | rooms=1
+aebaa8d0,probe52_tw,35,7,put shadfly on rack,0.0,0,1,False,belief=I have the shadfly and want to try using it o | rooms=1
+aebaa8d0,probe52_tw,35,8,take knife from rack,0.0,0,1,False,belief=I have placed the shadfly on the rack and now | rooms=1
+aebaa8d0,probe52_tw,35,9,go south,0.0,0,1,False,belief=I have the knife and want to explore other pa | rooms=1
+aebaa8d0,probe52_tw,35,10,examine dresser,0.0,0,1,False,belief=I have the knife and want to explore other pa | rooms=2
+aebaa8d0,probe52_tw,35,11,examine vanilla scented gateway,0.0,0,1,False,belief=I want to explore other parts of the room or  | rooms=2
+aebaa8d0,probe52_tw,35,12,open dresser,0.0,0,1,False,belief=I want to explore other parts of the room or  | rooms=2
+aebaa8d0,probe52_tw,35,13,take vanilla scented latchkey from dresser,0.0,0,1,False,belief=I want to explore other parts of the room or  | rooms=2
+aebaa8d0,probe52_tw,35,14,unlock vanilla scented gateway with vanilla scented latchkey,1.0,1,1,True,belief=I want to explore the possibility of using th | rooms=2
+aebaa8d0,probe52_tw,36,0,examine Canadian limited edition gateway,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,36,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,36,2,take Canadian limited edition keycard,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,36,3,examine rack,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,36,4,examine stick of butter,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,36,5,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,36,6,unlock Canadian limited edition gateway with Canadian limited edition keycard,1.0,1,1,True,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,37,0,examine cuboid portal,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,37,1,unlock cuboid portal with cuboid key,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,37,2,open cuboid portal,0.0,0,1,False,"belief=I have just unlocked the cuboid portal, and m | rooms=1"
+aebaa8d0,probe52_tw,37,3,go north,0.0,0,1,False,"belief=I have just opened the cuboid portal, and my  | rooms=1"
+aebaa8d0,probe52_tw,37,4,go south,0.0,0,1,False,belief=I am in the Cubicle and my next step is to ex | rooms=2
+aebaa8d0,probe52_tw,37,5,go east,0.0,0,1,False,belief=I am in the Laundry Place and my next step is | rooms=2
+aebaa8d0,probe52_tw,37,6,go north,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=3
+aebaa8d0,probe52_tw,37,7,go south,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=4
+aebaa8d0,probe52_tw,37,8,go north,0.0,0,1,False,belief=I am in the Canteen and my next step is to ex | rooms=4
+aebaa8d0,probe52_tw,37,9,look,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=4
+aebaa8d0,probe52_tw,37,10,go south,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=4
+aebaa8d0,probe52_tw,37,11,take coffee cup,1.0,1,1,True,belief=I am in the Canteen and my next step is to in | rooms=4
+aebaa8d0,probe52_tw,38,0,unlock Microsoft chest with Microsoft latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,38,1,open Microsoft chest,0.0,0,1,False,belief=I have unlocked the Microsoft chest and my ne | rooms=1
+aebaa8d0,probe52_tw,38,2,examine Microsoft chest,0.0,0,1,False,belief=I have unlocked the Microsoft chest and my ne | rooms=1
+aebaa8d0,probe52_tw,38,3,examine gateway,0.0,0,1,False,belief=I have unlocked the Microsoft chest and exami | rooms=1
+aebaa8d0,probe52_tw,38,4,go north,0.0,0,1,False,belief=I have examined the gateway and it is closed. | rooms=1
+aebaa8d0,probe52_tw,38,5,go south,0.0,0,1,False,belief=I am in the Vault and need to find a way to c | rooms=2
+aebaa8d0,probe52_tw,38,6,go north,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,7,go south,0.0,0,1,False,belief=I am in the Vault and need to find a way to c | rooms=2
+aebaa8d0,probe52_tw,38,8,go north,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,9,go south,0.0,0,1,False,belief=I am in the Vault and need to find a way to c | rooms=2
+aebaa8d0,probe52_tw,38,10,insert Microsoft latchkey into Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2 | STUCK
+aebaa8d0,probe52_tw,38,11,insert potato into Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,12,take Microsoft latchkey from Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,13,examine Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,14,examine potato,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,15,look,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,16,close Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,17,lock Microsoft chest with Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,18,inventory,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,19,unlock Microsoft chest with Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,20,open Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,21,insert Microsoft latchkey into Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,22,take Microsoft latchkey from Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to find a way t | rooms=2
+aebaa8d0,probe52_tw,38,23,drop Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to explore new  | rooms=2 | STUCK
+aebaa8d0,probe52_tw,38,24,close Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and need to explore new  | rooms=2
+aebaa8d0,probe52_tw,38,25,take Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to explore new  | rooms=2
+aebaa8d0,probe52_tw,38,26,drop Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to explore new  | rooms=2
+aebaa8d0,probe52_tw,38,27,take Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to explore new  | rooms=2
+aebaa8d0,probe52_tw,38,28,lock Microsoft chest with Microsoft latchkey,0.0,0,1,False,belief=I am in the Dish-Pit and need to explore new  | rooms=2
+aebaa8d0,probe52_tw,38,29,examine Microsoft chest,0.0,0,1,False,belief=I am in the Dish-Pit and have locked the Micr | rooms=2
+aebaa8d0,probe52_tw,39,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,39,1,go east,0.0,0,1,False,belief=I am in a closet with a closed passageway and | rooms=2
+aebaa8d0,probe52_tw,39,2,examine Microsoft limited edition box,0.0,0,1,False,belief=I am in a kitchenette with a Microsoft limite | rooms=2
+aebaa8d0,probe52_tw,39,3,unlock Microsoft limited edition box with Microsoft limited edition latchkey,0.0,0,1,False,belief=I am in a kitchenette with a Microsoft limite | rooms=2
+aebaa8d0,probe52_tw,39,4,open Microsoft limited edition box,0.0,0,1,False,belief=I am in a kitchenette with an unlocked Micros | rooms=2
+aebaa8d0,probe52_tw,39,5,take loaf of bread from Microsoft limited edition box,0.0,0,1,False,belief=I am in a kitchenette with a loaf of bread an | rooms=2
+aebaa8d0,probe52_tw,39,6,examine mug,0.0,0,1,False,belief=I am in a kitchenette with a loaf of bread an | rooms=2
+aebaa8d0,probe52_tw,39,7,go west,0.0,0,1,False,belief=I am in a kitchenette with a loaf of bread an | rooms=2
+aebaa8d0,probe52_tw,39,8,go east,0.0,0,1,False,belief=I am in a closet with a passageway leading so | rooms=2
+aebaa8d0,probe52_tw,39,9,go west,0.0,0,1,False,"belief=I am in the Kitchenette, and my next step is  | rooms=2"
+aebaa8d0,probe52_tw,39,10,go east,0.0,0,1,False,"belief=I am in the Closet, and my next step is to ex | rooms=2"
+aebaa8d0,probe52_tw,39,11,close Microsoft limited edition box,0.0,0,1,False,"belief=I am in the Kitchenette, and my next step is  | rooms=2"
+aebaa8d0,probe52_tw,39,12,examine Microsoft limited edition latchkey,0.0,0,1,False,"belief=I am in the Kitchenette, and my next step is  | rooms=2"
+aebaa8d0,probe52_tw,39,13,open Microsoft limited edition box,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,14,take mug from Microsoft limited edition box,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,15,insert Microsoft limited edition latchkey into Microsoft limited edition box,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,16,drop cashew,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,17,examine cashew,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,18,take cashew,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,19,drop loaf of bread,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,20,take loaf of bread,0.0,0,1,False,belief=I am in the Kitchenette and my next step is t | rooms=2
+aebaa8d0,probe52_tw,39,21,look,0.0,0,1,False,"belief=I am in the Kitchenette with a loaf of bread, | rooms=2"
+aebaa8d0,probe52_tw,39,22,take Microsoft limited edition latchkey from Microsoft limited edition box,0.0,0,1,False,"belief=I am in the Kitchenette with a loaf of bread, | rooms=2"
+aebaa8d0,probe52_tw,39,23,insert Microsoft limited edition latchkey into Microsoft limited edition box,0.0,0,1,False,"belief=I am in the Kitchenette with a loaf of bread, | rooms=2"
+aebaa8d0,probe52_tw,39,24,close Microsoft limited edition box,0.0,0,1,False,"belief=I am in the Kitchenette with a loaf of bread, | rooms=2"
+aebaa8d0,probe52_tw,39,25,drop mug,0.0,0,1,False,"belief=I am in the Kitchenette with a loaf of bread, | rooms=2"
+aebaa8d0,probe52_tw,39,26,eat cashew,0.0,0,1,False,"belief=I am in the Kitchenette with a loaf of bread, | rooms=2"
+aebaa8d0,probe52_tw,39,27,inventory,0.0,0,1,False,belief=I am in the Kitchenette with a loaf of bread  | rooms=2
+aebaa8d0,probe52_tw,39,28,take mug,0.0,0,1,False,belief=I am in the Kitchenette with a loaf of bread  | rooms=2
+aebaa8d0,probe52_tw,39,29,examine loaf of bread,0.0,0,1,False,belief=I am in the Kitchenette with a loaf of bread  | rooms=2
+aebaa8d0,probe52_tw,40,0,examine soap scented passkey,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=1
+aebaa8d0,probe52_tw,40,1,examine soap scented safe,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=1
+aebaa8d0,probe52_tw,40,2,examine gate,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=1
+aebaa8d0,probe52_tw,40,3,examine peanut,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=1
+aebaa8d0,probe52_tw,40,4,take peanut,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=1
+aebaa8d0,probe52_tw,40,5,go north,0.0,0,1,False,belief=I am in the Spare Room with several objects a | rooms=1
+aebaa8d0,probe52_tw,40,6,go south,0.0,0,1,False,belief=I am in the Basement with an exit to the sout | rooms=2
+aebaa8d0,probe52_tw,40,7,take soap scented passkey,0.0,0,1,False,belief=I am in the Spare Room with a soap scented sa | rooms=2
+aebaa8d0,probe52_tw,40,8,unlock soap scented safe with soap scented passkey,0.0,0,1,False,belief=I am in the Spare Room with a soap scented sa | rooms=2
+aebaa8d0,probe52_tw,40,9,open soap scented safe,0.0,0,1,False,belief=I am in the Spare Room with an unlocked soap  | rooms=2
+aebaa8d0,probe52_tw,40,10,take pair of headphones from soap scented safe,1.0,1,1,True,belief=I am in the Spare Room with an unlocked soap  | rooms=2
+aebaa8d0,probe52_tw,41,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,41,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,41,2,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,41,3,examine portal,0.0,0,1,False,belief=I am in the Scullery and want to explore the  | rooms=2
+aebaa8d0,probe52_tw,41,4,examine fridge,0.0,0,1,False,belief=I am in the Scullery and want to explore the  | rooms=2
+aebaa8d0,probe52_tw,41,5,examine TextWorld safe,0.0,0,1,False,belief=I am in the Scullery and want to explore the  | rooms=2
+aebaa8d0,probe52_tw,41,6,open fridge,0.0,0,1,False,belief=I am in the Scullery and want to explore the  | rooms=2 | STUCK
+aebaa8d0,probe52_tw,41,7,take TextWorld keycard from fridge,0.0,0,1,False,belief=I am in the Scullery and want to explore the  | rooms=2
+aebaa8d0,probe52_tw,41,8,unlock TextWorld safe with TextWorld keycard,1.0,1,1,True,belief=I am in the Scullery and want to explore the  | rooms=2
+aebaa8d0,probe52_tw,42,0,examine fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom with a fudge scented box | rooms=1
+aebaa8d0,probe52_tw,42,1,take fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom with a fudge scented box | rooms=1
+aebaa8d0,probe52_tw,42,2,examine fudge scented box,0.0,0,1,False,belief=I am in the Restroom with a fudge scented box | rooms=1
+aebaa8d0,probe52_tw,42,3,unlock fudge scented box with fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom with a fudge scented box | rooms=1
+aebaa8d0,probe52_tw,42,4,go west,0.0,0,1,False,belief=I am in the Restroom with a fudge scented box | rooms=1
+aebaa8d0,probe52_tw,42,5,open hatch,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=2
+aebaa8d0,probe52_tw,42,6,examine hatch,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=2
+aebaa8d0,probe52_tw,42,7,examine table,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=2
+aebaa8d0,probe52_tw,42,8,put fudge scented keycard on table,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=2
+aebaa8d0,probe52_tw,42,9,go north,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=2
+aebaa8d0,probe52_tw,42,10,go south,0.0,0,1,False,belief=I am in the Kitchen with an open hatch. My ne | rooms=3
+aebaa8d0,probe52_tw,42,11,take fudge scented keycard from table,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=3
+aebaa8d0,probe52_tw,42,12,go north,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=3
+aebaa8d0,probe52_tw,42,13,go south,0.0,0,1,False,belief=I am in the Kitchen with a fudge scented keyc | rooms=3
+aebaa8d0,probe52_tw,42,14,go east,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=3
+aebaa8d0,probe52_tw,42,15,go west,0.0,0,1,False,belief=I am in the Restroom with a fudge scented key | rooms=3
+aebaa8d0,probe52_tw,42,16,go north,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=3
+aebaa8d0,probe52_tw,42,17,go south,0.0,0,1,False,belief=I am in the Kitchen with a fudge scented keyc | rooms=3
+aebaa8d0,probe52_tw,42,18,go east,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,19,go west,0.0,0,1,False,belief=I am in the Restroom with a fudge scented key | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,20,go east,0.0,0,1,False,belief=I am in the Attic with a fudge scented keycar | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,21,inventory,0.0,0,1,False,belief=I am in the Restroom with a fudge scented key | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,22,lock fudge scented box with fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom with a fudge scented key | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,23,drop fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom with a fudge scented key | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,24,take fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom and I need to explore ne | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,25,unlock fudge scented box with fudge scented keycard,0.0,0,1,False,belief=I am in the Restroom and I need to explore ne | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,26,open fudge scented box,0.0,0,1,False,belief=I am in the Restroom and I need to explore ne | rooms=3 | STUCK
+aebaa8d0,probe52_tw,42,27,examine nest of ticks,0.0,0,1,False,belief=I am in the Restroom and I need to explore ne | rooms=3
+aebaa8d0,probe52_tw,42,28,look,0.0,0,1,False,belief=I am in the Restroom and I need to explore ne | rooms=3
+aebaa8d0,probe52_tw,42,29,close fudge scented box,0.0,0,1,False,belief=I am in the Restroom and I need to explore ne | rooms=3
+aebaa8d0,probe52_tw,43,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,43,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,43,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,43,3,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,43,4,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,43,5,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,43,6,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3
+aebaa8d0,probe52_tw,43,7,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,8,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,9,close passageway,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,10,open passageway,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=3
+aebaa8d0,probe52_tw,43,11,examine chair,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=3
+aebaa8d0,probe52_tw,43,12,examine passageway,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=3
+aebaa8d0,probe52_tw,43,13,examine passkey,0.0,0,1,False,belief=I am in the Workshop and my next step is to e | rooms=3
+aebaa8d0,probe52_tw,43,14,go south,0.0,0,1,False,belief=I am in the Workshop and my next step is to g | rooms=3
+aebaa8d0,probe52_tw,43,15,go north,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,16,go south,0.0,0,1,False,belief=I am in the Workshop and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,17,inventory,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,18,drop passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,19,take passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3
+aebaa8d0,probe52_tw,43,20,look,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3
+aebaa8d0,probe52_tw,43,21,drop passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3
+aebaa8d0,probe52_tw,43,22,take passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3
+aebaa8d0,probe52_tw,43,23,examine passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3
+aebaa8d0,probe52_tw,43,24,inventory,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,25,look,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,26,drop passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,27,examine passkey,0.0,0,1,False,belief=I am in the Playroom and my next step is to g | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,28,inventory,0.0,0,1,False,belief=I am in the Playroom and my next step is to p | rooms=3 | STUCK
+aebaa8d0,probe52_tw,43,29,look,0.0,0,1,False,belief=I am in the Playroom and my next step is to p | rooms=3 | STUCK
+aebaa8d0,probe52_tw,44,0,examine American style chest,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,44,1,examine American style latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,44,2,examine mouse,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,44,3,go east,0.0,0,1,False,"belief=I have examined some objects in the cubicle,  | rooms=1"
+aebaa8d0,probe52_tw,44,4,go west,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=2
+aebaa8d0,probe52_tw,44,5,go north,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=2
+aebaa8d0,probe52_tw,44,6,go south,0.0,0,1,False,belief=I am in the Canteen and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,7,go east,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,8,look,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=3
+aebaa8d0,probe52_tw,44,9,inventory,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=3
+aebaa8d0,probe52_tw,44,10,drop nest of grubs,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=3
+aebaa8d0,probe52_tw,44,11,go west,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=3
+aebaa8d0,probe52_tw,44,12,go north,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,13,go south,0.0,0,1,False,belief=I am in the Canteen and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,14,go north,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,15,go south,0.0,0,1,False,belief=I am in the Canteen and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,16,go east,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,17,examine nest of grubs,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=3
+aebaa8d0,probe52_tw,44,18,go west,0.0,0,1,False,belief=I am in the Cookhouse and need to explore new | rooms=3 | STUCK
+aebaa8d0,probe52_tw,44,19,take American style latchkey from shelf,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=3 | STUCK
+aebaa8d0,probe52_tw,44,20,unlock American style chest with American style latchkey,0.0,0,1,False,belief=I am in the Cubicle and need to explore new l | rooms=3
+aebaa8d0,probe52_tw,44,21,open American style chest,0.0,0,1,False,belief=I am in the Cubicle and have unlocked the Ame | rooms=3
+aebaa8d0,probe52_tw,44,22,examine shelf,0.0,0,1,False,belief=I am in the Cubicle and have opened the Ameri | rooms=3
+aebaa8d0,probe52_tw,44,23,take mouse from shelf,0.0,0,1,False,belief=I am in the Cubicle and have opened the Ameri | rooms=3
+aebaa8d0,probe52_tw,44,24,close American style chest,0.0,0,1,False,belief=I am in the Cubicle and have taken the mouse  | rooms=3
+aebaa8d0,probe52_tw,44,25,lock American style chest with American style latchkey,0.0,0,1,False,belief=I am in the Cubicle and have taken the mouse  | rooms=3
+aebaa8d0,probe52_tw,44,26,drop American style latchkey,0.0,0,1,False,belief=I am in the Cubicle and have explored the Ame | rooms=3
+aebaa8d0,probe52_tw,44,27,take American style latchkey,0.0,0,1,False,belief=I am in the Cubicle and have explored the Ame | rooms=3
+aebaa8d0,probe52_tw,44,28,drop mouse,0.0,0,1,False,belief=I am in the Cubicle and have explored the Ame | rooms=3
+aebaa8d0,probe52_tw,44,29,put American style latchkey on shelf,0.0,0,1,False,belief=I am in the Cubicle and have explored the Ame | rooms=3
+aebaa8d0,probe52_tw,45,0,examine keycard,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,45,1,examine stand,0.0,0,1,False,belief=I have examined the keycard and now I should  | rooms=1
+aebaa8d0,probe52_tw,45,2,take keycard from stand,0.0,0,1,False,belief=I am in the Studio and I should take the keyc | rooms=1
+aebaa8d0,probe52_tw,45,3,go east,0.0,0,1,False,"belief=I am in the Studio with a keycard, and my nex | rooms=1"
+aebaa8d0,probe52_tw,45,4,go north,0.0,0,1,False,belief=I am in the Pantry with a keycard and an open | rooms=2
+aebaa8d0,probe52_tw,45,5,examine chest,0.0,0,1,False,"belief=I am in the Attic with a keycard, a chest, an | rooms=3"
+aebaa8d0,probe52_tw,45,6,unlock chest with keycard,1.0,1,1,True,"belief=I am in the Attic with a keycard, a chest, an | rooms=3"
+aebaa8d0,probe52_tw,46,0,examine plate,0.0,0,1,False,belief=I am in the Cookery and need to explore the s | rooms=1
+aebaa8d0,probe52_tw,46,1,examine portal,0.0,0,1,False,belief=I am in the Cookery and need to explore the s | rooms=1
+aebaa8d0,probe52_tw,46,2,put garlic clove on plate,0.0,0,1,False,belief=I am in the Cookery and need to explore the s | rooms=1
+aebaa8d0,probe52_tw,46,3,go east,0.0,0,1,False,belief=I am in the Cookery and have put the garlic c | rooms=1
+aebaa8d0,probe52_tw,46,4,go west,0.0,0,1,False,belief=I am in the Spare Room and have found a passk | rooms=2
+aebaa8d0,probe52_tw,46,5,take garlic clove from plate,0.0,0,1,False,belief=I am in the Cookery and have found a garlic c | rooms=2
+aebaa8d0,probe52_tw,46,6,go east,0.0,0,1,False,belief=I am in the Cookery and have found a garlic c | rooms=2
+aebaa8d0,probe52_tw,46,7,take passkey,0.0,0,1,False,belief=I am in the Spare Room and have found a passk | rooms=2
+aebaa8d0,probe52_tw,46,8,insert passkey into safe,0.0,0,1,False,"belief=I am in the Spare Room with a passkey, and my | rooms=2"
+aebaa8d0,probe52_tw,46,9,examine safe,0.0,0,1,False,"belief=I am in the Spare Room with an unlocked safe, | rooms=2"
+aebaa8d0,probe52_tw,46,10,take top hat,0.0,0,1,False,belief=I am in the Spare Room with an unlocked safe  | rooms=2
+aebaa8d0,probe52_tw,46,11,examine top hat,0.0,0,1,False,belief=I am in the Spare Room with an unlocked safe  | rooms=2
+aebaa8d0,probe52_tw,46,12,examine passkey,0.0,0,1,False,belief=I am in the Spare Room with an unlocked safe  | rooms=2
+aebaa8d0,probe52_tw,46,13,go west,0.0,0,1,False,belief=I am in the Spare Room with an unlocked safe  | rooms=2
+aebaa8d0,probe52_tw,46,14,put garlic clove on plate,0.0,0,1,False,"belief=I am in the Cookery with a plate, garlic clov | rooms=2"
+aebaa8d0,probe52_tw,46,15,put loaf of bread on plate,0.0,0,1,False,"belief=I am in the Cookery with a plate, garlic clov | rooms=2"
+aebaa8d0,probe52_tw,46,16,go east,0.0,0,1,False,"belief=I am in the Cookery with a plate, garlic clov | rooms=2"
+aebaa8d0,probe52_tw,46,17,take passkey from safe,0.0,0,1,False,belief=I am in the Spare Room with a passkey in an o | rooms=2
+aebaa8d0,probe52_tw,46,18,look,0.0,0,1,False,belief=I am in the Spare Room with a passkey and a t | rooms=2
+aebaa8d0,probe52_tw,46,19,insert passkey into safe,0.0,0,1,False,belief=I am in the Spare Room with a passkey and a t | rooms=2
+aebaa8d0,probe52_tw,46,20,close safe,0.0,0,1,False,belief=I am in the Spare Room with a passkey and a t | rooms=2
+aebaa8d0,probe52_tw,46,21,open safe,0.0,0,1,False,belief=I am in the Spare Room with a passkey and a t | rooms=2
+aebaa8d0,probe52_tw,46,22,go west,0.0,0,1,False,belief=I am in the Spare Room with a passkey and a t | rooms=2
+aebaa8d0,probe52_tw,46,23,take garlic clove from plate,0.0,0,1,False,"belief=I am in the Cookery with a top hat, and I nee | rooms=2"
+aebaa8d0,probe52_tw,46,24,examine loaf of bread,0.0,0,1,False,belief=I am in the Cookery with a top hat and a garl | rooms=2
+aebaa8d0,probe52_tw,46,25,take loaf of bread from plate,0.0,0,1,False,belief=I am in the Cookery with a top hat and a garl | rooms=2
+aebaa8d0,probe52_tw,46,26,drop garlic clove,0.0,0,1,False,"belief=I am in the Cookery with a top hat, a garlic  | rooms=2"
+aebaa8d0,probe52_tw,46,27,inventory,0.0,0,1,False,belief=I am in the Cookery with a top hat and a loaf | rooms=2
+aebaa8d0,probe52_tw,46,28,put loaf of bread on plate,0.0,0,1,False,belief=I am in the Cookery with a top hat and a loaf | rooms=2
+aebaa8d0,probe52_tw,46,29,drop top hat,0.0,0,1,False,belief=I am in the Cookery with a top hat and a loaf | rooms=2
+aebaa8d0,probe52_tw,47,0,examine gate,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,47,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,47,2,take keycard from board,0.0,0,1,False,belief=I have just arrived in the canteen and need t | rooms=2
+aebaa8d0,probe52_tw,47,3,examine case,0.0,0,1,False,belief=I have taken the keycard and now I need to ex | rooms=2
+aebaa8d0,probe52_tw,47,4,examine board,0.0,0,1,False,belief=I have taken the keycard and now I need to ex | rooms=2
+aebaa8d0,probe52_tw,47,5,put keycard on board,0.0,0,1,False,belief=I have taken the keycard and now I need to ex | rooms=2
+aebaa8d0,probe52_tw,47,6,examine keycard,0.0,0,1,False,belief=I have taken the keycard and put it on the bo | rooms=2
+aebaa8d0,probe52_tw,47,7,close case,0.0,0,1,False,belief=I have explored some options in the canteen a | rooms=2
+aebaa8d0,probe52_tw,47,8,go south,0.0,0,1,False,belief=I have closed the case and now I need to expl | rooms=2
+aebaa8d0,probe52_tw,47,9,go north,0.0,0,1,False,belief=I am in the study with a stick of butter and  | rooms=2
+aebaa8d0,probe52_tw,47,10,take keycard from board,0.0,0,1,False,belief=I am in the canteen with a stick of butter an | rooms=2
+aebaa8d0,probe52_tw,47,11,open case,0.0,0,1,False,belief=I am in the canteen with a keycard and a stic | rooms=2
+aebaa8d0,probe52_tw,47,12,examine stick of butter,0.0,0,1,False,belief=I am in the canteen with a keycard and a stic | rooms=2
+aebaa8d0,probe52_tw,47,13,insert keycard into case,0.0,0,1,False,belief=I am in the canteen with a keycard and a stic | rooms=2
+aebaa8d0,probe52_tw,47,14,take keycard from case,0.0,0,1,False,belief=I am in the canteen with a keycard and a stic | rooms=2
+aebaa8d0,probe52_tw,47,15,go south,0.0,0,1,False,belief=I am in the canteen with a keycard and a stic | rooms=2
+aebaa8d0,probe52_tw,47,16,unlock gate with keycard,1.0,1,1,True,belief=I am in the study with a keycard and a stick  | rooms=2
+aebaa8d0,probe52_tw,48,0,open door,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,48,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,48,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,48,3,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,48,4,take key,0.0,0,1,False,belief=I have just arrived in the bar and found a ch | rooms=3
+aebaa8d0,probe52_tw,48,5,unlock chest with key,0.0,0,1,False,belief=I have a key and a chest in front of me. My n | rooms=3
+aebaa8d0,probe52_tw,48,6,examine chest,0.0,0,1,False,"belief=I have unlocked the chest, and my next step i | rooms=3"
+aebaa8d0,probe52_tw,48,7,open chest,0.0,0,1,False,"belief=I have unlocked the chest, and my next step i | rooms=3"
+aebaa8d0,probe52_tw,48,8,look,0.0,0,1,False,belief=I have opened the chest and my next step is t | rooms=3
+aebaa8d0,probe52_tw,48,9,go south,0.0,0,1,False,belief=I have opened the chest and found it empty. M | rooms=3
+aebaa8d0,probe52_tw,48,10,go east,0.0,0,1,False,belief=I am in the Spare Room with a key and a spong | rooms=3
+aebaa8d0,probe52_tw,48,11,take keyboard from mantelpiece,0.0,0,1,False,belief=I am in the Studio with a key and a sponge. M | rooms=3
+aebaa8d0,probe52_tw,48,12,go north,0.0,0,1,False,"belief=I am in the Studio with a key, a sponge, and  | rooms=3"
+aebaa8d0,probe52_tw,48,13,go south,0.0,0,1,False,"belief=I am in the Closet with a key, a sponge, and  | rooms=4"
+aebaa8d0,probe52_tw,48,14,go west,0.0,0,1,False,"belief=I am in the Studio with a key, a sponge, and  | rooms=4"
+aebaa8d0,probe52_tw,48,15,go east,0.0,0,1,False,"belief=I am in the Spare Room with a key, a sponge,  | rooms=4"
+aebaa8d0,probe52_tw,48,16,go north,0.0,0,1,False,"belief=I am in the Studio, and I see an empty stand, | rooms=4"
+aebaa8d0,probe52_tw,48,17,go south,0.0,0,1,False,"belief=I am in the Closet, and I see an exit to the  | rooms=4"
+aebaa8d0,probe52_tw,48,18,put key on mantelpiece,0.0,0,1,False,"belief=I am in the Studio, and I see a mantelpiece a | rooms=4"
+aebaa8d0,probe52_tw,48,19,put keyboard on stand,1.0,1,1,True,"belief=I am in the Studio, and I see a mantelpiece a | rooms=4"
+aebaa8d0,probe52_tw,49,0,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=1
+aebaa8d0,probe52_tw,49,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,49,2,take latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the l | rooms=2
+aebaa8d0,probe52_tw,49,3,unlock safe with latchkey,0.0,0,1,False,belief=I have the latchkey and a backup calendar. My | rooms=2
+aebaa8d0,probe52_tw,49,4,open safe,0.0,0,1,False,"belief=I have unlocked the safe, and my next step is | rooms=2"
+aebaa8d0,probe52_tw,49,5,examine Comic Strip Calendar,0.0,0,1,False,belief=I have unlocked the safe and found a Comic St | rooms=2
+aebaa8d0,probe52_tw,49,6,examine coffer,0.0,0,1,False,belief=I have a Comic Strip Calendar and need to exp | rooms=2
+aebaa8d0,probe52_tw,49,7,examine portal,0.0,0,1,False,belief=I need to explore the environment to learn mo | rooms=2
+aebaa8d0,probe52_tw,49,8,go south,0.0,0,1,False,belief=I need to explore the environment to learn mo | rooms=2
+aebaa8d0,probe52_tw,49,9,go north,0.0,0,1,False,belief=I need to explore the environment to learn mo | rooms=2
+aebaa8d0,probe52_tw,49,10,go south,0.0,0,1,False,belief=I need to explore the environment to learn mo | rooms=2
+aebaa8d0,probe52_tw,49,11,go north,0.0,0,1,False,belief=I need to explore the environment to learn mo | rooms=2
+aebaa8d0,probe52_tw,49,12,take Comic Strip Calendar from safe,1.0,1,1,True,belief=I need to explore the environment and interac | rooms=2

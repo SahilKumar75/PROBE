@@ -1,0 +1,507 @@
+run_id,variant,seed,step,command,reward,score,max_score,won,note
+2b04e933,probe51_tw,50,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,50,1,take type 1 passkey,0.0,0,1,False,belief=I am in the basement with a locked chest and a passkey  | capped=1
+2b04e933,probe51_tw,50,2,unlock type 1 chest with type 1 passkey,0.0,0,1,False,"belief=I am in the basement with a type 1 passkey and an iron, | capped=1"
+2b04e933,probe51_tw,50,3,examine type 1 chest,0.0,0,1,False,"belief=I am in the basement with a type 1 passkey and an iron, | capped=1"
+2b04e933,probe51_tw,50,4,open type 1 chest,0.0,0,1,False,"belief=I am in the basement with a type 1 passkey and an iron, | capped=2"
+2b04e933,probe51_tw,50,5,take pair of headphones from type 1 chest,1.0,1,1,True,"belief=I am in the basement with a type 1 passkey, an iron, an | capped=2"
+2b04e933,probe51_tw,51,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,51,1,go south,0.0,0,1,False,belief=I am in a pantry with an unguarded exit to the south. M | capped=1
+2b04e933,probe51_tw,51,2,go east,0.0,0,1,False,belief=I am in a bedroom with a box and multiple exits. My nex | capped=1
+2b04e933,probe51_tw,51,3,take tablet,0.0,0,1,False,belief=I am in a playroom with various objects and an exit. My | capped=1
+2b04e933,probe51_tw,51,4,examine tablet,0.0,0,1,False,"belief=I am in a playroom with a tablet, and my next step is t | capped=1"
+2b04e933,probe51_tw,51,5,put tablet on bar,1.0,1,1,True,"belief=I am in a playroom with a tablet, and my next step is t | capped=2"
+2b04e933,probe51_tw,52,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,52,1,go north,0.0,0,1,False,"belief=I am in the bedroom with a stick of butter, and my next | capped=1"
+2b04e933,probe51_tw,52,2,go south,0.0,0,1,False,"belief=I am in the pantry with a stick of butter, and my next  | capped=1"
+2b04e933,probe51_tw,52,3,examine hatch,0.0,0,1,False,"belief=I am in the bedroom with a stick of butter, and my next | capped=1"
+2b04e933,probe51_tw,52,4,open hatch,0.0,0,1,False,"belief=I am in the bedroom with a stick of butter, and my next | capped=2"
+2b04e933,probe51_tw,52,5,go east,0.0,0,1,False,belief=I am in the bedroom with a stick of butter and an open  | capped=2
+2b04e933,probe51_tw,52,6,take knife from counter,0.0,0,1,False,"belief=I am in the cookhouse with a stick of butter, and my ne | capped=2"
+2b04e933,probe51_tw,52,7,examine chest,0.0,0,1,False,belief=I am in the cookhouse with a stick of butter and a knif | capped=2
+2b04e933,probe51_tw,52,8,insert stick of butter into chest,0.0,0,1,False,belief=I am in the cookhouse with a stick of butter and a knif | capped=3
+2b04e933,probe51_tw,52,9,examine counter,0.0,0,1,False,belief=I am in the cookhouse with a stick of butter and a knif | capped=3
+2b04e933,probe51_tw,52,10,put knife on counter,0.0,0,1,False,belief=I am in the cookhouse with a knife and a chest containi | capped=4
+2b04e933,probe51_tw,52,11,take stick of butter from chest,0.0,0,1,False,belief=I am in the cookhouse with a knife on the counter and a | capped=4
+2b04e933,probe51_tw,52,12,put stick of butter on counter,0.0,0,1,False,belief=I am in the cookhouse with a stick of butter and a knif | capped=4
+2b04e933,probe51_tw,52,13,take knife from counter,0.0,0,1,False,belief=I am in the cookhouse with a stick of butter and a knif | capped=4
+2b04e933,probe51_tw,52,14,examine salad,0.0,0,1,False,"belief=I am in the cookhouse with a knife and a salad, and my  | capped=4"
+2b04e933,probe51_tw,52,15,examine knife,0.0,0,1,False,"belief=I am in the cookhouse with a knife and a salad, and my  | capped=5"
+2b04e933,probe51_tw,52,16,take salad,0.0,0,1,False,"belief=I am in the cookhouse with a knife and a salad, and my  | capped=6"
+2b04e933,probe51_tw,52,17,eat salad,0.0,0,1,False,"belief=I am in the cookhouse with a knife and a salad, and my  | capped=6"
+2b04e933,probe51_tw,52,18,go north,0.0,0,1,False,"belief=I am in the cookhouse with a knife, having just eaten a | capped=5"
+2b04e933,probe51_tw,52,19,go south,0.0,0,1,False,"belief=I am in a spare room with a knife, and my next step is  | capped=2"
+2b04e933,probe51_tw,52,20,take stick of butter from counter,0.0,0,1,False,"belief=I am in a cookhouse with a knife and an empty chest, an | capped=6"
+2b04e933,probe51_tw,52,21,examine stick of butter,0.0,0,1,False,"belief=I am in a cookhouse with a knife and a stick of butter, | capped=6"
+2b04e933,probe51_tw,52,22,put knife on counter,0.0,0,1,False,"belief=I am in a cookhouse with a knife and a stick of butter, | capped=7"
+2b04e933,probe51_tw,52,23,put stick of butter on counter,0.0,0,1,False,"belief=I am in a cookhouse with a knife and a stick of butter, | capped=8"
+2b04e933,probe51_tw,52,24,go west,0.0,0,1,False,belief=I am in a cookhouse with a knife and a stick of butter  | capped=8
+2b04e933,probe51_tw,52,25,go east,0.0,0,1,False,belief=I am in a bedroom with an open hatch to the east and an | capped=3
+2b04e933,probe51_tw,52,26,close chest,0.0,0,1,False,"belief=I am in a cookhouse with a chest, counter, stick of but | capped=8"
+2b04e933,probe51_tw,52,27,take stick of butter from counter,0.0,0,1,False,"belief=I am in a cookhouse with a chest, counter, stick of but | capped=8"
+2b04e933,probe51_tw,52,28,eat stick of butter,0.0,0,1,False,"belief=I am in a cookhouse with a chest, counter, stick of but | capped=9"
+2b04e933,probe51_tw,52,29,open chest,0.0,0,1,False,"belief=I am in a cookhouse with a chest, counter, and knife. M | capped=7"
+2b04e933,probe51_tw,53,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,53,1,examine chest,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,53,2,unlock chest with passkey,0.0,0,1,False,"belief=I have a passkey and a grape, and I'm in a laundromat.  | capped=2"
+2b04e933,probe51_tw,53,3,close cabinet,0.0,0,1,False,"belief=I have a passkey and a grape, and I'm in a laundromat.  | capped=2"
+2b04e933,probe51_tw,53,4,go north,0.0,0,1,False,"belief=I have a passkey and a grape, and I'm in a laundromat.  | capped=2"
+2b04e933,probe51_tw,53,5,take loaf of bread,0.0,0,1,False,"belief=I have a passkey and a grape, and I'm in a dish-pit. My | capped=1"
+2b04e933,probe51_tw,53,6,eat grape,0.0,0,1,False,"belief=I have a passkey, a grape, and a loaf of bread in the d | capped=1"
+2b04e933,probe51_tw,53,7,eat loaf of bread,0.0,0,1,False,belief=I have a passkey and a loaf of bread in the dish-pit. M | capped=1
+2b04e933,probe51_tw,53,8,drop passkey,0.0,0,1,False,belief=I have a passkey and a loaf of bread in the dish-pit. M | capped=1
+2b04e933,probe51_tw,53,9,take passkey,0.0,0,1,False,belief=I have dropped the passkey and need to retrieve it to p | capped=1
+2b04e933,probe51_tw,53,10,go south,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=1
+2b04e933,probe51_tw,53,11,open gateway,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=2
+2b04e933,probe51_tw,53,12,go west,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=2
+2b04e933,probe51_tw,53,13,go east,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=1
+2b04e933,probe51_tw,53,14,open cabinet,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=2
+2b04e933,probe51_tw,53,15,go north,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=2
+2b04e933,probe51_tw,53,16,examine passkey,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=1
+2b04e933,probe51_tw,53,17,go south,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=2
+2b04e933,probe51_tw,53,18,go west,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=4
+2b04e933,probe51_tw,53,19,examine gateway,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=3
+2b04e933,probe51_tw,53,20,go east,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=4 | STUCK
+2b04e933,probe51_tw,53,21,open chest,0.0,0,1,False,belief=I have the passkey and need to find a door or lock to u | capped=6 | STUCK
+2b04e933,probe51_tw,53,22,examine iron,0.0,0,1,False,"belief=I have the passkey and an iron, and I need to find a do | capped=6"
+2b04e933,probe51_tw,53,23,examine cabinet,0.0,0,1,False,"belief=I have the passkey and an iron, and I need to find a do | capped=7"
+2b04e933,probe51_tw,53,24,insert passkey into cabinet,0.0,0,1,False,belief=I have the passkey and I need to find a way to use it o | capped=8
+2b04e933,probe51_tw,53,25,close cabinet,0.0,0,1,False,"belief=I have used the passkey on the cabinet, my next step is | capped=8"
+2b04e933,probe51_tw,53,26,take iron from chest,0.0,0,1,False,"belief=I have closed the cabinet, my next step is to interact  | capped=7"
+2b04e933,probe51_tw,53,27,insert iron into chest,0.0,0,1,False,"belief=I have the iron, my next step is to interact with other | capped=7"
+2b04e933,probe51_tw,53,28,open cabinet,0.0,0,1,False,"belief=I have the iron in the chest, my next step is to intera | capped=7"
+2b04e933,probe51_tw,53,29,take passkey from cabinet,0.0,0,1,False,"belief=I have a passkey, my next step is to use it to unlock s | capped=9"
+2b04e933,probe51_tw,54,0,drop teacup,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,54,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,54,2,go south,0.0,0,1,False,belief=I am in an office with a cabinet containing a cashew. M | capped=0
+2b04e933,probe51_tw,54,3,examine trunk,0.0,0,1,False,belief=I am in a basement with a trunk and a teacup. My next s | capped=0
+2b04e933,probe51_tw,54,4,open trunk,0.0,0,1,False,belief=I am in a basement with a trunk and I need to find a wa | capped=1
+2b04e933,probe51_tw,54,5,look,0.0,0,1,False,belief=I am in a basement with an open trunk and I need to fin | capped=1
+2b04e933,probe51_tw,54,6,take teacup,0.0,0,1,False,"belief=I am in a basement with an open trunk and a teacup, my  | capped=2"
+2b04e933,probe51_tw,54,7,insert teacup into trunk,0.0,0,1,False,"belief=I am in a basement with a teacup, my next step is to in | capped=2"
+2b04e933,probe51_tw,54,8,take teacup from trunk,0.0,0,1,False,"belief=I am in a basement with a teacup in the trunk, my next  | capped=2"
+2b04e933,probe51_tw,54,9,drop teacup,0.0,0,1,False,"belief=I am in a basement with a teacup, my next step is to dr | capped=2"
+2b04e933,probe51_tw,54,10,go north,0.0,0,1,False,"belief=I am in a basement with a dropped teacup, my next step  | capped=2"
+2b04e933,probe51_tw,54,11,take cashew from cabinet,0.0,0,1,False,"belief=I am in an office with a cabinet containing a cashew, m | capped=1"
+2b04e933,probe51_tw,54,12,drop cashew,0.0,0,1,False,belief=I am in an office with a cabinet and a cashew in my inv | capped=1
+2b04e933,probe51_tw,54,13,take cashew,0.0,0,1,False,belief=I am in an office with a cabinet and a cashew on the gr | capped=1
+2b04e933,probe51_tw,54,14,insert cashew into cabinet,0.0,0,1,False,"belief=I am in an office with a cabinet and I have a cashew, m | capped=1"
+2b04e933,probe51_tw,54,15,close cabinet,0.0,0,1,False,belief=I am in an office with a cabinet and a cashew inside it | capped=1
+2b04e933,probe51_tw,54,16,go south,0.0,0,1,False,"belief=I am in an office with a cabinet, my next step is to go | capped=1"
+2b04e933,probe51_tw,54,17,take teacup,0.0,0,1,False,"belief=I am in a basement with an empty trunk and a teacup, my | capped=4"
+2b04e933,probe51_tw,54,18,go west,0.0,0,1,False,"belief=I am in a basement with a teacup and a trunk, my next s | capped=5"
+2b04e933,probe51_tw,54,19,take whisk,0.0,0,1,False,belief=I am in a kitchenette with a teacup and a whisk on the  | capped=2
+2b04e933,probe51_tw,54,20,examine whisk,0.0,0,1,False,"belief=I am in a kitchenette with a teacup and a whisk, my nex | capped=2"
+2b04e933,probe51_tw,54,21,examine teacup,0.0,0,1,False,"belief=I am in a kitchenette with a teacup and a whisk, my nex | capped=3"
+2b04e933,probe51_tw,54,22,drop whisk,0.0,0,1,False,"belief=I am in a kitchenette with a teacup and a whisk, my nex | capped=4"
+2b04e933,probe51_tw,54,23,take whisk,0.0,0,1,False,belief=I am in a kitchenette with a teacup and a whisk on the  | capped=4
+2b04e933,probe51_tw,54,24,go east,0.0,0,1,False,"belief=I am in a kitchenette with a teacup and a whisk, my nex | capped=4"
+2b04e933,probe51_tw,54,25,insert whisk into trunk,0.0,0,1,False,"belief=I am in a basement with an empty trunk, a whisk, and a  | capped=7"
+2b04e933,probe51_tw,54,26,insert teacup into trunk,0.0,0,1,False,belief=I am in a basement with a trunk containing a whisk and  | capped=7
+2b04e933,probe51_tw,54,27,close trunk,0.0,0,1,False,belief=I am in a basement with a trunk containing a whisk and  | capped=6
+2b04e933,probe51_tw,54,28,open trunk,0.0,0,1,False,"belief=I am in a basement with a trunk that I just closed, my  | capped=4"
+2b04e933,probe51_tw,54,29,take teacup from trunk,0.0,0,1,False,belief=I am in a basement with a trunk that contains a teacup  | capped=6
+2b04e933,probe51_tw,55,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,55,1,examine trunk,0.0,0,1,False,"belief=I am in a studio with a trunk and a portal, my next ste | capped=1"
+2b04e933,probe51_tw,55,2,examine portal,0.0,0,1,False,"belief=I am in a studio with a trunk and a portal, my next ste | capped=2"
+2b04e933,probe51_tw,55,3,close portal,0.0,0,1,False,"belief=I am in a studio with a trunk and a portal, my next ste | capped=3"
+2b04e933,probe51_tw,55,4,open portal,0.0,0,1,False,"belief=I am in a studio with a trunk and a closed portal, my n | capped=3"
+2b04e933,probe51_tw,55,5,go north,0.0,0,1,False,"belief=I am in a studio with a trunk and an open portal, my ne | capped=3"
+2b04e933,probe51_tw,55,6,take dvd from bed,0.0,0,1,False,"belief=I am in a bedroom with a bed and a dvd, my next step is | capped=2"
+2b04e933,probe51_tw,55,7,examine bed,0.0,0,1,False,"belief=I am in a bedroom with a bed and a dvd, my next step is | capped=2"
+2b04e933,probe51_tw,55,8,examine dvd,0.0,0,1,False,"belief=I am in a bedroom with a bed and a dvd, my next step is | capped=3"
+2b04e933,probe51_tw,55,9,put dvd on bed,0.0,0,1,False,"belief=I am in a bedroom with a bed and a dvd, my next step is | capped=4"
+2b04e933,probe51_tw,55,10,go east,0.0,0,1,False,"belief=I am in a bedroom with a bed and a dvd, my next step is | capped=4"
+2b04e933,probe51_tw,55,11,take latchkey,0.0,0,1,False,"belief=I am in a laundromat with various objects, my next step | capped=1"
+2b04e933,probe51_tw,55,12,unlock safe with latchkey,0.0,0,1,False,"belief=I am in a laundromat with a latchkey, my next step is t | capped=1"
+2b04e933,probe51_tw,55,13,drop latchkey,0.0,0,1,False,"belief=I am in a laundromat with a latchkey, my next step is t | capped=1"
+2b04e933,probe51_tw,55,14,go west,0.0,0,1,False,"belief=I am in a laundromat with a dropped latchkey, my next s | capped=1"
+2b04e933,probe51_tw,55,15,take dvd from bed,0.0,0,1,False,"belief=I am in a bedroom with a dvd on the bed, my next step i | capped=4"
+2b04e933,probe51_tw,55,16,go south,0.0,0,1,False,"belief=I am in a bedroom with a dvd, my next step is to explor | capped=4"
+2b04e933,probe51_tw,55,17,go north,0.0,0,1,False,"belief=I am in a studio with a dvd and a trunk, my next step i | capped=4"
+2b04e933,probe51_tw,55,18,go east,0.0,0,1,False,"belief=I am in a bedroom with a dvd and an open portal, my nex | capped=4"
+2b04e933,probe51_tw,55,19,take latchkey,0.0,0,1,False,belief=I am in a laundromat with a dvd and a latchkey on the f | capped=2
+2b04e933,probe51_tw,55,20,lock safe with latchkey,0.0,0,1,False,"belief=I am in a laundromat with a latchkey and a dvd, my next | capped=2"
+2b04e933,probe51_tw,55,21,go west,0.0,0,1,False,"belief=I am in a laundromat with a locked safe, a latchkey, an | capped=2"
+2b04e933,probe51_tw,55,22,put dvd on bed,0.0,0,1,False,"belief=I am in a bedroom with a bed, an open portal, and an ex | capped=5"
+2b04e933,probe51_tw,55,23,put latchkey on bed,0.0,0,1,False,"belief=I am in a bedroom with a bed, an open portal, and an ex | capped=6"
+2b04e933,probe51_tw,55,24,close portal,0.0,0,1,False,"belief=I am in a bedroom with a bed, an open portal, and an ex | capped=6"
+2b04e933,probe51_tw,55,25,take latchkey from bed,0.0,0,1,False,"belief=I am in a bedroom with a closed portal, an exit to the  | capped=6"
+2b04e933,probe51_tw,55,26,examine latchkey,0.0,0,1,False,belief=I am in a bedroom with a closed portal and an exit to t | capped=6
+2b04e933,probe51_tw,55,27,open portal,0.0,0,1,False,belief=I am in a bedroom with a closed portal and an exit to t | capped=7
+2b04e933,probe51_tw,55,28,go south,0.0,0,1,False,"belief=I am in a bedroom with an open portal, my next step is  | capped=8"
+2b04e933,probe51_tw,55,29,inventory,0.0,0,1,False,"belief=I am in a studio with a trunk and an open portal, my ne | capped=7"
+2b04e933,probe51_tw,56,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,56,1,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,56,2,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,56,3,put Canadian key on shelf,0.0,0,1,False,"belief=I am in the garage with a shelf, a berry, and a Canadia | capped=1"
+2b04e933,probe51_tw,56,4,put berry on shelf,0.0,0,1,False,"belief=I am in the garage with a shelf, a berry, and a Canadia | capped=1"
+2b04e933,probe51_tw,56,5,take Canadian key from shelf,0.0,0,1,False,"belief=I am in the garage with a shelf, a berry, and a Canadia | capped=1"
+2b04e933,probe51_tw,56,6,take berry from shelf,0.0,0,1,False,belief=I am in the garage with a Canadian key in my inventory. | capped=1
+2b04e933,probe51_tw,56,7,eat berry,0.0,0,1,False,belief=I am in the garage with a Canadian key and a berry in m | capped=1
+2b04e933,probe51_tw,56,8,go north,0.0,0,1,False,belief=I am in the garage with a Canadian key. My next step is | capped=1
+2b04e933,probe51_tw,56,9,go south,0.0,0,1,False,belief=I am in the attic with a Canadian key. My next step is  | capped=1
+2b04e933,probe51_tw,56,10,drop Canadian key,0.0,0,1,False,belief=I am in the garage with a Canadian key. My next step is | capped=2
+2b04e933,probe51_tw,56,11,examine shelf,0.0,0,1,False,belief=I am in the garage with a dropped Canadian key. My next | capped=2
+2b04e933,probe51_tw,56,12,take Canadian key,0.0,0,1,False,belief=I am in the garage with a dropped Canadian key. My next | capped=3
+2b04e933,probe51_tw,56,13,put Canadian key on shelf,0.0,0,1,False,belief=I am in the garage with a Canadian key. My next step is | capped=3
+2b04e933,probe51_tw,56,14,take Canadian key from shelf,0.0,0,1,False,belief=I am in the garage with the Canadian key on the shelf.  | capped=3
+2b04e933,probe51_tw,56,15,examine Canadian key,0.0,0,1,False,belief=I am in the garage with the Canadian key. My next step  | capped=4
+2b04e933,probe51_tw,56,16,drop Canadian key,0.0,0,1,False,belief=I am in the garage with the Canadian key. My next step  | capped=5
+2b04e933,probe51_tw,56,17,take Canadian key,0.0,0,1,False,belief=I am in the garage with the Canadian key on the ground. | capped=4
+2b04e933,probe51_tw,56,18,inventory,0.0,0,1,False,belief=I am in the garage with the Canadian key. My next step  | capped=6
+2b04e933,probe51_tw,56,19,examine Canadian key,0.0,0,1,False,belief=I am in the garage with the Canadian key. My next step  | capped=7 | STUCK
+2b04e933,probe51_tw,56,20,examine shelf,0.0,0,1,False,belief=I am in the garage with the Canadian key. My next step  | capped=7 | STUCK
+2b04e933,probe51_tw,56,21,inventory,0.0,0,1,False,belief=I am in the garage with the Canadian key and an unstabl | capped=7 | STUCK
+2b04e933,probe51_tw,56,22,look,0.0,0,1,False,belief=I am in the garage with the Canadian key and an unstabl | capped=7 | STUCK
+2b04e933,probe51_tw,56,23,drop Canadian key,0.0,0,1,False,belief=I am in the garage with the Canadian key and an unstabl | capped=7 | STUCK
+2b04e933,probe51_tw,56,24,examine Canadian key,0.0,0,1,False,belief=I am in the garage with a dropped Canadian key and an u | capped=6 | STUCK
+2b04e933,probe51_tw,56,25,examine shelf,0.0,0,1,False,belief=I am in the garage with a dropped Canadian key and an u | capped=6 | STUCK
+2b04e933,probe51_tw,56,26,go north,0.0,0,1,False,belief=I am in the garage with a dropped Canadian key and an u | capped=6 | STUCK
+2b04e933,probe51_tw,56,27,examine Canadian locker,0.0,0,1,False,belief=I am in the attic with a Canadian locker. My next step  | capped=3
+2b04e933,probe51_tw,56,28,open Canadian locker,0.0,0,1,False,belief=I am in the attic with a Canadian locker. My next step  | capped=4
+2b04e933,probe51_tw,56,29,take gummy bear from Canadian locker,0.0,0,1,False,belief=I am in the attic with a Canadian locker that contains  | capped=4
+2b04e933,probe51_tw,57,0,unlock chest with key,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,57,1,examine chest,0.0,0,1,False,"belief=I have unlocked the chest, my next step is to examine i | capped=0"
+2b04e933,probe51_tw,57,2,open chest,0.0,0,1,False,"belief=The chest is closed, and I have a key. My next step is  | capped=1"
+2b04e933,probe51_tw,57,3,examine Canadian limited edition keycard,0.0,0,1,False,"belief=The chest is open, and I have a Canadian limited editio | capped=1"
+2b04e933,probe51_tw,57,4,examine binder,0.0,0,1,False,"belief=The chest is open, and I have a Canadian limited editio | capped=2"
+2b04e933,probe51_tw,57,5,examine portal,0.0,0,1,False,"belief=The binder is antiquated, and I have a key. My next ste | capped=3"
+2b04e933,probe51_tw,57,6,examine key,0.0,0,1,False,belief=The portal and the key might be related. My next step i | capped=4
+2b04e933,probe51_tw,57,7,insert key into chest,0.0,0,1,False,belief=The key might be used with other objects in the cubicle | capped=5
+2b04e933,probe51_tw,57,8,take Canadian limited edition keycard from chest,0.0,0,1,False,belief=The key might be used with other objects in the cubicle | capped=5
+2b04e933,probe51_tw,57,9,examine Canadian limited edition box,0.0,0,1,False,belief=The key might be used with other objects in the cubicle | capped=5
+2b04e933,probe51_tw,57,10,open Canadian limited edition box,0.0,0,1,False,belief=The key might be used to open the Canadian limited edit | capped=6
+2b04e933,probe51_tw,57,11,look,0.0,0,1,False,"belief=The box is open, and I should investigate its contents  | capped=6"
+2b04e933,probe51_tw,57,12,take binder,0.0,0,1,False,"belief=The chest contains a key, and I should investigate othe | capped=7"
+2b04e933,probe51_tw,57,13,insert binder into chest,0.0,0,1,False,"belief=The binder might contain useful information or items, a | capped=7"
+2b04e933,probe51_tw,57,14,insert Canadian limited edition keycard into chest,0.0,0,1,False,"belief=The binder is now in the chest, and I should try to use | capped=7"
+2b04e933,probe51_tw,57,15,go west,0.0,0,1,False,belief=The Canadian limited edition keycard is now in the ches | capped=7
+2b04e933,probe51_tw,57,16,go east,0.0,0,1,False,"belief=I'm in a shower with an exit to the east, my next step  | capped=1"
+2b04e933,probe51_tw,57,17,take key from chest,0.0,0,1,False,"belief=I'm in a cubicle with a chest and a portal, my next ste | capped=7"
+2b04e933,probe51_tw,57,18,insert key into Canadian limited edition box,0.0,0,1,False,"belief=I'm in a cubicle with a key, my next step is to try to  | capped=7"
+2b04e933,probe51_tw,57,19,close Canadian limited edition box,0.0,0,1,False,belief=I've used the key with the Canadian limited edition box | capped=7
+2b04e933,probe51_tw,57,20,close chest,0.0,0,1,False,"belief=I've closed the Canadian limited edition box, my next s | capped=6"
+2b04e933,probe51_tw,57,21,inventory,0.0,0,1,False,belief=I've closed the chest and need to explore other options | capped=4
+2b04e933,probe51_tw,57,22,go west,0.0,0,1,False,"belief=I need to explore other areas, my next step is to move  | capped=5"
+2b04e933,probe51_tw,57,23,go east,0.0,0,1,False,"belief=I need to explore other areas, my next step is to move  | capped=2"
+2b04e933,probe51_tw,57,24,open Canadian limited edition box,0.0,0,1,False,belief=I need to explore other areas and interact with new obj | capped=6
+2b04e933,probe51_tw,57,25,take key from Canadian limited edition box,0.0,0,1,False,belief=I need to explore other areas and interact with new obj | capped=7
+2b04e933,probe51_tw,57,26,open chest,0.0,0,1,False,belief=I need to explore other areas and interact with new obj | capped=7
+2b04e933,probe51_tw,57,27,take Canadian limited edition keycard from chest,0.0,0,1,False,belief=I need to explore other areas and interact with new obj | capped=9
+2b04e933,probe51_tw,57,28,insert Canadian limited edition keycard into chest,0.0,0,1,False,belief=I need to explore other areas and interact with new obj | capped=9
+2b04e933,probe51_tw,57,29,take binder from chest,0.0,0,1,False,belief=I need to explore other areas and interact with new obj | capped=10
+2b04e933,probe51_tw,58,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,58,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,58,2,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,58,3,unlock hatch with key,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,58,4,open hatch,0.0,0,1,False,belief=I have unlocked the hatch and now I need to see what's  | capped=1
+2b04e933,probe51_tw,58,5,go north,0.0,0,1,False,"belief=I have unlocked and opened the hatch, now I need to exp | capped=1"
+2b04e933,probe51_tw,58,6,examine crate,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=1
+2b04e933,probe51_tw,58,7,examine bug,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=2
+2b04e933,probe51_tw,58,8,examine peanut,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=3
+2b04e933,probe51_tw,58,9,insert bug into coffer,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=4
+2b04e933,probe51_tw,58,10,examine coffer,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=4
+2b04e933,probe51_tw,58,11,insert key into coffer,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=5
+2b04e933,probe51_tw,58,12,go west,0.0,0,1,False,belief=I am in the basement with various objects and exits. My | capped=5
+2b04e933,probe51_tw,58,13,insert peanut into box,0.0,0,1,False,belief=I am in a workshop with a box and an exit. My next step | capped=2
+2b04e933,probe51_tw,58,14,take peanut from box,0.0,0,1,False,belief=I am in a workshop with a box containing a peanut and a | capped=2
+2b04e933,probe51_tw,58,15,close box,0.0,0,1,False,belief=I am in a workshop with a box containing a peanut and a | capped=2
+2b04e933,probe51_tw,58,16,drop peanut,0.0,0,1,False,belief=I am in a workshop with a box and a peanut in my invent | capped=2
+2b04e933,probe51_tw,58,17,examine box,0.0,0,1,False,belief=I am in a workshop with a box and a peanut in my invent | capped=2
+2b04e933,probe51_tw,58,18,open box,0.0,0,1,False,belief=I am in a workshop with a box. My next step is to try a | capped=3
+2b04e933,probe51_tw,58,19,go east,0.0,0,1,False,belief=I am in a workshop with an open box and no inventory. M | capped=3
+2b04e933,probe51_tw,58,20,take key from coffer,0.0,0,1,False,belief=I am in a basement with an open coffer and a crate. My  | capped=5
+2b04e933,probe51_tw,58,21,open crate,0.0,0,1,False,"belief=I am in a basement with an open coffer, a crate, and a  | capped=5"
+2b04e933,probe51_tw,58,22,go south,0.0,0,1,False,belief=I am in a basement with an open crate and a key. My nex | capped=5
+2b04e933,probe51_tw,58,23,go north,0.0,0,1,False,belief=I am in the canteen with a key and an open hatch to the | capped=2
+2b04e933,probe51_tw,58,24,go south,0.0,0,1,False,"belief=I am in the basement with a key, an open hatch to the s | capped=5"
+2b04e933,probe51_tw,58,25,close hatch,0.0,0,1,False,belief=I am in the canteen with a key and an open hatch to the | capped=3
+2b04e933,probe51_tw,58,26,lock hatch with key,0.0,0,1,False,belief=I am in the canteen with a key and a closed hatch to th | capped=2
+2b04e933,probe51_tw,58,27,unlock hatch with key,0.0,0,1,False,belief=I am in the canteen with a key and a locked hatch to th | capped=2
+2b04e933,probe51_tw,58,28,open hatch,0.0,0,1,False,belief=I am in the canteen with a key and an unlocked hatch to | capped=2
+2b04e933,probe51_tw,58,29,examine key,0.0,0,1,False,"belief=I am in the canteen with a key and an unlocked hatch, m | capped=3"
+2b04e933,probe51_tw,59,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,59,1,go north,0.0,0,1,False,"belief=I am in an office with an unguarded exit to the north,  | capped=1"
+2b04e933,probe51_tw,59,2,unlock chest with key,0.0,0,1,False,belief=I am in a scullery with a locked chest and a closed gat | capped=1
+2b04e933,probe51_tw,59,3,examine chest,0.0,0,1,False,belief=I am in a scullery with an unlocked chest and a closed  | capped=1
+2b04e933,probe51_tw,59,4,examine gate,0.0,0,1,False,belief=I am in a scullery with an unlocked chest and a closed  | capped=2
+2b04e933,probe51_tw,59,5,open gate,0.0,0,1,False,belief=I am in a scullery with an unlocked chest and a closed  | capped=3
+2b04e933,probe51_tw,59,6,go east,0.0,0,1,False,"belief=I am outside the gate, my next step is to explore the n | capped=3"
+2b04e933,probe51_tw,59,7,examine display,0.0,0,1,False,"belief=I am in the cellar, my next step is to examine the lock | capped=2"
+2b04e933,probe51_tw,59,8,examine key,0.0,0,1,False,"belief=I am in the cellar with a key, my next step is to exami | capped=3"
+2b04e933,probe51_tw,59,9,go west,0.0,0,1,False,"belief=I am in the cellar with a key, my next step is to explo | capped=4"
+2b04e933,probe51_tw,59,10,open chest,0.0,0,1,False,"belief=I am in the scullery with a key and a closed chest, my  | capped=4"
+2b04e933,probe51_tw,59,11,go south,0.0,0,1,False,"belief=I am in the scullery with a key and an open chest, my n | capped=4"
+2b04e933,probe51_tw,59,12,go north,0.0,0,1,False,"belief=I am in the office with a key, my next step is to explo | capped=2"
+2b04e933,probe51_tw,59,13,go east,0.0,0,1,False,"belief=I am in the scullery with a key, my next step is to exp | capped=4"
+2b04e933,probe51_tw,59,14,go west,0.0,0,1,False,belief=I am in the cellar with a key and an open gate to the w | capped=5
+2b04e933,probe51_tw,59,15,go south,0.0,0,1,False,belief=I am in the scullery with a key and an open gate to the | capped=5
+2b04e933,probe51_tw,59,16,drop key,0.0,0,1,False,belief=I am in an office with an unguarded exit to the north a | capped=3 | STUCK
+2b04e933,probe51_tw,59,17,take key,0.0,0,1,False,"belief=I am in an office with a key on the ground, my next ste | capped=3"
+2b04e933,probe51_tw,59,18,inventory,0.0,0,1,False,"belief=I am in an office with a key in my inventory, my next s | capped=3"
+2b04e933,probe51_tw,59,19,drop key,0.0,0,1,False,"belief=I am in an office with a key, my next step is to find a | capped=4"
+2b04e933,probe51_tw,59,20,take key,0.0,0,1,False,"belief=I am in an office with a dropped key, my next step is t | capped=4"
+2b04e933,probe51_tw,59,21,examine key,0.0,0,1,False,"belief=I am in an office with a key, my next step is to find a | capped=5"
+2b04e933,probe51_tw,59,22,inventory,0.0,0,1,False,belief=I am in an office with a key and need to find a door or | capped=5 | STUCK
+2b04e933,probe51_tw,59,23,look,0.0,0,1,False,belief=I am in an office with a key and need to find a door or | capped=5 | STUCK
+2b04e933,probe51_tw,59,24,drop key,0.0,0,1,False,belief=I am in an office with a key and need to find a door or | capped=5 | STUCK
+2b04e933,probe51_tw,59,25,examine key,0.0,0,1,False,belief=I am in an office with a key on the ground and need to  | capped=5 | STUCK
+2b04e933,probe51_tw,59,26,go north,0.0,0,1,False,belief=I am in an office with a key on the ground and need to  | capped=5 | STUCK
+2b04e933,probe51_tw,59,27,close gate,0.0,0,1,False,belief=I am in a scullery with an empty chest and need to expl | capped=6
+2b04e933,probe51_tw,59,28,open gate,0.0,0,1,False,belief=I am in a scullery with an empty chest and need to expl | capped=5
+2b04e933,probe51_tw,59,29,close chest,0.0,0,1,False,"belief=I am in a scullery and need to explore new areas, my ne | capped=6"
+2b04e933,probe51_tw,60,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,60,1,take type B key,0.0,0,1,False,"belief=I am in a cubicle with a type B chest and a type B key, | capped=1"
+2b04e933,probe51_tw,60,2,unlock type B chest with type B key,0.0,0,1,False,"belief=I am in a cubicle with a type B chest and a type B key, | capped=1"
+2b04e933,probe51_tw,60,3,examine type B chest,0.0,0,1,False,belief=I am in a cubicle with an unlocked type B chest and a t | capped=1
+2b04e933,probe51_tw,60,4,open type B chest,0.0,0,1,False,belief=I am in a cubicle with an unlocked type B chest and a t | capped=2
+2b04e933,probe51_tw,60,5,examine keyboard,0.0,0,1,False,belief=I am in a cubicle with an unlocked type B chest contain | capped=2
+2b04e933,probe51_tw,60,6,take keyboard from type B chest,1.0,1,1,True,belief=I am in a cubicle with an unlocked type B chest contain | capped=3
+2b04e933,probe51_tw,61,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,61,1,examine locker,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,61,2,examine gate,0.0,0,1,False,"belief=I have a loaf of bread and a closed locker, my next ste | capped=2"
+2b04e933,probe51_tw,61,3,go west,0.0,0,1,False,"belief=I have a loaf of bread and a closed gate, my next step  | capped=3"
+2b04e933,probe51_tw,61,4,take latchkey from rack,0.0,0,1,False,"belief=I have a loaf of bread and a potential key, my next ste | capped=1"
+2b04e933,probe51_tw,61,5,examine cuboid box,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, my next step is  | capped=1"
+2b04e933,probe51_tw,61,6,examine latchkey,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, my next step is  | capped=2"
+2b04e933,probe51_tw,61,7,go east,0.0,0,1,False,"belief=I have a latchkey and a loaf of bread, my next step is  | capped=3"
+2b04e933,probe51_tw,61,8,unlock locker with latchkey,1.0,1,1,True,"belief=I have a latchkey and a loaf of bread, my next step is  | capped=4"
+2b04e933,probe51_tw,62,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,62,1,take spherical latchkey from chair,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,62,2,unlock spherical box with spherical latchkey,0.0,0,1,False,belief=I have the spherical latchkey and will try to use it to | capped=1
+2b04e933,probe51_tw,62,3,open spherical box,0.0,0,1,False,belief=I have unlocked the spherical box and will try to open  | capped=1
+2b04e933,probe51_tw,62,4,examine keyboard,0.0,0,1,False,"belief=I have unlocked the spherical box and found a keyboard, | capped=1"
+2b04e933,probe51_tw,62,5,examine portal,0.0,0,1,False,"belief=I have a keyboard and a spherical latchkey, next I will | capped=2"
+2b04e933,probe51_tw,62,6,open portal,0.0,0,1,False,"belief=I have a spherical latchkey and a portal, next I will t | capped=3"
+2b04e933,probe51_tw,62,7,go north,0.0,0,1,False,"belief=I have a spherical latchkey and an open portal, next I  | capped=3"
+2b04e933,probe51_tw,62,8,go south,0.0,0,1,False,"belief=I have a spherical latchkey and an open portal, next I  | capped=2"
+2b04e933,probe51_tw,62,9,go west,0.0,0,1,False,"belief=I have a spherical latchkey and an open portal, next I  | capped=3"
+2b04e933,probe51_tw,62,10,go east,0.0,0,1,False,belief=I have a spherical latchkey and an open portal to the e | capped=1
+2b04e933,probe51_tw,62,11,insert spherical latchkey into spherical box,0.0,0,1,False,belief=I have a spherical latchkey and various objects in the  | capped=3
+2b04e933,probe51_tw,62,12,take keyboard from spherical box,1.0,1,1,True,belief=I have inserted the spherical latchkey into the spheric | capped=3
+2b04e933,probe51_tw,63,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,63,1,examine fridge,0.0,0,1,False,"belief=I am in a kitchenette with a fridge, kettle, and an exi | capped=1"
+2b04e933,probe51_tw,63,2,take loaf of bread from fridge,0.0,0,1,False,"belief=I am in a kitchenette with a fridge, kettle, and an exi | capped=2"
+2b04e933,probe51_tw,63,3,examine kettle,0.0,0,1,False,"belief=I am in a kitchenette with a fridge, kettle, and an exi | capped=2"
+2b04e933,probe51_tw,63,4,take kettle,0.0,0,1,False,"belief=I am in a kitchenette with a fridge, kettle, and an exi | capped=3"
+2b04e933,probe51_tw,63,5,insert kettle into fridge,0.0,0,1,False,"belief=I am in a kitchenette with a fridge, and I have a kettl | capped=3"
+2b04e933,probe51_tw,63,6,take kettle from fridge,0.0,0,1,False,"belief=I am in a kitchenette with a fridge, and I have a kettl | capped=3"
+2b04e933,probe51_tw,63,7,eat loaf of bread,1.0,1,1,True,"belief=I am in a kitchenette with a fridge and have a kettle,  | capped=3"
+2b04e933,probe51_tw,64,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,64,1,examine plant,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,64,2,drop licorice strip,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=2
+2b04e933,probe51_tw,64,3,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=2
+2b04e933,probe51_tw,64,4,take fudge scented key,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=2
+2b04e933,probe51_tw,64,5,unlock fudge scented box with fudge scented key,0.0,0,1,False,"belief=I have a fudge scented key and a plant, and I'm trying  | capped=2"
+2b04e933,probe51_tw,64,6,open fudge scented box,1.0,1,1,True,belief=I have unlocked the fudge scented box and I'm trying to | capped=2
+2b04e933,probe51_tw,65,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,65,1,examine bureau,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,65,2,insert type 4 passkey into bureau,0.0,0,1,False,belief=I have a type 4 passkey and a bureau that looks strong  | capped=2
+2b04e933,probe51_tw,65,3,open door,0.0,0,1,False,"belief=I have a type 4 passkey inserted into the bureau, and m | capped=2"
+2b04e933,probe51_tw,65,4,go south,0.0,0,1,False,"belief=I am in an office with a door open, and my next step is | capped=2"
+2b04e933,probe51_tw,65,5,take insect,0.0,0,1,False,"belief=I am in a chamber with an insect on the floor, and my n | capped=1"
+2b04e933,probe51_tw,65,6,examine insect,0.0,0,1,False,"belief=I am in a chamber with the insect in my inventory, and  | capped=1"
+2b04e933,probe51_tw,65,7,drop insect,0.0,0,1,False,belief=I am in a chamber with the insect in my inventory. My n | capped=2
+2b04e933,probe51_tw,65,8,go north,0.0,0,1,False,belief=I am in a chamber with the insect on the ground. My nex | capped=2
+2b04e933,probe51_tw,65,9,take type 4 passkey from bureau,0.0,0,1,False,belief=I am in an office with a bureau containing a type 4 pas | capped=2
+2b04e933,probe51_tw,65,10,go west,0.0,0,1,False,"belief=I am in an office with a type 4 passkey, and my next st | capped=2"
+2b04e933,probe51_tw,65,11,take iron,0.0,0,1,False,"belief=I am in a launderette with a type 4 passkey, and my nex | capped=1"
+2b04e933,probe51_tw,65,12,go east,0.0,0,1,False,belief=I am in a launderette with a type 4 passkey and an iron | capped=1
+2b04e933,probe51_tw,65,13,go south,0.0,0,1,False,belief=I am in an office with a type 4 passkey and an iron. My | capped=2
+2b04e933,probe51_tw,65,14,take insect,0.0,0,1,False,belief=I am in a chamber with an insect on the floor and I hav | capped=2
+2b04e933,probe51_tw,65,15,go north,0.0,0,1,False,"belief=I am in a chamber with an insect, an iron, and a type 4 | capped=2"
+2b04e933,probe51_tw,65,16,go west,0.0,0,1,False,"belief=I am in a chamber with an insect, an iron, and a type 4 | capped=4"
+2b04e933,probe51_tw,65,17,insert insect into basket,0.0,0,1,False,"belief=I am in a chamber with an insect, an iron, and a type 4 | capped=3"
+2b04e933,probe51_tw,65,18,examine basket,0.0,0,1,False,"belief=I am in a chamber with a basket containing an insect, a | capped=3"
+2b04e933,probe51_tw,65,19,insert iron into basket,1.0,1,1,True,"belief=I am in a chamber with a basket containing an insect, a | capped=4"
+2b04e933,probe51_tw,66,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,66,1,close chest,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,66,2,go north,0.0,0,1,False,"belief=I am in a kitchenette with a chest, my next step is to  | capped=1"
+2b04e933,probe51_tw,66,3,open door,0.0,0,1,False,"belief=I am in an office with a closed door, my next step is t | capped=1"
+2b04e933,probe51_tw,66,4,go east,0.0,0,1,False,"belief=I am in an office with an open door, my next step is to | capped=1"
+2b04e933,probe51_tw,66,5,examine counter,0.0,0,1,False,"belief=I am in a vault with a counter, shirt, and an open door | capped=1"
+2b04e933,probe51_tw,66,6,take shirt from counter,1.0,1,1,True,"belief=I am in a vault with a counter and a shirt, my next ste | capped=2"
+2b04e933,probe51_tw,67,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,67,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,67,2,unlock cuboid chest with cuboid latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,67,3,open cuboid chest,0.0,0,1,False,"belief=I have unlocked the chest, my next step is to open it t | capped=1"
+2b04e933,probe51_tw,67,4,take novel from cuboid chest,1.0,1,1,True,"belief=I have found a novel in the chest, my next step is to t | capped=1"
+2b04e933,probe51_tw,68,0,drop cookie,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,68,1,take cookie,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,68,2,eat cookie,0.0,0,1,False,belief=I have a cookie in my inventory and I'm in the cellar.  | capped=0
+2b04e933,probe51_tw,68,3,look,0.0,0,1,False,"belief=I'm in the cellar with no items, my next step is to exp | capped=0"
+2b04e933,probe51_tw,68,4,examine display,0.0,0,1,False,"belief=I'm in the cellar with no items, my next step is to int | capped=1"
+2b04e933,probe51_tw,68,5,open display,0.0,0,1,False,"belief=I'm in the cellar with no items, my next step is to try | capped=2"
+2b04e933,probe51_tw,68,6,go south,0.0,0,1,False,"belief=I'm in the cellar with no items, my next step is to try | capped=2"
+2b04e933,probe51_tw,68,7,take apple,0.0,0,1,False,"belief=I'm in the cookery with no items, my next step is to tr | capped=1"
+2b04e933,probe51_tw,68,8,close gate,0.0,0,1,False,"belief=I'm in the cookery with no items, my next step is to tr | capped=1"
+2b04e933,probe51_tw,68,9,take candy bar,0.0,0,1,False,"belief=I'm in the cookery with an apple, my next step is to tr | capped=1"
+2b04e933,probe51_tw,68,10,eat candy bar,0.0,0,1,False,"belief=I'm in the cookery with an apple and a candy bar, my ne | capped=1"
+2b04e933,probe51_tw,68,11,eat apple,0.0,0,1,False,"belief=I'm in the cookery with an apple, my next step is to tr | capped=1"
+2b04e933,probe51_tw,68,12,go north,0.0,0,1,False,"belief=I'm in the cookery after eating the apple, my next step | capped=1"
+2b04e933,probe51_tw,68,13,go south,0.0,0,1,False,"belief=I'm in the cellar, my next step is to try going south t | capped=2"
+2b04e933,probe51_tw,68,14,open gate,0.0,0,1,False,"belief=I'm in the cookery, my next step is to try opening the  | capped=1"
+2b04e933,probe51_tw,68,15,go north,0.0,0,1,False,"belief=I'm outside the gate, my next step is to explore the ar | capped=2"
+2b04e933,probe51_tw,68,16,close display,0.0,0,1,False,belief=I'm in a cellar with an empty display and an unguarded  | capped=3
+2b04e933,probe51_tw,68,17,inventory,0.0,0,1,False,belief=I'm in a cellar and my next step is to check my invento | capped=3
+2b04e933,probe51_tw,68,18,open display,0.0,0,1,False,"belief=I'm in a cellar with no items, my next step is to try o | capped=4"
+2b04e933,probe51_tw,68,19,close display,0.0,0,1,False,"belief=I'm in a cellar with no items, my next step is to try c | capped=4"
+2b04e933,probe51_tw,68,20,examine display,0.0,0,1,False,"belief=I'm in a cellar with no items, my next step is to try m | capped=5 | STUCK"
+2b04e933,probe51_tw,68,21,inventory,0.0,0,1,False,"belief=I'm in a cellar with no items, my next step is to try m | capped=5 | STUCK"
+2b04e933,probe51_tw,68,22,look,0.0,0,1,False,"belief=I'm in a cellar with no items, my next step is to try m | capped=5 | STUCK"
+2b04e933,probe51_tw,68,23,examine display,0.0,0,1,False,"belief=I'm in a cellar with a closed display and no items, my  | capped=5 | STUCK"
+2b04e933,probe51_tw,68,24,go south,0.0,0,1,False,"belief=I'm in a cellar with a closed display and no items, my  | capped=5 | STUCK"
+2b04e933,probe51_tw,68,25,close gate,0.0,0,1,False,"belief=I'm in a cookery with an open gate and unguarded exit,  | capped=4 | STUCK"
+2b04e933,probe51_tw,68,26,open gate,0.0,0,1,False,"belief=I'm in a cookery with a closed gate, my next step is to | capped=3 | STUCK"
+2b04e933,probe51_tw,68,27,examine gate,0.0,0,1,False,"belief=I've opened the gate, my next step is to explore the ne | capped=5 | STUCK"
+2b04e933,probe51_tw,68,28,examine gate,0.0,0,1,False,"belief=I need to try a new direction or action to progress, my | capped=6 | STUCK"
+2b04e933,probe51_tw,68,29,close gate,0.0,0,1,False,"belief=I need to try a new direction or action to progress, my | capped=6 | STUCK"
+2b04e933,probe51_tw,69,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,69,1,examine bookshelf,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,69,2,drop nest of toads,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=2
+2b04e933,probe51_tw,69,3,examine gateway,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=2
+2b04e933,probe51_tw,69,4,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=3
+2b04e933,probe51_tw,69,5,take laptop from stand,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,69,6,take loaf of bread,0.0,0,1,False,belief=I have a laptop and need to explore the space to unders | capped=1
+2b04e933,probe51_tw,69,7,go east,0.0,0,1,False,"belief=I have a laptop and a loaf of bread, and I need to expl | capped=1"
+2b04e933,probe51_tw,69,8,take nest of toads,0.0,0,1,False,"belief=I have a laptop and a loaf of bread, and I need to expl | capped=3"
+2b04e933,probe51_tw,69,9,examine laptop,0.0,0,1,False,"belief=I have a laptop, a loaf of bread, and a nest of toads.  | capped=3"
+2b04e933,probe51_tw,69,10,put laptop on bookshelf,1.0,1,1,True,"belief=I have a laptop, a loaf of bread, and a nest of toads.  | capped=4"
+2b04e933,probe51_tw,70,0,close cabinet,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,70,1,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,70,2,examine Microsoft style chest,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=1
+2b04e933,probe51_tw,70,3,examine bug,0.0,0,1,False,"belief=I have a bug and a Microsoft style chest, and I need to | capped=2"
+2b04e933,probe51_tw,70,4,examine cabinet,0.0,0,1,False,"belief=I have a bug and I'm in a launderette, next step is to  | capped=3"
+2b04e933,probe51_tw,70,5,open portal,0.0,0,1,False,"belief=I have a bug and I'm in a launderette, next step is to  | capped=4"
+2b04e933,probe51_tw,70,6,examine stick of butter,0.0,0,1,False,"belief=I have a bug and I'm in a launderette with a portal, ne | capped=4"
+2b04e933,probe51_tw,70,7,go north,0.0,0,1,False,"belief=I have a bug and I'm in a launderette with a portal, ne | capped=5"
+2b04e933,probe51_tw,70,8,go east,0.0,0,1,False,"belief=I have a bug and I'm in an office with a portal, next s | capped=2"
+2b04e933,probe51_tw,70,9,go west,0.0,0,1,False,belief=I have a bug and I'm in a closet with an exit to the we | capped=2
+2b04e933,probe51_tw,70,10,go south,0.0,0,1,False,"belief=I'm in an office with a portal to the south, an exit to | capped=2"
+2b04e933,probe51_tw,70,11,take stick of butter,0.0,0,1,False,"belief=I'm in a launderette with a locked chest, a cabinet, an | capped=5"
+2b04e933,probe51_tw,70,12,open cabinet,0.0,0,1,False,"belief=I'm in a launderette with a locked chest, a cabinet, an | capped=5"
+2b04e933,probe51_tw,70,13,take Microsoft style keycard from cabinet,0.0,0,1,False,"belief=I'm in a launderette with a locked chest, a cabinet, an | capped=5"
+2b04e933,probe51_tw,70,14,unlock Microsoft style chest with Microsoft style keycard,0.0,0,1,False,"belief=I'm in a launderette with a locked chest, a cabinet, an | capped=5"
+2b04e933,probe51_tw,70,15,open Microsoft style chest,0.0,0,1,False,belief=I'm in a launderette with an unlocked Microsoft style c | capped=5
+2b04e933,probe51_tw,70,16,insert bug into Microsoft style chest,1.0,1,1,True,belief=I'm in a launderette with an open Microsoft style chest | capped=5
+2b04e933,probe51_tw,71,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,71,1,go west,0.0,0,1,False,"belief=I am in a washroom with an empty cabinet and a board, a | capped=0"
+2b04e933,probe51_tw,71,2,examine box,0.0,0,1,False,"belief=I am in a studio with a box and a closed hatch, and I n | capped=0"
+2b04e933,probe51_tw,71,3,examine hatch,0.0,0,1,False,"belief=I am in a studio with a box and a closed hatch, and I n | capped=1"
+2b04e933,probe51_tw,71,4,open hatch,0.0,0,1,False,"belief=I am in a studio with a box and a closed hatch, and I n | capped=2"
+2b04e933,probe51_tw,71,5,go north,0.0,0,1,False,"belief=I am in a studio with a box and an open hatch, and I ne | capped=2"
+2b04e933,probe51_tw,71,6,go south,0.0,0,1,False,"belief=I am in a salon with a shelf and an open hatch, and I n | capped=1"
+2b04e933,probe51_tw,71,7,go east,0.0,0,1,False,"belief=I am in a studio with a box and an open hatch, and I ne | capped=2"
+2b04e933,probe51_tw,71,8,go west,0.0,0,1,False,"belief=I am in a washroom with an empty cabinet and a board, a | capped=0"
+2b04e933,probe51_tw,71,9,go north,0.0,0,1,False,"belief=I am in a studio with a box and an open hatch, and I ne | capped=3"
+2b04e933,probe51_tw,71,10,examine shelf,0.0,0,1,False,"belief=I am in a salon with a shelf and an open hatch, and I n | capped=2"
+2b04e933,probe51_tw,71,11,close hatch,0.0,0,1,False,"belief=I am in a salon with a shelf and an open hatch, and I n | capped=3 | STUCK"
+2b04e933,probe51_tw,71,12,look,0.0,0,1,False,"belief=I am in a salon with a closed hatch and a shelf, my nex | capped=3"
+2b04e933,probe51_tw,71,13,open hatch,0.0,0,1,False,"belief=I am in a salon with a closed hatch and a shelf, my nex | capped=4"
+2b04e933,probe51_tw,71,14,go south,0.0,0,1,False,"belief=I am in a salon with an open hatch and a shelf, my next | capped=4"
+2b04e933,probe51_tw,71,15,inventory,0.0,0,1,False,"belief=I am in a studio with an open hatch and a box, my next  | capped=5"
+2b04e933,probe51_tw,71,16,close hatch,0.0,0,1,False,"belief=I am in a studio with an open hatch and a box, my next  | capped=6"
+2b04e933,probe51_tw,71,17,examine box,0.0,0,1,False,"belief=I am in a studio with a closed hatch, my next step is t | capped=6 | STUCK"
+2b04e933,probe51_tw,71,18,examine hatch,0.0,0,1,False,"belief=I am in a studio with a closed hatch and a box, my next | capped=6 | STUCK"
+2b04e933,probe51_tw,71,19,inventory,0.0,0,1,False,"belief=I am in a studio with a closed hatch, my next step is t | capped=6 | STUCK"
+2b04e933,probe51_tw,71,20,look,0.0,0,1,False,"belief=I am in a studio with a closed hatch, my next step is t | capped=6 | STUCK"
+2b04e933,probe51_tw,71,21,examine box,0.0,0,1,False,"belief=I am in a studio with a closed hatch, my next step is t | capped=6 | STUCK"
+2b04e933,probe51_tw,71,22,examine hatch,0.0,0,1,False,"belief=I am in a studio with a closed hatch and a box, my next | capped=6 | STUCK"
+2b04e933,probe51_tw,71,23,go east,0.0,0,1,False,"belief=I am in a studio with a closed hatch, my next step is t | capped=6 | STUCK"
+2b04e933,probe51_tw,71,24,close cabinet,0.0,0,1,False,"belief=I am in a washroom with an opened cabinet and a board,  | capped=3 | STUCK"
+2b04e933,probe51_tw,71,25,examine board,0.0,0,1,False,"belief=I am in a washroom with a closed cabinet and a board, m | capped=3"
+2b04e933,probe51_tw,71,26,open cabinet,0.0,0,1,False,belief=I am in a washroom with a closed cabinet and a shaky bo | capped=4
+2b04e933,probe51_tw,71,27,examine cabinet,0.0,0,1,False,"belief=I am in a washroom with an open cabinet, my next step i | capped=4"
+2b04e933,probe51_tw,71,28,close cabinet,0.0,0,1,False,"belief=I am in a washroom with an open cabinet, my next step i | capped=5"
+2b04e933,probe51_tw,71,29,open cabinet,0.0,0,1,False,"belief=I am in a washroom with an open cabinet, my next step i | capped=5"
+2b04e933,probe51_tw,72,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,72,1,go east,0.0,0,1,False,belief=I am in a spare room with empty counter and multiple ex | capped=0
+2b04e933,probe51_tw,72,2,take key from recliner,0.0,0,1,False,belief=I am in a chamber with various objects and need to expl | capped=0
+2b04e933,probe51_tw,72,3,examine box,0.0,0,1,False,belief=I am in a chamber with various objects and need to expl | capped=0
+2b04e933,probe51_tw,72,4,open box,0.0,0,1,False,"belief=I am in a chamber with a box and other objects, and my  | capped=1"
+2b04e933,probe51_tw,72,5,examine bench,0.0,0,1,False,"belief=I am in a chamber with a box and other objects, and my  | capped=1"
+2b04e933,probe51_tw,72,6,take pillow from bench,0.0,0,1,False,belief=I am in a chamber with a balanced bench and a pillow on | capped=2
+2b04e933,probe51_tw,72,7,examine key,0.0,0,1,False,"belief=I am in a chamber with a key and a pillow, and my next  | capped=2"
+2b04e933,probe51_tw,72,8,examine pillow,0.0,0,1,False,"belief=I am in a chamber with a key and a pillow, and my next  | capped=3"
+2b04e933,probe51_tw,72,9,put pillow on bench,0.0,0,1,False,"belief=I am in a chamber with a key and a pillow, and my next  | capped=4"
+2b04e933,probe51_tw,72,10,insert key into box,0.0,0,1,False,"belief=I am in a chamber with a key and a pillow on the bench, | capped=4"
+2b04e933,probe51_tw,72,11,close box,0.0,0,1,False,"belief=I am in a chamber with a key inserted into the box, and | capped=4"
+2b04e933,probe51_tw,72,12,examine recliner,0.0,0,1,False,"belief=I am in a chamber with a closed box, and my next step i | capped=3"
+2b04e933,probe51_tw,72,13,go west,0.0,0,1,False,belief=I am in a chamber with a wobbly recliner and need to ex | capped=4
+2b04e933,probe51_tw,72,14,go east,0.0,0,1,False,belief=I am in a spare room with a counter and need to explore | capped=0
+2b04e933,probe51_tw,72,15,go west,0.0,0,1,False,belief=I am in a spare room and need to explore other areas to | capped=4
+2b04e933,probe51_tw,72,16,go north,0.0,0,1,False,belief=I am in a spare room and need to explore other areas to | capped=1
+2b04e933,probe51_tw,72,17,go south,0.0,0,1,False,belief=I am in a bedchamber and need to explore other areas to | capped=0
+2b04e933,probe51_tw,72,18,examine counter,0.0,0,1,False,belief=I am in a spare room and need to explore other areas to | capped=2
+2b04e933,probe51_tw,72,19,go south,0.0,0,1,False,belief=I am in a spare room and need to explore other areas to | capped=3
+2b04e933,probe51_tw,72,20,look,0.0,0,1,False,belief=I am in a kitchen and need to explore other areas to fi | capped=1
+2b04e933,probe51_tw,72,21,inventory,0.0,0,1,False,belief=I am in a kitchen and need to explore other areas to fi | capped=2
+2b04e933,probe51_tw,72,22,inventory,0.0,0,1,False,belief=I am in a kitchen and need to explore other areas or in | capped=3 | STUCK
+2b04e933,probe51_tw,72,23,look,0.0,0,1,False,belief=I am in a kitchen and need to explore other areas or in | capped=3 | STUCK
+2b04e933,probe51_tw,72,24,go north,0.0,0,1,False,belief=I am in a kitchen and need to explore other areas or in | capped=3 | STUCK
+2b04e933,probe51_tw,72,25,examine counter,0.0,0,1,False,belief=I am in a spare room and need to interact with the envi | capped=6 | STUCK
+2b04e933,probe51_tw,72,26,examine counter,0.0,0,1,False,belief=I am in a spare room and need to interact with the envi | capped=6 | STUCK
+2b04e933,probe51_tw,72,27,go east,0.0,0,1,False,belief=I am in a spare room and need to interact with the envi | capped=6 | STUCK
+2b04e933,probe51_tw,72,28,open box,0.0,0,1,False,belief=I am in a spare room and need to interact with the envi | capped=7 | STUCK
+2b04e933,probe51_tw,72,29,take key from box,0.0,0,1,False,"belief=I am in a room with a box and a key, my next step is to | capped=8 | STUCK"
+2b04e933,probe51_tw,73,0,examine passageway,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,73,1,open passageway,0.0,0,1,False,"belief=I am in a closed passageway with an onion, my next step | capped=1"
+2b04e933,probe51_tw,73,2,go east,0.0,0,1,False,"belief=I am in an open passageway with an onion, my next step  | capped=1"
+2b04e933,probe51_tw,73,3,take iron,0.0,0,1,False,belief=I am in a steam room with an onion and an iron on the f | capped=1
+2b04e933,probe51_tw,73,4,eat onion,0.0,0,1,False,"belief=I am in a steam room with an onion and I have an iron,  | capped=1"
+2b04e933,probe51_tw,73,5,examine iron,0.0,0,1,False,belief=I am in a steam room with an iron and I just ate an oni | capped=1
+2b04e933,probe51_tw,73,6,go north,0.0,0,1,False,"belief=I am in a steam room with a dirty iron, my next step is | capped=2"
+2b04e933,probe51_tw,73,7,go south,0.0,0,1,False,"belief=I am in a bedroom with an iron, my next step is to move | capped=1"
+2b04e933,probe51_tw,73,8,go west,0.0,0,1,False,"belief=I am in a steam room with an iron, my next step is to m | capped=2"
+2b04e933,probe51_tw,73,9,examine fudge scented locker,0.0,0,1,False,"belief=I am in a cubicle with an iron, my next step is to exam | capped=2"
+2b04e933,probe51_tw,73,10,go east,0.0,0,1,False,belief=I am in a cubicle with an iron and a fudge scented lock | capped=3
+2b04e933,probe51_tw,73,11,close passageway,0.0,0,1,False,belief=I am in a steam room with an iron and an open passagewa | capped=2
+2b04e933,probe51_tw,73,12,open passageway,0.0,0,1,False,belief=I am in a steam room with an iron and a closed passagew | capped=2
+2b04e933,probe51_tw,73,13,go north,0.0,0,1,False,belief=I am in a steam room with an iron and an open passagewa | capped=2
+2b04e933,probe51_tw,73,14,go south,0.0,0,1,False,belief=I am in a bedroom with an iron and an open passageway t | capped=1
+2b04e933,probe51_tw,73,15,go west,0.0,0,1,False,belief=I am in a steam room with an iron and an open passagewa | capped=3
+2b04e933,probe51_tw,73,16,drop iron,0.0,0,1,False,belief=I am in a cubicle with an iron and an open passageway t | capped=5
+2b04e933,probe51_tw,73,17,take iron,0.0,0,1,False,belief=I am in a cubicle with a dropped iron and an open passa | capped=5
+2b04e933,probe51_tw,73,18,close passageway,0.0,0,1,False,"belief=I am in a cubicle with the iron in my inventory, my nex | capped=5"
+2b04e933,probe51_tw,73,19,look,0.0,0,1,False,"belief=I am in a cubicle with the iron in my inventory, my nex | capped=5"
+2b04e933,probe51_tw,73,20,inventory,0.0,0,1,False,"belief=I am in a cubicle with the iron in my inventory, my nex | capped=6"
+2b04e933,probe51_tw,73,21,drop iron,0.0,0,1,False,"belief=I am in a cubicle with the iron in my inventory, my nex | capped=7"
+2b04e933,probe51_tw,73,22,examine fudge scented locker,0.0,0,1,False,"belief=I am in a cubicle with the iron on the ground, my next  | capped=8"
+2b04e933,probe51_tw,73,23,examine iron,0.0,0,1,False,"belief=I am in a cubicle with a fudge scented locker, my next  | capped=8"
+2b04e933,probe51_tw,73,24,examine passageway,0.0,0,1,False,belief=I am in a cubicle with a dirty iron and a fudge scented | capped=8
+2b04e933,probe51_tw,73,25,inventory,0.0,0,1,False,belief=I am in a closed passageway with no clear objects to in | capped=8
+2b04e933,probe51_tw,73,26,look,0.0,0,1,False,belief=I am in a closed passageway with no clear objects to in | capped=8
+2b04e933,probe51_tw,73,27,examine fudge scented locker,0.0,0,1,False,belief=I am in a cubicle with an iron on the floor and a close | capped=8 | STUCK
+2b04e933,probe51_tw,73,28,examine iron,0.0,0,1,False,belief=I am in a cubicle with a closed passageway and a fudge  | capped=8 | STUCK
+2b04e933,probe51_tw,73,29,examine passageway,0.0,0,1,False,belief=I am in a cubicle with a dirty iron and a fudge scented | capped=8 | STUCK
+2b04e933,probe51_tw,74,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | capped=0
+2b04e933,probe51_tw,74,1,examine rack,0.0,0,1,False,belief=I am in a spare room with a rack and a closed gate. My  | capped=1
+2b04e933,probe51_tw,74,2,examine gate,0.0,0,1,False,belief=I am in a spare room with a rack and a closed gate. My  | capped=2
+2b04e933,probe51_tw,74,3,open gate,0.0,0,1,False,belief=I am in a spare room with a closed gate and items in my | capped=3
+2b04e933,probe51_tw,74,4,go north,0.0,0,1,False,belief=I am in a spare room with an open gate and items in my  | capped=3
+2b04e933,probe51_tw,74,5,take chocolate bar,0.0,0,1,False,belief=I am in a basement with an open gate and items in my in | capped=2
+2b04e933,probe51_tw,74,6,go south,0.0,0,1,False,belief=I am in a basement with an open gate and items in my in | capped=2
+2b04e933,probe51_tw,74,7,put cashew on rack,0.0,0,1,False,belief=I am in a spare room with an open gate and items in my  | capped=3
+2b04e933,probe51_tw,74,8,put chocolate bar on rack,0.0,0,1,False,belief=I am in a spare room with an open gate and items in my  | capped=3
+2b04e933,probe51_tw,74,9,put cookie on rack,0.0,0,1,False,belief=I am in a spare room with an open gate and items in my  | capped=3
+2b04e933,probe51_tw,74,10,put peanut on rack,0.0,0,1,False,belief=I am in a spare room with a cookie on the rack and a pe | capped=3
+2b04e933,probe51_tw,74,11,take peanut from rack,0.0,0,1,False,belief=I have put the peanut on the rack and my score is still | capped=3
+2b04e933,probe51_tw,74,12,drop peanut,0.0,0,1,False,belief=I have taken the peanut from the rack and my score is s | capped=3
+2b04e933,probe51_tw,74,13,close gate,0.0,0,1,False,belief=I have dropped the peanut and my score is still 0. My n | capped=3
+2b04e933,probe51_tw,74,14,go west,0.0,0,1,False,belief=I am in the Spare Room with no items. My next step is t | capped=3
+2b04e933,probe51_tw,74,15,go east,0.0,0,1,False,belief=I am in the Recreation Zone with no items. My next step | capped=1
+2b04e933,probe51_tw,74,16,take cashew from rack,0.0,0,1,False,belief=I am in the Spare Room with no items. My next step is t | capped=3
+2b04e933,probe51_tw,74,17,take chocolate bar from rack,0.0,0,1,False,belief=I am in the Spare Room with a cashew. My next step is t | capped=3
+2b04e933,probe51_tw,74,18,take cookie from rack,0.0,0,1,False,belief=I am in the Spare Room with a cashew and a chocolate ba | capped=3
+2b04e933,probe51_tw,74,19,take peanut,0.0,0,1,False,"belief=I am in the Spare Room with a cashew, a chocolate bar,  | capped=3"
+2b04e933,probe51_tw,74,20,open gate,0.0,0,1,False,"belief=I am in the Spare Room with a cashew, a chocolate bar,  | capped=3"
+2b04e933,probe51_tw,74,21,go north,0.0,0,1,False,"belief=I am in the Spare Room with a cashew, a chocolate bar,  | capped=3"
+2b04e933,probe51_tw,74,22,go south,0.0,0,1,False,"belief=I am in the Basement with a cashew, a chocolate bar, a  | capped=3"
+2b04e933,probe51_tw,74,23,go west,0.0,0,1,False,"belief=I am in the Spare Room with a cashew, a chocolate bar,  | capped=4"
+2b04e933,probe51_tw,74,24,go east,0.0,0,1,False,"belief=I am in the Recreation Zone with a cashew, a chocolate  | capped=1"
+2b04e933,probe51_tw,74,25,put cashew on rack,0.0,0,1,False,"belief=I am in the Spare Room with a cashew, a chocolate bar,  | capped=5"
+2b04e933,probe51_tw,74,26,put chocolate bar on rack,0.0,0,1,False,"belief=I am in the Spare Room with a cashew on the rack, and a | capped=5"
+2b04e933,probe51_tw,74,27,put cookie on rack,0.0,0,1,False,belief=I am in the Spare Room with a chocolate bar on the rack | capped=5
+2b04e933,probe51_tw,74,28,put peanut on rack,0.0,0,1,False,belief=I am in the Spare Room with a chocolate bar on the rack | capped=5
+2b04e933,probe51_tw,74,29,take peanut from rack,0.0,0,1,False,belief=I am in the Spare Room with a peanut on the rack. My ne | capped=5 | STUCK

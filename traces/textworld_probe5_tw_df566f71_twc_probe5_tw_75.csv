@@ -1,0 +1,469 @@
+run_id,variant,seed,step,command,reward,score,max_score,won,note
+df566f71,probe5_tw,75,0,unlock box with latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,75,1,examine box,0.0,0,1,False,belief=I have just unlocked a box and I'm considering what to  | avoid=0
+df566f71,probe5_tw,75,2,open box,0.0,0,1,False,belief=I have a locked box in front of me and a latchkey in my | avoid=1
+df566f71,probe5_tw,75,3,take glass from box,0.0,0,1,False,belief=I have a glass inside the box and a latchkey in my inve | avoid=1
+df566f71,probe5_tw,75,4,put glass on board,1.0,1,1,True,"belief=I have a glass and a latchkey, and I'm considering usin | avoid=1"
+df566f71,probe5_tw,76,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,76,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,76,2,take keycard from desk,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,76,3,unlock locker with keycard,0.0,0,1,False,"belief=I have a keycard and a loaf of bread, and I'm in a stud | avoid=2"
+df566f71,probe5_tw,76,4,examine locker,0.0,0,1,False,"belief=I have a keycard and a loaf of bread, and I'm in a stud | avoid=2"
+df566f71,probe5_tw,76,5,open locker,0.0,0,1,False,"belief=I have a keycard and a loaf of bread, and I'm in a stud | avoid=3"
+df566f71,probe5_tw,76,6,take bug from locker,1.0,1,1,True,"belief=I have a keycard, a loaf of bread, and a bug is in the  | avoid=3"
+df566f71,probe5_tw,77,0,take Henderson's limited edition latchkey from rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,77,1,unlock Henderson's limited edition locker with Henderson's limited edition latchkey,0.0,0,1,False,belief=I have a latchkey and my next step is to try using it t | avoid=0
+df566f71,probe5_tw,77,2,go west,0.0,0,1,False,belief=I have a latchkey and my next step is to explore the su | avoid=0
+df566f71,probe5_tw,77,3,take broom,0.0,0,1,False,belief=I have a latchkey and my next step is to explore the su | avoid=0
+df566f71,probe5_tw,77,4,go east,0.0,0,1,False,"belief=I have a latchkey and a broom, and my next step is to e | avoid=0"
+df566f71,probe5_tw,77,5,examine rack,0.0,0,1,False,"belief=I have a latchkey and a broom, and my next step is to e | avoid=1"
+df566f71,probe5_tw,77,6,look,0.0,0,1,False,"belief=I have a latchkey and a broom, and my next step is to e | avoid=2"
+df566f71,probe5_tw,77,7,open Henderson's limited edition locker,0.0,0,1,False,"belief=I have a latchkey and a broom, and my next step is to t | avoid=3"
+df566f71,probe5_tw,77,8,take shoe from Henderson's limited edition locker,1.0,1,1,True,"belief=I have a latchkey, a broom, and I've unlocked the Hende | avoid=3"
+df566f71,probe5_tw,78,0,drop gummy bear,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,78,1,take gummy bear,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,78,2,eat gummy bear,0.0,0,1,False,belief=I have a gummy bear and need to try actions that change | avoid=1
+df566f71,probe5_tw,78,3,examine counter,0.0,0,1,False,belief=I have a gummy bear and need to try actions that change | avoid=0
+df566f71,probe5_tw,78,4,go south,0.0,0,1,False,belief=I need to try actions that change the world to infer th | avoid=1
+df566f71,probe5_tw,78,5,go east,0.0,0,1,False,belief=I need to try moving to a different location to see if  | avoid=1
+df566f71,probe5_tw,78,6,go west,0.0,0,1,False,belief=I'm in the canteen and need to explore other locations  | avoid=0
+df566f71,probe5_tw,78,7,take broom,0.0,0,1,False,belief=I'm in the launderette and need to explore other locati | avoid=2
+df566f71,probe5_tw,78,8,go north,0.0,0,1,False,belief=I'm in the launderette with a broom and need to explore | avoid=2
+df566f71,probe5_tw,78,9,put broom on counter,0.0,0,1,False,belief=I'm in the cookhouse with a broom and need to explore o | avoid=2
+df566f71,probe5_tw,78,10,take broom from counter,0.0,0,1,False,belief=I'm in the cookhouse with a broom on the counter and ne | avoid=2
+df566f71,probe5_tw,78,11,drop broom,0.0,0,1,False,belief=I'm in the cookhouse with a broom and need to explore o | avoid=3
+df566f71,probe5_tw,78,12,look,0.0,0,1,False,belief=I'm in the cookhouse with a dropped broom and need to e | avoid=3
+df566f71,probe5_tw,78,13,examine broom,0.0,0,1,False,belief=I'm in the cookhouse with a dropped broom and need to e | avoid=4
+df566f71,probe5_tw,78,14,inventory,0.0,0,1,False,belief=I'm in the cookhouse with a dropped broom and need to e | avoid=5
+df566f71,probe5_tw,78,15,examine broom,0.0,0,1,False,belief=I'm in the cookhouse and need to explore other location | avoid=6
+df566f71,probe5_tw,78,16,examine counter,0.0,0,1,False,belief=I'm in the cookhouse and need to explore other location | avoid=6
+df566f71,probe5_tw,78,17,go south,0.0,0,1,False,belief=I'm in the cookhouse and need to explore other location | avoid=6 | STUCK
+df566f71,probe5_tw,78,18,take formless keycard,0.0,0,1,False,belief=I'm in the launderette and need to explore or manipulat | avoid=5
+df566f71,probe5_tw,78,19,drop formless keycard,0.0,0,1,False,"belief=I'm in the launderette with a formless keycard, and my  | avoid=5"
+df566f71,probe5_tw,78,20,examine formless keycard,0.0,0,1,False,"belief=I'm in the launderette with a dropped formless keycard, | avoid=6"
+df566f71,probe5_tw,78,21,examine formless keycard,0.0,0,1,False,belief=I'm in the launderette with a dropped formless keycard. | avoid=7
+df566f71,probe5_tw,78,22,go east,0.0,0,1,False,belief=I should try moving to a different location to see if t | avoid=7
+df566f71,probe5_tw,78,23,examine formless box,0.0,0,1,False,belief=I should try moving to a different location to see if n | avoid=3
+df566f71,probe5_tw,78,24,examine pan,0.0,0,1,False,belief=I should try interacting with the formless box in a dif | avoid=4 | STUCK
+df566f71,probe5_tw,78,25,examine formless box,0.0,0,1,False,belief=I need to try a different action to change the world st | avoid=5 | STUCK
+df566f71,probe5_tw,78,26,examine pan,0.0,0,1,False,belief=I need to try a different action to change the world st | avoid=5 | STUCK
+df566f71,probe5_tw,78,27,go west,0.0,0,1,False,belief=I need to attempt a different action that can change th | avoid=5 | STUCK
+df566f71,probe5_tw,78,28,go north,0.0,0,1,False,belief=I need to attempt a different action that can change th | avoid=7 | STUCK
+df566f71,probe5_tw,78,29,inventory,0.0,0,1,False,"belief=I need to take an action that changes the world state,  | avoid=6 | STUCK"
+df566f71,probe5_tw,79,0,open portal,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,79,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,79,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,79,3,examine Canadian limited edition passkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,79,4,close portal,0.0,0,1,False,belief=I have a passkey and I'm in a garage. My next step is t | avoid=3
+df566f71,probe5_tw,79,5,examine portal,0.0,0,1,False,belief=I have a passkey and I'm in a garage. My next step is t | avoid=3
+df566f71,probe5_tw,79,6,drop Canadian limited edition passkey,0.0,0,1,False,belief=I have a passkey and I'm in a garage. My next step is t | avoid=4
+df566f71,probe5_tw,79,7,take Canadian limited edition passkey,0.0,0,1,False,"belief=I have dropped the passkey, my next step is to pick it  | avoid=4"
+df566f71,probe5_tw,79,8,inventory,0.0,0,1,False,"belief=I have dropped the passkey, my next step is to pick it  | avoid=5"
+df566f71,probe5_tw,79,9,look,0.0,0,1,False,"belief=I need to try using the passkey in a different context, | avoid=6"
+df566f71,probe5_tw,79,10,drop Canadian limited edition passkey,0.0,0,1,False,belief=I need to find a specific object or mechanism in the ga | avoid=7
+df566f71,probe5_tw,79,11,examine Canadian limited edition passkey,0.0,0,1,False,belief=I need to find a way to use the passkey on the portal.  | avoid=7
+df566f71,probe5_tw,79,12,examine portal,0.0,0,1,False,belief=The Canadian limited edition passkey might be used on s | avoid=7 | STUCK
+df566f71,probe5_tw,79,13,go east,0.0,0,1,False,belief=The Canadian limited edition passkey might be used on s | avoid=7 | STUCK
+df566f71,probe5_tw,79,14,examine bug,0.0,0,1,False,"belief=The bug on the board seems unusual, examining it might  | avoid=3"
+df566f71,probe5_tw,79,15,examine board,0.0,0,1,False,"belief=The bug on the board seems unusual, but examining it di | avoid=4"
+df566f71,probe5_tw,79,16,take bug from board,0.0,0,1,False,belief=The wobbly board and the bug on it might be connected.  | avoid=5
+df566f71,probe5_tw,79,17,examine dresser,0.0,0,1,False,belief=The bug might be used on another object or mechanism. N | avoid=5
+df566f71,probe5_tw,79,18,put bug on board,0.0,0,1,False,belief=The bug might be used on another object or mechanism. N | avoid=6
+df566f71,probe5_tw,79,19,examine board,0.0,0,1,False,belief=The bug might be used on another object or mechanism. N | avoid=7
+df566f71,probe5_tw,79,20,examine bug,0.0,0,1,False,belief=The bug might be used on another object or mechanism. N | avoid=7
+df566f71,probe5_tw,79,21,examine dresser,0.0,0,1,False,belief=The bug might be used on the shower mechanism. Next ste | avoid=7
+df566f71,probe5_tw,79,22,go west,0.0,0,1,False,belief=The dresser might have a hidden mechanism or be opened  | avoid=7 | STUCK
+df566f71,probe5_tw,79,23,inventory,0.0,0,1,False,belief=The Canadian limited edition passkey might be used to u | avoid=7 | STUCK
+df566f71,probe5_tw,79,24,look,0.0,0,1,False,belief=The Canadian limited edition passkey might be used to u | avoid=7 | STUCK
+df566f71,probe5_tw,79,25,open portal,0.0,0,1,False,belief=The Canadian limited edition passkey might be used to u | avoid=7 | STUCK
+df566f71,probe5_tw,79,26,close portal,0.0,0,1,False,belief=Since taking the Canadian limited edition passkey is no | avoid=8
+df566f71,probe5_tw,79,27,take Canadian limited edition passkey,0.0,0,1,False,belief=Explore the garage environment to find useful items or  | avoid=7
+df566f71,probe5_tw,79,28,drop Canadian limited edition passkey,0.0,0,1,False,belief=The garage environment may contain other objects or mec | avoid=7
+df566f71,probe5_tw,79,29,examine Canadian limited edition passkey,0.0,0,1,False,belief=The garage environment may contain other objects or mec | avoid=7
+df566f71,probe5_tw,80,0,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,80,1,go east,0.0,0,1,False,"belief=I'm in a cubicle with unknown layout and goal, next ste | avoid=0"
+df566f71,probe5_tw,80,2,go north,0.0,0,1,False,belief=I'm in a workshop with a chest containing a mouse and a | avoid=0
+df566f71,probe5_tw,80,3,open case,0.0,0,1,False,"belief=I'm in a cookery with a case and an exit to the south,  | avoid=1"
+df566f71,probe5_tw,80,4,insert keycard into case,0.0,0,1,False,"belief=I'm in a cookery with a case and an exit to the south,  | avoid=1"
+df566f71,probe5_tw,80,5,insert cauliflower into case,0.0,0,1,False,"belief=I'm in a cookery with a case and an exit to the south,  | avoid=1"
+df566f71,probe5_tw,80,6,take cauliflower from case,0.0,0,1,False,belief=I'm in a cookery with a case containing a cauliflower a | avoid=1
+df566f71,probe5_tw,80,7,drop cauliflower,0.0,0,1,False,"belief=I'm in a cookery with a case and an exit to the south,  | avoid=2"
+df566f71,probe5_tw,80,8,take cauliflower,0.0,0,1,False,"belief=I'm in a cookery with a case, an exit to the south, and | avoid=1"
+df566f71,probe5_tw,80,9,eat cauliflower,0.0,0,1,False,belief=I'm in a cookery with a case and a cauliflower in my in | avoid=3
+df566f71,probe5_tw,80,10,examine case,0.0,0,1,False,belief=I'm in a cookery with an empty case and no objects in m | avoid=1
+df566f71,probe5_tw,80,11,take keycard from case,0.0,0,1,False,belief=I'm in a cookery with an open case containing a keycard | avoid=2
+df566f71,probe5_tw,80,12,close case,0.0,0,1,False,belief=I'm in a cookery with a keycard; next step is to close  | avoid=3
+df566f71,probe5_tw,80,13,examine keycard,0.0,0,1,False,belief=I'm in a cookery with a keycard and a closed case; next | avoid=3
+df566f71,probe5_tw,80,14,drop keycard,0.0,0,1,False,belief=I'm in a cookery with a keycard; next step is to try us | avoid=4
+df566f71,probe5_tw,80,15,take keycard,0.0,0,1,False,belief=I'm in a cookery with a dropped keycard; next step is t | avoid=4
+df566f71,probe5_tw,80,16,look,0.0,0,1,False,belief=I'm in a cookery with a keycard; next step is to explor | avoid=5
+df566f71,probe5_tw,80,17,inventory,0.0,0,1,False,belief=I'm in a cookery with a keycard; next step is to try op | avoid=6
+df566f71,probe5_tw,80,18,drop keycard,0.0,0,1,False,belief=I'm in a cookery with a keycard; next step is to try op | avoid=7
+df566f71,probe5_tw,80,19,examine case,0.0,0,1,False,belief=I'm in a cookery with a dropped keycard; next step is t | avoid=7
+df566f71,probe5_tw,80,20,examine keycard,0.0,0,1,False,belief=I'm in a cookery with a closed case; next step is to tr | avoid=7 | STUCK
+df566f71,probe5_tw,80,21,go south,0.0,0,1,False,belief=I'm in a cookery with a keycard; next step is to try go | avoid=7 | STUCK
+df566f71,probe5_tw,80,22,take mouse from chest,0.0,0,1,False,belief=I'm in a workshop with a chest containing a mouse and a | avoid=3
+df566f71,probe5_tw,80,23,close hatch,0.0,0,1,False,"belief=I'm in a workshop with a chest and an open hatch, and I | avoid=3"
+df566f71,probe5_tw,80,24,insert mouse into chest,0.0,0,1,False,"belief=I'm in a workshop with a chest and a closed hatch, and  | avoid=3"
+df566f71,probe5_tw,80,25,close chest,0.0,0,1,False,"belief=I'm in a workshop with a chest and a closed hatch, and  | avoid=4"
+df566f71,probe5_tw,80,26,open chest,0.0,0,1,False,"belief=I'm in a workshop with a chest and a closed hatch, and  | avoid=3"
+df566f71,probe5_tw,80,27,open hatch,0.0,0,1,False,"belief=I'm in a workshop with a chest, a closed hatch, and a m | avoid=5"
+df566f71,probe5_tw,80,28,examine mouse,0.0,0,1,False,belief=I'm in a workshop with a chest and a mouse; next step i | avoid=6
+df566f71,probe5_tw,80,29,examine chest,0.0,0,1,False,belief=I'm in a workshop with a dirty mouse and a chest; next  | avoid=7
+df566f71,probe5_tw,81,0,take formless latchkey from mantle,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,81,1,go east,0.0,0,1,False,belief=I have a formless latchkey and need to explore the spac | avoid=0
+df566f71,probe5_tw,81,2,go west,0.0,0,1,False,belief=I have a formless latchkey and need to explore the spac | avoid=0
+df566f71,probe5_tw,81,3,go south,0.0,0,1,False,belief=I have a formless latchkey and need to explore the spac | avoid=2
+df566f71,probe5_tw,81,4,go north,0.0,0,1,False,belief=I have a formless latchkey and need to explore the spac | avoid=0
+df566f71,probe5_tw,81,5,unlock formless safe with formless latchkey,0.0,0,1,False,belief=I have a formless latchkey and need to explore the spac | avoid=3
+df566f71,probe5_tw,81,6,open formless safe,0.0,0,1,False,belief=I have a formless latchkey and an unlocked formless saf | avoid=3
+df566f71,probe5_tw,81,7,examine formless safe,0.0,0,1,False,belief=I have a formless latchkey and an unlocked formless saf | avoid=3
+df566f71,probe5_tw,81,8,examine mantle,0.0,0,1,False,belief=I have a formless latchkey and an unlocked formless saf | avoid=4
+df566f71,probe5_tw,81,9,put formless latchkey on mantle,0.0,0,1,False,belief=I have a formless latchkey and an unlocked formless saf | avoid=5
+df566f71,probe5_tw,81,10,close formless safe,0.0,0,1,False,belief=I have a formless latchkey on the mantle and an unlocke | avoid=6
+df566f71,probe5_tw,81,11,examine formless latchkey,0.0,0,1,False,belief=I have a formless latchkey on the mantle and a closed f | avoid=7
+df566f71,probe5_tw,81,12,inventory,0.0,0,1,False,belief=I have a formless latchkey and a closed formless safe.  | avoid=8
+df566f71,probe5_tw,81,13,look,0.0,0,1,False,belief=I need to explore new locations to gather more informat | avoid=9
+df566f71,probe5_tw,81,14,examine formless latchkey,0.0,0,1,False,belief=I need to explore new locations to gather more informat | avoid=10
+df566f71,probe5_tw,81,15,examine formless safe,0.0,0,1,False,belief=I need to explore new locations to gather more informat | avoid=10
+df566f71,probe5_tw,81,16,examine mantle,0.0,0,1,False,belief=I need to interact with the formless safe in a differen | avoid=10 | STUCK
+df566f71,probe5_tw,81,17,go east,0.0,0,1,False,belief=I need to try a different world-changing action. Since  | avoid=10 | STUCK
+df566f71,probe5_tw,81,18,take fondue,0.0,0,1,False,belief=I need to try manipulating objects in a new way. Since  | avoid=3
+df566f71,probe5_tw,81,19,take sock,0.0,0,1,False,belief=I have the fondue and need to try using it or combining | avoid=3
+df566f71,probe5_tw,81,20,eat fondue,0.0,0,1,False,"belief=I have the fondue and sock, and I need to try using or  | avoid=3"
+df566f71,probe5_tw,81,21,drop sock,0.0,0,1,False,"belief=I have the fondue and sock, and I need to try using or  | avoid=3"
+df566f71,probe5_tw,81,22,examine sock,0.0,0,1,False,"belief=I dropped the sock, now I should try to pick it up or u | avoid=4"
+df566f71,probe5_tw,81,23,examine sock,0.0,0,1,False,"belief=I need to interact with the sock in a new way, my next  | avoid=5"
+df566f71,probe5_tw,81,24,go west,0.0,0,1,False,belief=I need to find other objects in the environment to comb | avoid=5
+df566f71,probe5_tw,81,25,go south,0.0,0,1,False,"belief=I need to find a way to use the latchkey, my next step  | avoid=10"
+df566f71,probe5_tw,81,26,go north,0.0,0,1,False,belief=I need to explore the environment to find new objects o | avoid=3
+df566f71,probe5_tw,81,27,inventory,0.0,0,1,False,belief=I need to explore the environment to find new objects o | avoid=10
+df566f71,probe5_tw,81,28,look,0.0,0,1,False,belief=I need to explore the environment to find new objects o | avoid=10
+df566f71,probe5_tw,81,29,open formless safe,0.0,0,1,False,belief=I need to explore the environment to find new objects o | avoid=10
+df566f71,probe5_tw,82,0,take onion from rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,82,1,go east,0.0,0,1,False,belief=I have an onion and need to explore the kitchenette to  | avoid=0
+df566f71,probe5_tw,82,2,go west,0.0,0,1,False,belief=I have an onion and need to explore the surrounding are | avoid=0
+df566f71,probe5_tw,82,3,drop onion,0.0,0,1,False,belief=I have an onion and need to explore the surrounding are | avoid=1
+df566f71,probe5_tw,82,4,examine door,0.0,0,1,False,belief=I have dropped the onion and need to explore the surrou | avoid=1
+df566f71,probe5_tw,82,5,open door,0.0,0,1,False,"belief=The noble door is closed, and I need to find a way to o | avoid=2"
+df566f71,probe5_tw,82,6,examine chair,0.0,0,1,False,"belief=The door is now open, and I should explore the kitchene | avoid=3"
+df566f71,probe5_tw,82,7,examine rack,0.0,0,1,False,"belief=The chair is wobbly, and I should explore the kitchenet | avoid=4"
+df566f71,probe5_tw,82,8,look,0.0,0,1,False,belief=The kitchenette might have other objects to interact wi | avoid=5
+df566f71,probe5_tw,82,9,take onion,0.0,0,1,False,belief=The kitchenette might have other objects to interact wi | avoid=6
+df566f71,probe5_tw,82,10,put onion on rack,0.0,0,1,False,belief=The kitchenette might have other objects to interact wi | avoid=7
+df566f71,probe5_tw,82,11,close door,0.0,0,1,False,belief=The kitchenette might have other objects to interact wi | avoid=7
+df566f71,probe5_tw,82,12,examine onion,0.0,0,1,False,"belief=Since the door is closed, I should examine the onion to | avoid=7"
+df566f71,probe5_tw,82,13,inventory,0.0,0,1,False,belief=Since the door is closed and examining the onion didn't | avoid=8
+df566f71,probe5_tw,82,14,examine chair,0.0,0,1,False,"belief=Since previous actions didn't yield results, the next s | avoid=9"
+df566f71,probe5_tw,82,15,examine door,0.0,0,1,False,belief=The chair being wobbly might be a clue. Next step is to | avoid=9
+df566f71,probe5_tw,82,16,examine onion,0.0,0,1,False,"belief=The current situation is stuck, and the next step is to | avoid=9 | STUCK"
+df566f71,probe5_tw,82,17,examine rack,0.0,0,1,False,"belief=The current situation is stuck, and the next step is to | avoid=9 | STUCK"
+df566f71,probe5_tw,82,18,go east,0.0,0,1,False,"belief=The current situation is stuck, and the next step is to | avoid=9 | STUCK"
+df566f71,probe5_tw,82,19,take nest of insects from bed,0.0,0,1,False,belief=The current situation is that I'm in a parlor with a be | avoid=3
+df566f71,probe5_tw,82,20,examine bed,0.0,0,1,False,"belief=I'm in a parlor with a nest of insects, and my next ste | avoid=3"
+df566f71,probe5_tw,82,21,put nest of insects on bed,0.0,0,1,False,"belief=I'm in a parlor with a nest of insects, and my next ste | avoid=4"
+df566f71,probe5_tw,82,22,examine nest of insects,0.0,0,1,False,"belief=I'm in a parlor with a nest of insects on the bed, and  | avoid=5"
+df566f71,probe5_tw,82,23,examine bed,0.0,0,1,False,"belief=I'm in a parlor with a nest of insects on the bed, and  | avoid=6"
+df566f71,probe5_tw,82,24,examine nest of insects,0.0,0,1,False,"belief=I'm in a parlor with a nest of insects on the bed, and  | avoid=6"
+df566f71,probe5_tw,82,25,go west,0.0,0,1,False,"belief=I'm in a parlor with a nest of insects on the bed, and  | avoid=6 | STUCK"
+df566f71,probe5_tw,82,26,inventory,0.0,0,1,False,"belief=I'm in a kitchenette with various objects, and my next  | avoid=9 | STUCK"
+df566f71,probe5_tw,82,27,look,0.0,0,1,False,belief=I'm in a kitchenette and need to try a new action to ch | avoid=9 | STUCK
+df566f71,probe5_tw,82,28,open door,0.0,0,1,False,belief=I'm in a kitchenette and need to try a new action to ch | avoid=9 | STUCK
+df566f71,probe5_tw,82,29,close door,0.0,0,1,False,belief=I'm in a kitchenette and need to try a new action to ch | avoid=10 | STUCK
+df566f71,probe5_tw,83,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,83,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,83,2,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,83,3,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,83,4,examine coffer,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,83,5,examine passageway,0.0,0,1,False,belief=I have examined the coffer and found it strong and impo | avoid=3
+df566f71,probe5_tw,83,6,close passageway,0.0,0,1,False,belief=I need to try a new action to change the world state. M | avoid=4
+df566f71,probe5_tw,83,7,open passageway,0.0,0,1,False,belief=I need to try changing the world state by interacting w | avoid=3
+df566f71,probe5_tw,83,8,close coffer,0.0,0,1,False,belief=I need to interact with the coffer to change the world  | avoid=5
+df566f71,probe5_tw,83,9,open coffer,0.0,0,1,False,belief=I need to interact with the coffer or other objects to  | avoid=5
+df566f71,probe5_tw,83,10,look,0.0,0,1,False,belief=I need to interact with the coffer or other objects to  | avoid=6
+df566f71,probe5_tw,83,11,inventory,0.0,0,1,False,belief=I need to find a new object or path to interact with. M | avoid=7
+df566f71,probe5_tw,83,12,close coffer,0.0,0,1,False,belief=I need to find a new object or path to interact with. M | avoid=8
+df566f71,probe5_tw,83,13,close passageway,0.0,0,1,False,belief=I need to explore new areas to find objects or paths th | avoid=8
+df566f71,probe5_tw,83,14,examine coffer,0.0,0,1,False,belief=I need to explore new areas to find objects or paths th | avoid=7
+df566f71,probe5_tw,83,15,examine passageway,0.0,0,1,False,belief=I need to explore new areas to find objects or paths th | avoid=7
+df566f71,probe5_tw,83,16,go south,0.0,0,1,False,belief=I need to explore new areas to find objects or paths th | avoid=7
+df566f71,probe5_tw,83,17,open freezer,0.0,0,1,False,belief=I need to explore new areas and interact with objects t | avoid=3
+df566f71,probe5_tw,83,18,examine freezer,0.0,0,1,False,"belief=I've opened the freezer, now I should examine its conte | avoid=3"
+df566f71,probe5_tw,83,19,close freezer,0.0,0,1,False,belief=I should examine the contents of the freezer to find ob | avoid=4
+df566f71,probe5_tw,83,20,examine freezer,0.0,0,1,False,belief=I should examine the kitchen or the surrounding area to | avoid=5
+df566f71,probe5_tw,83,21,go north,0.0,0,1,False,belief=I should examine the kitchen or the surrounding area to | avoid=5
+df566f71,probe5_tw,83,22,inventory,0.0,0,1,False,belief=I should investigate the source of the awful smell furt | avoid=7
+df566f71,probe5_tw,83,23,look,0.0,0,1,False,"belief=I need to try a different approach, possibly interactin | avoid=7 | STUCK"
+df566f71,probe5_tw,83,24,open coffer,0.0,0,1,False,"belief=I need to interact with the environment in a new way, p | avoid=7 | STUCK"
+df566f71,probe5_tw,83,25,open passageway,0.0,0,1,False,belief=I need to interact with the environment in a new way. M | avoid=7 | STUCK
+df566f71,probe5_tw,83,26,go east,0.0,0,1,False,belief=I need to find a new object to interact with or a new a | avoid=8 | STUCK
+df566f71,probe5_tw,83,27,open display,0.0,0,1,False,belief=I need to find a new object to interact with or a new a | avoid=6 | STUCK
+df566f71,probe5_tw,83,28,take fondue from display,0.0,0,1,False,belief=I need to interact with the fondue to potentially raise | avoid=6
+df566f71,probe5_tw,83,29,eat fondue,1.0,1,1,True,"belief=I have the fondue, now I should try to use or manipulat | avoid=6"
+df566f71,probe5_tw,84,0,eat sandwich,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,84,1,drop coffee cup,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,84,2,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,84,3,go north,0.0,0,1,False,belief=I am in a closet and need to explore the surroundings t | avoid=0
+df566f71,probe5_tw,84,4,examine gate,0.0,0,1,False,belief=I am in a chamber and need to explore the surroundings. | avoid=1
+df566f71,probe5_tw,84,5,open gate,0.0,0,1,False,belief=I am in a chamber with a closed gate and a key in my in | avoid=2
+df566f71,probe5_tw,84,6,examine key,0.0,0,1,False,belief=I am in a chamber with an open gate and a key in my inv | avoid=2
+df566f71,probe5_tw,84,7,go east,0.0,0,1,False,belief=I am in a chamber with an open gate and a key in my inv | avoid=3
+df566f71,probe5_tw,84,8,examine chest,0.0,0,1,False,belief=I am in a kitchenette with a chest and an open gate. My | avoid=3
+df566f71,probe5_tw,84,9,drop key,0.0,0,1,False,belief=I am in a kitchenette with a chest and an open gate. My | avoid=4
+df566f71,probe5_tw,84,10,take key,0.0,0,1,False,belief=I am in a kitchenette with a chest and an open gate. Si | avoid=4
+df566f71,probe5_tw,84,11,close gate,0.0,0,1,False,belief=I am in a kitchenette with a chest and an open gate. My | avoid=5
+df566f71,probe5_tw,84,12,lock gate with key,1.0,1,1,True,belief=I am in a kitchenette with a chest and an open gate. My | avoid=6
+df566f71,probe5_tw,85,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,85,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,85,2,take keycard from shelf,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,85,3,unlock safe with keycard,0.0,0,1,False,"belief=I have a keycard, cookie, and mouse in the garage. My n | avoid=2"
+df566f71,probe5_tw,85,4,open safe,0.0,0,1,False,belief=I have unlocked the safe and I'm in the garage with a k | avoid=2
+df566f71,probe5_tw,85,5,examine safe,0.0,0,1,False,belief=I have unlocked the safe and I'm in the garage with a k | avoid=2
+df566f71,probe5_tw,85,6,examine cookie,0.0,0,1,False,belief=I have unlocked the safe and I'm in the garage with a k | avoid=3
+df566f71,probe5_tw,85,7,eat cookie,0.0,0,1,False,"belief=I am in the garage with a keycard, cookie, and mouse. M | avoid=4"
+df566f71,probe5_tw,85,8,go south,0.0,0,1,False,"belief=I am in the garage with a keycard, cookie, and mouse. M | avoid=3"
+df566f71,probe5_tw,85,9,go north,0.0,0,1,False,belief=I am in the Dish-Pit with a keycard and a mouse. My nex | avoid=0
+df566f71,probe5_tw,85,10,put keycard on shelf,0.0,0,1,False,belief=I am in the Garage with a keycard and a mouse. My next  | avoid=4
+df566f71,probe5_tw,85,11,insert mouse into safe,1.0,1,1,True,belief=I am in the Garage with a keycard on the shelf and a mo | avoid=5
+df566f71,probe5_tw,86,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,86,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,86,2,inventory,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,86,3,drop insect,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,86,4,drop stick of butter,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,86,5,take stick of butter,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,86,6,look,0.0,0,1,False,belief=I have a stick of butter and need to explore the enviro | avoid=3
+df566f71,probe5_tw,86,7,examine insect,0.0,0,1,False,belief=I have a stick of butter and need to explore the enviro | avoid=4
+df566f71,probe5_tw,86,8,take insect,0.0,0,1,False,belief=I have a stick of butter and need to explore the enviro | avoid=5
+df566f71,probe5_tw,86,9,examine stick of butter,0.0,0,1,False,"belief=I have a stick of butter and an insect, and I need to e | avoid=6"
+df566f71,probe5_tw,86,10,eat stick of butter,0.0,0,1,False,"belief=I have a stick of butter and an insect, and I need to e | avoid=7 | STUCK"
+df566f71,probe5_tw,86,11,drop insect,0.0,0,1,False,"belief=I have an insect and I'm in a restroom, my next step is | avoid=5"
+df566f71,probe5_tw,86,12,examine insect,0.0,0,1,False,"belief=I have an insect and I'm in a restroom, my next step is | avoid=5"
+df566f71,probe5_tw,86,13,go east,0.0,0,1,False,"belief=I'm in a restroom with an insect, my next step is to ex | avoid=5"
+df566f71,probe5_tw,86,14,open Microsoft limited edition locker,0.0,0,1,False,"belief=I'm in a dish-pit with a locker and a box, my next step | avoid=4"
+df566f71,probe5_tw,86,15,take passkey from Microsoft limited edition locker,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=4"
+df566f71,probe5_tw,86,16,examine box,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=4"
+df566f71,probe5_tw,86,17,open box,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=5"
+df566f71,probe5_tw,86,18,close Microsoft limited edition locker,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=5"
+df566f71,probe5_tw,86,19,insert passkey into box,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=6"
+df566f71,probe5_tw,86,20,take passkey from box,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=6"
+df566f71,probe5_tw,86,21,examine Microsoft limited edition locker,0.0,0,1,False,"belief=I'm in a dish-pit with a locker, a box, and a passkey.  | avoid=7"
+df566f71,probe5_tw,86,22,go north,0.0,0,1,False,belief=I'm in a dish-pit with a locker and a passkey. My next  | avoid=8
+df566f71,probe5_tw,86,23,go south,0.0,0,1,False,"belief=I'm in a shower with a passkey, and my next step is to  | avoid=2"
+df566f71,probe5_tw,86,24,close box,0.0,0,1,False,"belief=I'm in a dish-pit with a passkey, and my next step is t | avoid=9"
+df566f71,probe5_tw,86,25,lock box with passkey,0.0,0,1,False,"belief=I'm in a dish-pit with a passkey, and my next step is t | avoid=9"
+df566f71,probe5_tw,86,26,unlock box with passkey,0.0,0,1,False,"belief=I've locked the box, now I should try to unlock it to s | avoid=8"
+df566f71,probe5_tw,86,27,drop passkey,0.0,0,1,False,"belief=I've locked the box, now I should try to unlock it to s | avoid=10"
+df566f71,probe5_tw,86,28,take passkey,0.0,0,1,False,belief=I need to pick up the passkey to potentially use it aga | avoid=9
+df566f71,probe5_tw,86,29,examine passkey,0.0,0,1,False,belief=I have the passkey and need to explore new locations or | avoid=11
+df566f71,probe5_tw,87,0,drop sandwich,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,87,1,put stick of butter on shelf,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,87,2,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,87,3,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,87,4,take sandwich,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,87,5,eat sandwich,0.0,0,1,False,belief=I have a sandwich and need to explore the workshop. My  | avoid=2
+df566f71,probe5_tw,87,6,examine shelf,0.0,0,1,False,belief=I have eaten the sandwich and now I should explore the  | avoid=1
+df566f71,probe5_tw,87,7,take stick of butter from shelf,0.0,0,1,False,"belief=I am on a shelf with a stick of butter, my next step is | avoid=2"
+df566f71,probe5_tw,87,8,examine stick of butter,0.0,0,1,False,"belief=I am in a workshop with a stick of butter, my next step | avoid=3"
+df566f71,probe5_tw,87,9,drop stick of butter,0.0,0,1,False,"belief=I am in a workshop with a stick of butter, my next step | avoid=4"
+df566f71,probe5_tw,87,10,look,0.0,0,1,False,"belief=I am in a workshop with a dropped stick of butter, my n | avoid=3"
+df566f71,probe5_tw,87,11,take stick of butter,0.0,0,1,False,"belief=I am in a workshop with a dropped stick of butter, my n | avoid=4"
+df566f71,probe5_tw,87,12,inventory,0.0,0,1,False,"belief=I am in a workshop with a stick of butter, my next step | avoid=6"
+df566f71,probe5_tw,87,13,eat stick of butter,0.0,0,1,False,"belief=I am in a workshop with a stick of butter, my next step | avoid=7"
+df566f71,probe5_tw,87,14,examine shelf,0.0,0,1,False,"belief=I am in a workshop with no items, my next step is to tr | avoid=4"
+df566f71,probe5_tw,87,15,go south,0.0,0,1,False,"belief=I am in a workshop with no items, my next step is to tr | avoid=4"
+df566f71,probe5_tw,87,16,open hatch,0.0,0,1,False,"belief=I am in a chamber with a closed hatch and an exit, my n | avoid=3"
+df566f71,probe5_tw,87,17,go east,0.0,0,1,False,"belief=I am in a chamber with an open hatch and an exit, my ne | avoid=3"
+df566f71,probe5_tw,87,18,go west,0.0,0,1,False,"belief=I am in a chamber with an open hatch and an exit, my ne | avoid=3"
+df566f71,probe5_tw,87,19,close hatch,0.0,0,1,False,"belief=I am in a chamber with an open hatch and an exit, my ne | avoid=4"
+df566f71,probe5_tw,87,20,examine hatch,0.0,0,1,False,"belief=I am in a chamber with a closed hatch, my next step is  | avoid=4"
+df566f71,probe5_tw,87,21,examine hatch,0.0,0,1,False,"belief=I am in a chamber with a closed hatch, my next step is  | avoid=5"
+df566f71,probe5_tw,87,22,go north,0.0,0,1,False,"belief=I am in a chamber with a closed hatch, my next step is  | avoid=5"
+df566f71,probe5_tw,87,23,inventory,0.0,0,1,False,belief=I am in a chamber with a shelf and an unblocked entranc | avoid=4 | STUCK
+df566f71,probe5_tw,87,24,look,0.0,0,1,False,belief=I need to try a new action that can alter the state of  | avoid=4 | STUCK
+df566f71,probe5_tw,87,25,examine shelf,0.0,0,1,False,belief=I need to attempt a novel action that could potentially | avoid=4 | STUCK
+df566f71,probe5_tw,87,26,go south,0.0,0,1,False,belief=I need to attempt a novel action that could potentially | avoid=4 | STUCK
+df566f71,probe5_tw,87,27,open hatch,0.0,0,1,False,belief=I need to attempt a novel action that could potentially | avoid=5 | STUCK
+df566f71,probe5_tw,87,28,close hatch,0.0,0,1,False,belief=Since opening the hatch didn't immediately change the s | avoid=6 | STUCK
+df566f71,probe5_tw,87,29,examine hatch,0.0,0,1,False,"belief=The current situation is stagnant, and a new action is  | avoid=5 | STUCK"
+df566f71,probe5_tw,88,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,88,1,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,88,2,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,88,3,examine coffer,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,88,4,examine key,0.0,0,1,False,"belief=I have a key and a loaf of bread, and there's a closed  | avoid=2"
+df566f71,probe5_tw,88,5,examine passageway,0.0,0,1,False,"belief=I have a key and a loaf of bread, and there's a closed  | avoid=3"
+df566f71,probe5_tw,88,6,go south,0.0,0,1,False,"belief=I have a key and a loaf of bread, and there's a passage | avoid=4"
+df566f71,probe5_tw,88,7,put loaf of bread on board,0.0,0,1,False,"belief=I have a key and a loaf of bread, and there's a passage | avoid=2 | STUCK"
+df566f71,probe5_tw,88,8,put key on board,0.0,0,1,False,"belief=I have a key and a loaf of bread on the board, and ther | avoid=2"
+df566f71,probe5_tw,88,9,take key from board,0.0,0,1,False,"belief=I have a key and a loaf of bread on the board, and ther | avoid=2"
+df566f71,probe5_tw,88,10,take loaf of bread from board,0.0,0,1,False,"belief=I have a key and a loaf of bread on the board, and ther | avoid=3"
+df566f71,probe5_tw,88,11,eat loaf of bread,0.0,0,1,False,"belief=I have a key and a loaf of bread, and I'm in the Cookho | avoid=4"
+df566f71,probe5_tw,88,12,drop key,0.0,0,1,False,belief=I have a key and I'm in the Cookhouse. My next step is  | avoid=3
+df566f71,probe5_tw,88,13,take key,0.0,0,1,False,belief=I have dropped the key and I'm in the Cookhouse. My nex | avoid=2
+df566f71,probe5_tw,88,14,examine board,0.0,0,1,False,belief=I have the key and I'm in the Cookhouse. My next step i | avoid=4
+df566f71,probe5_tw,88,15,look,0.0,0,1,False,belief=I have the key and I'm in the Cookhouse. My next step i | avoid=5
+df566f71,probe5_tw,88,16,inventory,0.0,0,1,False,belief=I have the key and I'm in the Cookhouse. My next step i | avoid=6
+df566f71,probe5_tw,88,17,drop key,0.0,0,1,False,belief=I have the key and I'm in the Cookhouse. My next step i | avoid=7
+df566f71,probe5_tw,88,18,examine board,0.0,0,1,False,belief=I dropped the key and I'm in the Cookhouse. My next ste | avoid=6 | STUCK
+df566f71,probe5_tw,88,19,examine key,0.0,0,1,False,belief=I need to try a different action to change the world. S | avoid=6 | STUCK
+df566f71,probe5_tw,88,20,go north,0.0,0,1,False,belief=I need to try a different action to change the world. S | avoid=6 | STUCK
+df566f71,probe5_tw,88,21,close passageway,0.0,0,1,False,belief=I need to try a different action to change the world. S | avoid=6
+df566f71,probe5_tw,88,22,open passageway,0.0,0,1,False,belief=I need to try a different action to change the world. S | avoid=5
+df566f71,probe5_tw,88,23,close passageway,0.0,0,1,False,belief=I need to explore new locations to change the world and | avoid=7
+df566f71,probe5_tw,88,24,examine coffer,0.0,0,1,False,belief=I need to explore new locations to change the world and | avoid=6
+df566f71,probe5_tw,88,25,examine passageway,0.0,0,1,False,belief=I need to explore new locations to change the world and | avoid=6
+df566f71,probe5_tw,88,26,go south,0.0,0,1,False,belief=I need to explore new locations to change the world and | avoid=6
+df566f71,probe5_tw,88,27,inventory,0.0,0,1,False,belief=I need to explore new locations and interact with objec | avoid=6 | STUCK
+df566f71,probe5_tw,88,28,look,0.0,0,1,False,belief=I need to explore new locations and interact with objec | avoid=6 | STUCK
+df566f71,probe5_tw,88,29,take key,0.0,0,1,False,"belief=I need to interact with the key in a meaningful way, an | avoid=6 | STUCK"
+df566f71,probe5_tw,89,0,open gate,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,89,1,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,89,2,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,89,3,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,89,4,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,89,5,examine stand,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=2
+df566f71,probe5_tw,89,6,examine gate,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=3
+df566f71,probe5_tw,89,7,close gate,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=4
+df566f71,probe5_tw,89,8,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=4
+df566f71,probe5_tw,89,9,inventory,0.0,0,1,False,"belief=I need to try a different action to change the world, s | avoid=5 | STUCK"
+df566f71,probe5_tw,89,10,examine gate,0.0,0,1,False,belief=I need to try taking something or unlocking something t | avoid=6 | STUCK
+df566f71,probe5_tw,89,11,examine stand,0.0,0,1,False,belief=I need to try a new action that changes the world. Sinc | avoid=6 | STUCK
+df566f71,probe5_tw,89,12,go south,0.0,0,1,False,belief=I need to try a new action that changes the world. Sinc | avoid=6 | STUCK
+df566f71,probe5_tw,89,13,take broccoli,0.0,0,1,False,belief=I need to try a new action that changes the world. Sinc | avoid=3 | STUCK
+df566f71,probe5_tw,89,14,insert broccoli into display,0.0,0,1,False,belief=I have the broccoli and need to try a new action that c | avoid=3
+df566f71,probe5_tw,89,15,take broccoli from display,0.0,0,1,False,belief=I have placed the broccoli into the display and need to | avoid=3
+df566f71,probe5_tw,89,16,drop broccoli,0.0,0,1,False,belief=I have the broccoli and need to try a new action that c | avoid=4
+df566f71,probe5_tw,89,17,examine trunk,0.0,0,1,False,belief=I dropped the broccoli and now I need to try a new acti | avoid=4
+df566f71,probe5_tw,89,18,examine display,0.0,0,1,False,belief=The trunk might have a hidden mechanism or a relation t | avoid=5
+df566f71,probe5_tw,89,19,examine broccoli,0.0,0,1,False,belief=The display and trunk might have a connection. Next ste | avoid=6
+df566f71,probe5_tw,89,20,close display,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=7 | STUCK"
+df566f71,probe5_tw,89,21,open display,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=7"
+df566f71,probe5_tw,89,22,close display,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=8"
+df566f71,probe5_tw,89,23,examine broccoli,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=8"
+df566f71,probe5_tw,89,24,examine display,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=8"
+df566f71,probe5_tw,89,25,examine trunk,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=8"
+df566f71,probe5_tw,89,26,go north,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=8 | STUCK"
+df566f71,probe5_tw,89,27,inventory,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=6 | STUCK"
+df566f71,probe5_tw,89,28,look,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=6 | STUCK"
+df566f71,probe5_tw,89,29,open gate,0.0,0,1,False,"belief=The situation seems stuck, but trying to interact with  | avoid=6 | STUCK"
+df566f71,probe5_tw,90,0,open portal,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,90,1,go south,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,90,2,take key from table,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,90,3,go north,0.0,0,1,False,belief=I have a key and need to explore the surroundings to fi | avoid=0
+df566f71,probe5_tw,90,4,go west,0.0,0,1,False,belief=I have a key and need to explore the surroundings to fi | avoid=1
+df566f71,probe5_tw,90,5,go east,0.0,0,1,False,belief=I have a key and need to explore the surroundings to fi | avoid=1
+df566f71,probe5_tw,90,6,unlock safe with key,1.0,1,1,True,belief=I have a key and need to explore the surroundings to fi | avoid=2
+df566f71,probe5_tw,91,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,91,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,91,2,open type K chest,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,91,3,take legume from type K chest,0.0,0,1,False,belief=I have a legume and need to explore its significance. M | avoid=1
+df566f71,probe5_tw,91,4,examine legume,0.0,0,1,False,"belief=I have a legume and need to explore its significance, m | avoid=1"
+df566f71,probe5_tw,91,5,examine peanut,0.0,0,1,False,"belief=I have a legume, a peanut, and a type K keycard, and I  | avoid=2"
+df566f71,probe5_tw,91,6,examine shelf,0.0,0,1,False,"belief=I have a legume, a peanut, and a type K keycard, and I  | avoid=3"
+df566f71,probe5_tw,91,7,put legume on shelf,0.0,0,1,False,"belief=I have a legume, a peanut, and a type K keycard, and th | avoid=4"
+df566f71,probe5_tw,91,8,examine chair,0.0,0,1,False,"belief=I have a legume on the shelf, a peanut, and a type K ke | avoid=4"
+df566f71,probe5_tw,91,9,open gate,0.0,0,1,False,"belief=I have a peanut and a type K keycard, and I'm near a du | avoid=5"
+df566f71,probe5_tw,91,10,go south,0.0,0,1,False,"belief=I have a peanut and a type K keycard, and I've opened t | avoid=5"
+df566f71,probe5_tw,91,11,go north,0.0,0,1,False,"belief=I have a peanut and a type K keycard, and I've opened t | avoid=2"
+df566f71,probe5_tw,91,12,insert peanut into type K chest,0.0,0,1,False,"belief=I have a peanut and a type K keycard, and I've opened t | avoid=6"
+df566f71,probe5_tw,91,13,examine type K chest,0.0,0,1,False,belief=I have a peanut in the type K chest and a type K keycar | avoid=6
+df566f71,probe5_tw,91,14,insert type K keycard into type K chest,0.0,0,1,False,belief=I have a peanut in the type K chest and a type K keycar | avoid=7
+df566f71,probe5_tw,91,15,take peanut from type K chest,0.0,0,1,False,belief=I have a peanut in the type K chest and a type K keycar | avoid=7
+df566f71,probe5_tw,91,16,examine gate,0.0,0,1,False,belief=I have a peanut and need to find a new location or obje | avoid=8
+df566f71,probe5_tw,91,17,put peanut on chair,0.0,0,1,False,belief=I have a peanut and need to interact with the gate or o | avoid=9
+df566f71,probe5_tw,91,18,take legume from shelf,0.0,0,1,False,belief=I have a peanut on the chair and need to interact with  | avoid=8
+df566f71,probe5_tw,91,19,insert legume into type K chest,0.0,0,1,False,belief=I have a legume and need to interact with other objects | avoid=9
+df566f71,probe5_tw,91,20,close type K chest,0.0,0,1,False,belief=I have inserted the legume into the type K chest and ne | avoid=9
+df566f71,probe5_tw,91,21,close gate,0.0,0,1,False,belief=I have closed the type K chest and need to explore othe | avoid=8
+df566f71,probe5_tw,91,22,take peanut from chair,0.0,0,1,False,belief=I have closed the gate and need to explore other object | avoid=8
+df566f71,probe5_tw,91,23,put peanut on shelf,0.0,0,1,False,belief=I have a peanut and need to explore using it with other | avoid=9
+df566f71,probe5_tw,91,24,take peanut from shelf,0.0,0,1,False,belief=I have a peanut on the shelf and need to explore using  | avoid=8
+df566f71,probe5_tw,91,25,drop peanut,0.0,0,1,False,belief=I have a peanut and need to explore using it with other | avoid=10
+df566f71,probe5_tw,91,26,take peanut,0.0,0,1,False,belief=I have dropped the peanut and need to explore its inter | avoid=8
+df566f71,probe5_tw,91,27,eat peanut,0.0,0,1,False,belief=I have the peanut and need to explore its interaction w | avoid=11
+df566f71,probe5_tw,91,28,look,0.0,0,1,False,belief=I've eaten the peanut and it didn't trigger a score inc | avoid=7
+df566f71,probe5_tw,91,29,inventory,0.0,0,1,False,belief=I need to explore the environment and interact with obj | avoid=8
+df566f71,probe5_tw,92,0,go north,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,92,1,take Henderson's latchkey from portmanteau,0.0,0,1,False,belief=I have found a potential key in the portmanteau and a l | avoid=0
+df566f71,probe5_tw,92,2,unlock Henderson's box with Henderson's latchkey,0.0,0,1,False,"belief=I have a key and a potential lock, my next step is to t | avoid=0"
+df566f71,probe5_tw,92,3,open Henderson's box,1.0,1,1,True,"belief=I have unlocked the Henderson's box, my next step is to | avoid=0"
+df566f71,probe5_tw,93,0,take key from rack,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,93,1,examine chest,0.0,0,1,False,belief=I have a key and need to explore the scullery to unders | avoid=0
+df566f71,probe5_tw,93,2,examine gate,0.0,0,1,False,belief=I have a key and need to explore the scullery to unders | avoid=1
+df566f71,probe5_tw,93,3,examine rack,0.0,0,1,False,"belief=I have a key and need to explore the scullery. Next, I' | avoid=2"
+df566f71,probe5_tw,93,4,unlock chest with key,0.0,0,1,False,"belief=I have a key and need to explore the scullery. Next, I' | avoid=3"
+df566f71,probe5_tw,93,5,open chest,0.0,0,1,False,belief=I have unlocked the chest and need to explore its conte | avoid=3
+df566f71,probe5_tw,93,6,examine butterfly,0.0,0,1,False,belief=I have unlocked the chest and found a butterfly inside. | avoid=3
+df566f71,probe5_tw,93,7,take butterfly from chest,1.0,1,1,True,"belief=I have a key and a butterfly, and I'm in the scullery.  | avoid=4"
+df566f71,probe5_tw,94,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,94,1,open gateway,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,94,2,unlock Henderson's chest with Henderson's latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,94,3,open Henderson's chest,0.0,0,1,False,"belief=I have unlocked Henderson's chest, my next step is to o | avoid=0"
+df566f71,probe5_tw,94,4,take bug from Henderson's chest,1.0,1,1,True,"belief=I have found a bug inside Henderson's chest, my next st | avoid=0"
+df566f71,probe5_tw,95,0,unlock type 8 safe with type 8 latchkey,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,95,1,open type 8 safe,0.0,0,1,False,"belief=I have unlocked the type 8 safe, my next step is to ope | avoid=0"
+df566f71,probe5_tw,95,2,take key from type 8 safe,0.0,0,1,False,"belief=I have unlocked and opened the type 8 safe, revealing a | avoid=0"
+df566f71,probe5_tw,95,3,examine gate,0.0,0,1,False,"belief=I have a key and other items, my next step is to explor | avoid=0"
+df566f71,probe5_tw,95,4,unlock gate with key,1.0,1,1,True,"belief=I have a key and other items, my next step is to try un | avoid=1"
+df566f71,probe5_tw,96,0,drop cabbage,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,96,1,take cabbage,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,96,2,examine hatch,0.0,0,1,False,belief=I have a cabbage and need to explore the Chamber to fin | avoid=1
+df566f71,probe5_tw,96,3,examine locker,0.0,0,1,False,belief=I have a cabbage and need to explore the Chamber to fin | avoid=2
+df566f71,probe5_tw,96,4,insert cabbage into locker,0.0,0,1,False,belief=I have a cabbage and need to explore the Chamber to fin | avoid=3
+df566f71,probe5_tw,96,5,go east,0.0,0,1,False,"belief=I have inserted the cabbage into the locker, and my nex | avoid=2"
+df566f71,probe5_tw,96,6,go west,0.0,0,1,False,belief=I am in a bathroom with a type 4 chest and a type 4 pas | avoid=0
+df566f71,probe5_tw,96,7,go south,0.0,0,1,False,"belief=I am in a chamber with a locker containing a cabbage, a | avoid=3"
+df566f71,probe5_tw,96,8,go north,0.0,0,1,False,belief=I am in a playroom with an open hatch leading north and | avoid=2
+df566f71,probe5_tw,96,9,take cabbage from locker,0.0,0,1,False,"belief=I am in a chamber with a locker containing a cabbage, a | avoid=4"
+df566f71,probe5_tw,96,10,close hatch,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch leading  | avoid=6"
+df566f71,probe5_tw,96,11,eat cabbage,0.0,0,1,False,"belief=I am in a chamber with a locker, a closed hatch, and an | avoid=5"
+df566f71,probe5_tw,96,12,open hatch,0.0,0,1,False,"belief=I am in a chamber with a locker, a closed hatch, and an | avoid=3"
+df566f71,probe5_tw,96,13,examine poem,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=5"
+df566f71,probe5_tw,96,14,take poem,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=6"
+df566f71,probe5_tw,96,15,insert poem into locker,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=6"
+df566f71,probe5_tw,96,16,take poem from locker,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=6"
+df566f71,probe5_tw,96,17,drop poem,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=7"
+df566f71,probe5_tw,96,18,close locker,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=7"
+df566f71,probe5_tw,96,19,open locker,0.0,0,1,False,"belief=I am in a chamber with a locker, an open hatch, and an  | avoid=7"
+df566f71,probe5_tw,96,20,look,0.0,0,1,False,belief=I am in a chamber with an open locker and an unguarded  | avoid=8
+df566f71,probe5_tw,96,21,inventory,0.0,0,1,False,belief=I am in a chamber with an open locker and an unguarded  | avoid=9
+df566f71,probe5_tw,96,22,close hatch,0.0,0,1,False,belief=I am in a chamber with an open locker and an unguarded  | avoid=10
+df566f71,probe5_tw,96,23,close locker,0.0,0,1,False,belief=I am in a chamber and my next step is to move to a new  | avoid=9
+df566f71,probe5_tw,96,24,examine hatch,0.0,0,1,False,belief=I am in a chamber and my next step is to try opening th | avoid=9
+df566f71,probe5_tw,96,25,examine locker,0.0,0,1,False,belief=I am in a chamber and my next step is to try going east | avoid=9
+df566f71,probe5_tw,96,26,examine poem,0.0,0,1,False,belief=I am in a chamber with a closed locker and my next step | avoid=9
+df566f71,probe5_tw,96,27,go east,0.0,0,1,False,belief=I am in a chamber with a closed locker and my next step | avoid=9
+df566f71,probe5_tw,96,28,take type 4 passkey from rack,0.0,0,1,False,belief=I am in a bathroom with a type 4 chest and a rack conta | avoid=3
+df566f71,probe5_tw,96,29,unlock type 4 chest with type 4 passkey,0.0,0,1,False,belief=I am in a bathroom with a type 4 chest and I have a typ | avoid=3
+df566f71,probe5_tw,97,0,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,97,1,take manuscript,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,97,2,examine manuscript,0.0,0,1,False,belief=I have a manuscript and need to explore the surrounding | avoid=1
+df566f71,probe5_tw,97,3,go west,0.0,0,1,False,belief=I have a manuscript and need to explore the surrounding | avoid=2
+df566f71,probe5_tw,97,4,go east,0.0,0,1,False,belief=I have a manuscript and need to explore the surrounding | avoid=2
+df566f71,probe5_tw,97,5,drop manuscript,0.0,0,1,False,belief=I have a manuscript and need to explore the surrounding | avoid=3
+df566f71,probe5_tw,97,6,inventory,0.0,0,1,False,belief=I have a manuscript and need to explore the surrounding | avoid=4
+df566f71,probe5_tw,97,7,examine manuscript,0.0,0,1,False,belief=I need to explore the surroundings and interact with ob | avoid=5
+df566f71,probe5_tw,97,8,go west,0.0,0,1,False,belief=I need to explore the surroundings and interact with ob | avoid=5
+df566f71,probe5_tw,97,9,take passkey from box,0.0,0,1,False,belief=I need to explore the surroundings and interact with ob | avoid=3
+df566f71,probe5_tw,97,10,unlock chest with passkey,0.0,0,1,False,belief=I have a passkey and need to find a way to use it to un | avoid=3
+df566f71,probe5_tw,97,11,examine chest,0.0,0,1,False,belief=I have unlocked the chest and need to explore its conte | avoid=3
+df566f71,probe5_tw,97,12,open chest,1.0,1,1,True,"belief=I have unlocked the chest, now I need to open it to exp | avoid=4"
+df566f71,probe5_tw,98,0,go east,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,98,1,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,98,2,drop insect,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,98,3,look,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=1
+df566f71,probe5_tw,98,4,take insect,0.0,0,1,False,belief=I am in a lounge with an insect on the floor and an exi | avoid=2
+df566f71,probe5_tw,98,5,examine insect,0.0,0,1,False,belief=I am in a lounge with an insect on the floor and an exi | avoid=3
+df566f71,probe5_tw,98,6,inventory,0.0,0,1,False,belief=I am in a lounge with an insect in my inventory. My nex | avoid=4
+df566f71,probe5_tw,98,7,drop insect,0.0,0,1,False,belief=I am in a lounge with an insect in my inventory. Since  | avoid=5
+df566f71,probe5_tw,98,8,examine insect,0.0,0,1,False,belief=I am in a lounge with an insect on the ground. My next  | avoid=5 | STUCK
+df566f71,probe5_tw,98,9,go east,0.0,0,1,False,belief=I am in a lounge with an insect on the ground. Since mo | avoid=5 | STUCK
+df566f71,probe5_tw,98,10,take Henderson's passkey,0.0,0,1,False,belief=I am in a salon with various objects and a closed hatch | avoid=3
+df566f71,probe5_tw,98,11,open Henderson's box,0.0,0,1,False,belief=I am in a salon with a Henderson's passkey and various  | avoid=3
+df566f71,probe5_tw,98,12,take worm from Henderson's box,0.0,0,1,False,belief=I am in a salon with a Henderson's passkey and a worm t | avoid=3
+df566f71,probe5_tw,98,13,put worm on bar,1.0,1,1,True,belief=I am in a salon with a Henderson's passkey and a worm.  | avoid=3
+df566f71,probe5_tw,99,0,go west,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,99,1,open case,0.0,0,1,False,belief=I have just arrived and do not yet know the layout or t | avoid=0
+df566f71,probe5_tw,99,2,take ladle from case,0.0,0,1,False,belief=I have found a ladle in the case and I'm in the kitchen | avoid=0
+df566f71,probe5_tw,99,3,examine ladle,0.0,0,1,False,belief=I have a ladle and a licorice strip in the kitchen. My  | avoid=0
+df566f71,probe5_tw,99,4,examine case,0.0,0,1,False,belief=I have a ladle and a licorice strip in the kitchen. My  | avoid=1
+df566f71,probe5_tw,99,5,insert ladle into freezer,1.0,1,1,True,"belief=I have a ladle and a licorice strip in the kitchen, and | avoid=2"
