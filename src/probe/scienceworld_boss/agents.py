@@ -331,3 +331,79 @@ class SWProbeAAgent(SWProbe52Agent):
         return command, "A|" + note
 
 VARIANTS["probe_a_sw"] = SWProbeAAgent
+
+
+class SWAWSAgent:
+    """AWS-style baseline (goal 4, Option A): belief over LOCATIONS, not rules.
+
+    Approximates Align While Search's regime for a text world: the agent
+    maintains an explicit belief about WHERE task-relevant things are (rooms,
+    objects, devices), refines it with each observation, and acts to reach or
+    verify locations. It never forms a belief about how the world WORKS (no
+    rule belief, no contradiction-driven revision) — that distinction is the
+    paper's positioning claim, here made measurable.
+    """
+
+    def __init__(self, client=None):
+        self._client = client
+        self.locations = "unknown; I must find where the task-relevant objects and rooms are"
+
+    def _c(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        system = (
+            "You are an agent in a science simulator. Maintain an explicit belief about WHERE things are (which room "
+            "holds which objects and devices), refine it with every observation, and choose actions that move you to "
+            "or verify those locations to complete the task. Reply only with a JSON object."
+        )
+        prompt = (
+            f"Task: {obs['task']}\n"
+            f"Score so far: {obs['score']} of 100.\n"
+            f"Observation: {obs['obs'][:700]}\n"
+            f"Inventory: {obs['inventory'][:200]}\n"
+            f"Your location belief (where things are): {self.locations}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"Action formats: {TEMPLATES}\n"
+            'Reply with one JSON object: {"locations": "updated belief about where things are", '
+            '"command": "<next action>"}.'
+        )
+        try:
+            text = self._c().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+        parsed = _extract_json(text)
+        loc = parsed.get("locations")
+        if isinstance(loc, str) and loc.strip():
+            self.locations = loc.strip()[:400]
+        return _command_of(parsed, text), f"loc={self.locations[:70]}"
+
+
+class SWAllOnAgent(SWProbe52Agent):
+    """Ablation arm: every instrument ALWAYS rendered, no adaptive gates.
+
+    Same machinery as the adaptive agent but the map section renders from step
+    one (even with a single room), a ledger line always renders (even when it
+    has no signal), and the stuck/experiment pressure runs unconditionally.
+    The comparison lean (probe1) vs adaptive (probe_a) vs always-on (this)
+    isolates whether the GATING itself carries the value.
+    """
+
+    def _render_map(self) -> str:
+        parts = []
+        for name, doors in list(self.rooms.items())[:8] or [("start", set())]:
+            here = " (YOU ARE HERE)" if name == self.cur_room else ""
+            parts.append(f"{name}{here}: doors to [{', '.join(sorted(doors)[:6]) or '?'}]")
+        return " | ".join(parts)[:400] or "no rooms recorded yet"
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        obs = dict(obs)
+        obs["obs"] = "LEDGER: (no score events yet)\n" + obs["obs"][:600]
+        command, note = super().act(obs, history)
+        return command, "ALLON|" + note
+
+
+VARIANTS["aws_sw"] = SWAWSAgent
+VARIANTS["allon_sw"] = SWAllOnAgent
