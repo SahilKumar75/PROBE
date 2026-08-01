@@ -223,7 +223,13 @@ class CrafterProbeUAgent:
         self.last_achievements = achievements
         self.steps_since_novelty = 0 if novelty else self.steps_since_novelty + 1
 
-        experiment = self.steps_since_novelty >= 10
+        # RULES-GIVEN gate (PROBE-A trigger): Crafter's prompt includes TIPS
+        # that state the tech tree, so the rules are not hidden. Per the
+        # adaptive-effort principle (Insight 041/048), suppress the experiment
+        # machinery in known-rule mode and keep the instruments passive; the
+        # ledger/seen lines still render but no contradiction pressure fires.
+        rules_given = bool(TIPS)
+        experiment = (not rules_given) and self.steps_since_novelty >= 10
         ledger_lines = []
         for a, e in sorted(self.ledger.items(), key=lambda kv: -kv[1]["uses"])[:8]:
             top = ", ".join(f"{g} x{n}" for g, n in sorted(e["gains"].items(), key=lambda kv: -kv[1])[:3]) or "nothing yet"
