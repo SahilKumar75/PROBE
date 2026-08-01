@@ -1,0 +1,75 @@
+{
+  "run_id": "d5af5e5a",
+  "level": "hardest",
+  "variants": {
+    "baseline": {
+      "run_id": "d5af5e5a",
+      "batch_id": "hardest1",
+      "variant": "baseline",
+      "level": "hardest",
+      "episodes": 15,
+      "pre_shift_accuracy": [
+        0.5944444444444444,
+        0.11256032676078115
+      ],
+      "post_shift_accuracy": [
+        0.40925925925925927,
+        0.04969128287702316
+      ],
+      "repeated_error_mean": 14.066666666666666,
+      "recovery_steps_mean": 2.6444444444444444,
+      "model_call_skip_rate": 0.0,
+      "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/adaptation_baseline_hardest_d5af5e5a_hardest1.csv"
+    },
+    "reflexion": {
+      "run_id": "d5af5e5a",
+      "batch_id": "hardest1",
+      "variant": "reflexion",
+      "level": "hardest",
+      "episodes": 15,
+      "pre_shift_accuracy": [
+        0.4722222222222222,
+        0.10039059520163365
+      ],
+      "post_shift_accuracy": [
+        0.36666666666666664,
+        0.051841480444236976
+      ],
+      "repeated_error_mean": 14.6,
+      "recovery_steps_mean": 3.577777777777778,
+      "model_call_skip_rate": 0.0,
+      "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/adaptation_reflexion_hardest_d5af5e5a_hardest1.csv"
+    },
+    "probe": {
+      "run_id": "d5af5e5a",
+      "batch_id": "hardest1",
+      "variant": "probe",
+      "level": "hardest",
+      "episodes": 15,
+      "pre_shift_accuracy": [
+        0.7055555555555556,
+        0.07104649842371967
+      ],
+      "post_shift_accuracy": [
+        0.3907407407407408,
+        0.05352055615754469
+      ],
+      "repeated_error_mean": 14.466666666666667,
+      "recovery_steps_mean": 2.7333333333333334,
+      "model_call_skip_rate": 0.35833333333333334,
+      "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/adaptation_probe_hardest_d5af5e5a_hardest1.csv"
+    }
+  },
+  "post_shift_gaps": {
+    "probe_minus_baseline": [
+      -0.01851851851851849,
+      -0.09155052195110432,
+      0.05451348491406734
+    ],
+    "probe_minus_reflexion": [
+      0.024074074074074137,
+      -0.0504375963277032,
+      0.09858574447585147
+    ]
+  }
+}

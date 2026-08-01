@@ -1,0 +1,69 @@
+{
+  "run_id": "302ce864",
+  "level": "hardest",
+  "variants": {
+    "baseline": {
+      "run_id": "302ce864",
+      "batch_id": "hardest1",
+      "variant": "baseline",
+      "level": "hardest",
+      "episodes": 15,
+      "overall_accuracy": [
+        0.34969135802469137,
+        0.037652244427663024
+      ],
+      "asymptotic_accuracy": [
+        0.3345679012345679,
+        0.03777284725349316
+      ],
+      "model_call_skip_rate": 0.0,
+      "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/induction_baseline_hardest_302ce864_hardest1.csv"
+    },
+    "reflexion": {
+      "run_id": "302ce864",
+      "batch_id": "hardest1",
+      "variant": "reflexion",
+      "level": "hardest",
+      "episodes": 15,
+      "overall_accuracy": [
+        0.31790123456790126,
+        0.032205709784479924
+      ],
+      "asymptotic_accuracy": [
+        0.3160493827160494,
+        0.04398790899535775
+      ],
+      "model_call_skip_rate": 0.0,
+      "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/induction_reflexion_hardest_302ce864_hardest1.csv"
+    },
+    "probe": {
+      "run_id": "302ce864",
+      "batch_id": "hardest1",
+      "variant": "probe",
+      "level": "hardest",
+      "episodes": 15,
+      "overall_accuracy": [
+        0.7712962962962963,
+        0.01613042690549866
+      ],
+      "asymptotic_accuracy": [
+        0.9648148148148148,
+        0.010655944542477869
+      ],
+      "model_call_skip_rate": 0.6493827160493827,
+      "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/induction_probe_hardest_302ce864_hardest1.csv"
+    }
+  },
+  "asymptotic_gaps": {
+    "probe_minus_baseline": [
+      0.6302469135802469,
+      0.5909997844657742,
+      0.6694940426947196
+    ],
+    "probe_minus_reflexion": [
+      0.6487654320987655,
+      0.603505236652035,
+      0.6940256275454959
+    ]
+  }
+}
