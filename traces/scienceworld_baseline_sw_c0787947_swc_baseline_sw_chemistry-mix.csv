@@ -1,0 +1,210 @@
+run_id,variant,task,variation,step,command,score,done,note
+c0787947,baseline_sw,chemistry-mix,24,0,go kitchen,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,1,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,2,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,3,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,4,open cupboard,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,5,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,6,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,7,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,8,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,9,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,10,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,11,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,12,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,13,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,14,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,15,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,16,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,17,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,18,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,19,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,20,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,21,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,22,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,23,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,24,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,25,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,26,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,27,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,28,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,29,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,30,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,31,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,32,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,33,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,24,34,read instructions to make sugar water,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,0,go hallway,7,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,1,look around,7,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,2,go kitchen,29,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,3,look around,29,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,4,read instructions to make peanut butter with banana sandwich,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,5,go kitchen,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,6,look around,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,7,read instructions to make peanut butter with banana sandwich,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,8,look around,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,9,read instructions to make peanut butter with banana sandwich,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,10,look around,36,False,baseline
+c0787947,baseline_sw,chemistry-mix,25,11,focus on peanut,0,True,baseline
+c0787947,baseline_sw,chemistry-mix,26,0,go outside,17,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,1,look around,17,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,2,go kitchen,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,3,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,4,read instructions to make rust,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,5,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,6,pick up iron block,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,7,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,8,read instructions to make rust,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,9,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,10,read instructions to make rust,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,11,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,12,read instructions to make rust,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,13,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,14,read instructions to make rust,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,15,look around,33,False,baseline
+c0787947,baseline_sw,chemistry-mix,26,16,focus on iron block,0,True,baseline
+c0787947,baseline_sw,chemistry-mix,27,0,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,1,open large cupboard,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,2,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,3,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,4,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,5,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,6,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,7,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,8,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,9,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,10,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,11,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,12,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,13,focus on red paper,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,14,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,15,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,16,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,17,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,18,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,19,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,20,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,21,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,22,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,23,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,24,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,25,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,26,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,27,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,28,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,29,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,30,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,31,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,32,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,33,pick up wood cup (containing red paint),8,False,baseline
+c0787947,baseline_sw,chemistry-mix,27,34,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,0,go kitchen,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,1,focus on sugar water,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,2,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,3,open cupboard,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,4,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,5,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,6,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,7,open fridge,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,8,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,9,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,10,focus on sugar water,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,11,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,12,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,13,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,14,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,15,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,16,focus on sugar water,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,17,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,18,open drawer,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,19,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,20,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,21,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,22,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,23,open drawer,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,24,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,25,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,26,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,27,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,28,open drawer,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,29,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,30,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,31,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,32,look around,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,33,open drawer,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,28,34,0,8,False,baseline
+c0787947,baseline_sw,chemistry-mix,29,0,go kitchen,14,False,baseline
+c0787947,baseline_sw,chemistry-mix,29,1,look around,14,False,baseline
+c0787947,baseline_sw,chemistry-mix,29,2,open cupboard,14,False,baseline
+c0787947,baseline_sw,chemistry-mix,29,3,look around,14,False,baseline
+c0787947,baseline_sw,chemistry-mix,29,4,focus on banana,0,True,baseline
+c0787947,baseline_sw,chemistry-mix,30,0,open cupboard,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,1,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,2,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,3,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,4,pick up glass jar,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,5,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,6,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,7,open fridge,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,8,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,9,pick up metal pot,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,10,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,11,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,12,open cupboard drawer,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,13,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,14,pick up lighter,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,15,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,16,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,17,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,18,focus on rust,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,19,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,20,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,21,open drawer,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,22,open drawer 0,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,23,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,24,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,25,open drawer 1,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,26,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,27,open drawer,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,28,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,29,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,30,open drawer,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,31,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,32,look around,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,33,open drawer,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,30,34,0,0,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,0,go to the workshop,17,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,1,look around,17,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,2,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,3,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,4,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,5,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,6,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,7,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,8,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,9,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,10,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,11,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,12,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,13,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,14,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,15,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,16,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,17,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,18,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,19,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,20,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,21,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,22,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,23,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,24,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,25,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,26,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,27,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,28,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,29,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,30,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,31,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,32,read instructions to make red paper,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,33,look around,25,False,baseline
+c0787947,baseline_sw,chemistry-mix,31,34,read instructions to make red paper,25,False,baseline

@@ -1,0 +1,18 @@
+{
+  "baseline_sw": {
+    "run_id": "57957f9a",
+    "variant": "baseline_sw",
+    "budget": 35,
+    "mean_score": 7.666666666666667,
+    "solve_rate": 0.0,
+    "episodes": 9,
+    "per_task": {
+      "change-the-state-of-matter-of": {
+        "mean_score": 7.666666666666667,
+        "solve_rate": 0.0,
+        "n": 9
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_baseline_sw_57957f9a_swc_baseline_sw_change-the-state-of-matter-of.csv"
+  }
+}

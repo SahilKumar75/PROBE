@@ -1,0 +1,18 @@
+{
+  "probe_sw": {
+    "run_id": "ed4be443",
+    "variant": "probe_sw",
+    "budget": 35,
+    "mean_score": 20.625,
+    "solve_rate": 0.0,
+    "episodes": 8,
+    "per_task": {
+      "chemistry-mix": {
+        "mean_score": 20.625,
+        "solve_rate": 0.0,
+        "n": 8
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_probe_sw_ed4be443_swc_probe_sw_chemistry-mix.csv"
+  }
+}

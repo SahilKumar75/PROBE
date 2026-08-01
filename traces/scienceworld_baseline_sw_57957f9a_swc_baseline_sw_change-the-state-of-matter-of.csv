@@ -1,0 +1,65 @@
+run_id,variant,task,variation,step,command,score,done,note
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,0,go kitchen,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,1,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,2,focus on lead,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,3,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,4,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,5,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,6,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,7,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,21,8,focus on glass jar,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,22,0,focus on air,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,23,0,focus on water,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,0,go kitchen,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,1,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,2,focus on mercury,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,3,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,4,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,5,open fridge,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,6,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,24,7,focus on glass jar,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,25,0,focus on air,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,26,0,focus on gallium,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,26,1,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,26,2,focus on the blast furnace,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,0,focus on gallium,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,1,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,2,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,3,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,4,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,5,go hallway,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,6,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,7,go workshop,3,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,8,look around,3,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,9,focus on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,10,look around,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,11,pick up paper cup,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,12,look around,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,13,pour gallium into table,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,14,activate paper cup,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,15,look around,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,16,focus on paper cup,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,17,focus on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,18,wait1,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,19,look around,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,20,pour gallium into ultra low temperature freezer,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,21,focus on orange,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,22,focus on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,23,pick up paper cup,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,24,look around,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,25,pour gallium into ultra low temperature freezer,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,26,focus on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,27,pour gallium into ultra low temperature freezer,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,28,use orange on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,29,focus on orange,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,30,focus on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,31,pour gallium into ultra low temperature freezer,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,32,wait1,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,33,focus on gallium,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,27,34,pour gallium into ultra low temperature freezer,69,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,28,0,go to the foundry,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,28,1,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,28,2,focus on caesium,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,28,3,look around,0,False,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,28,4,focus on air,0,True,baseline
+57957f9a,baseline_sw,change-the-state-of-matter-of,29,0,focus on wood,0,True,baseline

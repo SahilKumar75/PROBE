@@ -1,0 +1,18 @@
+{
+  "reflexion_sw": {
+    "run_id": "dd23c9fe",
+    "variant": "reflexion_sw",
+    "budget": 35,
+    "mean_score": 0.3333333333333333,
+    "solve_rate": 0.0,
+    "episodes": 9,
+    "per_task": {
+      "change-the-state-of-matter-of": {
+        "mean_score": 0.3333333333333333,
+        "solve_rate": 0.0,
+        "n": 9
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_reflexion_sw_dd23c9fe_swc_reflexion_sw_change-the-state-of-matter-of.csv"
+  }
+}

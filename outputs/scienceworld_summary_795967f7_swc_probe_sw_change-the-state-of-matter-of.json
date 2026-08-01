@@ -1,0 +1,18 @@
+{
+  "probe_sw": {
+    "run_id": "795967f7",
+    "variant": "probe_sw",
+    "budget": 35,
+    "mean_score": 7.666666666666667,
+    "solve_rate": 0.0,
+    "episodes": 9,
+    "per_task": {
+      "change-the-state-of-matter-of": {
+        "mean_score": 7.666666666666667,
+        "solve_rate": 0.0,
+        "n": 9
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_probe_sw_795967f7_swc_probe_sw_change-the-state-of-matter-of.csv"
+  }
+}

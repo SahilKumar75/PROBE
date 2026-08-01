@@ -1,0 +1,281 @@
+run_id,variant,task,variation,step,command,score,done,note
+ed4be443,probe_sw,chemistry-mix,24,0,go kitchen,25,False,"belief=I am in a bathroom with various objects and a door | rule=doors can be used to move between rooms, and objec"
+ed4be443,probe_sw,chemistry-mix,24,1,look around,25,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,2,open cupboard,25,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,3,look around,25,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,4,read instructions to make sugar water,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,5,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,6,open fridge,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,7,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,8,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,9,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,10,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,24,11,read instructions,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=possibly, the recipe must be read again to reveal  | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,12,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=possibly, the ingredients for sugar water are stor | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,13,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=possibly, the ingredients for sugar water are stor | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,14,pick up orange,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=possibly, the ingredients for sugar water can be f | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,15,open fridge,33,False,belief=I am in the kitchen with an orange in my inventory | rule=the ingredients for sugar water can be found or cr | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,24,16,help,33,False,belief=I am in the kitchen with an orange in my inventory | rule=the world might be text-based with specific comman | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,24,17,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,18,read instructions,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,19,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,20,read recipe,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,21,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,22,open drawer,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,23,0,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, an | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,24,look in drawer,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,25,"look in drawer (in counter, in kitchen)",33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,26,look at drawer,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,27,read drawer,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,28,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,29,read instructions,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,30,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,31,read instructions,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,32,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,33,examine instructions,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,24,34,look around,33,False,"belief=I am in the kitchen with an orange in my inventory | rule=the world is text-based with specific commands, ob | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,0,go hallway,7,False,"belief=I am in the greenhouse with limited ingredients an | rule=the doors can be used to move between locations, a"
+ed4be443,probe_sw,chemistry-mix,25,1,go kitchen,29,False,"belief=I am in the hallway with an orange, my next step i | rule=the doors can be used to move between locations, o"
+ed4be443,probe_sw,chemistry-mix,25,2,look around,29,False,"belief=I am in the kitchen with an orange, my next step i | rule=the doors can be used to move between locations, o"
+ed4be443,probe_sw,chemistry-mix,25,3,read instructions to make peanut butter with banana sandwich,36,False,"belief=I am in the kitchen with an orange, my next step i | rule=the doors can be used to move between locations, o"
+ed4be443,probe_sw,chemistry-mix,25,4,look around,36,False,"belief=I am in the kitchen with an orange and have read t | rule=the doors can be used to move between locations, o"
+ed4be443,probe_sw,chemistry-mix,25,5,pick up peanut,36,False,"belief=I am in the kitchen with an orange and have read t | rule=the doors can be used to move between locations, o"
+ed4be443,probe_sw,chemistry-mix,25,6,pick up banana,36,False,belief=I am in the kitchen with an orange and a peanut in | rule=the kitchen contains relevant ingredients and obje
+ed4be443,probe_sw,chemistry-mix,25,7,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=the kitchen contains relevant ingredients and obje"
+ed4be443,probe_sw,chemistry-mix,25,8,open cupboard,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=the kitchen contains relevant ingredients and obje"
+ed4be443,probe_sw,chemistry-mix,25,9,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=the kitchen contains relevant ingredients and obje"
+ed4be443,probe_sw,chemistry-mix,25,10,read recipe,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=the kitchen contains relevant ingredients and obje | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,11,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that grinding or crushing peanuts is nec | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,12,open drawer,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that using the lighter or oven could pot | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,13,0,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that grinding or crushing the peanuts ma | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,14,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that there might be a specific object or | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,15,open drawer in cupboard,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that grinding or crushing the peanut usi | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,16,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that there might be a specific object or | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,17,open fridge,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that the transformation of peanut into p | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,18,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that the transformation of peanut into p | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,19,open drawer in counter,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that the transformation of peanut into p | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,20,look around,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I suspect that the transformation of peanut into p | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,21,use lighter on peanut,36,False,"belief=I am in the kitchen with a banana, an orange, and  | rule=I hypothesize that the transformation of peanut in | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,22,use peanut on counter,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that the transformation of peanut in | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,23,look around,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that water or a liquid might be nece | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,24,use peanut on counter,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that mechanical actions, such as gri | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,25,look around,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that water or a liquid might be nece | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,26,open freezer door,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that a liquid, possibly found in the | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,27,look around,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that a specific object or tool, poss | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,28,pour orange juice into tin cup,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that liquids can be used to extingui | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,29,use tin cup on peanut,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that liquids can be used to extingui | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,30,look around,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that specific objects or tools, such | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,31,use lighter on peanut,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that heat can be used to transform i | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,32,look around,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that water or a liquid can be used t | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,33,open freezer,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that a container filled with a liqui | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,25,34,use banana on peanut,36,False,"belief=I am in the kitchen with a burning peanut, a banan | rule=I hypothesize that the fire can be extinguished by | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,0,look around,0,False,"belief=I have just started and do not know this environme | rule=The blast furnace and sink are turned off, and I n"
+ed4be443,probe_sw,chemistry-mix,26,1,activate blast furnace,0,False,"belief=I am in the foundry with a blast furnace, sink, an | rule=The blast furnace and sink are devices that can po"
+ed4be443,probe_sw,chemistry-mix,26,2,look around,0,False,"belief=I am in the foundry with a blast furnace, sink, an | rule=The blast furnace and sink are devices that can po"
+ed4be443,probe_sw,chemistry-mix,26,3,go to sink,0,False,"belief=I am in the foundry with a blast furnace, sink, an | rule=The blast furnace and sink are devices that can po"
+ed4be443,probe_sw,chemistry-mix,26,4,look around,0,False,"belief=I am in the foundry with a blast furnace, sink, an | rule=The blast furnace and sink are devices that can po"
+ed4be443,probe_sw,chemistry-mix,26,5,go to outside,17,False,"belief=I am in the foundry with a blast furnace, sink, an | rule=The blast furnace may require specific materials t | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,6,look around,17,False,belief=I am outside and need to explore the environment t | rule=The outside environment may contain metal objects 
+ed4be443,probe_sw,chemistry-mix,26,7,go to kitchen,25,False,belief=I am outside and need to explore the kitchen to fi | rule=The outside environment may contain metal objects 
+ed4be443,probe_sw,chemistry-mix,26,8,look around,25,False,"belief=I am in the kitchen and need to find ingredients o | rule=The kitchen may contain metal objects, water, or o"
+ed4be443,probe_sw,chemistry-mix,26,9,read instructions to make rust,33,False,"belief=I am in the kitchen and need to find ingredients o | rule=The kitchen may contain metal objects, such as the"
+ed4be443,probe_sw,chemistry-mix,26,10,look around,33,False,"belief=I am in the kitchen with a recipe to make rust, bu | rule=The kitchen may contain metal objects or utensils "
+ed4be443,probe_sw,chemistry-mix,26,11,open sink,33,False,"belief=I am in the kitchen with a recipe to make rust, I  | rule=The kitchen contains metal objects like the iron b"
+ed4be443,probe_sw,chemistry-mix,26,12,look around,33,False,"belief=I am in the kitchen with a recipe to make rust, I  | rule=The kitchen contains metal objects, water might be"
+ed4be443,probe_sw,chemistry-mix,26,13,open fridge,33,False,"belief=I am in the kitchen with a recipe to make rust, I  | rule=The kitchen contains metal objects, water might be"
+ed4be443,probe_sw,chemistry-mix,26,14,look around,33,False,"belief=I am in the kitchen with a recipe to make rust, I  | rule=The kitchen contains metal objects, water might be"
+ed4be443,probe_sw,chemistry-mix,26,15,read instructions to make rust,33,False,"belief=I am in the kitchen with a recipe to make rust, I  | rule=The kitchen contains metal objects, water might be"
+ed4be443,probe_sw,chemistry-mix,26,16,look around,33,False,"belief=I am in the kitchen with a recipe to make rust, bu | rule=metal objects can be found in unexpected places, a | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,17,use lighter on iron block,33,False,"belief=I am in the kitchen with a recipe to make rust, an | rule=metal objects can react with oxygen and water to f | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,18,look around,33,False,"belief=I am in the kitchen with a recipe to make rust, an | rule=metal objects can react with oxygen and water to f | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,19,use iron block on sink,33,False,belief=I need to mix the iron block with oxygen and water | rule=metal objects can react with oxygen and water to f | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,20,look around,33,False,belief=I need to find the iron block and mix it with oxyg | rule=metal objects can react with oxygen and water to f | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,21,use iron block on sink,33,False,belief=I am in the kitchen with an iron block and need to | rule=metal objects can react with oxygen and water to f | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,22,use lighter on iron block,33,False,belief=I am in the kitchen with an iron block and an oran | rule=metals can react with oxygen and water to form rus | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,23,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,33,False,belief=I am in the kitchen with an iron block and an oran | rule=metals can react with oxygen and water to form rus | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,24,look around,33,False,"belief=I am in the kitchen with an orange and possibly ot | rule=metals can react with oxygen, water, and possibly  | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,25,use iron block on glass jar containing sodium chloride,33,False,belief=I am in the kitchen with an orange and other ingre | rule=metals can react with oxygen and other substances  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,26,use iron block on stove,33,False,belief=I am in the kitchen with an orange and other ingre | rule=metals can react with oxygen and other substances  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,27,look around,33,False,belief=I am in the kitchen with an orange and need to fin | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,28,use iron block on sink,33,False,belief=I am in the kitchen with an orange and need to fin | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,29,use iron block on sink,33,False,belief=I need to find a way to expose the iron block to o | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,30,use iron block on glass jar containing sodium chloride,33,False,"belief=I need to find a way to combine the iron block wit | rule=metals can react with oxygen, moisture, and specif | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,26,31,use iron block on sink,33,False,belief=I need to find a way to combine the iron block wit | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,32,look around,33,False,belief=I need to find a way to combine the iron block wit | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,33,open cupboard,33,False,belief=I need to find a way to combine the iron block wit | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,26,34,look around,33,False,belief=I need to find iron and a way to combine it with o | rule=metals can react with oxygen and moisture to form  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,0,open large cupboard,8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, bu"
+ed4be443,probe_sw,chemistry-mix,27,1,look around,8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, an"
+ed4be443,probe_sw,chemistry-mix,27,2,look around,8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, an"
+ed4be443,probe_sw,chemistry-mix,27,3,read wood cup (containing red paint),8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, an"
+ed4be443,probe_sw,chemistry-mix,27,4,look around,8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, an"
+ed4be443,probe_sw,chemistry-mix,27,5,look around,8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, an"
+ed4be443,probe_sw,chemistry-mix,27,6,look at drawer,8,False,"belief=I am in an art studio with various paint cups and  | rule=paints can be mixed to create different colors, an"
+ed4be443,probe_sw,chemistry-mix,27,7,open drawer,8,False,belief=I am in a room with a closed drawer and an orange  | rule=maybe containers like drawers can hold recipes or  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,8,read drawer,8,False,belief=I am in the art studio with an open drawer and an  | rule=maybe the red paint in the wood cup can be used to | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,9,mix wood cup,8,False,belief=I am in the art studio with an open drawer and an  | rule=maybe the red paint in the wood cup can be mixed w | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,10,look at drawer,8,False,belief=I am in the art studio with an open drawer and an  | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,11,look around,8,False,belief=I am in the art studio with an open drawer and an  | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,12,mix wood cup (containing red paint),8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,13,go kitchen,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,14,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,15,pour wood cup (containing red paint) into glass cup,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,16,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,17,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,18,go kitchen,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,19,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,20,pour wood cup (containing red paint) into glass cup,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,21,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,22,pour wood cup (containing red paint) into glass cup,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,23,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,24,pick up wood cup (containing red paint),8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,25,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,26,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,27,use wood cup (containing red paint) on orange,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,28,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,29,pick up wood cup (containing red paint),8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,30,look around,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,31,open drawer,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,32,pick up wood cup,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,33,"pick up wood cup (in large cupboard, in art studio)",8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,27,34,help,8,False,belief=I am in the art studio with an open cupboard and a | rule=maybe the 'red paper' substance can be created by  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,0,go kitchen,8,False,belief=I have just started and do not know this environme | rule=The world seems to be composed of various objects 
+ed4be443,probe_sw,chemistry-mix,28,1,look around,8,False,"belief=I am in the kitchen with an orange, my next step i | rule=objects can be manipulated and used, locations may"
+ed4be443,probe_sw,chemistry-mix,28,2,open cupboard,8,False,"belief=I am in the kitchen with an orange, my next step i | rule=objects can be manipulated and used, locations may"
+ed4be443,probe_sw,chemistry-mix,28,3,look around,8,False,"belief=I am in the kitchen with an orange and an open cup | rule=objects can be manipulated and used, locations may"
+ed4be443,probe_sw,chemistry-mix,28,4,look around bowl,8,False,"belief=I am in the kitchen with an orange, I see a bowl w | rule=objects can be manipulated and used, locations may"
+ed4be443,probe_sw,chemistry-mix,28,5,look around,8,False,"belief=I am in the kitchen with an orange, I see a bowl w | rule=objects can be manipulated and used, locations may"
+ed4be443,probe_sw,chemistry-mix,28,6,open drawer,8,False,"belief=I am in the kitchen with an orange, I see a bowl w | rule=objects can be manipulated and used, locations may"
+ed4be443,probe_sw,chemistry-mix,28,7,0,8,False,"belief=I am in the kitchen with an orange, I see a bowl w | rule=objects can be manipulated and used, locations may | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,28,8,look around drawer,8,False,"belief=I am in the kitchen with an orange, I see a bowl w | rule=objects can be manipulated and used, locations may | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,28,9,look around cupboard,8,False,"belief=I am in the kitchen with an orange, I see a bowl w | rule=objects can be manipulated and used, locations may | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,28,10,examine cupboard,8,False,"belief=I am in the kitchen with an orange, and my next st | rule=objects can be manipulated and used, locations may | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,28,11,use orange on ceramic cup,8,False,"belief=I am in the kitchen with an orange, and my next st | rule=objects can be combined in specific ways to create | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,28,12,look around counter,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be combined in specific ways to create | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,13,help,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by more specific and d | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,14,look at cupboard,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,15,open drawer,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,16,0,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,17,read cupboard,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,18,look at cupboard,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,19,open drawer,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,20,0,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,21,look at cupboard,8,False,belief=I am in the kitchen with an orange and need to fin | rule=the world might be operated by using specific obje | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,22,open drawer,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be used as containers or tools to comb | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,23,1,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be used as containers or tools to comb | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,24,look at drawer,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be combined or transformed through spe | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,25,read OBJ in cupboard,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be combined or transformed through spe | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,26,look around,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be combined or transformed through spe | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,27,use lighter on orange,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,28,look around,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,29,look around,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,30,open drawer in cupboard,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,31,look around,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,32,read bowl,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,33,pick up orange,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be transformed through specific intera | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,28,34,look around,8,False,belief=I am in the kitchen with an orange and need to fin | rule=objects can be combined or transformed through spe | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,0,go kitchen,14,False,"belief=I am in an outside location with various objects a | rule=doors can be used to move between locations, and o"
+ed4be443,probe_sw,chemistry-mix,29,1,look around,14,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between locations, objec"
+ed4be443,probe_sw,chemistry-mix,29,2,open cupboard,14,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between locations, objec"
+ed4be443,probe_sw,chemistry-mix,29,3,look around,14,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between locations, objec"
+ed4be443,probe_sw,chemistry-mix,29,4,pick up banana,14,False,"belief=I am in the kitchen with an orange in my inventory | rule=doors can be used to move between locations, objec"
+ed4be443,probe_sw,chemistry-mix,29,5,look around,14,False,"belief=I am in the kitchen with a banana and an orange in | rule=doors can be used to move between locations, objec"
+ed4be443,probe_sw,chemistry-mix,29,6,open drawer,14,False,"belief=I am in the kitchen with a banana and an orange in | rule=doors can be used to move between locations, objec"
+ed4be443,probe_sw,chemistry-mix,29,7,"open drawer (in counter, in kitchen)",14,False,belief=I am in the kitchen with a banana and an orange in | rule=drawers in the kitchen may contain food ingredient | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,8,look around,14,False,belief=I am in the kitchen with a banana and an orange in | rule=the kitchen may contain visible objects or written | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,9,open fridge,14,False,belief=I am in the kitchen with a banana and an orange in | rule=the kitchen appliances and containers may hold hid | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,10,look in fridge,14,False,belief=I am in the kitchen with a banana and an orange in | rule=kitchen appliances and containers may hold hidden  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,11,read wood cup,14,False,belief=I am in the kitchen with a banana and an orange in | rule=specific objects or ingredients may be used to tri | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,12,use banana on wood cup,14,False,belief=I am in the kitchen with a banana and an orange in | rule=certain objects may need to be combined or used in | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,13,look in fridge,14,False,belief=I am in the kitchen with a banana and an orange in | rule=certain objects may need to be combined or used in | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,14,go workshop,14,False,belief=I am in the kitchen with a banana and an orange in | rule=certain objects or ingredients may need to be foun | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,15,look around,14,False,belief=I am in the kitchen with a banana and an orange in | rule=the environment may respond to specific keywords o | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,16,open drawer,14,False,belief=I am in the kitchen with a banana and an orange in | rule=certain objects may have hidden uses or properties | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,17,0,14,False,belief=I am in the kitchen with a banana and an orange in | rule=the environment may respond to specific actions su | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,18,look in drawer,14,False,belief=I am in the kitchen with a banana and an orange in | rule=the environment may respond to specific actions su | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,19,1,14,False,belief=I am in the kitchen with a banana and an orange in | rule=the environment responds to specific actions such  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,20,open drawer 1,14,False,belief=I am in the kitchen with a banana and an orange in | rule=I hypothesize that the environment responds to spe | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,21,look around,14,False,belief=I am in the kitchen with a banana and an orange in | rule=I hypothesize that the environment responds to sim | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,22,open freezer,14,False,belief=I need to find a way to create a peanut butter wit | rule=I hypothesize that the environment responds to sim | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,23,look around,14,False,"belief=I need to find a way to create a peanut butter wit | rule=The environment may respond to direct actions, and | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,24,open drawer on the counter,14,False,belief=I need to find peanut butter and bread to create a | rule=Objects like drawers and containers may contain hi | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,29,25,look in drawer,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=Objects like drawers and containers may contain hi | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,26,look in drawer 0,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=I hypothesize that the environment requires specif | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,27,look in drawer,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may not require specific and unamb | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,28,"look in drawer (in counter, in kitchen)",14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment requires specific and unambiguous  | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,29,open drawer,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may require a simpler or more dire | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,30,open drawer 0,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may require specifying the locatio | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,31,look around,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may respond to more general action | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,32,read bowl,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may respond to specific interactio | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,33,look around,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may respond to specific interactio | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,29,34,look around,14,False,"belief=I am in a kitchen with a banana and an orange, and | rule=The environment may respond to specific interactio | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,0,open cupboard,0,False,"belief=I am in a kitchen with various objects and devices | rule=devices like the oven, stove, and freezer may have"
+ed4be443,probe_sw,chemistry-mix,30,1,look around,0,False,"belief=I am in a kitchen with various objects and devices | rule=devices like the oven, stove, and freezer may have"
+ed4be443,probe_sw,chemistry-mix,30,2,pick up metal pot,0,False,"belief=I am in a kitchen with various objects and devices | rule=devices like the oven may be used for heating, and"
+ed4be443,probe_sw,chemistry-mix,30,3,look around,0,False,"belief=I have a metal pot in my inventory, my next step i | rule=iron in the metal pot can be used to create rust t"
+ed4be443,probe_sw,chemistry-mix,30,4,use metal pot on air,0,False,belief=I have a metal pot in my inventory and I need to c | rule=iron in the metal pot can be used to create rust t
+ed4be443,probe_sw,chemistry-mix,30,5,look around,0,False,"belief=I have a metal pot and an orange, and I need to cr | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,6,open fridge,0,False,"belief=I have a metal pot and an orange, and I need to cr | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,7,look around,0,False,"belief=I have a metal pot and an orange, and I need to cr | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,8,open freezer,0,False,"belief=I have a metal pot and an orange, and I need to cr | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,9,look around,0,False,"belief=I have a metal pot and an orange, and I need to cr | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,10,pick up glass jar,0,False,"belief=I have a metal pot and an orange, and I need to cr | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,11,pour water into metal pot,0,False,"belief=I have a metal pot, a glass jar with sodium chlori | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,12,pour water into metal pot,0,False,"belief=I have a metal pot, a glass jar with sodium chlori | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,13,pour water into metal pot,0,False,"belief=I have a metal pot, a glass jar with sodium chlori | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,14,look around,0,False,"belief=I have a metal pot, a glass jar with sodium chlori | rule=metals can be oxidized to create rust when exposed | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,15,use sink on metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=metals can be oxidized to create rust when exposed | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,16,use sink on metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=the sink might be a specific location that needs t | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,17,activate sink,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=rust creation might require a combination of metal | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,18,pour water from sink into metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=rust creation might require a combination of metal | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,19,use sink on metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=rust creation might require a combination of metal | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,20,pour water from sink into metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=the activated sink can provide water by using the  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,21,use sink,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=perhaps the correct syntax to use the sink is 'pou | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,22,look around,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=perhaps water can be obtained by using the sink in | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,23,use metal pot on glass jar,0,False,"belief=I need to find a way to create rust, and I'm in th | rule=perhaps the metal pot can be used to create rust b | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,24,pour water from sink into metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=perhaps the metal pot can rust when exposed to wat | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,25,look around,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=perhaps the metal pot can rust when exposed to wat | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,26,use sink,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=perhaps the metal pot can rust when exposed to wat | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,27,pour water from sink into metal pot,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=perhaps the metal pot can rust when exposed to wat | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,28,use metal pot on sink,0,False,belief=I am in the kitchen with a metal pot and a glass j | rule=The metal pot can rust when exposed to water and o | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,30,29,use sink,0,False,"belief=I am in the kitchen with a metal pot and a glass j | rule=The metal pot can rust when exposed to water, oxyg | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,30,look around,0,False,"belief=I am in the kitchen with a metal pot and a glass j | rule=The metal pot can rust when exposed to water, oxyg | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,31,put metal pot in sink,8,False,"belief=I am in the kitchen with a metal pot and a glass j | rule=The metal pot can rust when exposed to water, oxyg | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,30,32,use metal pot on sink,8,False,"belief=I am in the kitchen with a metal pot in the sink a | rule=The metal pot can rust when exposed to water, oxyg"
+ed4be443,probe_sw,chemistry-mix,30,33,use sink,8,False,"belief=I am in the kitchen with a metal pot in the sink,  | rule=The metal pot can rust when exposed to water, oxyg"
+ed4be443,probe_sw,chemistry-mix,30,34,activate sink,8,False,"belief=I am in the kitchen with a metal pot in the sink,  | rule=The metal pot can rust when exposed to water, oxyg"
+ed4be443,probe_sw,chemistry-mix,31,0,go workshop,17,False,"belief=I am in the hallway with multiple doors and an ora | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,1,look around,17,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,2,read instructions to make red paper,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,3,look around,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,4,pick up blank paper,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,5,look around,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,6,read instructions to make red paper,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,7,pick up blank paper,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,8,look around,25,False,"belief=I am in the workshop with an orange in my inventor | rule=doors can be used to move between rooms, objects c"
+ed4be443,probe_sw,chemistry-mix,31,9,use orange on blank paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I suspect that the 'use' action might be necessary | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,10,read agen,25,False,belief=I am in the workshop with an orange in my inventor | rule=I suspect that objects in the room might have spec | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,11,read agen,25,False,belief=I am in the workshop with an orange in my inventor | rule=I suspect that the agen is a machine that can proc | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,12,look around,25,False,"belief=I am in the workshop with an orange in my inventor | rule=I suspect that specific objects in the room, such  | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,31,13,read instructions to make red paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the recipe titled 'instructions | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,14,use orange on blank paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that objects in the room can be tran | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,15,read agen,25,False,"belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects, like the agen, | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,31,16,look around,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects may need to be  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,17,read instructions to make red paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the recipe for red paper requir | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,18,use orange on paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the objects in the workshop may | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,19,read agen,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects in the workshop | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,20,use orange on agen,25,False,"belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects, such as fruits | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,31,21,use orange on agen,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the agen is a device that can e | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,22,activate agen,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the agen is a device that can b | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,23,look around,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the workshop contains hidden ob | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,24,read instructions to make red paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the recipe contains crucial inf | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,25,look around,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that objects in the environment can  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,26,read instructions to make red paper,25,False,"belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the objects on the table, such  | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,31,27,look around,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the objects on the table are no | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,28,read instructions to make red paper,25,False,"belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that the objects on the table, such  | EXPERIMENT"
+ed4be443,probe_sw,chemistry-mix,31,29,look around,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that objects in the workshop can be  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,30,open ultra low temperature freezer,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that objects in the workshop can be  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,31,look around the ultra low temperature freezer,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects or ingredients  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,32,use orange on paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects or ingredients  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,33,use orange on paper,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects or ingredients  | EXPERIMENT
+ed4be443,probe_sw,chemistry-mix,31,34,use orange on itself,25,False,belief=I am in the workshop with an orange in my inventor | rule=I hypothesize that certain objects or ingredients  | EXPERIMENT
