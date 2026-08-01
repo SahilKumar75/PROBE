@@ -1,0 +1,69 @@
+run_id,variant,task,variation,step,command,score,done,note
+2dc931c7,probe_a_sw,find-living-thing,225,0,go hallway,17,False,"A|rule=doors can be used to move between rooms, obje | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,225,1,look around,17,False,"A|rule=doors can be used to move between rooms, obje | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,225,2,go greenhouse,17,False,"A|rule=doors can be used to move between rooms, obje | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,225,3,look around,17,False,"A|rule=doors can be used to move between rooms, obje | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,225,4,focus on bee hive,0,True,A|rule=I should explore new rooms to find a living t | rooms=3
+2dc931c7,probe_a_sw,find-living-thing,226,0,go outside,17,False,A|rule=The blast furnace and sink are devices that c | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,226,1,focus on orange,0,True,A|rule=The outside area might have living things or  | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,227,0,go kitchen,17,False,"A|rule=doors can be used to move between rooms, and  | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,227,1,look around,17,False,"A|rule=doors can be used to move between rooms, and  | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,227,2,focus on bowl,0,True,"A|rule=doors can be used to move between rooms, and  | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,228,0,focus on bowl,0,True,A|rule=fruits are likely to be related to living thi | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,229,0,focus on bee hive,0,True,"A|rule=doors can be opened and closed, objects can b | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,230,0,focus on bowl,0,True,"A|rule=objects can be contained within others, and d | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,231,0,go LOC hallway,8,False,A|rule=The devices and materials in this room may ha | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,1,go LOC hallway,8,False,A|rule=The devices and materials in this room may ha | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,2,open DOOR,8,False,A|rule=The devices and materials in this room may ha | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,3,go to hallway,17,False,A|rule=The 'go' action may require a specific direct | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,4,focus on living thing,17,False,A|rule=The 'go' action can be used with different fo | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,5,go to bedroom,25,False,A|rule=The 'go' action can be used with different fo | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,6,look around,25,False,A|rule=The 'go' action can be used with different fo | rooms=1
+2dc931c7,probe_a_sw,find-living-thing,231,7,open closet,25,False,A|rule=The 'go' action can be used with different fo | rooms=2
+2dc931c7,probe_a_sw,find-living-thing,231,8,look around,25,False,A|rule=The 'go' action can be used with different fo | rooms=2
+2dc931c7,probe_a_sw,find-living-thing,231,9,look inside closet,25,False,A|rule=The 'go' action can be used with different fo | rooms=2
+2dc931c7,probe_a_sw,find-living-thing,231,10,open closet,25,False,A|rule=The 'look inside' action may not be directly  | rooms=2
+2dc931c7,probe_a_sw,find-living-thing,231,11,examine closet,25,False,A|rule=The 'examine' action can be used to inspect t | rooms=2
+2dc931c7,probe_a_sw,find-living-thing,231,12,go to workshop,25,False,A|rule=The 'go' action can be used to move between r | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,231,13,go LOC workshop,25,False,A|rule=The 'go' action might need to be used with 'L | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,231,14,go to hallway,25,False,A|rule=The 'go' action might need to be used with a  | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,231,15,open door to workshop,25,False,A|rule=The 'go' action might need to be used with a  | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,231,16,go to door to workshop,25,False,A|rule=The 'go' action might need to be used with a  | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,231,17,focus on orange,0,True,A|rule=The 'go' action might need to be used with a  | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,232,0,focus on chair,0,True,"A|rule=objects can be picked up and moved, doors can | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,233,0,focus on baby wolf,58,False,"A|rule=living things might be movable, and devices l | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,233,1,go bedroom,58,False,"A|rule=living things can be moved, and I need to fin | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,233,2,look around,58,False,"A|rule=living things can be moved, and I need to fin | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,233,3,go kitchen,67,False,"A|rule=living things can be moved, and I need to fin | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,233,4,look around,67,False,"A|rule=living things can be moved, and I need to fin | rooms=1"
+2dc931c7,probe_a_sw,find-living-thing,233,5,open cupboard,67,False,"A|rule=living things can be moved, and I need to fin | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,233,6,go ?,67,False,"A|rule=living things can be moved, and I need to fin | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,233,7,look in cupboard,67,False,"A|rule=living things can be moved, and using objects | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,233,8,go?,67,False,"A|rule=living things can be moved, and using objects | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,233,9,go foundry,67,False,"A|rule=living things can be moved, and using objects | rooms=2"
+2dc931c7,probe_a_sw,find-living-thing,233,10,go greenhouse,67,False,A|rule=exploring adjacent rooms and using objects in | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,11,go to foundry,67,False,A|rule=the 'go' action might require specifying the  | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,12,go start,67,False,A|rule=the 'go' action requires specifying the door  | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,13,go start,67,False,A|rule=the 'go' action requires specifying a directi | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,14,go greenhouse,67,False,A|rule=the 'go' action requires specifying a directi | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,15,use orange on door to foundry,67,False,A|rule=the 'go' action might require a specific obje | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,16,go foundry,67,False,A|rule=the 'go' action might require a specific sequ | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,17,use orange on door to foundry,67,False,A|rule=the world mechanics might involve using objec | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,18,go ?,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,19,go foundry,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,20,go greenhouse,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,21,use orange on kitchen door,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,22,go kitchen door to?,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,23,go start,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,24,use orange on kitchen door to?,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,25,go kitchen door to?,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,26,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,27,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,28,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,29,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,30,open fridge door,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,31,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,32,use lighter on oven,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,33,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,233,34,look around,67,False,A|rule=the world mechanics might involve using speci | rooms=2 | EXPERIMENT
+2dc931c7,probe_a_sw,find-living-thing,234,0,focus on large cupboard,0,True,A|rule=The world seems to be made up of objects with | rooms=1

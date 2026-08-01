@@ -1,0 +1,18 @@
+{
+  "baseline_sw": {
+    "run_id": "90f142ef",
+    "variant": "baseline_sw",
+    "budget": 35,
+    "mean_score": 17.5,
+    "solve_rate": 0.0,
+    "episodes": 10,
+    "per_task": {
+      "find-living-thing": {
+        "mean_score": 17.5,
+        "solve_rate": 0.0,
+        "n": 10
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_baseline_sw_90f142ef_swc_baseline_sw_find-living-thing.csv"
+  }
+}

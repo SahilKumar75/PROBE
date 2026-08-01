@@ -1,0 +1,18 @@
+{
+  "aws_sw": {
+    "run_id": "5bde002c",
+    "variant": "aws_sw",
+    "budget": 35,
+    "mean_score": 0,
+    "solve_rate": 0.0,
+    "episodes": 9,
+    "per_task": {
+      "change-the-state-of-matter-of": {
+        "mean_score": 0,
+        "solve_rate": 0.0,
+        "n": 9
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_aws_sw_5bde002c_swc_aws_sw_change-the-state-of-matter-of.csv"
+  }
+}

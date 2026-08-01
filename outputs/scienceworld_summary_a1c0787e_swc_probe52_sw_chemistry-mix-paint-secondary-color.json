@@ -1,0 +1,18 @@
+{
+  "probe52_sw": {
+    "run_id": "a1c0787e",
+    "variant": "probe52_sw",
+    "budget": 35,
+    "mean_score": 23.333333333333332,
+    "solve_rate": 0.0,
+    "episodes": 9,
+    "per_task": {
+      "chemistry-mix-paint-secondary-color": {
+        "mean_score": 23.333333333333332,
+        "solve_rate": 0.0,
+        "n": 9
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_probe52_sw_a1c0787e_swc_probe52_sw_chemistry-mix-paint-secondary-color.csv"
+  }
+}

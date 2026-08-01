@@ -1,0 +1,18 @@
+{
+  "probe_a_sw": {
+    "run_id": "2dc931c7",
+    "variant": "probe_a_sw",
+    "budget": 35,
+    "mean_score": 14.3,
+    "solve_rate": 0.0,
+    "episodes": 10,
+    "per_task": {
+      "find-living-thing": {
+        "mean_score": 14.3,
+        "solve_rate": 0.0,
+        "n": 10
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_probe_a_sw_2dc931c7_swc_probe_a_sw_find-living-thing.csv"
+  }
+}

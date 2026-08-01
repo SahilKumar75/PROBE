@@ -1,0 +1,62 @@
+run_id,variant,task,variation,step,command,score,done,note
+c2ccfa28,allon_sw,find-living-thing,225,0,go hallway,17,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,225,1,look around,17,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,225,2,go greenhouse,17,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=2"
+c2ccfa28,allon_sw,find-living-thing,225,3,look around,17,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=2"
+c2ccfa28,allon_sw,find-living-thing,225,4,focus on banana tree,67,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=3"
+c2ccfa28,allon_sw,find-living-thing,225,5,pick up banana tree,75,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+c2ccfa28,allon_sw,find-living-thing,225,6,go living room,75,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+c2ccfa28,allon_sw,find-living-thing,225,7,go hallway,75,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+c2ccfa28,allon_sw,find-living-thing,225,8,go living room,83,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+c2ccfa28,allon_sw,find-living-thing,225,9,put banana tree in orange box,100,True,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+c2ccfa28,allon_sw,find-living-thing,226,0,focus on blast furnace,0,True,ALLON|rule=the devices and materials in the room may hav | rooms=1
+c2ccfa28,allon_sw,find-living-thing,227,0,go kitchen,17,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,227,1,look around,17,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,227,2,focus on bowl,0,True,"ALLON|rule=doors can be used to move between rooms, obje | rooms=2"
+c2ccfa28,allon_sw,find-living-thing,228,0,focus on bowl,0,True,ALLON|rule=objects in the room may have hidden propertie | rooms=1
+c2ccfa28,allon_sw,find-living-thing,229,0,focus on bee hive,0,True,ALLON|rule=the world seems to have objects with properti | rooms=1
+c2ccfa28,allon_sw,find-living-thing,230,0,focus on bowl,0,True,ALLON|rule=objects in the room may have specific functio | rooms=1
+c2ccfa28,allon_sw,find-living-thing,231,0,go hallway,17,False,"ALLON|rule=the doors can be used to move between rooms,  | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,231,1,go workshop,17,False,"ALLON|rule=the doors can be used to move between rooms,  | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,231,2,go hallway,17,False,"ALLON|rule=the doors can be used to move between rooms,  | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,231,3,look around,17,False,"ALLON|rule=the doors can be used to move between rooms,  | rooms=1"
+c2ccfa28,allon_sw,find-living-thing,231,4,go greenhouse,17,False,"ALLON|rule=the doors can be used to move between rooms,  | rooms=2"
+c2ccfa28,allon_sw,find-living-thing,231,5,look around,17,False,"ALLON|rule=the doors can be used to move between rooms,  | rooms=2"
+c2ccfa28,allon_sw,find-living-thing,231,6,focus on bee hive,0,True,ALLON|rule=the presence of plants and a bee hive in the  | rooms=3
+c2ccfa28,allon_sw,find-living-thing,232,0,focus on chair,0,True,ALLON|rule=the world seems to be composed of objects and | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,0,focus on baby wolf,58,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,1,go kitchen,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,2,go foundry,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,3,go greenhouse,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,4,go greenhouse,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,5,go to greenhouse,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,6,go to Greenhouse,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,7,go to foundry,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1
+c2ccfa28,allon_sw,find-living-thing,233,8,go to foundry,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,9,go to Foundry,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,10,open Greenhouse,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,11,go foundry,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,12,go greenhouse,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,13,go kitchen,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,14,go foundry,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,15,look around,67,False,ALLON|rule=the world seems to contain various objects an | rooms=1 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,16,open cupboard,67,False,ALLON|rule=the world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,17,look around,67,False,ALLON|rule=the world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,18,open fridge,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,19,look around,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,20,look around,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,21,go to foundry door,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,22,go foundry door,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,23,look around,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,24,look around,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,25,look around,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,26,look around,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,27,open door to foundry,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,28,open door to foundry,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,29,go start,67,False,ALLON|rule=The world seems to contain various objects an | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,30,go start,67,False,ALLON|rule=I hypothesize that the 'go' command can be us | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,31,"{""belief"": ""I am in the kitchen and my next step is to explore the unvisited roo",67,False,ALLON|rule=I hypothesize that the 'go' command can be us | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,32,go to start,67,False,ALLON|rule=I hypothesize that the 'go' command can be us | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,33,go to greenhouse,67,False,ALLON|rule=I hypothesize that the 'go' command can be us | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,233,34,go to the door leading to greenhouse,67,False,ALLON|rule=I hypothesize that the 'go' command can be us | rooms=2 | EXPERIMENT
+c2ccfa28,allon_sw,find-living-thing,234,0,focus on orange,0,True,ALLON|rule=the world seems to be made up of objects with | rooms=1

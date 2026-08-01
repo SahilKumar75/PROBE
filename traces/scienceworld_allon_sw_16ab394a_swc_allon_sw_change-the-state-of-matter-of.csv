@@ -1,0 +1,192 @@
+run_id,variant,task,variation,step,command,score,done,note
+16ab394a,allon_sw,change-the-state-of-matter-of,21,0,go kitchen,0,False,ALLON|rule=The environment is composed of various rooms  | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,21,1,look around,0,False,ALLON|rule=The environment is composed of various rooms  | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,21,2,open cupboard,0,False,ALLON|rule=The environment is composed of various rooms  | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,21,3,look around,0,False,ALLON|rule=The environment is composed of various rooms  | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,21,4,focus on metal pot,0,True,ALLON|rule=The environment is composed of various rooms  | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,22,0,go hallway,0,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,22,1,look around,0,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,22,2,go workshop,3,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,22,3,look around,3,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,22,4,focus on tin,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,5,go kitchen,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,6,go kitchen,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,7,go hallway,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,8,open door to kitchen,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,9,go to kitchen,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,10,wait1,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,22,11,go art studio,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,12,go greenhouse,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,13,go bedroom,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,14,go art studio,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,15,go art studio,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,16,go greenhouse,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,17,go kitchen,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,18,go bedroom,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,19,go hallway,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,20,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,21,go workshop,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,22,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,23,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,24,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,25,focus on tin,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,26,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,27,go living room,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,28,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,29,open ultra low temperature freezer,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,30,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,31,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,32,use battery on switch,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,33,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,22,34,look around,69,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,0,go kitchen,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,23,1,look around,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,23,2,open cupboard,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,23,3,focus on tin,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,23,4,open freezer,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,23,5,go bathroom,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,6,go kitchen,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,7,go ?,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,8,go ?,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,9,go ?,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,10,open door,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,11,open door between kitchen and hallway,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,12,go bathroom,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,13,go kitchen,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,14,go hallway,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,15,go kitchen ->?,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,16,go hallway,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,17,look around,0,False,ALLON|rule=the world seems to be composed of objects tha | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,18,go workshop,3,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,19,wait1,3,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,20,go workshop,3,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,21,focus on tin,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,22,go art studio,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,23,go art studio,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,24,go living room,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,25,go living room,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,26,go bedroom,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,27,go bedroom,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,23,28,go workshop,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,29,go greenhouse,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,30,look around,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,31,use battery on jug,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,32,go art studio,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,33,go living room,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,23,34,go greenhouse,69,False,ALLON|rule=the world seems to be composed of objects tha | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,24,0,go kitchen,0,False,ALLON|rule=the devices and materials in this environment | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,24,1,look around,0,False,ALLON|rule=the devices and materials in this environment | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,24,2,focus on glass jar,0,True,ALLON|rule=the devices and materials in this environment | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,0,go outside,0,False,ALLON|rule=The world seems to respond to basic actions l | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,25,1,go greenhouse,0,False,"ALLON|rule=The world responds to basic actions, and move | rooms=1"
+16ab394a,allon_sw,change-the-state-of-matter-of,25,2,look around,0,False,"ALLON|rule=The world responds to basic actions, and move | rooms=1"
+16ab394a,allon_sw,change-the-state-of-matter-of,25,3,go hallway,0,False,"ALLON|rule=The world responds to basic actions, and move | rooms=1"
+16ab394a,allon_sw,change-the-state-of-matter-of,25,4,go hallway,0,False,"ALLON|rule=The world responds to basic actions, and move | rooms=1"
+16ab394a,allon_sw,change-the-state-of-matter-of,25,5,go outside,0,False,ALLON|rule=The world may have dynamic objects or events  | rooms=1 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,6,go hallway,0,False,ALLON|rule=The world may have interactive elements that  | rooms=1 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,7,go outside,0,False,ALLON|rule=The world may have interactive elements that  | rooms=1 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,8,use orange on door to outside,0,False,ALLON|rule=The world may require specific objects or act | rooms=1 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,9,look around,0,False,ALLON|rule=The world may require specific objects or act | rooms=1 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,10,go workshop,3,False,ALLON|rule=The world may require specific objects or act | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,11,focus on mercury,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,12,go workshop,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,13,wait1,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,14,go kitchen,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,15,go to kitchen,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,16,go to the kitchen,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,17,go kitchen,69,False,ALLON|rule=The world may require specific objects or act | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,25,18,go to art studio,69,False,ALLON|rule=The world may require specific actions or obj | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,19,open door to art studio,69,False,ALLON|rule=The world may require using the 'open door' c | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,20,go living room,69,False,ALLON|rule=The world may require using the 'open door' c | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,21,go to bedroom,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,22,open door to living room,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,23,focus on orange,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,24,open door to art studio,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,25,open door to bedroom,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,26,go kitchen,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,27,go to living room,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,28,go art studio,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,29,go to living room,69,False,ALLON|rule=The world may require using specific commands | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,30,open door to bedroom,69,False,ALLON|rule=I hypothesize that using 'go' followed by a r | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,31,go to kitchen,69,False,ALLON|rule=I hypothesize that using 'go' followed by a r | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,32,go art studio,69,False,ALLON|rule=I hypothesize that using 'go' followed by a r | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,33,go workshop,69,False,ALLON|rule=I hypothesize that using 'go' followed by a l | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,25,34,go to workshop,69,False,ALLON|rule=I hypothesize that using 'go' followed by a l | rooms=2 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,26,0,look around,0,False,ALLON|rule=The blast furnace might be used to melt or ch | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,26,1,go outside,0,False,ALLON|rule=The blast furnace could be crucial for changi | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,26,2,look around,0,False,ALLON|rule=The environment might have hidden objects or  | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,26,3,go foundry,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,4,focus on gallium,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,5,go greenhouse,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,6,go kitchen,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,7,go kitchen,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,8,go kitchen,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,9,look around,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,10,go greenhouse,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,11,go outside,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,12,go greenhouse,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,13,look around,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=1 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,14,go hallway,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=2 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,15,go foundry,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=2 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,16,go hallway,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=2 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,17,look around,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=2 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,18,go art studio,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,19,go workshop,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,20,go workshop,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,21,go art studio,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,22,go living room,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,23,open living room,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,24,open living room door,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,25,open living room door,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,26,open bedroom door,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,27,go living room,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,28,look around,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=3 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,29,go hallway,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=4 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,30,look around,0,False,"ALLON|rule=The environment is divided into locations, ea | rooms=4 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,31,go workshop,3,False,"ALLON|rule=The environment is divided into locations, ea | rooms=4 | EXPERIMENT"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,32,wait1,3,False,"ALLON|rule=The environment is divided into locations, ea | rooms=4"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,33,look around,3,False,"ALLON|rule=The environment is divided into locations, ea | rooms=4"
+16ab394a,allon_sw,change-the-state-of-matter-of,26,34,focus on jug,0,True,"ALLON|rule=The environment is divided into locations, ea | rooms=5"
+16ab394a,allon_sw,change-the-state-of-matter-of,27,0,go hallway,0,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,27,1,go art studio,0,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,27,2,go hallway,0,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,27,3,look around,0,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,27,4,go workshop,3,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,27,5,look around,3,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,27,6,focus on gallium,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,7,wait1,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,8,wait1,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,9,"{""belief"": ""I am in the workshop and have focused on the gallium, my next step i",69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,10,read agen,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,11,read agen,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,12,use orange on gallium,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3
+16ab394a,allon_sw,change-the-state-of-matter-of,27,13,go kitchen,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,14,go greenhouse,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,15,go hallway,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,16,go greenhouse,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,17,go kitchen,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,18,go living room,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,19,go bedroom,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,20,go living room,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,21,go bedroom,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,22,go kitchen,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,23,go greenhouse,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,24,go bedroom,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,25,open door to hallway,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,26,look around,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,27,look around,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,28,look around,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,29,look around,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,30,look around,69,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,31,look around,69,False,ALLON|rule=The world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,32,go workshop,69,False,ALLON|rule=The world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,33,go outside,69,False,ALLON|rule=The world seems to be based on physical inter | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,27,34,go art studio,69,False,ALLON|rule=I hypothesize that gallium can be found in a  | rooms=4 | EXPERIMENT
+16ab394a,allon_sw,change-the-state-of-matter-of,28,0,go foundry,0,False,ALLON|rule=The environment has multiple rooms with diffe | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,28,1,look around,0,False,ALLON|rule=The environment has multiple rooms with diffe | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,28,2,focus on blast furnace,0,True,ALLON|rule=The environment has multiple rooms with diffe | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,29,0,go foundry,0,False,ALLON|rule=the doors can be used to move between locatio | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,29,1,look around,0,False,ALLON|rule=the doors can be used to move between locatio | rooms=1
+16ab394a,allon_sw,change-the-state-of-matter-of,29,2,open blast furnace door,0,False,ALLON|rule=the doors can be used to move between locatio | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,29,3,look around,0,False,ALLON|rule=the doors can be used to move between locatio | rooms=2
+16ab394a,allon_sw,change-the-state-of-matter-of,29,4,focus on blast furnace,0,True,ALLON|rule=the doors can be used to move between locatio | rooms=2

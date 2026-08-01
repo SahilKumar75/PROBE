@@ -1,0 +1,83 @@
+run_id,variant,task,variation,step,command,score,done,note
+90f142ef,baseline_sw,find-living-thing,225,0,go hallway,17,False,baseline
+90f142ef,baseline_sw,find-living-thing,225,1,look around,17,False,baseline
+90f142ef,baseline_sw,find-living-thing,225,2,focus on picture,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,226,0,go outside,17,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,1,look around,17,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,2,focus on baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,3,pick up baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,4,go living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,5,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,6,go inside,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,7,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,8,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,9,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,10,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,11,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,12,go to kitchen,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,13,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,14,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,15,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,16,focus on the thing,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,17,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,18,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,19,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,20,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,21,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,22,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,23,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,24,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,25,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,26,pick up baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,27,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,28,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,29,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,30,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,31,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,32,go to living room,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,33,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,226,34,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,227,0,focus on toilet,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,228,0,focus on apple,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,229,0,focus on bee hive,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,230,0,focus on apple,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,231,0,focus on orange,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,232,0,focus on the white pillow,8,False,baseline
+90f142ef,baseline_sw,find-living-thing,232,1,look around,8,False,baseline
+90f142ef,baseline_sw,find-living-thing,232,2,focus on the couch,0,True,baseline
+90f142ef,baseline_sw,find-living-thing,233,0,focus on baby wolf,58,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,1,pick up baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,2,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,3,go to bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,4,look around,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,5,go to bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,6,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,7,focus on baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,8,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,9,look around,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,10,focus on turtle egg,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,11,look around,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,12,focus on baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,13,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,14,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,15,focus on baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,16,pick up baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,17,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,18,look around,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,19,focus on turtle egg,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,20,pick up turtle egg,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,21,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,22,look around,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,23,focus on baby wolf,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,24,go bedroom,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,25,look around,67,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,26,go kitchen,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,27,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,28,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,29,go bedroom,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,30,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,31,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,32,go bedroom,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,33,look around,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,233,34,focus on baby wolf,75,False,baseline
+90f142ef,baseline_sw,find-living-thing,234,0,focus on orange,0,True,baseline

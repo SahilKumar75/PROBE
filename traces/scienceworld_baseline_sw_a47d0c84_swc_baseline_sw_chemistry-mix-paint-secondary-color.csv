@@ -1,0 +1,229 @@
+run_id,variant,task,variation,step,command,score,done,note
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,0,open large cupboard,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,1,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,2,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,3,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,4,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,5,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,6,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,7,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,8,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,9,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,10,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,11,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,12,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,13,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,14,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,15,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,16,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,17,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,18,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,19,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,20,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,21,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,22,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,23,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,24,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,25,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,26,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,27,focus on the violet paint,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,28,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,29,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,30,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,31,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,32,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,33,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,27,34,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,0,focus on the violet paint,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,1,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,2,go foundry,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,3,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,4,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,5,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,6,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,7,go outside,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,8,focus on the violet paint,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,9,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,10,go to the greenhouse,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,11,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,12,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,28,13,focus on the bee hive,0,True,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,29,0,go foundry,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,29,1,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,29,2,focus on the blast furnace,0,True,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,0,open cupboard,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,1,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,2,open fridge,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,3,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,4,pick up glass jar,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,5,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,6,pick up orange,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,7,"pick up orange (in bowl, in counter, in kitchen)",0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,8,help,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,9,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,10,"pick up orange (in bowl, on counter, in kitchen)",0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,11,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,12,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,13,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,14,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,15,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,16,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,17,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,18,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,19,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,20,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,21,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,22,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,23,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,24,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,25,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,26,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,27,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,28,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,29,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,30,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,31,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,32,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,33,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,30,34,pick up orange from bowl on counter,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,0,go art studio,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,1,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,2,open large cupboard,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,3,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,4,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,5,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,6,pick up wood cup (containing red paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,7,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,8,pick up wood cup (containing blue paint) from table,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,9,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,10,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,11,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,12,focus on violet paint,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,13,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,14,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,15,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,16,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,17,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,18,pick up wood cup (containing red paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,19,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,20,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,21,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,22,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,23,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,24,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,25,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,26,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,27,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,28,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,29,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,30,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,31,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,32,pick up wood cup (containing red paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,33,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,31,34,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,0,open large cupboard,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,1,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,2,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,3,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,4,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,5,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,6,pick up tin cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,7,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,8,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,9,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,10,pick up tin cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,11,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,12,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,13,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,14,focus on violet paint,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,15,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,16,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,17,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,18,pick up tin cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,19,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,20,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,21,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,22,pick up tin cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,23,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,24,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,25,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,26,pick up tin cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,27,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,28,pick up tin cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,29,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,30,pick up tin cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,31,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,32,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,33,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,32,34,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,0,open closet,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,1,look around,0,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,2,go hallway,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,3,look around,10,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,4,go art studio,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,5,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,6,open large cupboard,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,7,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,8,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,9,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,10,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,11,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,12,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,13,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,14,pick up wood cup (containing red paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,15,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,16,pick up wood cup (containing red paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,17,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,18,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,19,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,20,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,21,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,22,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,23,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,24,pick up wood cup (containing red paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,25,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,26,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,27,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,28,focus on violet paint,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,29,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,30,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,31,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,32,pick up wood cup (containing blue paint),30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,33,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,33,34,look around,30,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,34,0,focus on the painting,0,True,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,0,open large cupboard,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,1,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,2,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,3,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,4,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,5,focus on the violet paint,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,6,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,7,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,8,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,9,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,10,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,11,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,12,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,13,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,14,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,15,focus on violet paint,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,16,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,17,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,18,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,19,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,20,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,21,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,22,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,23,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,24,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,25,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,26,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,27,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,28,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,29,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,30,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,31,pick up wood cup (containing red paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,32,look around,20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,33,pick up wood cup (containing blue paint),20,False,baseline
+a47d0c84,baseline_sw,chemistry-mix-paint-secondary-color,35,34,look around,20,False,baseline

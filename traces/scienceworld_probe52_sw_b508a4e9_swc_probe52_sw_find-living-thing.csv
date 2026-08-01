@@ -1,0 +1,87 @@
+run_id,variant,task,variation,step,command,score,done,note
+b508a4e9,probe52_sw,find-living-thing,225,0,focus on the agent,0,True,rule=The world seems to be made up of various obje | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,0,go outside,17,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,1,look around,17,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,2,focus on baby wolf,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,3,go kitchen,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,4,go foundry,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,5,go kitchen,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,6,go greenhouse,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,7,go greenhouse,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,8,go outside,67,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,9,go living room,67,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,10,go outside,67,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,11,look around,67,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,12,pick up baby wolf,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,13,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,14,go foundry,75,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,15,focus on baby wolf,75,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,16,go kitchen,75,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,17,go greenhouse,75,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,18,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,226,19,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,20,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,21,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,22,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,23,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,24,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,25,look around,75,False,rule=The world seems to be composed of objects wit | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,26,look around,75,False,rule=I hypothesize that some doors or paths might  | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,27,use orange on blast furnace,75,False,rule=I hypothesize that using objects in my invent | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,28,look around,75,False,rule=I hypothesize that moving to unexplored rooms | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,29,look around,75,False,rule=I hypothesize that the baby wolf has a specia | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,30,use baby wolf on blast furnace,75,False,rule=I hypothesize that the baby wolf has a specia | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,31,use baby wolf on door to kitchen,75,False,rule=I hypothesize that the baby wolf can be used  | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,226,32,look around,75,False,"rule=I hypothesize that certain objects, such as t | rooms=1 | EXPERIMENT"
+b508a4e9,probe52_sw,find-living-thing,226,33,go living room,75,False,"rule=I hypothesize that certain objects, such as t | rooms=1 | EXPERIMENT"
+b508a4e9,probe52_sw,find-living-thing,226,34,look around,75,False,rule=I hypothesize that certain rooms might be acc | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,227,0,go kitchen,17,False,"rule=doors can be used to move between rooms, and  | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,227,1,look around,17,False,"rule=doors can be used to move between rooms, and  | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,227,2,focus on bowl,0,True,"rule=doors can be used to move between rooms, obje | rooms=2"
+b508a4e9,probe52_sw,find-living-thing,228,0,focus on bowl,0,True,rule=objects in containers can be accessed by open | rooms=1
+b508a4e9,probe52_sw,find-living-thing,229,0,focus on bee hive,0,True,"rule=doors can be opened and closed, objects can b | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,230,0,focus on bowl,0,True,"rule=objects can be contained within others, and d | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,231,0,go hallway,17,False,rule=the devices and materials in the workshop may | rooms=1
+b508a4e9,probe52_sw,find-living-thing,231,1,go workshop,17,False,rule=the doors in the hallway may lead to differen | rooms=1
+b508a4e9,probe52_sw,find-living-thing,231,2,go hallway,17,False,rule=the doors in the hallway may lead to differen | rooms=1
+b508a4e9,probe52_sw,find-living-thing,231,3,go hallway,17,False,rule=the doors in the hallway may lead to differen | rooms=1
+b508a4e9,probe52_sw,find-living-thing,231,4,focus on orange,0,True,rule=the objects in my inventory may have uses or  | rooms=1
+b508a4e9,probe52_sw,find-living-thing,232,0,focus on chair,0,True,rule=the world seems to be composed of objects and | rooms=1
+b508a4e9,probe52_sw,find-living-thing,233,0,focus on baby wolf,58,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,1,go kitchen,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,2,go foundry,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,3,go greenhouse,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,4,go greenhouse,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,5,go to foundry,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,6,go to foundry,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,7,go foundry,67,False,"rule=The world seems to be composed of objects, su | rooms=1"
+b508a4e9,probe52_sw,find-living-thing,233,8,go to the greenhouse,67,False,"rule=The world seems to be composed of objects, su | rooms=1 | EXPERIMENT"
+b508a4e9,probe52_sw,find-living-thing,233,9,open foundry,67,False,"rule=The world seems to be composed of objects, su | rooms=1 | EXPERIMENT"
+b508a4e9,probe52_sw,find-living-thing,233,10,open kitchen,67,False,rule=Doors might need to be opened before navigati | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,11,go foundry door,67,False,rule=Doors might have specific names or keywords t | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,12,go greenhouse,67,False,rule=Doors can be navigated through by using the ' | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,13,look around,67,False,rule=The world works by navigating through doors w | rooms=1 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,14,go hallway,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,15,go bathroom,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,16,go bathroom,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,17,go outside,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,18,go to hallway,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,19,go kitchen to hallway,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,20,open door to hallway,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,21,go hallway,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,22,go outside,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,23,open door to hallway,67,False,rule=The world works by navigating through doors w | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,24,look around,67,False,rule=The world works by navigating through doors a | rooms=2 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,25,look around,67,False,rule=The world works by navigating through doors a | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,26,go living room,67,False,rule=The world works by navigating through doors a | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,27,go art studio,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,28,go bedroom,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,29,go art studio,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,30,go to living room,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,31,go to bathroom,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,32,go to kitchen,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,33,open kitchen,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,233,34,go kitchen,67,False,rule=I hypothesize that the world works by navigat | rooms=3 | EXPERIMENT
+b508a4e9,probe52_sw,find-living-thing,234,0,open large cupboard,8,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,234,1,look around,8,False,rule=The world seems to be composed of objects wit | rooms=1
+b508a4e9,probe52_sw,find-living-thing,234,2,focus on orange,0,True,rule=The world seems to be composed of objects wit | rooms=1

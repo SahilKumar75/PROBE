@@ -1,0 +1,18 @@
+{
+  "aws_sw": {
+    "run_id": "3caf71b2",
+    "variant": "aws_sw",
+    "budget": 35,
+    "mean_score": 20.875,
+    "solve_rate": 0.0,
+    "episodes": 8,
+    "per_task": {
+      "chemistry-mix": {
+        "mean_score": 20.875,
+        "solve_rate": 0.0,
+        "n": 8
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_aws_sw_3caf71b2_swc_aws_sw_chemistry-mix.csv"
+  }
+}

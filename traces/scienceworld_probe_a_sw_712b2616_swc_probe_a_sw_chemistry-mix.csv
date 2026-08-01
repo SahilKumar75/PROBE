@@ -1,0 +1,263 @@
+run_id,variant,task,variation,step,command,score,done,note
+712b2616,probe_a_sw,chemistry-mix,24,0,go kitchen,25,False,A|rule=doors can be used to move between rooms and m | rooms=1
+712b2616,probe_a_sw,chemistry-mix,24,1,look around,25,False,A|rule=doors can be used to move between rooms and m | rooms=1
+712b2616,probe_a_sw,chemistry-mix,24,2,read instructions to make sugar water,33,False,A|rule=doors can be used to move between rooms and m | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,3,look around,33,False,A|rule=kitchens often have ingredients for food and  | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,4,open cupboard,33,False,A|rule=kitchens often have ingredients for food and  | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,5,look in cupboard,33,False,A|rule=Kitchens often have ingredients for food and  | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,6,open drawer,33,False,A|rule=kitchens often have ingredients for food and  | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,7,0,33,False,A|rule=kitchens often have ingredients for food and  | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,8,look in drawer,33,False,A|rule=kitchens often have ingredients for food and  | rooms=2
+712b2616,probe_a_sw,chemistry-mix,24,9,go?,33,False,A|rule=the world may have hidden rooms or secret com | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,10,go ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,11,go ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,12,go kitchen door to ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,13,go kitchen door to ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,14,"{""belief"": ""I am in the kitchen and need to find sugar and water to make sugar w",33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,15,go kitchen door to?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,16,open door to?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,17,use orange on door to ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,18,open door to?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,19,go bathroom,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,20,go kitchen,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,21,read instructions to make sugar water,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,22,go bathroom,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,23,go kitchen door to ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,24,open door to ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,25,go LOC,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,26,go LOC,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,27,open door to ?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,28,look around,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,29,go kitchen,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,30,go?,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,31,use orange on kitchen door,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,32,look around,33,False,A|rule=the world may have hidden ingredients or reci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,33,open drawer,33,False,A|rule=I hypothesize that interacting with container | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,24,34,0,33,False,A|rule=I hypothesize that specific interactions with | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,0,go hallway,7,False,"A|rule=doors can be used to move between locations,  | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,25,1,look around,7,False,"A|rule=doors can be used to move between locations,  | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,25,2,go kitchen,29,False,"A|rule=doors can be used to move between locations,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,25,3,look around,29,False,"A|rule=doors can be used to move between locations,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,25,4,open cupboard,29,False,A|rule=updated theory of the mechanics: doors can be | rooms=3
+712b2616,probe_a_sw,chemistry-mix,25,5,read cupboard,29,False,"A|rule=doors can be used to move between locations,  | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,25,6,use orange on cupboard,29,False,"A|rule=doors can be used to move between locations,  | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,25,7,"use orange (in inventory, in agent, in kitchen) on cupboard (in kitchen)",29,False,A|rule=kitchens often have recipes and ingredients f | rooms=3
+712b2616,probe_a_sw,chemistry-mix,25,8,pick up OBJ in cupboard,29,False,A|rule=kitchens often have recipes and ingredients f | rooms=3
+712b2616,probe_a_sw,chemistry-mix,25,9,go hallway,29,False,A|rule=kitchens may not always have the necessary in | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,10,go living room,29,False,A|rule=the world may require specific actions in spe | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,11,go kitchen,29,False,A|rule=the world may require interacting with specif | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,12,open door to art studio,29,False,A|rule=the world may require navigating through door | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,13,open door to living room,29,False,A|rule=the world may require interacting with object | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,14,open door to bedroom,29,False,A|rule=the world may require specific interactions w | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,15,open door to art studio,29,False,A|rule=the world may require explicit interactions w | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,16,go ?,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,17,go living room,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,18,go hallway,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,19,go art studio,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,20,go bedroom,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,21,go art studio,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,22,go?,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,23,go ?,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,24,go living room,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,25,open door to living room,29,False,A|rule=the world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,26,go art studio,29,False,A|rule=The world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,27,go bedroom,29,False,A|rule=The world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,28,go workshop,29,False,A|rule=The world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,29,look around,29,False,A|rule=The world requires explicit interactions with | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,30,look around,29,False,A|rule=The world requires explicit interactions with | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,31,look around,29,False,A|rule=The world requires explicit interactions with | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,32,look around,29,False,A|rule=The world requires explicit interactions with | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,33,open large cupboard,29,False,A|rule=The world requires explicit interactions with | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,25,34,go kitchen,29,False,A|rule=The world requires explicit interactions with | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,0,go outside,17,False,A|rule=The blast furnace and sink are devices that c | rooms=1
+712b2616,probe_a_sw,chemistry-mix,26,1,go kitchen,25,False,A|rule=The outside area may contain additional objec | rooms=1
+712b2616,probe_a_sw,chemistry-mix,26,2,look around,25,False,A|rule=The kitchen is likely to have relevant ingred | rooms=1
+712b2616,probe_a_sw,chemistry-mix,26,3,read instructions to make rust,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,4,look around,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,5,open sink,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,6,wait1,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,7,go outside,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,8,go kitchen,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,9,read instructions to make rust,33,False,A|rule=The kitchen is likely to have relevant ingred | rooms=2
+712b2616,probe_a_sw,chemistry-mix,26,10,go LOC,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,11,go?,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,12,go?,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,13,go foundry,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,14,go ?,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,15,go LOC,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,16,open door,33,False,A|rule=The world works in a way that mixing substanc | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,17,open door between kitchen and hallway,33,False,A|rule=The world works in a way that using specific  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,18,go hallway,33,False,A|rule=The world works in a way that using specific  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,19,go kitchen,33,False,A|rule=The world works in a way that using specific  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,20,go foundry,33,False,A|rule=The world works in a way that using specific  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,21,go hallway,33,False,A|rule=The world works in a way that using specific  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,22,look around,33,False,A|rule=The world works in a way that using specific  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,23,go living room,33,False,A|rule=The world works in a way that using specific  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,24,go art studio,33,False,A|rule=The world works in a way that using specific  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,25,go bedroom,33,False,A|rule=The world works in a way that using specific  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,26,go living room,33,False,A|rule=The world works in a way that using specific  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,27,go bedroom,33,False,A|rule=The world works in a way that using specific  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,28,look around,33,False,A|rule=The world works in a way that using specific  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,29,go workshop,33,False,A|rule=The world works in a way that using specific  | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,30,go hallway,33,False,A|rule=The world works in a way that using specific  | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,31,go workshop,33,False,A|rule=The world works in a way that using specific  | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,32,go art studio,33,False,A|rule=The world works in a way that using specific  | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,33,look around,33,False,A|rule=The world works in a way that using specific  | rooms=4 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,26,34,look around,33,False,A|rule=The world works in a way that using specific  | rooms=5 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,0,open large cupboard,8,False,"A|rule=cupboards can be opened to reveal contents, d | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,27,1,look around,8,False,"A|rule=cupboards can be opened to reveal contents, d | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,27,2,go hallway,17,False,"A|rule=cupboards can be opened to reveal contents, d | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,27,3,go kitchen,25,False,"A|rule=cupboards can be opened to reveal contents, d | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,27,4,look around,25,False,"A|rule=cupboards can be opened to reveal contents, d | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,27,5,read instructions to make red paper,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,6,go hallway,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,7,go kitchen,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,8,read instructions to make red paper,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,9,open large cupboard,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,10,go ?,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,11,go art studio,33,False,"A|rule=kitchens often have recipes and ingredients,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,27,12,go doorway to art studio,33,False,A|rule=kitchens and art studios often have relevant  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,13,go hallway,33,False,A|rule=the 'go' command requires a specific door or  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,14,go art studio,33,False,A|rule=the 'go' command requires a specific door or  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,15,go kitchen,33,False,A|rule=using objects in a specific way can lead to c | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,16,go?,33,False,A|rule=using objects in a specific way can lead to c | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,17,go ?,33,False,A|rule=using objects in a specific way can lead to c | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,18,go ?,33,False,A|rule=using objects in a specific way can lead to c | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,19,"{""belief"": ""I am in the kitchen and need to find a way to create 'red paper', my",33,False,A|rule=using objects in a specific way can lead to c | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,20,look around,33,False,A|rule=using objects in a specific way can lead to c | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,21,use wood cup (containing red paint) on glass cup,33,False,A|rule=using a liquid substance on a container can l | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,22,look around,33,False,A|rule=exploring new rooms can reveal hidden objects | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,23,look around,33,False,A|rule=exploring new rooms and using objects in diff | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,24,look around,33,False,A|rule=exploring new rooms and using objects in diff | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,25,look around,33,False,A|rule=exploring new rooms and using objects in diff | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,26,look around,33,False,A|rule=the key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,27,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,28,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,29,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,30,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,31,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,32,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,33,look around,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,27,34,pour red paint into glass cup,33,False,A|rule=The key to creating 'red paper' might involve | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,0,go kitchen,8,False,"A|rule=doors can be used to move between locations,  | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,28,1,look around,8,False,"A|rule=doors can be used to move between locations,  | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,28,2,open cupboard,8,False,"A|rule=doors can be used to move between locations,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,28,3,look around,8,False,"A|rule=doors can be used to move between locations,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,28,4,open drawer,8,False,"A|rule=doors can be used to move between locations,  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,28,5,"0: open drawer (in counter, in kitchen)",8,False,A|rule=cupboards can contain useful items and recipe | rooms=2
+712b2616,probe_a_sw,chemistry-mix,28,6,open drawer in cupboard,8,False,A|rule=cupboards can contain useful items and recipe | rooms=2
+712b2616,probe_a_sw,chemistry-mix,28,7,go foundry,8,False,A|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,8,go greenhouse,8,False,A|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,9,open door to greenhouse,8,False,A|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,10,open door to?,8,False,A|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,11,open door to ?,8,False,A|rule=the 'go' action might require a specific door | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,12,open door to?,8,False,A|rule=the 'go' action might require a specific door | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,13,go ?,8,False,A|rule=the 'go' action can be used directly with the | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,14,go door to ?,8,False,A|rule=the 'go' action can be used with a specific d | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,15,go east,8,False,A|rule=the 'go' action can be used with a specific d | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,16,open door to east,8,False,"A|rule=the 'go' action may not work with directions, | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,28,17,go kitchen door,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,18,go right,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,19,go door to right,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,20,go ?,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,21,go foundry,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,22,go greenhouse,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,23,open door to ?,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,24,go to?,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,25,go to?,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,26,go to the room through the unknown door,8,False,A|rule=the 'go' action might work with more descript | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,27,go room through the door to the right,8,False,A|rule=the 'go' action might work with relative dire | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,28,go room to the left,8,False,A|rule=the 'go' action might work with relative dire | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,29,go start,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,30,go start,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,31,go ?,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,32,go foundry,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,33,go greenhouse,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,28,34,go?,8,False,A|rule=the 'go' action might work with specific loca | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,0,go kitchen,14,False,A|rule=doors can be used to move between locations a | rooms=1
+712b2616,probe_a_sw,chemistry-mix,29,1,look around,14,False,A|rule=doors can be used to move between locations a | rooms=1
+712b2616,probe_a_sw,chemistry-mix,29,2,open cupboard,14,False,A|rule=doors can be used to move between locations a | rooms=2
+712b2616,probe_a_sw,chemistry-mix,29,3,look around,14,False,A|rule=doors can be used to move between locations a | rooms=2
+712b2616,probe_a_sw,chemistry-mix,29,4,read bowl,14,False,A|rule=doors can be used to move between locations a | rooms=2
+712b2616,probe_a_sw,chemistry-mix,29,5,read cupboard,14,False,A|rule=doors can be used to move between locations a | rooms=2
+712b2616,probe_a_sw,chemistry-mix,29,6,pick up bowl,14,False,A|rule=doors can be used to move between locations a | rooms=2
+712b2616,probe_a_sw,chemistry-mix,29,7,go foundry,14,False,A|rule=doors can be used to move between locations a | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,8,"{""belief"": ""I am in the kitchen with a bowl and an orange in my inventory, my ne",14,False,A|rule=doors can be used to move between locations a | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,9,go door to foundry,14,False,A|rule=doors can be used to move between locations a | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,10,go foundry,14,False,"A|rule=doors can be used to move between locations,  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,11,go greenhouse,14,False,"A|rule=To move between locations, I need to specify  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,12,open door to greenhouse,14,False,"A|rule=To move between locations, I need to specify  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,13,read map,14,False,"A|rule=To move between locations, I need to specify  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,14,go kitchen,14,False,"A|rule=To move between locations, I need to specify  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,15,go ?,14,False,"A|rule=To move between locations, I need to specify  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,16,go?,14,False,"A|rule=To move between locations, I need to specify  | rooms=2 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,29,17,open door to ?,14,False,A|rule=The '?' on the map might not represent a vali | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,18,go?,14,False,A|rule=The world mechanics might require a more spec | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,19,go foundry,14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,20,go greenhouse,14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,21,open door to greenhouse,14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,22,go greenhouse,14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,23,go ?,14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,24,"{""belief"": ""I am in the kitchen with a bowl and an orange in my inventory, my ne",14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,25,open door to?,14,False,A|rule=The world mechanics might require navigating  | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,26,open door to ?,14,False,A|rule=the world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,27,look around,14,False,A|rule=the world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,28,open fridge,14,False,A|rule=the world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,29,look around,14,False,A|rule=the world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,30,go foundry from kitchen,14,False,A|rule=the world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,31,go door to foundry,14,False,A|rule=The world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,32,look around,14,False,A|rule=The world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,33,examine counter,14,False,A|rule=The world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,29,34,open drawer,14,False,A|rule=The world mechanics might require using speci | rooms=2 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,30,0,open cupboard,0,False,"A|rule=objects can be used, combined or activated to | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,30,1,look around,0,False,"A|rule=objects can be used, combined or activated to | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,30,2,read drawer,0,False,"A|rule=objects can be used, combined or activated to | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,30,3,"read drawer (in cupboard, in kitchen)",0,False,"A|rule=objects can be used, combined or activated to | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,30,4,look around,0,False,"A|rule=objects can be used, combined or activated to | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,30,5,"open drawer (in cupboard, in kitchen)",0,False,"A|rule=objects can be used, combined or activated to | rooms=1 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,30,6,go workshop,0,False,"A|rule=objects can be used, combined or activated to | rooms=1 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,30,7,go to workshop,0,False,"A|rule=the 'go' action requires a specific location, | rooms=1 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,30,8,go kitchen to workshop,0,False,A|rule=the 'go' action might require specifying both | rooms=1 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,30,9,open door,0,False,A|rule=the 'go' action might require opening a speci | rooms=1 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,30,10,open door between kitchen and hallway,0,False,A|rule=the 'open door' action requires specifying th | rooms=1 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,30,11,go hallway,8,False,A|rule=navigating between rooms may require using th | rooms=1 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,30,12,go workshop,17,False,A|rule=navigating between rooms requires using the ' | rooms=1
+712b2616,probe_a_sw,chemistry-mix,30,13,read OBJ,17,False,A|rule=navigating between rooms requires using the ' | rooms=1
+712b2616,probe_a_sw,chemistry-mix,30,14,read OBJ,17,False,A|rule=navigating between rooms requires using the ' | rooms=1
+712b2616,probe_a_sw,chemistry-mix,30,15,wait1,17,False,A|rule=navigating between rooms requires using the ' | rooms=1
+712b2616,probe_a_sw,chemistry-mix,30,16,focus on orange,0,True,A|rule=navigating between rooms requires using the ' | rooms=1
+712b2616,probe_a_sw,chemistry-mix,31,0,go workshop,17,False,"A|rule=doors can be used to move between rooms, and  | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,31,1,look around,17,False,"A|rule=doors can be used to move between rooms, room | rooms=1"
+712b2616,probe_a_sw,chemistry-mix,31,2,read instructions to make red paper,25,False,"A|rule=doors can be used to move between rooms, room | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,3,go art studio,25,False,"A|rule=doors can be used to move between rooms, room | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,4,go art studio,25,False,"A|rule=doors can be used to move between rooms, room | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,5,go art studio,25,False,"A|rule=doors can be used to move between rooms, room | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,6,go hallway,25,False,"A|rule=doors can be used to move between rooms, room | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,7,go art studio door,33,False,"A|rule=doors can be used to move between rooms, and  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,8,look around,33,False,"A|rule=doors can be used to move between rooms, and  | rooms=2"
+712b2616,probe_a_sw,chemistry-mix,31,9,open large cupboard,33,False,"A|rule=doors can be used to move between rooms, and  | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,31,10,look in large cupboard,33,False,"A|rule=doors can be used to move between rooms, cont | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,31,11,open drawer,33,False,"A|rule=doors can be used to move between rooms, cont | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,31,12,look in drawer,33,False,"A|rule=doors can be used to move between rooms, cont | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,31,13,go workshop,33,False,"A|rule=I can move between rooms using doors, and I c | rooms=3"
+712b2616,probe_a_sw,chemistry-mix,31,14,go hallway,33,False,"A|rule=I can move between rooms using doors, and I c | rooms=3 | EXPERIMENT"
+712b2616,probe_a_sw,chemistry-mix,31,15,go kitchen,33,False,A|rule=I can move between rooms using doors and I sh | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,16,go living room,33,False,A|rule=I can move between rooms using doors and I sh | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,17,open art studio door,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,18,go bedroom,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,19,go greenhouse,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,20,go bedroom,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,21,go living room,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,22,open hallway door,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,23,go kitchen,33,False,A|rule=I can move between rooms using specific door  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,24,go greenhouse door,33,False,A|rule=I can move between rooms by specifying the do | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,25,go to greenhouse,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,26,go to greenhouse,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,27,go bedroom door,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,28,go bedroom,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,29,open hallway,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,30,go kitchen,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,31,go hallway,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,32,go living room,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,33,go greenhouse,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+712b2616,probe_a_sw,chemistry-mix,31,34,look around,33,False,A|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT

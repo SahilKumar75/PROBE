@@ -1,0 +1,316 @@
+run_id,variant,task,variation,step,command,score,done,note
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,0,open large cupboard,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,1,look around,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,2,mix wood cup (containing red paint) and wood cup (containing blue paint),20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,3,look around,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,4,mix wood cup (containing red paint) and wood cup (containing blue paint) in glas,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,5,pick up ag,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,6,go hallway,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,7,go art studio,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,8,go hallway,30,False,ALLON|rule=The world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,9,mix wood cup,30,False,ALLON|rule=The world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,10,mix wood cup (containing red paint) and wood cup (containing blue paint),30,False,ALLON|rule=The world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,11,pour red paint into mix wood cup,30,False,ALLON|rule=The world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,12,pick up wood cup containing blue paint,30,False,ALLON|rule=The world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,13,go hallway,30,False,ALLON|rule=The world seems to be based on physical inter | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,14,go art studio,30,False,ALLON|rule=I hypothesize that the world requires specifi | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,15,look around,30,False,ALLON|rule=I hypothesize that the world requires specifi | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,16,look around,30,False,ALLON|rule=I hypothesize that combining specific paint c | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,17,look around,30,False,ALLON|rule=I hypothesize that combining specific paint c | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,18,look around,30,False,ALLON|rule=I hypothesize that combining specific paint c | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,19,look around,30,False,ALLON|rule=I hypothesize that combining red and blue pai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,20,look around,30,False,ALLON|rule=I hypothesize that combining red and blue pai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,21,look around,30,False,ALLON|rule=I hypothesize that the key to creating violet | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,22,look around,30,False,ALLON|rule=I hypothesize that mixing red and blue paint  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,23,look around,30,False,ALLON|rule=I hypothesize that there might be a specific  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,24,mix wood cup (containing blue paint) and wood cup (containing red paint),30,False,ALLON|rule=I hypothesize that mixing different paint col | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,25,look around,30,False,ALLON|rule=I hypothesize that the art studio is not the  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,26,mix wood cup (containing blue paint) and wood cup (containing red paint) in glas,30,False,ALLON|rule=I hypothesize that mixing different colors of | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,27,look around,30,False,ALLON|rule=I hypothesize that the necessary resources to | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,28,mix wood cup (containing red paint) and wood cup (containing blue paint) in glas,30,False,ALLON|rule=I hypothesize that mixing different colors of | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,29,look around,30,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,30,pour wood cup (containing red paint) into glass cup,30,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,31,look around,30,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,32,"pour wood cup (containing blue paint) into glass cup, then pour wood cup (contai",30,False,ALLON|rule=I hypothesize that mixing specific colors in  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,33,look around,30,False,ALLON|rule=I hypothesize that the key to creating violet | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,27,34,mix wood cup (containing blue paint) and wood cup (containing red paint) in glas,30,False,ALLON|rule=I hypothesize that mixing different colors of | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,0,go foundry,10,False,ALLON|rule=the doors to different rooms can be used to n | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,1,look around,10,False,ALLON|rule=the doors to different rooms can be used to n | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,2,open blast furnace door,10,False,ALLON|rule=the doors to different rooms can be used to n | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,3,activate blast furnace,10,False,ALLON|rule=the doors to different rooms can be used to n | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,4,use orange on blast furnace,10,False,ALLON|rule=the blast furnace can be used to create or mi | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,5,go kitchen,10,False,ALLON|rule=the blast furnace can be used to create or mi | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,6,go kitchen,10,False,ALLON|rule=the blast furnace can be used to create or mi | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,7,go to greenhouse,10,False,ALLON|rule=the blast furnace can be used to create or mi | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,8,go to outside,10,False,ALLON|rule=the 'go' command requires a specific location | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,9,go to greenhouse,10,False,ALLON|rule=the 'go' command requires a specific location | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,10,go to kitchen,10,False,ALLON|rule=the 'go' command requires a specific location | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,11,go to outside,10,False,ALLON|rule=the 'go' command requires a specific location | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,12,go to start,10,False,ALLON|rule=the world may require specific combinations o | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,13,go to start,10,False,ALLON|rule=the world may require specific combinations o | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,14,go to greenhouse,10,False,ALLON|rule=the world may require specific combinations o | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,15,go to kitchen,10,False,ALLON|rule=the world may require using objects in specif | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,16,go outside,10,False,ALLON|rule=the world may require using objects in specif | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,17,go to start,10,False,ALLON|rule=the world may require using specific objects  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,18,use orange on foundry,10,False,ALLON|rule=the foundry is likely used for chemical react | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,19,go to kitchen,10,False,ALLON|rule=the foundry may not be the only location for  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,20,look around,10,False,ALLON|rule=the world may have multiple locations for che | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,21,open cupboard,10,False,ALLON|rule=the world may have multiple locations for che | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,22,look around,10,False,ALLON|rule=I hypothesize that certain objects or equipme | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,23,pick up glass jar,10,False,ALLON|rule=I hypothesize that certain objects or equipme | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,24,look around,10,False,ALLON|rule=I hypothesize that certain objects or equipme | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,25,go to foundry,10,False,ALLON|rule=I hypothesize that certain objects or equipme | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,26,go greenhouse,10,False,ALLON|rule=I hypothesize that certain rooms may have spe | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,27,go greenhouse,10,False,ALLON|rule=I hypothesize that specific rooms may have eq | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,28,open kitchen,10,False,ALLON|rule=I hypothesize that doors in the map can be op | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,29,go start,10,False,ALLON|rule=I hypothesize that doors can be opened by mov | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,30,go start,10,False,ALLON|rule=I hypothesize that doors can be opened by mov | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,31,go start,10,False,ALLON|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,32,go kitchen,10,False,ALLON|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,33,go to start from kitchen,10,False,ALLON|rule=I hypothesize that the 'go' command requires  | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,28,34,go to foundry from start,10,False,ALLON|rule=The world works by requiring specific locatio | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,0,go foundry,10,False,ALLON|rule=The doors to different rooms can be used to n | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,1,look around,10,False,ALLON|rule=The foundry may contain equipment or substanc | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,2,open blast furnace door,10,False,"ALLON|rule=The foundry's equipment, such as the blast fu | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,3,activate blast furnace,10,False,"ALLON|rule=The foundry's equipment, such as the blast fu | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,4,look around,10,False,"ALLON|rule=The foundry's equipment, such as the blast fu | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,5,open blast furnace door,10,False,"ALLON|rule=The foundry's equipment, such as the blast fu | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,6,use orange on blast furnace,10,False,"ALLON|rule=The foundry's equipment, such as the blast fu | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,7,go kitchen,10,False,ALLON|rule=The foundry's equipment may not be suitable f | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,8,go greenhouse,10,False,ALLON|rule=The foundry's equipment may not be suitable f | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,9,go kitchen,10,False,ALLON|rule=The foundry's equipment may not be suitable f | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,10,go greenhouse,10,False,ALLON|rule=The foundry's equipment may not be suitable f | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,11,go outside,10,False,ALLON|rule=I hypothesize that different rooms may contai | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,12,go kitchen,10,False,ALLON|rule=I hypothesize that the kitchen may contain sp | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,13,go foundry,10,False,ALLON|rule=I hypothesize that the foundry may contain sp | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,14,go outside,10,False,ALLON|rule=I hypothesize that combining the orange with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,15,go greenhouse,10,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,16,look around,10,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,17,go hallway,10,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,18,look around,10,False,ALLON|rule=I hypothesize that combining specific resourc | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,19,go art studio,30,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=4 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,20,wait1,30,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=4
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,21,go art studio,30,False,ALLON|rule=I hypothesize that the creation of violet pai | rooms=4
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,22,go living room,30,False,ALLON|rule=I still believe that the art studio is crucia | rooms=4
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,23,go living room,30,False,ALLON|rule=I still believe that the art studio is crucia | rooms=4
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,24,go art studio,30,False,ALLON|rule=I believe that navigating through the house r | rooms=4
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,25,go workshop,30,False,ALLON|rule=I believe that navigating through the house r | rooms=4
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,26,look around,30,False,ALLON|rule=I believe that navigating through the house r | rooms=4 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,27,mix wood cup (containing blue paint) and wood cup (containing red paint),30,False,ALLON|rule=I believe that mixing different substances in | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,28,go hallway,30,False,ALLON|rule=I hypothesize that specific objects or tools  | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,29,go workshop,30,False,ALLON|rule=I hypothesize that specific objects or tools  | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,30,go hallway,30,False,ALLON|rule=I hypothesize that specific objects or tools  | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,31,look around,30,False,ALLON|rule=I hypothesize that specific objects or tools  | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,32,go bedroom,30,False,ALLON|rule=I hypothesize that specific objects or tools  | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,33,go living room,30,False,ALLON|rule=I hypothesize that specific objects or tools  | rooms=5 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,29,34,look around,30,False,"ALLON|rule=I hypothesize that specific rooms, such as th | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,0,open cupboard,0,False,ALLON|rule=the devices and materials in the kitchen may  | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,1,look around,0,False,ALLON|rule=the devices and materials in the kitchen may  | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,2,look in cupboard,0,False,ALLON|rule=the devices and materials in the kitchen may  | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,3,open drawer,0,False,ALLON|rule=the devices and materials in the kitchen may  | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,4,0,0,False,ALLON|rule=the devices and materials in the kitchen may  | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,5,go?,0,False,ALLON|rule=the kitchen may be connected to other rooms w | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,6,go kitchen door,0,False,ALLON|rule=the kitchen is connected to other rooms with  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,7,open door,0,False,ALLON|rule=the kitchen is connected to other rooms with  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,8,1,0,False,ALLON|rule=the kitchen is connected to other rooms with  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,9,go hallway,10,False,ALLON|rule=the kitchen is connected to other rooms with  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,10,look around,10,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,11,go art studio,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,12,wait1,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,13,go art studio,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,14,go workshop,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,15,go to workshop,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,16,go workshop,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,17,go hallway,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,18,go to art studio,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,19,go greenhouse,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,20,go to living room,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,21,go to bedroom,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,22,go to living room,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,23,go to bedroom,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,24,go to art studio,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,25,go to workshop,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,26,go greenhouse,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,27,go to greenhouse,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,28,go to greenhouse,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,29,open door to art studio,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,30,open door to living room,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,31,open door to bedroom,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,32,go workshop,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,33,look around,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,30,34,mix wood cup containing blue paint and wood cup containing red paint,30,False,ALLON|rule=the world is composed of multiple rooms with  | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,0,go workshop,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,1,look around,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,2,look at table,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,3,look at orange,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,4,look at green,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,5,look at green,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,6,look at battery,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,7,go art studio,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,8,go kitchen,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,9,go kitchen,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,10,go greenhouse,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,11,go art studio,10,False,ALLON|rule=the world seems to be composed of various roo | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,12,go greenhouse,10,False,ALLON|rule=the world may require specific actions or com | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,13,go living room,10,False,ALLON|rule=the world may require specific object interac | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,14,go living room,10,False,ALLON|rule=the world may require specific object interac | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,15,go bedroom,10,False,ALLON|rule=the world may require specific object interac | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,16,go bedroom,10,False,ALLON|rule=the world may require specific object interac | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,17,go hallway,10,False,ALLON|rule=the world may require specific object interac | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,18,go art studio,30,False,ALLON|rule=the world may require specific object interac | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,19,look around,30,False,ALLON|rule=the world may require specific object interac | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,20,open large cupboard,30,False,ALLON|rule=the world may require specific object interac | rooms=3
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,21,look at large cupboard,30,False,ALLON|rule=the world may require specific object interac | rooms=3
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,22,mix wood cup containing blue paint and wood cup containing red paint,30,False,ALLON|rule=the world may require specific object interac | rooms=3
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,23,go workshop,30,False,ALLON|rule=the world may require specific object interac | rooms=3
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,24,pick up orange,30,False,ALLON|rule=the world may require specific object interac | rooms=3
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,25,go hallway,30,False,ALLON|rule=The world may require specific action formats | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,26,go workshop,30,False,ALLON|rule=The world may require specific action formats | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,27,go kitchen,30,False,ALLON|rule=The world may require specific object interac | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,28,go living room,30,False,ALLON|rule=The world may require exploring all rooms and | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,29,go bedroom,30,False,ALLON|rule=The world may require interacting with specif | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,30,go greenhouse,30,False,ALLON|rule=The world may require interacting with specif | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,31,look around,30,False,ALLON|rule=The world may require interacting with specif | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,32,open ultra low temperature freezer,30,False,ALLON|rule=The world may require interacting with specif | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,33,look around,30,False,ALLON|rule=The world may require combining objects from  | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,31,34,look around,30,False,ALLON|rule=The world may require combining objects from  | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,0,mix tin cup (containing blue paint) and tin cup (containing red paint),20,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,1,look around,20,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,2,mix tin cup (containing blue paint) and tin cup (containing red paint) in bowl,20,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,3,look around,20,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,4,pour tin cup (containing blue paint) into bowl,20,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,5,go hallway,30,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,6,go art studio,30,False,"ALLON|rule=paints can be mixed to create new colors, I n | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,7,pour tin cup (containing blue paint) into bowl,30,False,"ALLON|rule=paints can be mixed to create new colors, mix | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,8,pick up tin cup,30,False,"ALLON|rule=paints can be mixed to create new colors, mix | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,9,0,30,False,"ALLON|rule=paints can be mixed to create new colors, mix | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,10,go hallway,30,False,"ALLON|rule=paints can be mixed to create new colors, mix | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,11,read orange,30,False,"ALLON|rule=paints can be mixed to create new colors, mix | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,12,use orange on tin cup,30,False,ALLON|rule=the system may require direct manipulation of | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,13,go hallway,30,False,ALLON|rule=the system may require direct manipulation of | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,14,use orange on floor,30,False,ALLON|rule=the system may require creative and indirect  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,15,use orange on tin cup,30,False,ALLON|rule=the system may require creative and indirect  | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,16,look around,30,False,ALLON|rule=the system may require interacting with the e | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,17,go art studio,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,18,go workshop,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,19,go greenhouse,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,20,go kitchen,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,21,open kitchen,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,22,go through kitchen door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,23,go through bedroom door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,24,go through living room door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,25,go through workshop door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,26,go through greenhouse door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,27,go bedroom,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,28,go workshop,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,29,go kitchen,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,30,go through bedroom door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,31,go living room,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,32,go through living room door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,33,go greenhouse,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,32,34,go through bedroom door,30,False,ALLON|rule=the system may require specific interactions  | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,0,go hallway,10,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,1,look around,10,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=1"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,2,go art studio,30,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,3,look around,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=2"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,4,open large cupboard,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,5,look in large cupboard,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,6,pick up wood cup (containing blue paint),30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,7,open drawer,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,8,look in drawer,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,9,go workshop,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,10,go workshop,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,11,go greenhouse,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,12,go kitchen,30,False,"ALLON|rule=doors can be used to move between rooms, obje | rooms=3 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,13,go hallway,30,False,ALLON|rule=doors can be used to move between rooms by sp | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,14,open door to greenhouse,30,False,ALLON|rule=doors can be used to move between rooms by sp | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,15,go kitchen,30,False,ALLON|rule=doors can be used to move between rooms by sp | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,16,go greenhouse,30,False,ALLON|rule=different rooms may have specialized supplies | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,17,go living room,30,False,ALLON|rule=different rooms may have specialized supplies | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,18,go living room,30,False,ALLON|rule=different rooms may have specialized supplies | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,19,go workshop,30,False,ALLON|rule=different rooms may have specialized supplies | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,20,look around,30,False,ALLON|rule=different rooms may have specialized supplies | rooms=3 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,21,open cupboard,30,False,ALLON|rule=different rooms and containers may have speci | rooms=4 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,22,go art studio,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=4 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,23,go greenhouse,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=4 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,24,go hallway,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=4 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,25,go living room,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=4 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,26,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=4 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,27,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,28,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,29,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,30,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,31,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,32,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,33,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,33,34,look around,30,False,"ALLON|rule=different rooms have specialized supplies, an | rooms=5 | EXPERIMENT"
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,0,go kitchen,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,1,look around,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,2,open cupboard,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,3,look around,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,4,pick up bowl,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,5,open cupboard,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,6,use bowl on cupboard,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,7,go bathroom,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,8,go kitchen,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,9,go ?,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,10,go?,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,11,go?,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,12,go bathroom,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,13,go kitchen,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,14,go ?,10,False,ALLON|rule=the world seems to be composed of objects wit | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,15,mix bowl,10,False,ALLON|rule=the world may require specific combinations o | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,16,go ?,10,False,ALLON|rule=the world may require exploration of new area | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,17,look around,10,False,ALLON|rule=the world may require manipulating objects or | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,18,look around,10,False,ALLON|rule=the world may require manipulating objects or | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,19,open fridge,10,False,ALLON|rule=the world may require manipulating objects or | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,20,look around,10,False,ALLON|rule=the world may require navigating to new rooms | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,21,open oven,10,False,ALLON|rule=the world may require navigating to new rooms | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,22,open door to ?,10,False,ALLON|rule=the world may require navigating to new rooms | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,23,go bathroom,10,False,ALLON|rule=the world may require navigating to new rooms | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,24,look around,10,False,ALLON|rule=the world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,25,look around,10,False,ALLON|rule=the world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,26,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,27,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,28,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,29,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,30,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,31,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,32,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,33,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,34,34,look around,10,False,ALLON|rule=The world may require using objects in combin | rooms=2 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,0,open large cupboard,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,1,look around,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,2,mix wood cup (containing red paint) and wood cup (containing blue paint),20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,3,look around,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,4,pour wood cup (containing red paint) into jug,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,5,pick up wood cup,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,6,go hallway,20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,7,pick up wood cup (containing red paint),20,False,ALLON|rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,8,go hallway,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,9,go art studio,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,10,read objects in art studio,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,11,pick up orange,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,12,pick up wood cup,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,13,"pick up wood cup (in large cupboard, in art studio)",30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,14,open large cupboard,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,15,go hallway,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,16,go art studio,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,17,look around,30,False,ALLON|rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,18,pour wood cup (containing red paint) into jug,30,False,ALLON|rule=I hypothesize that mixing liquids in a contai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,19,look around,30,False,ALLON|rule=I hypothesize that different rooms may contai | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,20,look around,30,False,ALLON|rule=I hypothesize that mixing different paint col | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,21,look around,30,False,ALLON|rule=I hypothesize that there might be specific in | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,22,look around,30,False,ALLON|rule=I hypothesize that mixing different paint col | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,23,look around,30,False,ALLON|rule=I hypothesize that mixing different paint col | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,24,look around,30,False,ALLON|rule=I hypothesize that mixing paint colors requir | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,25,look around,30,False,ALLON|rule=I hypothesize that mixing paint colors requir | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,26,look around,30,False,ALLON|rule=I hypothesize that mixing paint colors requir | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,27,look around,30,False,ALLON|rule=I hypothesize that mixing paint colors requir | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,28,look around,30,False,ALLON|rule=I hypothesize that mixing paint colors requir | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,29,pour wood cup (containing blue paint) into jug,30,False,ALLON|rule=I hypothesize that mixing paint colors requir | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,30,look around,30,False,ALLON|rule=I hypothesize that creating violet paint requ | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,31,mix jug,30,False,ALLON|rule=I hypothesize that creating violet paint requ | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,32,look around,30,False,ALLON|rule=I hypothesize that creating violet paint requ | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,33,pour wood cup (containing red paint) into jug; pour wood cup (containing blue pa,30,False,ALLON|rule=I hypothesize that creating violet paint requ | rooms=1 | EXPERIMENT
+4ec026ba,allon_sw,chemistry-mix-paint-secondary-color,35,34,look around,30,False,ALLON|rule=I hypothesize that the necessary materials fo | rooms=1 | EXPERIMENT

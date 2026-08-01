@@ -1,0 +1,281 @@
+run_id,variant,task,variation,step,command,score,done,note
+debcecff,allon_sw,chemistry-mix,24,0,go kitchen,25,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=1"
+debcecff,allon_sw,chemistry-mix,24,1,look around,25,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=1"
+debcecff,allon_sw,chemistry-mix,24,2,read recipe titled instructions to make sugar water,25,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,3,look around,25,False,"ALLON|rule=doors can be used to move between rooms, and  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,4,read recipe titled instructions to make sugar water,25,False,ALLON|rule=kitchens often have recipes and ingredients f | rooms=2
+debcecff,allon_sw,chemistry-mix,24,5,pick up recipe,25,False,ALLON|rule=kitchens often have recipes and ingredients f | rooms=2
+debcecff,allon_sw,chemistry-mix,24,6,read instructions to make sugar water,33,False,ALLON|rule=kitchens often have recipes and ingredients f | rooms=2
+debcecff,allon_sw,chemistry-mix,24,7,go kitchen,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,8,open door to?,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,9,open door to kitchen,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,10,go ?,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,11,go?,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,12,go ?,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,24,13,go bathroom,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,14,go kitchen,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,15,go ?,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,16,go bathroom,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,17,look around,33,False,"ALLON|rule=kitchens often have ingredients for cooking,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,18,look around,33,False,ALLON|rule=kitchens often have sinks that can provide wa | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,19,look around,33,False,ALLON|rule=kitchens often have sinks that can be activat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,20,look around,33,False,ALLON|rule=kitchens often have containers and ingredient | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,21,pick up glass cup,33,False,ALLON|rule=kitchens often have containers and ingredient | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,22,look around,33,False,ALLON|rule=kitchens often have containers and ingredient | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,23,look around,33,False,ALLON|rule=kitchens often have containers and ingredient | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,24,look around,33,False,ALLON|rule=kitchens often have containers and ingredient | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,25,look around,33,False,"ALLON|rule=kitchens often have functional water sources, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,26,look around,33,False,"ALLON|rule=kitchens often have functional water sources, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,27,look around,33,False,"ALLON|rule=kitchens often have functional water sources, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,28,look around,33,False,"ALLON|rule=kitchens often have functional water sources, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,24,29,look around,33,False,ALLON|rule=kitchens often have ingredients and tools for | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,30,look around,33,False,ALLON|rule=kitchens often have ingredients and tools for | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,31,look around,33,False,ALLON|rule=kitchens often have ingredients and tools for | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,32,look around,33,False,ALLON|rule=kitchens often have ingredients and tools for | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,33,look around,33,False,ALLON|rule=kitchens often have ingredients and tools for | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,24,34,look around,33,False,ALLON|rule=kitchens often have ingredients and tools for | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,0,go hallway,7,False,ALLON|rule=the doors can be used to move between locatio | rooms=1
+debcecff,allon_sw,chemistry-mix,25,1,go kitchen,29,False,ALLON|rule=the doors can be used to move between locatio | rooms=1
+debcecff,allon_sw,chemistry-mix,25,2,look around,29,False,ALLON|rule=the kitchen likely contains relevant ingredie | rooms=1
+debcecff,allon_sw,chemistry-mix,25,3,read instructions to make peanut butter with banana sandwich,36,False,ALLON|rule=the kitchen contains relevant ingredients and | rooms=2
+debcecff,allon_sw,chemistry-mix,25,4,look around,36,False,ALLON|rule=the kitchen contains relevant ingredients and | rooms=2
+debcecff,allon_sw,chemistry-mix,25,5,pick up peanut,36,False,ALLON|rule=the kitchen contains relevant ingredients and | rooms=2
+debcecff,allon_sw,chemistry-mix,25,6,go hallway,36,False,ALLON|rule=the kitchen contains relevant ingredients and | rooms=2
+debcecff,allon_sw,chemistry-mix,25,7,go kitchen,36,False,ALLON|rule=the kitchen is likely to contain the necessar | rooms=2
+debcecff,allon_sw,chemistry-mix,25,8,read instructions to make peanut butter with banana sandwich,36,False,ALLON|rule=the kitchen is likely to contain the necessar | rooms=2
+debcecff,allon_sw,chemistry-mix,25,9,go hallway,36,False,ALLON|rule=the kitchen is likely to contain the necessar | rooms=2
+debcecff,allon_sw,chemistry-mix,25,10,go greenhouse,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,11,go outside,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,12,go kitchen,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,13,go?,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,14,use peanut on ?,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,15,go?,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,16,open door,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,17,open door between kitchen and hallway,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,18,open door to hallway,36,False,ALLON|rule=the necessary ingredients and tools for creat | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,19,look around,36,False,ALLON|rule=the world works in a way that doors lead to n | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,20,open cupboard,36,False,ALLON|rule=the world works in a way that objects and ing | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,21,look around,36,False,ALLON|rule=the world works in a way that objects and ing | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,22,open door to hallway,36,False,ALLON|rule=the world works in a way that objects and ing | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,23,look around,36,False,ALLON|rule=The world works in a way that objects and ing | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,24,use lighter on peanut,36,False,ALLON|rule=The world works in a way that objects and ing | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,25,look around,36,False,ALLON|rule=The world works in a way that objects and ing | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,26,look around,36,False,ALLON|rule=I hypothesize that the world works in a way t | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,27,look around,36,False,ALLON|rule=I hypothesize that the world works in a way t | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,28,look around,36,False,ALLON|rule=I hypothesize that the world works in a way t | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,29,use glass jar on peanut,36,False,ALLON|rule=I hypothesize that certain objects or substan | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,30,go outside,36,False,ALLON|rule=I hypothesize that water or other liquids can | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,31,look around,36,False,ALLON|rule=I hypothesize that moving to a room with a wa | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,32,use fountain on peanut,36,False,"ALLON|rule=I hypothesize that using a liquid, such as wa | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,25,33,go foundry,36,False,ALLON|rule=I hypothesize that different locations have u | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,25,34,go greenhouse,36,False,ALLON|rule=I hypothesize that different locations have u | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,0,go outside,17,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,26,1,go foundry,17,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,26,2,go outside,17,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,26,3,look around,17,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,26,4,go kitchen,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,26,5,look around,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,26,6,read instructions to make rust,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,7,go foundry,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,8,read instructions to make rust,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,9,go greenhouse,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,10,go kitchen?,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,11,open door to greenhouse,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,12,open door to foundry,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2
+debcecff,allon_sw,chemistry-mix,26,13,open door to foundry,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,14,go outside,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,15,go greenhouse,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,16,go kitchen,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,17,go foundry,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,18,look around,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,19,go hallway,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,20,go kitchen,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,21,go hallway,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,22,look around,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,23,look around,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,24,go art studio,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,25,go bedroom,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,26,go living room,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,27,go living room,33,False,ALLON|rule=the world seems to be based on physical inter | rooms=4 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,28,look around,33,False,ALLON|rule=I hypothesize that specific objects or device | rooms=4 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,29,go hallway,33,False,ALLON|rule=I hypothesize that specific objects or device | rooms=5 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,30,look around,33,False,ALLON|rule=I hypothesize that specific objects or device | rooms=5 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,31,look around,33,False,ALLON|rule=I hypothesize that specific objects or device | rooms=5 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,32,look around,33,False,ALLON|rule=I hypothesize that specific objects or device | rooms=5 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,33,look around,33,False,ALLON|rule=I hypothesize that using objects in specific  | rooms=5 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,26,34,look around,33,False,ALLON|rule=I hypothesize that using objects in specific  | rooms=5 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,0,open large cupboard,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,1,look around,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,2,open drawer,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,3,read OBJ in drawer,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,4,look around,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,5,read drawer,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,6,pick up orange,8,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,7,go hallway,17,False,ALLON|rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,8,go kitchen,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,9,read drawer,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,10,go kitchen,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,11,go hallway,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,12,go kitchen,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,13,wait1,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,14,go hallway,25,False,ALLON|rule=the world seems to be based on physical inter | rooms=1
+debcecff,allon_sw,chemistry-mix,27,15,look around,25,False,ALLON|rule=The world seems to be based on physical inter | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,16,go art studio,25,False,ALLON|rule=The world seems to be based on physical inter | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,17,go greenhouse,25,False,ALLON|rule=The world may require specific combinations o | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,18,go bedroom,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,19,go bedroom,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,20,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,21,pour red paint into glass cup,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,22,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,23,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,24,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,25,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,26,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,27,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,28,pick up wood cup (containing red paint),25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,29,look around,25,False,ALLON|rule=The world may require specific objects to be  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,30,look around,25,False,ALLON|rule=I hypothesize that using objects related to c | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,31,look around,25,False,ALLON|rule=I hypothesize that combining the wood cups wi | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,32,look around,25,False,ALLON|rule=I hypothesize that the key to creating 'red p | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,33,look around,25,False,ALLON|rule=I hypothesize that the key to creating 'red p | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,27,34,look around,25,False,ALLON|rule=I hypothesize that the key to creating 'red p | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,0,go kitchen,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=1"
+debcecff,allon_sw,chemistry-mix,28,1,look around,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=1"
+debcecff,allon_sw,chemistry-mix,28,2,open cupboard,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,28,3,look around,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,28,4,open drawer,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,28,5,0,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,28,6,read OBJ in drawer,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=2"
+debcecff,allon_sw,chemistry-mix,28,7,go foundry,8,False,"ALLON|rule=doors can be used to move between locations,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,8,open door to foundry,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,9,go greenhouse,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,10,open door to greenhouse,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,11,go kitchen to greenhouse,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,12,go greenhouse,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,13,go greenhouse,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,14,look around,8,False,ALLON|rule=doors can be used to move between locations b | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,15,open fridge,8,False,ALLON|rule=doors and containers can be opened to access  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,16,go foundry,8,False,ALLON|rule=doors can be opened to access new locations a | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,17,go kitchen to foundry,8,False,"ALLON|rule=doors can be opened to access new locations,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,18,go foundry,8,False,"ALLON|rule=doors can be opened to access new locations,  | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,19,go kitchen to foundry,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,20,look around,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,21,look around,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,22,go foundry door,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,23,go foundry door,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,24,look around,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,25,look around,8,False,"ALLON|rule=doors can be specified to move between rooms, | rooms=2 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,28,26,open door to?,8,False,ALLON|rule=doors need to be opened before they can be us | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,27,open door to?,8,False,ALLON|rule=doors need to be opened before they can be us | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,28,look around,8,False,ALLON|rule=doors can be used to move between rooms witho | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,29,open door to greenhouse,8,False,ALLON|rule=doors need to be opened explicitly before usi | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,30,look around,8,False,ALLON|rule=doors can be used directly with the 'go' comm | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,31,open door to foundry,8,False,ALLON|rule=doors need to be opened explicitly before usi | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,32,look around,8,False,ALLON|rule=doors do not need to be opened explicitly bef | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,33,look around,8,False,ALLON|rule=doors need to be opened explicitly before usi | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,28,34,look around,8,False,ALLON|rule=doors can be opened by using the 'open' comma | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,0,go to the kitchen,14,False,ALLON|rule=unknown; I must discover how the devices and  | rooms=1
+debcecff,allon_sw,chemistry-mix,29,1,look around,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=1
+debcecff,allon_sw,chemistry-mix,29,2,open cupboard,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2
+debcecff,allon_sw,chemistry-mix,29,3,look around,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2
+debcecff,allon_sw,chemistry-mix,29,4,read drawer,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2
+debcecff,allon_sw,chemistry-mix,29,5,"read drawer (in counter, in kitchen)",14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2
+debcecff,allon_sw,chemistry-mix,29,6,read cupboard,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2
+debcecff,allon_sw,chemistry-mix,29,7,go foundry,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,8,go greenhouse,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,9,go greenhouse,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,10,go kitchen to foundry,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,11,go foundry,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,12,go greenhouse,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,13,go kitchen,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,14,open?,14,False,ALLON|rule=the environment can be explored by moving to  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,15,open door to foundry,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,16,open door to greenhouse,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,17,open door to greenhouse,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,18,open door to foundry,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,19,"{""belief"": ""I am in the kitchen and need to find a recipe and ingredients for a ",14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,20,open north door,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,21,look around,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,22,open fridge,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,23,pick up peanut butter and banana,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,24,look around,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,25,open drawer,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,26,0,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,27,go kitchen doors to [?],14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,28,look around,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,29,go foundry,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,30,look around,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,31,look around,14,False,ALLON|rule=the environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,32,go door to foundry,14,False,ALLON|rule=The environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,33,go door to greenhouse,14,False,ALLON|rule=The environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,29,34,look around,14,False,ALLON|rule=The environment can be explored by using the  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,0,open cupboard,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1"
+debcecff,allon_sw,chemistry-mix,30,1,look around,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1"
+debcecff,allon_sw,chemistry-mix,30,2,open drawer,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1"
+debcecff,allon_sw,chemistry-mix,30,3,1,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1"
+debcecff,allon_sw,chemistry-mix,30,4,look around,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1"
+debcecff,allon_sw,chemistry-mix,30,5,go [?],0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,30,6,go kitchen doors to [?],0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,30,7,go kitchen doors,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,30,8,go north,0,False,"ALLON|rule=doors can be opened to access new rooms, obje | rooms=1 | EXPERIMENT"
+debcecff,allon_sw,chemistry-mix,30,9,go kitchen doors to [?],0,False,ALLON|rule=I can navigate through the rooms by using the | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,10,go to?,0,False,ALLON|rule=I can navigate through the rooms by using the | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,11,go to ?,0,False,ALLON|rule=I can navigate through the rooms by using the | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,12,go room,0,False,ALLON|rule=I can navigate through the rooms by using the | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,13,1,8,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,14,go workshop,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,15,read OBJ,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,16,go workshop,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,17,open door,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,18,go hallway,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,19,wait1,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,20,go hallway,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1
+debcecff,allon_sw,chemistry-mix,30,21,go hallway,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,22,"{""belief"": ""I am in the kitchen and need to find a way to navigate to the worksh",17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,23,"{""belief"": ""I am in the kitchen and need to explore adjacent rooms to find a pat",17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,24,open door,17,False,ALLON|rule=I can navigate through the rooms by selecting | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,25,0,17,False,ALLON|rule=the world can be navigated by selecting speci | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,26,go 0,17,False,ALLON|rule=the world can be navigated by specifying the  | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,27,go 1,17,False,ALLON|rule=the world can be navigated by specifying the  | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,28,go door to [?],17,False,ALLON|rule=the world can be navigated by specifying the  | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,29,go door to [?],17,False,ALLON|rule=the world can be navigated by specifying the  | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,30,go north,17,False,ALLON|rule=the world can be navigated by specifying a di | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,31,go kitchen doors to,17,False,ALLON|rule=the world can be navigated by specifying a lo | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,32,open door to [?],17,False,ALLON|rule=The world can be navigated by interacting wit | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,33,go kitchen doors to,17,False,ALLON|rule=The world can be navigated by specifying the  | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,30,34,go kitchen doors to,17,False,ALLON|rule=The world can be navigated by specifying a di | rooms=1 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,0,go workshop,17,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=1
+debcecff,allon_sw,chemistry-mix,31,1,look around,17,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=1
+debcecff,allon_sw,chemistry-mix,31,2,read instructions to make red paper,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,3,go hallway,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,4,go workshop,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,5,go art studio,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,6,go art studio,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,7,look around,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,8,go to art studio,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2
+debcecff,allon_sw,chemistry-mix,31,9,open art studio,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,10,go to kitchen,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,11,go to kitchen,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,12,go hallway,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,13,go kitchen,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,14,go workshop,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,15,go greenhouse,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,16,go to greenhouse,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,17,go to greenhouse,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,18,go to living room,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,19,go to living room,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,20,go to bedroom,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,21,go bedroom,25,False,ALLON|rule=the world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,22,go bedroom,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,23,go art studio,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,24,look around,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=2 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,25,open cupboard,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,26,look around,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,27,open door to hallway,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,28,go kitchen hallway,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,29,look around,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,30,go hallway,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,31,look around,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,32,go kitchen,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,33,look around,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT
+debcecff,allon_sw,chemistry-mix,31,34,open fridge,25,False,ALLON|rule=The world seems to be a text-based adventure  | rooms=3 | EXPERIMENT

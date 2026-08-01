@@ -1,0 +1,316 @@
+run_id,variant,task,variation,step,command,score,done,note
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,0,open large cupboard,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,1,look around,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,2,mix wood cup (containing blue paint) and wood cup (containing red paint),20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,3,look around,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,4,mix wood cup (containing blue paint) and wood cup (containing red paint),20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,5,pick up wood cup,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,6,"pick up wood cup (in large cupboard, in art studio)",20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,7,go hallway,30,False,rule=the world seems to be based on physical inter | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,8,go LOC,30,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,9,go art studio,30,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,10,"pick up wood cup (in large cupboard, in art studio)",30,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,11,go large cupboard,30,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,12,open large cupboard,30,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,13,look around,30,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,14,pick up wood cup (containing blue paint),30,False,rule=The world seems to be based on physical inter | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,15,go hallway,30,False,rule=The world seems to be based on physical inter | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,16,go art studio,30,False,rule=I hypothesize that the world is based on phys | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,17,go hallway,30,False,rule=I hypothesize that the world is based on phys | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,18,use orange on wall,30,False,rule=I hypothesize that the world is based on phys | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,19,look around,30,False,rule=I hypothesize that the world is based on phys | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,20,go workshop,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,21,go greenhouse,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,22,go bedroom,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,23,go kitchen,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,24,go living room,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,25,use orange on workshop,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,26,go to greenhouse,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,27,go to bedroom,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,28,go workshop,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,29,go to greenhouse,30,False,rule=I hypothesize that the world is based on phys | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,30,go to bedroom,30,False,rule=I hypothesize that the world is based on spec | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,31,go to bedroom,30,False,rule=I think that using an object on another objec | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,32,go kitchen,30,False,rule=I think that using specific objects or substa | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,33,go living room,30,False,rule=I think that using specific objects or substa | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,27,34,open bedroom,30,False,rule=I think that using the 'open' command before  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,0,go foundry,10,False,rule=The doors to different rooms can be used to n | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,1,look around,10,False,rule=The doors to different rooms can be used to n | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,2,open blast furnace door,10,False,rule=The blast furnace might be used to combine or | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,3,activate blast furnace,10,False,rule=The blast furnace might require a specific ac | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,4,use orange on blast furnace,10,False,rule=The blast furnace requires activation to oper | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,5,go kitchen,10,False,rule=The blast furnace requires activation and an  | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,6,go kitchen,10,False,rule=The blast furnace requires activation and an  | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,7,go greenhouse,10,False,rule=The blast furnace may not be the key to creat | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,8,go greenhouse,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,9,go outside,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,10,go foundry,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,11,go outside,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,12,go start,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,13,go kitchen,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,14,go greenhouse,10,False,rule=The world works in a way that different rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,15,use orange on foundry,10,False,rule=The world may require using objects in a spec | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,16,look around,10,False,rule=The world may require visiting specific rooms | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,17,open cupboard,10,False,rule=The world may require interacting with object | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,18,go bathroom,10,False,rule=The world may require interacting with object | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,19,go hallway,10,False,rule=The world may require navigating to specific  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,20,go hallway,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,21,go bathroom,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,22,go outside,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,23,open door to bathroom,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,24,go foundry,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,25,open door to bathroom,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,26,go bathroom,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,27,look around,10,False,rule=The world may require using objects in combin | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,28,look around,10,False,rule=The world may require using objects in combin | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,29,look around,10,False,rule=The world may require using objects in combin | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,30,look around,10,False,rule=The world may require using objects in combin | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,31,look around,10,False,rule=The world may require using objects in combin | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,32,use orange on sink,10,False,rule=I hypothesize that certain objects can be use | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,33,look around,10,False,rule=I hypothesize that certain objects can be use | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,28,34,look around,10,False,rule=I hypothesize that certain objects can be use | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,0,go foundry,10,False,rule=the doors to different rooms can be used to n | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,1,look around,10,False,rule=the doors to different rooms can be used to n | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,2,open blast furnace door,10,False,"rule=the devices in each room, such as the blast f | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,3,activate blast furnace,10,False,"rule=the devices in each room, such as the blast f | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,4,use blast furnace on orange,10,False,rule=the devices in each room can be used for spec | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,5,go kitchen,10,False,rule=the blast furnace may require specific materi | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,6,"{""belief"": ""I am in the foundry with an activated blast furnace and an orange, m",10,False,rule=the blast furnace may require specific materi | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,7,go outside,10,False,rule=the blast furnace may require specific materi | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,8,go greenhouse,10,False,rule=the blast furnace may require specific combin | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,9,go kitchen,10,False,rule=the creation of violet paint may require spec | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,10,use blast furnace on orange,10,False,rule=the creation of violet paint may require comb | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,11,go greenhouse,10,False,rule=the creation of violet paint may require comb | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,12,go outside,10,False,rule=the creation of violet paint may require inte | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,13,go start,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,14,go start,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,15,go foundry,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,16,go outside,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,17,go start,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,18,look around,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,19,go kitchen,10,False,rule=different rooms may have specific resources o | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,20,go greenhouse,10,False,rule=I hypothesize that different rooms may have s | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,21,look around,10,False,rule=I hypothesize that using objects in combinati | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,22,go bathroom,10,False,rule=I hypothesize that using specific objects or  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,23,go hallway,10,False,rule=I hypothesize that combining substances from  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,24,go hallway,10,False,rule=I hypothesize that using specific objects in  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,25,go bathroom,10,False,rule=I hypothesize that specific objects can be us | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,26,look around,10,False,rule=I hypothesize that specific objects can be us | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,27,look around,10,False,rule=I hypothesize that specific objects can be us | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,28,use orange on sink,10,False,rule=I hypothesize that using specific objects on  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,29,look around,10,False,rule=I hypothesize that specific locations or obje | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,30,look around,10,False,rule=I hypothesize that combining specific objects | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,31,look around,10,False,rule=I hypothesize that specific objects or substa | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,32,look around,10,False,rule=I hypothesize that specific objects or substa | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,33,look around,10,False,rule=I hypothesize that specific objects or substa | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,29,34,look around,10,False,rule=I hypothesize that combining specific substan | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,0,open cupboard,0,False,rule=the devices and materials in the kitchen may  | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,1,look around,0,False,rule=the devices and materials in the kitchen may  | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,2,pick up glass jar,0,False,rule=the devices and materials in the kitchen may  | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,3,look around,0,False,rule=the devices and materials in the kitchen may  | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,4,pick up orange,0,False,rule=the devices and materials in the kitchen may  | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,5,go LOC hallway,0,False,rule=the devices and materials in the kitchen may  | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,6,go LOC bathroom,0,False,rule=the world may have hidden chemical reactions  | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,7,go LOC bathroom,0,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,8,open door hallway,0,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,9,open door hallway,0,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,10,open DOOR bathroom,0,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,11,go LOC hallway,0,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,12,go outside,10,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,13,wait1,10,False,rule=the world may have specific devices or object | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,14,go hallway,10,False,rule=the world may have specific devices or object | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,15,use glass jar,10,False,rule=the world may have specific devices or object | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,16,read orange,10,False,rule=the world may have specific devices or object | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,17,activate stove,10,False,rule=the world may have specific devices or object | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,18,wait1,10,False,rule=the world may have specific devices or object | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,19,go bathroom,10,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,20,go outside,10,False,rule=the world may have specific devices or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,21,open door bathroom,10,False,rule=I hypothesize that using specific doors and n | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,22,go to hallway,10,False,rule=I hypothesize that using the 'go' command wit | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,23,go to bathroom,10,False,rule=I hypothesize that the 'go' command requires  | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,24,go to hallway,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,25,go bathroom,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,26,go hallway,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,27,look around,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,28,go foundry,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,29,go greenhouse,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,30,go to bathroom,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,31,go to hallway,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,32,go bathroom,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,33,go foundry,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,30,34,go greenhouse,10,False,rule=I hypothesize that the correct format for mov | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,0,go art studio,30,False,"rule=the doors can be used to move between rooms,  | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,1,look around,30,False,"rule=the doors can be used to move between rooms,  | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,2,open large cupboard,30,False,"rule=the doors can be used to move between rooms,  | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,3,look around,30,False,"rule=the doors can be used to move between rooms,  | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,4,mix wood cup (containing blue paint) and wood cup (containing red paint),30,False,"rule=the doors can be used to move between rooms,  | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,5,mix wood cup (containing blue paint),30,False,"rule=the doors can be used to move between rooms,  | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,6,go workshop,30,False,"rule=the doors can be used to move between rooms,  | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,7,go workshop,30,False,rule=the 'mix' action might require specific conta | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,8,go to kitchen,30,False,rule=the 'go' action might require a specific synt | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,9,go to kitchen,30,False,rule=the world works in a way that requires specif | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,10,go to greenhouse,30,False,rule=the world works in a way that requires specif | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,11,go living room,30,False,rule=the world works in a way that requires specif | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,12,go bedroom,30,False,rule=the world works in a way that requires specif | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,13,go kitchen,30,False,rule=the world works in a way that requires specif | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,14,go workshop,30,False,rule=the world works in a way that requires specif | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,15,go to workshop,30,False,rule=the world may require a specific preposition  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,16,enter workshop,30,False,rule=the world may require a specific verb or keyw | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,17,open door to greenhouse,30,False,rule=the world may require a specific verb or keyw | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,18,go hallway,30,False,rule=the world may require using doors to navigate | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,19,open door to greenhouse,30,False,rule=the world may require using specific verbs li | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,20,go kitchen,30,False,rule=the world may require using specific verbs li | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,21,go living room,30,False,rule=the world may require using specific objects  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,22,go bedroom,30,False,rule=the world may require using specific objects  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,23,look around,30,False,rule=the world may require using specific objects  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,24,go bathroom,30,False,rule=the world may require using specific objects  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,25,go art studio,30,False,rule=the world may require using specific objects  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,26,go bathroom,30,False,rule=the world may require using specific objects  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,27,look around,30,False,rule=the world may require using specific objects  | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,28,go kitchen,30,False,rule=the world may require using specific objects  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,29,look around,30,False,rule=the world may require using specific objects  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,30,go greenhouse,30,False,rule=the world may require using specific objects  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,31,go hallway,30,False,rule=the world may require using specific objects  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,32,go greenhouse,30,False,rule=the world may require using specific objects  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,33,look around,30,False,rule=the world may require using specific objects  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,31,34,look around,30,False,rule=the world may require using specific objects  | rooms=5 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,0,open drawer,20,False,rule=paints can possibly be mixed to create new co | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,1,look around,20,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,2,pour red paint from tin cup into bowl,20,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,3,look around,20,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,4,pour red paint from tin cup into bowl,20,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,5,go hallway,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,6,go art studio,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,7,go hallway,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,8,open desk drawer,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,9,read orange,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,10,wait1,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,11,open desk drawer,30,False,"rule=paints can be mixed to create new colors, the | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,12,go hallway,30,False,rule=The world may have additional rooms or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,13,use orange on art studio floor,30,False,rule=The world may have additional rooms or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,14,look around,30,False,rule=The world may have additional rooms or object | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,15,go art studio,30,False,rule=The world may have additional rooms or object | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,16,go workshop,30,False,rule=The world may have specific rooms or objects  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,17,go greenhouse,30,False,rule=The world may have specific rooms or objects  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,18,go bedroom,30,False,rule=The world may have specific objects or clues  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,19,go kitchen,30,False,rule=The world may have specific objects or clues  | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,20,go bedroom,30,False,rule=I hypothesize that the world may have specifi | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,21,go to living room,30,False,rule=I hypothesize that the world may require a sp | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,22,use orange on door to living room,30,False,rule=I hypothesize that the world may require a sp | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,23,go workshop,30,False,rule=I hypothesize that the world may require a sp | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,24,go to greenhouse,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,25,go to kitchen,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,26,go to living room,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,27,go to bedroom,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,28,use orange on door to workshop,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,29,go workshop,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,30,go art studio,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,31,go to greenhouse,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,32,look around,30,False,rule=I hypothesize that the world requires a speci | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,33,pour tin cup containing red paint into bowl,30,False,rule=I hypothesize that mixing liquids is a key me | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,32,34,look around,30,False,rule=I hypothesize that different rooms may have d | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,0,go hallway,10,False,"rule=doors can be used to move between rooms, and  | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,1,look around,10,False,"rule=doors can be used to move between rooms, and  | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,2,go art studio,30,False,"rule=doors can be used to move between rooms, and  | rooms=2"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,3,look around,30,False,rule=different rooms may have different objects an | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,4,open large cupboard,30,False,rule=different rooms may have different objects an | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,5,wait1,30,False,rule=different rooms may have different objects an | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,6,pick up orange,30,False,rule=different rooms may have different objects an | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,7,read large cupboard,30,False,rule=different rooms may have different objects an | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,8,use orange on ag,30,False,rule=different rooms may have different objects an | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,9,go hallway,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,10,go workshop,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,11,go kitchen,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,12,go greenhouse,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,13,go kitchen,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,14,go living room,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,15,go art studio -> hallway -> greenhouse,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,16,go workshop,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,17,go greenhouse,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,18,go living room,30,False,rule=different rooms may have different objects an | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,19,open door to hallway,30,False,"rule=the 'go' command requires a specific format,  | rooms=3 | EXPERIMENT"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,20,go to kitchen,30,False,rule=the 'go' command requires specifying the door | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,21,go to kitchen through door to hallway,30,False,rule=the 'go' command might require specifying the | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,22,go to kitchen through door to hallway,30,False,rule=the 'go' command might require specifying the | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,23,go to kitchen through door to hallway,30,False,rule=the world works by requiring specific formats | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,24,open door to hallway,30,False,rule=the world works by requiring specific formats | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,25,go to hallway,30,False,rule=the world works by requiring specific formats | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,26,go to kitchen,30,False,rule=the world works by requiring specific formats | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,27,go to art studio,30,False,rule=the world may require specific objects or com | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,28,go workshop,30,False,rule=the world may require specific objects or com | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,29,go workshop through door to hallway,30,False,rule=the world may require specific objects or com | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,30,go workshop through hallway,30,False,rule=the world may require specific objects or com | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,31,look around,30,False,rule=the world may require specific objects or com | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,32,go bathroom,30,False,rule=the world may require specific objects or com | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,33,go workshop through door to hallway,30,False,rule=the world may require specific objects or com | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,33,34,go art studio,30,False,rule=the world may require specific objects or com | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,0,go kitchen,10,False,rule=the devices and materials in this environment | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,1,look around,10,False,rule=the devices and materials in this environment | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,2,open cupboard,10,False,rule=the devices and materials in this environment | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,3,look around,10,False,rule=the kitchen contains objects related to food  | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,4,pick up ceramic cup,10,False,rule=the kitchen contains objects related to food  | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,5,go hallway,10,False,rule=the kitchen contains objects related to food  | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,6,go kitchen,10,False,rule=the kitchen contains objects related to food  | rooms=2
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,7,go hallway,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,8,wait1,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,9,go outside,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,10,go hallway,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,11,open outside,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,12,open outside,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,13,look around,10,False,rule=the world may contain hidden substances or ob | rooms=2 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,14,go art studio,30,False,rule=the world may contain hidden substances or ob | rooms=3 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,15,wait1,30,False,rule=the art studio likely contains various art ma | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,16,go art studio,30,False,rule=the art studio likely contains various art ma | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,17,go art studio,30,False,rule=the art studio likely contains various art ma | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,18,go kitchen,30,False,rule=navigation between rooms might require specif | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,19,look around,30,False,rule=navigation between rooms might require specif | rooms=3
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,20,mix wood cup (containing blue paint) and wood cup (containing red paint),30,False,rule=mixing different colored paints can create ne | rooms=4
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,21,look around,30,False,rule=The art studio may not have all the necessary | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,22,go workshop,30,False,rule=The art studio may not have all the necessary | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,23,look around,30,False,rule=The world may require specific actions or com | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,24,look around,30,False,rule=The world may require specific combinations o | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,25,look around,30,False,rule=The world may require specific combinations o | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,26,look around,30,False,rule=The world may require specific combinations o | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,27,look around,30,False,rule=The world may require specific combinations o | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,28,look around,30,False,rule=The world may require specific combinations o | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,29,look around,30,False,rule=I hypothesize that the world may require the  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,30,look around,30,False,rule=I hypothesize that the world may require the  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,31,go greenhouse,30,False,rule=I hypothesize that the world may require the  | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,32,go greenhouse,30,False,rule=The world may require the use of natural subs | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,33,look around,30,False,rule=The world may require the use of specific too | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,34,34,look around,30,False,rule=The world may require the combination of spec | rooms=4 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,0,open large cupboard,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,1,look around,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,2,mix wood cup (containing blue paint),20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,3,look around,20,False,rule=the world seems to be based on physical inter | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,4,pour wood cup (containing blue paint) into jug,20,False,"rule=mixing liquids can create new substances, and | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,5,mix blue and red paint to create violet paint,20,False,"rule=mixing liquids can create new substances, and | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,6,pour blue paint into jug,20,False,"rule=mixing liquids can create new substances, and | rooms=1"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,7,go hallway,20,False,"rule=mixing liquids can create new substances, but | rooms=1 | EXPERIMENT"
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,8,go hallway,30,False,rule=mixing specific ratios of paints or using spe | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,9,go LOC,30,False,rule=mixing specific ratios of paints or using spe | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,10,go hallway,30,False,rule=mixing specific ratios of paints or using spe | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,11,go art studio hallway,30,False,rule=mixing specific ratios of paints or using spe | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,12,go art studio,30,False,rule=mixing specific ratios of paints or using spe | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,13,pick up orange,30,False,rule=mixing specific ratios of paints or using spe | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,14,wait1,30,False,rule=mixing specific ratios of paints or using spe | rooms=1
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,15,open door hallway,30,False,rule=the 'go' action requires a specific location  | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,16,use orange on floor,30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,17,look around,30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,18,mix wood cup (containing blue paint),30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,19,look around,30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,20,mix wood cup (containing blue paint) and wood cup (containing red paint),30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,21,look around,30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,22,pour wood cup (containing blue paint) into jug,30,False,rule=the world might respond to specific liquid in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,23,look around,30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,24,look around,30,False,rule=the world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,25,look around,30,False,rule=The world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,26,look around,30,False,rule=The world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,27,look around,30,False,rule=The world might respond to specific object in | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,28,mix wood cup (containing blue paint) and wood cup (containing red paint),30,False,rule=The world might respond to specific combinati | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,29,look around,30,False,rule=The world might respond to specific combinati | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,30,use orange on wood cup (containing red paint),30,False,rule=The world might respond to specific interacti | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,31,look around,30,False,rule=The world might respond to specific interacti | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,32,pour wood cup (containing red paint) into jug,30,False,rule=The world might respond to specific interacti | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,33,look around,30,False,rule=The world might respond to specific interacti | rooms=1 | EXPERIMENT
+a1c0787e,probe52_sw,chemistry-mix-paint-secondary-color,35,34,look around,30,False,rule=The world might respond to specific interacti | rooms=1 | EXPERIMENT

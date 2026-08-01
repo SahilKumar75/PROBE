@@ -1,0 +1,18 @@
+{
+  "allon_sw": {
+    "run_id": "4ec026ba",
+    "variant": "allon_sw",
+    "budget": 35,
+    "mean_score": 25.555555555555557,
+    "solve_rate": 0.0,
+    "episodes": 9,
+    "per_task": {
+      "chemistry-mix-paint-secondary-color": {
+        "mean_score": 25.555555555555557,
+        "solve_rate": 0.0,
+        "n": 9
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/scienceworld_allon_sw_4ec026ba_swc_allon_sw_chemistry-mix-paint-secondary-color.csv"
+  }
+}
