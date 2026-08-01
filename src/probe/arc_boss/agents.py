@@ -256,15 +256,19 @@ class ARCProbe53Agent(ARCProbeAgent):
         for h in history:
             outcomes[h["action"]][h["effect"].split(" to ")[0]] += 1
         ledger_lines = []
-        dead: list[int] = []
         for act_name in sorted(outcomes):
             c = outcomes[act_name]
-            total = sum(c.values())
             top = ", ".join(f"{eff} x{n}" for eff, n in c.most_common(3))
             ledger_lines.append(f"{act_name}: {top}")
-            if total >= 3 and set(c) == {"NOTHING changed"}:
-                dead.append(int(act_name.replace("ACTION", "")))
         ledger = " | ".join(ledger_lines) or "no data yet"
+        # cooldown, not a permanent ban: direction actions are context-dependent
+        # (into a wall = nothing, in a corridor = moves), so a permanent
+        # only-ever-nothing ban cripples navigation (the 5.3 failure). An action
+        # whose LAST use did nothing sits out a few steps, then returns.
+        self.cooldown = {a: t - 1 for a, t in getattr(self, "cooldown", {}).items() if t - 1 > 0}
+        if history and getattr(self, "last_aid", None) is not None and "NOTHING changed" in history[-1]["effect"]:
+            self.cooldown[self.last_aid] = 3
+        dead = sorted(self.cooldown)
 
         # ---- novelty stagnation (grid change or score = progress) ----
         last_effect = history[-1]["effect"] if history else ""
@@ -293,7 +297,7 @@ class ARCProbe53Agent(ARCProbeAgent):
         prompt = (
             f"{obs_text}\n"
             f"ACTION LEDGER (observed facts): {ledger}\n"
-            f"Useless actions (only ever did nothing): {dead or 'none known'}\n"
+            f"On cooldown (just did nothing, skip briefly): {dead or 'none'}\n"
             f"Recent actions and their effects: {_recent(history)}\n"
             f"Your mechanics belief: {self.mechanics}\n"
             f"{contradiction}"
@@ -313,6 +317,7 @@ class ARCProbe53Agent(ARCProbeAgent):
         if aid in dead and live:
             aid = (untried or live)[0]
             coord = (32, 32) if aid == 6 else None
+        self.last_aid = aid
         self.tried.add(aid)
         tag = " | EXPERIMENT" if experiment else ""
         return aid, coord, f"mech={self.mechanics[:60]} | dead={dead}{tag}"
