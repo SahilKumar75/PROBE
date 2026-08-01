@@ -1,0 +1,20 @@
+{
+  "probe_a_cf": {
+    "run_id": "08e60893",
+    "variant": "probe_a_cf",
+    "episodes": 30,
+    "budget": 150,
+    "mean_achievements": 1.6,
+    "mean_reward": 1.25,
+    "mean_steps": 139.16666666666666,
+    "achievement_union": [
+      "collect_drink",
+      "collect_sapling",
+      "collect_wood",
+      "eat_cow",
+      "place_table",
+      "wake_up"
+    ],
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/crafter_probe_a_cf_08e60893_cf_a2.csv"
+  }
+}
