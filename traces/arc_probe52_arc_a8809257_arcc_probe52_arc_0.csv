@@ -1,0 +1,715 @@
+run_id,variant,game,seed,step,action,score,state,won,note
+a8809257,probe52_arc,complex_maze,0,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to moving or modifying the grid in so | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,1,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,0,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,0,3,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions modify the grid by changing cell values, and the goal is to clear le | cd=[]"
+a8809257,probe52_arc,complex_maze,0,4,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions modify the grid by changing cell values, and the goal is to clear le | cd=[]"
+a8809257,probe52_arc,complex_maze,0,5,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions modify the grid by changing cell values, and the goal is to clear le | cd=[]"
+a8809257,probe52_arc,complex_maze,0,6,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The actions modify the grid by changing cell values. ACTION1 changes the top-lef | cd=[]
+a8809257,probe52_arc,complex_maze,0,7,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The actions might be modifying the grid in a way that requires a specific sequen | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,8,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be modifying a hidden state or counter, and the goal could be  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to modifying specific patterns or structures within | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,10,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to modifying specific patterns or structures within | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,11,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to modifying specific patterns or structures within | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,12,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to modifying specific patterns or structures within | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,13,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to modifying specific patterns or structures within | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,14,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to modifying specific patterns or structures within | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,15,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to transforming specific cell values or patterns, a | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,16,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,17,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,18,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,19,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,20,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,21,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,22,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,23,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,24,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,25,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,26,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,27,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,28,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to transforming specific cell values or patterns in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,29,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' cells, as they are the most | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,30,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' cells and the '.' cells, po | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,31,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' cells and the '.' cells, po | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,32,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to manipulating the grid in a way that creates a sp | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,33,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to manipulating the grid in a way that creates a sp | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,34,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to manipulating the grid in a way that creates a sp | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,35,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to manipulating the grid in a way that creates a sp | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,36,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to manipulating the grid in a way that creates a sp | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,37,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The goal might be to create a 'path' or 'connection' between the '3' cells at th | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,38,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The goal is to create a 'path' or 'connection' between the '3' cells at the top  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,39,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The goal is to create a 'path' or 'connection' between the '3' cells at the top  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,40,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The goal is to create a 'clear path' or 'connection' between the '3' cells at th | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,41,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal is to accumulate a high score by transforming '5' cells into '9' cells, | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,42,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The goal is to clear '8' cells by transforming them into '.' cells. ACTION1 and  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,43,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The goal is to create a connected path of '5' cells from the top to the bottom o | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,44,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The goal is to transform all '5' cells into '9' cells, which could indicate a su | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,45,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The goal is to transform all '5' cells into '9' cells by using ACTION4 to initia | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,46,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal is to create a chain reaction of transformations, with ACTION4 potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,47,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The goal is to clear the grid of '5' cells by transforming them into other cell  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,0,48,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The goal is to create a specific pattern or configuration of cells, rather than  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,0,49,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal is to transform '5' cells into '3' cells, and the actions may have a di | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial hypothesis is that the actions might be related to moving or modifyin | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=My updated hypothesis is that ACTION1 modifies the top-left cell of the grid. I  | cd=[]
+a8809257,probe52_arc,complex_maze,1,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=ACTION1 modifies the top-left cell, ACTION2 changes a subset of cells, possibly  | cd=[]"
+a8809257,probe52_arc,complex_maze,1,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=ACTION1 modifies the top-left cell, ACTION2 changes a subset of cells, possibly  | cd=[]"
+a8809257,probe52_arc,complex_maze,1,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=ACTION1 modifies the top-left cell, ACTION2 changes a subset of cells, possibly  | cd=[]"
+a8809257,probe52_arc,complex_maze,1,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=ACTION1 modifies the top-left cell, ACTION2 changes a subset of cells, possibly  | cd=[]"
+a8809257,probe52_arc,complex_maze,1,6,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=ACTION1 modifies the top-left cell, ACTION2 changes a subset of cells, possibly  | cd=[]"
+a8809257,probe52_arc,complex_maze,1,7,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to changing specific patterns or numbers in the gri | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,8,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to changing specific patterns or numb | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to changing specific patterns or numb | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,10,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to replacing or modifying specific nu | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,11,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to replacing or modifying specific nu | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,12,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying cells based on their pro | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,13,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying cells based on their pro | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,14,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying cells based on their pro | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,15,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying cells based on their pro | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,16,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to swapping or replacing cells with s | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,17,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,18,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,19,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,20,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,21,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,22,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,23,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,24,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to modifying the grid in a way that c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,25,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to clearing or transforming specific  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,26,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to transforming specific numbers or p | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,27,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to swapping or replacing specific num | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,28,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to shifting or rotating sections of t | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,29,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to replacing or modifying specific nu | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,30,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to shifting or rotating sections of t | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,31,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to replacing or modifying specific nu | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,32,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to shifting or rotating sections of t | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,33,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to replacing or modifying specific nu | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,34,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,35,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to manipulating the grid in a way | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,36,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to shifting or rotating specific  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,37,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to replacing or changing specific | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,1,38,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a more complex effect on the grid, possi | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,39,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a spatial effect on the grid, possibly i | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,40,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a cumulative effect, with each action bu | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,41,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a spatial effect, with each action affec | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,42,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a cumulative effect, with each action bu | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,43,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a spatial effect, with each action affec | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,44,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a 'global' effect, where each action cha | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,45,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a 'local' effect, where each action chan | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,46,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a 'pattern-based' effect, where each act | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,47,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a 'random' effect, where each action cha | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,48,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a localized effect, where each action ch | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,1,49,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a cumulative effect, where each action b | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions might be related to moving or changing the state  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,2,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions might be related to changing the state of specific cells i | cd=[]
+a8809257,probe52_arc,complex_maze,2,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions change the state of specific cells in the grid, potentiall | cd=[]"
+a8809257,probe52_arc,complex_maze,2,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions change the state of specific cells in the grid, potentially related  | cd=[]"
+a8809257,probe52_arc,complex_maze,2,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions change the state of specific cells in the grid, potentially related  | cd=[]"
+a8809257,probe52_arc,complex_maze,2,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions change the state of specific cells in the grid, potentially related  | cd=[]"
+a8809257,probe52_arc,complex_maze,2,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions change the state of specific cells in the grid, potentially related  | cd=[]"
+a8809257,probe52_arc,complex_maze,2,7,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to the creation or destruction of specific patterns | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,2,8,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to the manipulation of specific numbers or their cl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,2,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to the manipulation of specific numbers or their cl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,2,10,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to replacing or modifying specific nu | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,2,11,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to clearing or transforming speci | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,2,12,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a more complex, potentially non-local ef | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,13,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a localized effect on the grid, specific | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,14,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,15,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,16,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,17,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,18,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,19,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,20,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,21,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a localized effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,22,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a more complex, potentially non-local ef | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,23,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a localized effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,24,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,25,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,26,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,27,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,28,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,29,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,30,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,31,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,32,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,33,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,34,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,35,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,36,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,37,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,38,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,39,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,40,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,41,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,42,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,43,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a non-local effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,44,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,45,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,46,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a localized effect on the grid, potentia | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,47,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,48,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a local effect on the grid, potentially  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,2,49,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions have a global effect on the grid, potentially | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,3,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial hypothesis is that the actions might be related to moving or modifyin | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=My initial hypothesis is that the actions might be related to moving or modifyin | cd=[]
+a8809257,probe52_arc,complex_maze,3,2,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=My updated hypothesis is that the actions might be related to modifying the grid | cd=[]
+a8809257,probe52_arc,complex_maze,3,3,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions modify the grid by replacing symbols. ACTION1 replaces a ' | cd=[]
+a8809257,probe52_arc,complex_maze,3,4,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions modify the grid by replacing symbols. ACTION1 replaces a ' | cd=[]
+a8809257,probe52_arc,complex_maze,3,5,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions modify the grid by replacing symbols. ACTION1 replaces a ' | cd=[]
+a8809257,probe52_arc,complex_maze,3,6,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions modify the grid by replacing symbols. ACTION1 replaces a ' | cd=[]
+a8809257,probe52_arc,complex_maze,3,7,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be modifying the grid by replacing symbols in a  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,8,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be modifying the grid by replacing symbols in a  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,9,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions are modifying the grid by replacing symbols in a specific  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,10,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions are modifying the grid by replacing symbols in a speci | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,11,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions have a conditional effect based on the current state o | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,12,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might have a spatial or positional effect, possibly de | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,3,13,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might have a cumulative effect, with each action build | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,3,14,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '3', '5', '6', '8 | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,3,15,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the density or distri | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,16,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to transforming or replacing specific | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,17,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,18,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,19,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,20,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,21,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,22,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,23,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,24,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,25,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,26,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,27,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,28,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,29,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,30,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,31,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,32,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,33,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,34,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,35,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,36,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,37,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,38,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,39,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I believe the actions involve manipulating the grid to create a specific pattern | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,40,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve manipulating the grid to create a specific den | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,41,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve manipulating the grid to create a specific pat | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,42,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve manipulating the grid to create a specific den | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,43,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve manipulating the grid to create a specific seq | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,44,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve targeting specific symbol transformations or i | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,45,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve manipulating the grid to create specific symbo | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,46,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions involve manipulating the grid to create specific symbo | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,47,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions involve manipulating the grid to create specific symbol patterns, po | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,3,48,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might involve manipulating the grid to create specific symbol patter | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,3,49,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The goal might involve creating a path or connection between the '3' symbols at  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to moving or modifying the grid in so | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,1,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,4,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,4,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,4,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,4,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,4,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | cd=[]"
+a8809257,probe52_arc,complex_maze,4,7,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions modify the grid by changing cell values, and the goal is t | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,4,8,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions need to be used in a specific sequence or combina | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions need to be used to create a specific pattern  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,10,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions need to be used in a specific sequence or com | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,11,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions have a cumulative effect and need to be used  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,12,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions have a spatial effect and need to be used in  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,13,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions have a cumulative effect and need to be used  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,14,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions have a spatial effect and need to be used in  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,15,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions have a cumulative effect and need to be used  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,16,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are spatially dependent and need to be applie | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,17,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions have a cumulative effect and need to be appli | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,18,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions may have a spatial component, and the effect  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,4,19,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions may have a cumulative effect or a specific co | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,20,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions may have a spatial or positional effect on th | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,21,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions may have a cumulative effect, and that certai | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,4,22,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions may have a localized effect, targeting specif | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,4,23,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions may have a dependency on the current state of | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,24,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions may be related to the transformation of speci | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,25,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions may be related to the manipulation of the '3' | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,26,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions may be related to the manipulation of the gri | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,27,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the grid's | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,28,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '8' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,29,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the grid b | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,30,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '8' an | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,31,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '.' em | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,32,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '3', ' | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,complex_maze,4,33,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the grid b | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,34,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '8' an | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,35,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the grid b | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,36,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '5' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,37,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '8' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,38,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '5' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,39,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '8' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,40,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '5' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,41,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '6' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,42,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '5' an | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,43,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '.' em | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,44,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the transformation of the '5'  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,45,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the movement or transformation | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,46,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the removal or transformation  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,47,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '5' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,48,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '6' bl | EXPERIMENT | cd=[]
+a8809257,probe52_arc,complex_maze,4,49,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '.' em | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial hypothesis is that the actions might be related to moving or modifyin | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=My updated hypothesis is that the actions might be swapping or rotating symbols  | cd=[]
+a8809257,probe52_arc,merge,0,2,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions seem to be swapping or rotating symbols in the grid. The goal might  | cd=[]
+a8809257,probe52_arc,merge,0,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions seem to be swapping or rotating symbols in the grid, with ACTION1, A | cd=[]"
+a8809257,probe52_arc,merge,0,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions seem to be swapping or rotating symbols in the grid. ACTION1, ACTION | cd=[]"
+a8809257,probe52_arc,merge,0,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions seem to be swapping or rotating symbols in the grid. ACTION1, ACTION | cd=[5]"
+a8809257,probe52_arc,merge,0,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions seem to be swapping or rotating symbols in the grid. ACTION1, ACTION | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,7,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating or manipulating patterns with the '8' a | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,8,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating or manipulating patterns with the '8' a | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating or manipulating patterns with the '8' a | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,0,10,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a chain reaction or a specific sequence | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,11,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a specific pattern or arrangement of sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,12,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting a subset of the grid, wit | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,13,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific symbols, with the go | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,14,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a specific pattern or configuration by  | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,0,15,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the grid in a way that creates a sp | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,16,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a specific pattern or sequence of symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,17,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve isolating or clustering the '8's and '9's within a specif | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,18,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or arrangement of '1's, '5's, | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,0,19,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve isolating or grouping specific symbols, with the actions  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,20,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or configuration of symbols,  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,21,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '1', '5', '8', and '9' | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,22,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The goal might involve creating a specific pattern or arrangement of symbols. AC | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,23,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or arrangement of symbols, po | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,24,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve isolating or grouping specific symbols, possibly '8' or ' | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,25,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or sequence of symbols, possi | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,26,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve isolating or grouping specific symbols, possibly by creat | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,0,27,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or arrangement of '1' symbols | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,28,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '1', '8', and '9' symb | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,29,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '1', '8', and '9' symb | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,30,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '1', '8', and '9' symb | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,merge,0,31,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '1', '8', and '9' symb | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,0,32,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '5' symbols, and the a | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,0,33,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific arrangement of '9' symbols, which see | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,0,34,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or arrangement of '1', '5', a | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,0,35,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I hypothesize that the actions have a relationship with the '8' and '9' symbols, | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,0,36,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the density or distribution of | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,0,37,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '8' an | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,0,38,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '1' an | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,39,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '8' an | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,40,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '1' sy | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,0,41,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '1' sy | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,0,42,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '1' sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,43,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '1' sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,0,44,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the removal or replacement of  | EXPERIMENT | cd=[4]
+a8809257,probe52_arc,merge,0,45,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '1' sy | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,merge,0,46,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '9' sy | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,merge,0,47,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '5' an | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,merge,0,48,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to the manipulation of the '1' sy | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,0,49,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to the manipulation of the '9' sy | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My new hypothesis is that the actions might be related to changing or moving the | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,1,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving '1' blocks, and the goal | cd=[]"
+a8809257,probe52_arc,merge,1,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving '1' blocks, and the goal | cd=[]"
+a8809257,probe52_arc,merge,1,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving '1' blocks, and the goal | cd=[]"
+a8809257,probe52_arc,merge,1,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving blocks, and the goal is  | cd=[]"
+a8809257,probe52_arc,merge,1,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving blocks, and the goal is  | cd=[5]"
+a8809257,probe52_arc,merge,1,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving blocks, and the goal is  | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,7,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to changing specific blocks, and the goal is t | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,8,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to changing specific blocks, and the goal is t | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions need to be used in a specific sequence or combina | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,10,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or moving blocks with | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,11,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or reflecting parts o | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,12,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,13,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or shifting blocks in | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,14,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to interacting with specific symb | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,1,15,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to swapping or moving symbols on  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,16,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to rotating or reflecting a subse | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,17,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I hypothesize that the actions are related to swapping or moving specific symbol | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,18,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to rotating or reflecting a subset of | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,19,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or moving specific sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,20,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or mirroring a subset | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,21,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or moving specific sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,22,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or moving specific sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,23,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to modifying the grid in a way th | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,24,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or shifting a subset  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,25,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to removing or replacing specific | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,26,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to swapping or rotating symbols i | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,27,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to shifting or replacing symbols  | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,1,28,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or mirroring a subset | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,1,29,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,30,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or shifting specific  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,1,31,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,32,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to shifting or rotating specific  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,33,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,34,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to moving or rotating a subset of | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,35,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,1,36,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to shifting or rotating sections  | EXPERIMENT | cd=[1, 5]"
+a8809257,probe52_arc,merge,1,37,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[1, 5]"
+a8809257,probe52_arc,merge,1,38,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to shifting or moving specific sy | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,merge,1,39,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or mirroring specific | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,merge,1,40,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to moving or swapping specific sy | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,41,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to rotating or reflecting specifi | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,42,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to swapping or replacing specific | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,43,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '5' symbols,  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,44,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '1' symbols,  | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,merge,1,45,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '5' symbols,  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,46,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '1' and '9' s | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,1,47,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to manipulating the '5' and '8' s | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,1,48,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '1' symbols,  | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,1,49,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '9' symbols,  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,2,0,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I hypothesize that the actions are related to manipulating the grid cells, possi | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,2,1,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions manipulate the grid cells, possibly swapping or moving the | cd=[]"
+a8809257,probe52_arc,merge,2,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions manipulate the grid cells, possibly swapping or moving the | cd=[]"
+a8809257,probe52_arc,merge,2,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions manipulate the grid cells, possibly swapping or moving the | cd=[]"
+a8809257,probe52_arc,merge,2,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions manipulate the grid cells, possibly swapping or moving the | cd=[]"
+a8809257,probe52_arc,merge,2,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions manipulate the grid cells, possibly swapping or moving the | cd=[5]"
+a8809257,probe52_arc,merge,2,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions manipulate the grid cells, possibly swapping or moving the | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,7,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to the manipulation of specific symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,8,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to the manipulation of specific symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of specific symbo | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,10,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of '1' and '5' sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,11,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of '8' and '9' sy | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,12,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of the grid by sw | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,13,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of the grid by ro | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,14,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of the grid by sw | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,15,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to the manipulation of the grid by ro | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,2,16,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to the manipulation of specific symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,17,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to the manipulation of specific symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,18,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or replacing symbols in the grid,  | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,19,ACTION2,1,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or replacing symbols in the grid,  | cd=[6]"
+a8809257,probe52_arc,merge,2,20,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or replacing symbols in the grid,  | cd=[]"
+a8809257,probe52_arc,merge,2,21,ACTION1,1,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or replacing symbols in the grid,  | cd=[]"
+a8809257,probe52_arc,merge,2,22,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or replacing symbols in the grid,  | cd=[]"
+a8809257,probe52_arc,merge,2,23,ACTION5,1,GameState.NOT_FINISHED,False,"mechanics=I believe ACTION4 swaps '1's and '9's, and the goal is to create a continuous pa | cd=[]"
+a8809257,probe52_arc,merge,2,24,ACTION6,1,GameState.NOT_FINISHED,False,"mechanics=I believe ACTION4 swaps '1's and '9's, ACTION1, ACTION2, and ACTION3 might be re | cd=[5]"
+a8809257,probe52_arc,merge,2,25,ACTION1,1,GameState.NOT_FINISHED,False,"mechanics=I believe ACTION4 swaps '1's and '9's, ACTION1, ACTION2, and ACTION3 might be re | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,26,ACTION3,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to manipulating the 'b' symbols, and  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,27,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to manipulating the '1' and '5' symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,28,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to manipulating the '1', '5', '8', '9 | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,2,29,ACTION1,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to swapping or moving specific symbol | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,30,ACTION2,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to rotating or reflecting specific pa | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,31,ACTION1,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to swapping or moving specific symbol | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,32,ACTION6,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to rotating or reflecting specific pa | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,33,ACTION4,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to swapping or moving specific symbol | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,34,ACTION5,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to rotating or flipping specific sect | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,35,ACTION3,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to moving or modifying specific symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,36,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to rotating or reflecting specific se | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,37,ACTION4,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to swapping or replacing specific sym | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,2,38,ACTION6,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to manipulating the grid to create cl | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,2,39,ACTION2,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to manipulating the grid to create a  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,40,ACTION1,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to manipulating the numbers in the gr | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,41,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to manipulating the 'b' cells, which  | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,2,42,ACTION1,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to swapping or moving cells to create | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,43,ACTION6,1,GameState.NOT_FINISHED,False,mechanics=I believe that the actions are related to creating a path or connection between  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,2,44,ACTION3,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to changing the state of the '5' and  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,45,ACTION5,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to changing the state of the '8' and  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,2,46,ACTION2,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to changing the state of the '1' cell | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,47,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to changing the state of the '5' cell | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,2,48,ACTION6,1,GameState.NOT_FINISHED,False,mechanics=I now believe that the actions are related to changing the state of the 'b' cell | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,2,49,ACTION4,1,GameState.NOT_FINISHED,False,"mechanics=I now believe that the actions are related to manipulating the '1' cells, possib | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,3,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial hypothesis is that the actions might be related to moving or modifyin | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,3,1,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=My updated hypothesis is that the actions might be swapping or rotating cells, a | cd=[]"
+a8809257,probe52_arc,merge,3,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are swapping or rotating cells, with the goal of creating  | cd=[]"
+a8809257,probe52_arc,merge,3,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are swapping or rotating cells, with the goal of creating  | cd=[]"
+a8809257,probe52_arc,merge,3,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are swapping cells, with the goal of creating a specific p | cd=[]"
+a8809257,probe52_arc,merge,3,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are swapping cells, with the goal of creating a specific p | cd=[5]"
+a8809257,probe52_arc,merge,3,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are swapping cells, with the goal of creating a specific p | cd=[5, 6]"
+a8809257,probe52_arc,merge,3,7,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are context-dependent and might require specific symbo | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,3,8,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to swapping or moving symbols in the  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,3,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to rotating or mirroring a subset of  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,3,10,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to swapping or replacing specific sym | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,3,11,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the grid in a way tha | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,3,12,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to swapping or rotating specific symb | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,3,13,ACTION4,0,GameState.GAME_OVER,False,mechanics=I now believe the actions might be related to manipulating the '1' symbols in th | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,4,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial theory is that the actions might be related to moving or transforming | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,4,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=My theory is that the actions might be related to swapping or moving the '1' blo | cd=[]
+a8809257,probe52_arc,merge,4,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving the '1' blocks, and the  | cd=[]"
+a8809257,probe52_arc,merge,4,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving the '1' blocks, and the  | cd=[]"
+a8809257,probe52_arc,merge,4,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving the '1' blocks, and the  | cd=[]"
+a8809257,probe52_arc,merge,4,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving the '1' blocks, and the  | cd=[5]"
+a8809257,probe52_arc,merge,4,6,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving the '1' blocks, and the  | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,7,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to manipulating the '5' blocks, and the goal c | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,8,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '1' blocks and the '9' | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,9,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '5' blocks, which coul | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,4,10,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to swapping or moving specific blocks, and the | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,4,11,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '5' blocks, as they ar | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,4,12,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '1' blocks, as they ar | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,4,13,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '5' blocks, as they fo | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,4,14,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '1' blocks, as they ar | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,merge,4,15,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to manipulating the '5' blocks, as they are no | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,16,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to manipulating the '1' blocks, as the recent  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,17,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions are related to manipulating the '5' blocks or the '8'  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,18,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions are related to swapping or moving the '1' blocks to cr | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,19,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions may be related to swapping or moving the '1' blocks to create a cert | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,4,20,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions may be related to creating a specific pattern or configuration with  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,21,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions may be related to manipulating the '8' and '9' blocks to create a sp | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,22,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions may be related to swapping or moving specific blocks to create a cha | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,23,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions may be related to rotating or flipping specific blocks to create a c | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,24,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific blocks, with '8'  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,4,25,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks in a specific area,  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,merge,4,26,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,4,27,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to rotating or shifting blocks in a specific patter | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,merge,4,28,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,merge,4,29,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks in a specific patter | EXPERIMENT | cd=[1, 6]"
+a8809257,probe52_arc,merge,4,30,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[1, 6]"
+a8809257,probe52_arc,merge,4,31,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a specific pattern or group of blocks,  | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,4,32,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a specific pattern or group of blocks,  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,33,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a specific pattern or group of blocks,  | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,merge,4,34,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks in a specific area,  | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,merge,4,35,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,merge,4,36,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to rotating or shifting blocks in a specific patter | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,37,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,merge,4,38,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks in a specific patter | EXPERIMENT | cd=[1, 6]"
+a8809257,probe52_arc,merge,4,39,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[1, 6]"
+a8809257,probe52_arc,merge,4,40,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to rotating or shifting blocks in a specific patter | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,merge,4,41,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or replacing blocks in a specific patte | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,merge,4,42,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to shifting or rotating blocks in a specific patter | EXPERIMENT | cd=[]
+a8809257,probe52_arc,merge,4,43,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with specific blocks, with '8' and ' | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,4,44,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks, with '8' and '9' bl | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,45,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing blocks, with '8' and '9' b | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,46,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring sections of the grid, with | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,merge,4,47,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific blocks, with '8'  | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,merge,4,48,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with the '8' and '9' blocks, which c | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,merge,4,49,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or rotating blocks in a specific patter | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,0,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial theory is that the actions might be related to moving or modifying th | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,0,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=My updated theory is that the actions might be related to interacting with the ' | cd=[1]
+a8809257,probe52_arc,simple_maze,0,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions might be related to moving or swapping blocks, with the go | cd=[1]"
+a8809257,probe52_arc,simple_maze,0,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to moving or swapping blocks, with the goal of | cd=[1, 3]"
+a8809257,probe52_arc,simple_maze,0,4,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions seem to be related to moving or swapping blocks, with the goal of cr | cd=[1, 3, 4]"
+a8809257,probe52_arc,simple_maze,0,5,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with specific blocks or patterns on  | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,0,6,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with specific blocks or patterns on  | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,7,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks, and the '8' and '9' b | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,8,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks, and the '8' and '9' b | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,0,9,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring blocks, and the '8' and '9 | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,0,10,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks, and the '8' and '9' b | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,0,11,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting the grid, and the '8' and | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,0,12,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific blocks, and the '8'  | EXPERIMENT | cd=[2, 3]"
+a8809257,probe52_arc,simple_maze,0,13,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or flipping the grid, and the '8' and ' | EXPERIMENT | cd=[2, 3, 4]"
+a8809257,probe52_arc,simple_maze,0,14,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving or removing specific blocks, and the '8'  | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,0,15,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring specific blocks or pattern | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,16,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific blocks, and the '8'  | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,17,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to removing or rearranging blocks in a specific pat | EXPERIMENT | cd=[2, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,18,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks in a specific pattern. | EXPERIMENT | cd=[2, 5]"
+a8809257,probe52_arc,simple_maze,0,19,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring the grid, and the goal cou | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,0,20,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks in the grid, and the g | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,0,21,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to removing or replacing blocks in the grid, and th | EXPERIMENT | cd=[3]"
+a8809257,probe52_arc,simple_maze,0,22,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with specific blocks or patterns in  | EXPERIMENT | cd=[3, 4]"
+a8809257,probe52_arc,simple_maze,0,23,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks in the grid, and the | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,0,24,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with the '8' and '9' blocks, and the | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,25,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks in the grid, and the g | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,26,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting parts of the grid, and th | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,0,27,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks in the grid, and the g | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,0,28,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or flipping the grid, and the goal coul | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,0,29,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks, and the goal could be | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,0,30,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting blocks, and the goal could  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,0,31,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing blocks, and the goal could | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,0,32,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting blocks, and the goal coul | EXPERIMENT | cd=[3]"
+a8809257,probe52_arc,simple_maze,0,33,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving blocks, and the goal could be | EXPERIMENT | cd=[3]"
+a8809257,probe52_arc,simple_maze,0,34,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting blocks, and the goal coul | EXPERIMENT | cd=[3, 6]"
+a8809257,probe52_arc,simple_maze,0,35,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' blocks to specific positi | EXPERIMENT | cd=[3, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,36,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a path or connection between the '8' an | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,0,37,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to clearing or modifying the '5' blocks to reveal a | EXPERIMENT | cd=[1, 5, 6]"
+a8809257,probe52_arc,simple_maze,0,38,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' blocks to specific positi | EXPERIMENT | cd=[1, 5]"
+a8809257,probe52_arc,simple_maze,0,39,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a path or connection between the '8' an | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,simple_maze,0,40,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to moving the '8' and '9' blocks to adjacent positi | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,simple_maze,0,41,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a path for the '8' and '9' blocks to co | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,0,42,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a cluster of '5' blocks, possibly by mo | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,0,43,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a path or a specific pattern with the ' | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,0,44,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with the '8' and '9' blocks, possibl | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,0,45,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to interacting with the '8' and '9' blocks, possibl | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,0,46,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a path or a specific pattern with the ' | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,0,47,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' blocks to surround or enclo | EXPERIMENT | cd=[1, 5]"
+a8809257,probe52_arc,simple_maze,0,48,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a path or connection between the '8' an | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,0,49,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to creating a cluster or group of '5' blocks, possi | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,1,0,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=unknown; I do not yet know what any action does or what the goal is, so I must p | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,1,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions might be related to moving or modifying the '5' o | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,simple_maze,1,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions might be related to swapping or moving symbols, and the go | cd=[1]"
+a8809257,probe52_arc,simple_maze,1,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are related to moving or swapping symbols, with ACTION2 be | cd=[1, 3]"
+a8809257,probe52_arc,simple_maze,1,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe ACTION2 changes the grid, possibly swapping or moving symbols. ACTION1 | cd=[1, 3, 4]"
+a8809257,probe52_arc,simple_maze,1,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions might be context-dependent, and the goal could be related  | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,1,6,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to specific patterns or combinations  | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,7,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to swapping or moving specific symbol | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,8,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to rotating or reflecting specific pa | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,1,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to moving the '8' and '9' symbols to  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,10,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the '5' symbols to cr | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,1,11,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to moving the '8' symbol to specific  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,1,12,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to creating a specific pattern or ali | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,1,13,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to moving or swapping the '8' and '9' | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,1,14,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to rotating or reflecting the grid, r | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,1,15,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the '5' symbols to cr | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,16,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '8' and '9' symbo | EXPERIMENT | cd=[3, 6]"
+a8809257,probe52_arc,simple_maze,1,17,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols, as t | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,1,18,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to interacting with the '8' and '9' s | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,19,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols, as t | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,1,20,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to interacting with the '8' and '9' s | EXPERIMENT | cd=[2, 4, 5]"
+a8809257,probe52_arc,simple_maze,1,21,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols, as t | EXPERIMENT | cd=[2, 5]"
+a8809257,probe52_arc,simple_maze,1,22,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the '8' and '9' symbo | EXPERIMENT | cd=[2]
+a8809257,probe52_arc,simple_maze,1,23,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols, as t | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,1,24,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to manipulating the empty spaces (.)  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,25,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to swapping or moving specific symbol | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,26,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols to cr | EXPERIMENT | cd=[3, 6]"
+a8809257,probe52_arc,simple_maze,1,27,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to interacting with the '8' and '9' s | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,1,28,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols to cr | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,1,29,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to interacting with the '8' and '9' s | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,30,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to manipulating the '5' symbols to cr | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,31,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to swapping or moving the '5' symbols | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,1,32,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to rotating or reflecting the grid, a | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,simple_maze,1,33,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to moving the '8' and '9' symbols to  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,1,34,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to modifying the '5' symbols to creat | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,simple_maze,1,35,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now believe the actions might be related to moving the '8' and '9' symbols to  | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,simple_maze,1,36,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to removing or modifying the '5' symb | EXPERIMENT | cd=[1, 3]"
+a8809257,probe52_arc,simple_maze,1,37,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to interacting with the '8' and '9' s | EXPERIMENT | cd=[1, 3, 4]"
+a8809257,probe52_arc,simple_maze,1,38,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to clearing or modifying the '5' symb | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,1,39,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to interacting with the '8' and '9' s | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,40,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to modifying the '5' symbols to creat | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,1,41,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now believe the actions might be related to rotating or flipping the grid, and | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,1,42,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to moving or swapping the '8' and '9' symbols to cr | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,43,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to moving or swapping the '8' and '9' symbols to cr | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,1,44,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to manipulating the '5' symbols to create a path or | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,45,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or moving specific symbols to create a  | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,46,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to rotating or flipping specific sections of the gr | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,1,47,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific cells or symbols  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,1,48,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting the grid, and the goal coul | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,1,49,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific symbols on the gr | EXPERIMENT | cd=[1, 5]"
+a8809257,probe52_arc,simple_maze,2,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=My initial hypothesis is that the actions might be related to moving or modifyin | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,2,1,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving or modifying the '5', '8', or '9' charact | cd=[1]"
+a8809257,probe52_arc,simple_maze,2,2,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving or modifying the '5', '8', or '9' charact | cd=[1, 6]"
+a8809257,probe52_arc,simple_maze,2,3,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters in the grid. ACTIO | cd=[1, 6]"
+a8809257,probe52_arc,simple_maze,2,4,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters in the grid. ACTIO | cd=[1, 3, 6]"
+a8809257,probe52_arc,simple_maze,2,5,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters in the grid. ACTIO | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,2,6,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting parts of the grid, rather | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,2,7,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' characters to specific po | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,2,8,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters in a specific patt | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,simple_maze,2,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to moving or swapping characters in a specific patt | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,simple_maze,2,10,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting parts of the grid, and th | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,2,11,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters within the grid, a | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,simple_maze,2,12,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting parts of the grid, and th | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,simple_maze,2,13,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters within the grid, a | EXPERIMENT | cd=[2, 6]"
+a8809257,probe52_arc,simple_maze,2,14,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting parts of the grid, and th | EXPERIMENT | cd=[2, 6]"
+a8809257,probe52_arc,simple_maze,2,15,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters within the grid, a | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,2,16,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting parts of the grid, and th | EXPERIMENT | cd=[2, 5]"
+a8809257,probe52_arc,simple_maze,2,17,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or moving specific characters within th | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,simple_maze,2,18,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to removing or replacing specific characters within | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,19,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters within the grid, a | EXPERIMENT | cd=[1, 5, 6]"
+a8809257,probe52_arc,simple_maze,2,20,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or flipping sections of the grid, and t | EXPERIMENT | cd=[1, 2, 6]"
+a8809257,probe52_arc,simple_maze,2,21,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' characters to create a so | EXPERIMENT | cd=[1, 2, 6]"
+a8809257,probe52_arc,simple_maze,2,22,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving the '8' and '9' characters wi | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,2,23,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting the grid, and the goal co | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,2,24,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, and the  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,2,25,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or flipping the grid, and the goal coul | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,2,26,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' characters to specific po | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,27,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to clearing a path for the '8' and '9' characters t | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,28,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting the grid, and the goal co | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,29,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving or swapping specific characters on the gr | EXPERIMENT | cd=[1, 6]"
+a8809257,probe52_arc,simple_maze,2,30,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring specific sections of the g | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,2,31,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters within th | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,2,32,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring specific sections of the g | EXPERIMENT | cd=[1, 2, 3]"
+a8809257,probe52_arc,simple_maze,2,33,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters within th | EXPERIMENT | cd=[2, 3]"
+a8809257,probe52_arc,simple_maze,2,34,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters within th | EXPERIMENT | cd=[3, 5]"
+a8809257,probe52_arc,simple_maze,2,35,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting specific sections of the  | EXPERIMENT | cd=[3, 5, 6]"
+a8809257,probe52_arc,simple_maze,2,36,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, and the  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,37,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting specific parts of the gri | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,38,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, and the  | EXPERIMENT | cd=[1, 6]"
+a8809257,probe52_arc,simple_maze,2,39,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting specific sections of the  | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,2,40,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, and the  | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,2,41,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting specific sections of the gr | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,2,42,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, and the  | EXPERIMENT | cd=[2]"
+a8809257,probe52_arc,simple_maze,2,43,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to removing or replacing specific characters, and t | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,2,44,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to removing or replacing specific characters, and t | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,2,45,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving characters, and the goal coul | EXPERIMENT | cd=[1, 5, 6]"
+a8809257,probe52_arc,simple_maze,2,46,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=Given the previous effects and the lack of progress, a new hypothesis is that th | EXPERIMENT | cd=[1, 5, 6]"
+a8809257,probe52_arc,simple_maze,2,47,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters ('8' and  | EXPERIMENT | cd=[1, 4, 6]"
+a8809257,probe52_arc,simple_maze,2,48,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting specific sections of the  | EXPERIMENT | cd=[1, 4]"
+a8809257,probe52_arc,simple_maze,2,49,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific cells in the grid, p | EXPERIMENT | cd=[2, 4]"
+a8809257,probe52_arc,simple_maze,3,0,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=My initial hypothesis is that the actions might move or modify the '5', '8', or  | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,3,1,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=My revised hypothesis is that the actions might be related to the '8' or '9' cha | cd=[1]
+a8809257,probe52_arc,simple_maze,3,2,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to moving or swapping unique characters ('8' or '9' | cd=[1]
+a8809257,probe52_arc,simple_maze,3,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving or swapping unique characters ('8' or '9' | cd=[1, 3]"
+a8809257,probe52_arc,simple_maze,3,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve moving the '8' or '9' to specific positions, and ACTION2  | cd=[1, 3, 4]"
+a8809257,probe52_arc,simple_maze,3,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The goal might involve creating a specific pattern or clearing a path for the '8 | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,3,6,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=Given that ACTION2 changed the grid and the others did not, my new hypothesis is | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,7,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=Given the contradiction, my new hypothesis is that the actions might be dependen | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,8,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe the actions are dependent on the state of the grid, specifically the p | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,3,9,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions are dependent on the state of the grid, specifically the position of | EXPERIMENT | cd=[6]"
+a8809257,probe52_arc,simple_maze,3,10,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to the manipulation of the '5' characters, possibly | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,3,11,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to the manipulation of the '.' characters, possibly | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,3,12,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to the manipulation of the '5' characters, possibly | EXPERIMENT | cd=[3, 5]"
+a8809257,probe52_arc,simple_maze,3,13,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to the manipulation of the '.' characters, creating | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,3,14,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, such as  | EXPERIMENT | cd=[3, 4]"
+a8809257,probe52_arc,simple_maze,3,15,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' characters, as they are the | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,3,16,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '.' characters, as the grid sto | EXPERIMENT | cd=[2, 4, 6]"
+a8809257,probe52_arc,simple_maze,3,17,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' characters or interacting w | EXPERIMENT | cd=[2, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,18,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting the grid, and the goal coul | EXPERIMENT | cd=[2, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,19,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific characters in the | EXPERIMENT | cd=[2, 5]"
+a8809257,probe52_arc,simple_maze,3,20,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting the grid, and the goal coul | EXPERIMENT | cd=[5]"
+a8809257,probe52_arc,simple_maze,3,21,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific characters, and t | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,3,22,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting the grid, and the goal coul | EXPERIMENT | cd=[4]"
+a8809257,probe52_arc,simple_maze,3,23,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific characters, and t | EXPERIMENT | cd=[3, 4]"
+a8809257,probe52_arc,simple_maze,3,24,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or mirroring the grid, and the goal cou | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,3,25,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters, and the  | EXPERIMENT | cd=[3, 4, 6]"
+a8809257,probe52_arc,simple_maze,3,26,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting specific sections of the  | EXPERIMENT | cd=[3, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,27,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or reflecting specific sections of the  | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,28,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving specific characters or blocks | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,simple_maze,3,29,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I hypothesize that the actions are related to rotating or flipping sections of t | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,simple_maze,3,30,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to swapping or moving specific charac | EXPERIMENT | cd=[4]
+a8809257,probe52_arc,simple_maze,3,31,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to rotating or shifting the grid, | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,3,32,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to moving the '8' and '9' charact | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,3,33,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to removing or modifying the '5'  | EXPERIMENT | cd=[3]
+a8809257,probe52_arc,simple_maze,3,34,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to interacting with the '8' and ' | EXPERIMENT | cd=[3, 6]"
+a8809257,probe52_arc,simple_maze,3,35,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '5' character | EXPERIMENT | cd=[3, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,36,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '8' and '9' c | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,37,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '5' character | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,38,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions are related to manipulating the '8' and '9' c | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,simple_maze,3,39,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions are related to moving or swapping the '8' and | EXPERIMENT | cd=[4]
+a8809257,probe52_arc,simple_maze,3,40,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to rotating or mirroring par | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,3,41,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to swapping or moving specif | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,3,42,ACTION6,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to rotating or flipping sect | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,3,43,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to moving the '8' and '9' ch | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,3,44,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to removing or modifying the | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,3,45,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to manipulating the '8' and  | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,46,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to manipulating the '5' char | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,3,47,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to moving the '8' character  | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,3,48,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to manipulating the '5' char | EXPERIMENT | cd=[3, 4]"
+a8809257,probe52_arc,simple_maze,3,49,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to swapping or moving characters in t | EXPERIMENT | cd=[3]
+a8809257,probe52_arc,simple_maze,4,0,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I hypothesize that the actions are related to moving or modifying the grid cells | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,4,1,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I believe that the actions are related to moving or modifying the grid cells, an | cd=[1]"
+a8809257,probe52_arc,simple_maze,4,2,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I believe that the actions are related to moving or modifying the grid cells, an | cd=[1]"
+a8809257,probe52_arc,simple_maze,4,3,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I believe that the actions are related to moving or modifying the grid cells, an | cd=[1, 3]"
+a8809257,probe52_arc,simple_maze,4,4,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=I believe that ACTION2 is related to moving or swapping a cell, and since ACTION | cd=[1, 3, 4]"
+a8809257,probe52_arc,simple_maze,4,5,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I hypothesize that ACTION6 could be related to rotating or flipping a section of | EXPERIMENT | cd=[3, 4, 5]"
+a8809257,probe52_arc,simple_maze,4,6,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to moving or swapping specif | EXPERIMENT | cd=[3, 4, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,7,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to rotating or mirroring spe | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,8,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to swapping or moving specif | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,9,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to rotating or flipping spec | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,4,10,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to swapping or moving specif | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,4,11,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to rotating or shifting rows | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,4,12,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to swapping or replacing spe | EXPERIMENT | cd=[2]
+a8809257,probe52_arc,simple_maze,4,13,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to moving the '8' or '9' sym | EXPERIMENT | cd=[2]
+a8809257,probe52_arc,simple_maze,4,14,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to manipulating the '5' symb | EXPERIMENT | cd=[2]
+a8809257,probe52_arc,simple_maze,4,15,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to manipulating the '.' symb | EXPERIMENT | cd=[2, 5]"
+a8809257,probe52_arc,simple_maze,4,16,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to manipulating the '5' symb | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,17,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to moving the '8' and '9' sy | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,18,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to removing or modifying the | EXPERIMENT | cd=[1, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,19,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to interacting with the '8'  | EXPERIMENT | cd=[1, 2, 6]"
+a8809257,probe52_arc,simple_maze,4,20,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to manipulating the '5' symb | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,4,21,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to moving the '8' and '9' sy | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,4,22,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to moving the '5' symbols or | EXPERIMENT | cd=[2]
+a8809257,probe52_arc,simple_maze,4,23,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to rotating or shifting the  | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,4,24,ACTION5,0,GameState.NOT_FINISHED,False,mechanics=I now hypothesize that the actions might be related to swapping or replacing spe | EXPERIMENT | cd=[4]
+a8809257,probe52_arc,simple_maze,4,25,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=I now hypothesize that the actions might be related to rotating or shifting the  | EXPERIMENT | cd=[4, 5]"
+a8809257,probe52_arc,simple_maze,4,26,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting the grid, and the goal coul | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,27,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific symbols, and the  | EXPERIMENT | cd=[4, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,28,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific symbols, and the  | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,29,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or shifting the grid, and the goal coul | EXPERIMENT | cd=[4, 6]"
+a8809257,probe52_arc,simple_maze,4,30,ACTION1,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific symbols, and the  | EXPERIMENT | cd=[4]"
+a8809257,probe52_arc,simple_maze,4,31,ACTION2,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or replacing specific symbols, and the  | EXPERIMENT | cd=[1, 4]"
+a8809257,probe52_arc,simple_maze,4,32,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' symbols to specific posit | EXPERIMENT | cd=[1, 2, 4]"
+a8809257,probe52_arc,simple_maze,4,33,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving the '8' and '9' symbols with  | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,4,34,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to modifying the '5' symbols to create a path or a  | EXPERIMENT | cd=[1, 2, 5]"
+a8809257,probe52_arc,simple_maze,4,35,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to modifying the '.' symbols to create a path or a  | EXPERIMENT | cd=[2, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,36,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to moving the '8' and '9' symbols to specific posit | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,37,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving the '8' and '9' symbols to ad | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,38,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a specific pattern or clearing a path f | EXPERIMENT | cd=[6]
+a8809257,probe52_arc,simple_maze,4,39,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or moving the '5' symbols to create a c | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,4,40,ACTION2,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to removing or modifying the '5' symbols to reveal  | EXPERIMENT | cd=[1]
+a8809257,probe52_arc,simple_maze,4,41,ACTION6,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' symbols to create a specifi | EXPERIMENT | cd=[1, 2]"
+a8809257,probe52_arc,simple_maze,4,42,ACTION5,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '.' symbols to create a path or | EXPERIMENT | cd=[1, 2, 6]"
+a8809257,probe52_arc,simple_maze,4,43,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' symbols to create a specifi | EXPERIMENT | cd=[1, 2, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,44,ACTION4,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to swapping or moving the '8' and '9' symbols to sp | EXPERIMENT | cd=[2, 5, 6]"
+a8809257,probe52_arc,simple_maze,4,45,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to manipulating the '5' symbols to create a specifi | EXPERIMENT | cd=[5, 6]"
+a8809257,probe52_arc,simple_maze,4,46,ACTION4,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to moving the '8' and '9' symbols to specific posit | EXPERIMENT | cd=[5]
+a8809257,probe52_arc,simple_maze,4,47,ACTION3,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to creating a path or connection between the '8' an | EXPERIMENT | cd=[]
+a8809257,probe52_arc,simple_maze,4,48,ACTION3,0,GameState.NOT_FINISHED,False,"mechanics=The actions might be related to rotating or flipping sections of the grid, and t | EXPERIMENT | cd=[]"
+a8809257,probe52_arc,simple_maze,4,49,ACTION1,0,GameState.NOT_FINISHED,False,mechanics=The actions might be related to swapping or moving individual cells rather than  | EXPERIMENT | cd=[3]

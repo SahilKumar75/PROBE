@@ -1,0 +1,29 @@
+{
+  "probe52_arc": {
+    "run_id": "ce24ad74",
+    "variant": "probe52_arc",
+    "games": [
+      "simple_maze",
+      "merge",
+      "complex_maze"
+    ],
+    "n_per_game": 5,
+    "budget": 50,
+    "solve_rate": 0.0,
+    "per_game": {
+      "simple_maze": {
+        "solve_rate": 0.0,
+        "n": 5
+      },
+      "merge": {
+        "solve_rate": 0.0,
+        "n": 5
+      },
+      "complex_maze": {
+        "solve_rate": 0.0,
+        "n": 5
+      }
+    },
+    "trace_file": "/Users/sahilkumarsingh/Desktop/PROBE_Research_Paper_material /probe/traces/arc_probe52_arc_ce24ad74_arcc_probe52_arc_5.csv"
+  }
+}
