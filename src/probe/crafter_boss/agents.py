@@ -213,7 +213,11 @@ class CrafterProbeUAgent:
             entry["uses"] += 1
             for g in gains:
                 entry["gains"][g] = entry["gains"].get(g, 0) + 1
-            novelty = bool(gains) or bool(nearby - self.seen_entities)
+            # world-state change counts as progress (the spec's novelty rule):
+            # walking changes what is nearby; only a frozen view is stagnation
+            view_changed = nearby != getattr(self, "_last_nearby", set())
+            novelty = bool(gains) or bool(nearby - self.seen_entities) or view_changed
+        self._last_nearby = set(nearby)
         self.seen_entities |= nearby
         self.last_resources = resources
         self.last_achievements = achievements
@@ -277,7 +281,7 @@ class CrafterProbeUAgent:
             self.same_streak += 1
         else:
             self.same_streak = 0
-        if self.same_streak >= 3 and self.steps_since_novelty >= 3:
+        if self.same_streak >= 3 and self.steps_since_novelty >= 3 and not action_name.startswith("move"):
             alt = [i for i, a in enumerate(ACTIONS) if a != action_name]
             if alt:
                 index = alt[0] if not experiment else alt[-1]
