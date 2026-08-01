@@ -294,3 +294,38 @@ VARIANTS = {
     "probe_sw": SWProbeAgent,
     "probe52_sw": SWProbe52Agent,
 }
+
+
+class SWProbeAAgent(SWProbe52Agent):
+    """PROBE-A on ScienceWorld: probe5.2 machinery behind adaptive gates.
+
+    The map section enters the prompt only once >= 2 rooms have been seen;
+    commands are named English so the systematic probe phase never fires.
+    A score-yield ledger enters once any command has produced score (partial
+    credit makes this observable here, unlike TextWorld's terminal reward).
+    """
+
+    def __init__(self, client=None):
+        super().__init__(client)
+        self.yields: dict[str, int] = {}
+        self._last_cmd: str | None = None
+        self._last_score = 0
+
+    def _render_map(self) -> str:
+        if len(self.rooms) < 2:
+            return ""
+        return super()._render_map()
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        score = int(obs.get("score", 0))
+        if self._last_cmd is not None and score > self._last_score:
+            self.yields[self._last_cmd] = self.yields.get(self._last_cmd, 0) + (score - self._last_score)
+        if self.yields:
+            top = ", ".join(f"'{c}' earned +{v}" for c, v in sorted(self.yields.items(), key=lambda kv: -kv[1])[:5])
+            obs = dict(obs)
+            obs["obs"] = obs["obs"][:650] + f"\nLEDGER of what has earned score (ground truth): {top}"
+        command, note = super().act(obs, history)
+        self._last_cmd, self._last_score = command, score
+        return command, "A|" + note
+
+VARIANTS["probe_a_sw"] = SWProbeAAgent

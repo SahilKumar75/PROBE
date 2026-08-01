@@ -8,7 +8,7 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.crafter_boss.agents import ACTIONS, CrafterBaselineAgent, CrafterProbeAgent, CrafterReflexionAgent
+from probe.crafter_boss.agents import ACTIONS, CrafterBaselineAgent, CrafterProbeAgent, CrafterProbeUAgent, CrafterReflexionAgent
 from probe.crafter_boss.env import describe, id_to_name, make_env
 
 
@@ -16,6 +16,8 @@ VARIANTS = {
     "baseline_cf": CrafterBaselineAgent,
     "reflexion_cf": CrafterReflexionAgent,
     "probe_cf": CrafterProbeAgent,
+    "probe_u_cf": CrafterProbeUAgent,
+    "probe_a_cf": CrafterProbeUAgent,
 }
 
 TRACE_FIELDS = ["run_id", "variant", "seed", "step", "action", "reward", "achievements", "note"]

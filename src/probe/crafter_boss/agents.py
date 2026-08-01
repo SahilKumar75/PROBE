@@ -146,3 +146,142 @@ class CrafterReflexionAgent:
         else:
             index = _select(text, ACTIONS)
         return index, f"reflection={self.reflection[:150]}"
+
+
+class CrafterProbeUAgent:
+    """PROBE-U, the unified agent: Round 1 core + novelty stagnation + anti-spam
+    + positive memory (world seen + action ledger), mapped to Crafter.
+
+    Components and their Crafter mapping:
+      - Rule belief (R1): what unlocks what in the tech tree, kept explicit.
+      - Novelty progress (5.1): progress = a NEW achievement, a resource gain,
+        or a never-before-seen nearby entity; stagnation is counted on that,
+        not on raw state change (Crafter always changes pixels).
+      - Stagnation-as-contradiction + experimentation (R1): after 10 steps
+        with no novelty the plan is declared falsified and an EXPERIMENT is
+        forced toward an action category not tried recently.
+      - Anti-spam (5.2's cooldown, not a ban): the same action 4x in a row
+        with no novelty forces a different action.
+      - World memory (5.2's map): the set of entity types seen so far.
+      - Action ledger (5.3): per-action tally of what it produced (resource
+        gains, achievements), shown each step as ground-truth facts.
+    """
+
+    def __init__(self, client=None):
+        self._client = client
+        self.belief = "no plan yet"
+        self.rule = "unknown; I must discover what each action yields and what unlocks what by trying and watching inventory and achievements"
+        self.seen_entities: set[str] = set()
+        self.last_resources: dict | None = None
+        self.last_achievements: set[str] = set()
+        self.steps_since_novelty = 0
+        self.ledger: dict[str, dict] = {}
+        self.last_action: str | None = None
+        self.same_streak = 0
+
+    def _client_or_default(self):
+        if self._client is None:
+            self._client = _default_client()
+        return self._client
+
+    @staticmethod
+    def _parse_kv(raw) -> dict:
+        if isinstance(raw, dict):
+            return {str(k): v for k, v in raw.items()}
+        out = {}
+        for m in re.finditer(r"(\w+)\s*[:=]\s*(\d+)", str(raw)):
+            out[m.group(1)] = int(m.group(2))
+        return out
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[int, str]:
+        resources = self._parse_kv(obs.get("resources", ""))
+        achievements = set(re.findall(r"[a-z_]+", str(obs.get("achievements", ""))))
+        nearby = set(re.findall(r"[a-z_]+", str(obs.get("nearby", ""))))
+
+        # ---- ledger + novelty from the delta of the LAST action ----
+        novelty = False
+        if self.last_action is not None:
+            gains = []
+            if self.last_resources is not None:
+                for k, v in resources.items():
+                    if v > self.last_resources.get(k, 0):
+                        gains.append(f"+{k}")
+            new_ach = achievements - self.last_achievements
+            for a in new_ach:
+                gains.append(f"ACHIEVEMENT {a}")
+            entry = self.ledger.setdefault(self.last_action, {"uses": 0, "gains": {}})
+            entry["uses"] += 1
+            for g in gains:
+                entry["gains"][g] = entry["gains"].get(g, 0) + 1
+            novelty = bool(gains) or bool(nearby - self.seen_entities)
+        self.seen_entities |= nearby
+        self.last_resources = resources
+        self.last_achievements = achievements
+        self.steps_since_novelty = 0 if novelty else self.steps_since_novelty + 1
+
+        experiment = self.steps_since_novelty >= 10
+        ledger_lines = []
+        for a, e in sorted(self.ledger.items(), key=lambda kv: -kv[1]["uses"])[:8]:
+            top = ", ".join(f"{g} x{n}" for g, n in sorted(e["gains"].items(), key=lambda kv: -kv[1])[:3]) or "nothing yet"
+            ledger_lines.append(f"{a}({e['uses']}x): {top}")
+        ledger = " | ".join(ledger_lines) or "no data yet"
+
+        contra = ""
+        if experiment:
+            contra = (
+                "CONTRADICTION: nothing new for a while, so your plan is falsified. Using the LEDGER, pick the "
+                "action most likely to produce a NEW resource or achievement, or try a promising action you have "
+                "not used recently. Do not keep repeating what yields nothing.\n"
+            )
+
+        system = (
+            "You play Crafter, keeping an explicit situation belief and a RULE belief about what unlocks what. You "
+            "have a LEDGER of what each action has actually produced: treat it as ground truth. Plan through the "
+            "tech tree; when progress stalls, revise the rule belief and test it. Reply only with a JSON object."
+        )
+        prompt = (
+            f"Vitals: {obs['vitals']}\n"
+            f"Inventory: {obs['resources']}\n"
+            f"Achievements unlocked: {obs['achievements']}\n"
+            f"Nearby: {obs['nearby']}\n"
+            f"Entity types seen so far: {sorted(self.seen_entities) or 'none'}\n"
+            f"ACTION LEDGER (observed yields): {ledger}\n"
+            f"Situation belief and plan: {self.belief}\n"
+            f"Rule belief (what unlocks what): {self.rule}\n"
+            f"Recent actions: {_recent(history)}\n"
+            f"{contra}"
+            f"{TIPS}\n"
+            f"Actions:\n{_numbered(ACTIONS)}\n"
+            'Reply with one JSON object with keys: "belief" (situation and next sub goal), "rule" (updated theory of '
+            'what unlocks what), "action_number" (the integer action).'
+        )
+        try:
+            text = self._client_or_default().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+
+        parsed = _extract_json(text)
+        self.belief = str(parsed.get("belief", self.belief))[:400]
+        rule = parsed.get("rule")
+        if isinstance(rule, str) and rule.strip():
+            self.rule = rule.strip()[:400]
+        number = parsed.get("action_number")
+        if isinstance(number, int) and 0 <= number < len(ACTIONS):
+            index = number
+        else:
+            index = _select(text, ACTIONS)
+
+        # anti-spam cooldown: same action 4x with no novelty -> force different
+        action_name = ACTIONS[index]
+        if action_name == self.last_action:
+            self.same_streak += 1
+        else:
+            self.same_streak = 0
+        if self.same_streak >= 3 and self.steps_since_novelty >= 3:
+            alt = [i for i, a in enumerate(ACTIONS) if a != action_name]
+            if alt:
+                index = alt[0] if not experiment else alt[-1]
+                self.same_streak = 0
+        self.last_action = ACTIONS[index]
+        tag = " | EXPERIMENT" if experiment else ""
+        return index, f"belief={self.belief[:60]} | rule={self.rule[:50]}{tag}"

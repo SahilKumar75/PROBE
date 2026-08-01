@@ -1000,3 +1000,25 @@ class TWProbe52Agent:
         self.last_score = score
         tag = " | STUCK" if stuck else ""
         return command, f"belief={self.belief[:45]} | rooms={len(self.rooms)}{tag}"
+
+
+class TWProbeAAgent(TWProbe52Agent):
+    """PROBE-A on TextWorld: probe5.2's machinery behind adaptive gates.
+
+    Deterministic triggers (see docs/PROBE_A_SPEC.md): the MAP section enters
+    the prompt only once >= 2 rooms have been seen (partial observability
+    detected); a command LEDGER (what led nowhere vs what scored) enters only
+    once it carries signal. Commands are named English, so the systematic
+    probe phase never fires here. Otherwise identical to probe5.2, which
+    already carries the always-on core (novelty progress, soft-cap anti-loop,
+    act-not-sense stuck nudge).
+    """
+
+    def _render_map(self) -> str:
+        if len(self.rooms) < 2:
+            return ""
+        return super()._render_map()
+
+    def act(self, obs: dict, history: list[dict]) -> tuple[str, str]:
+        command, note = super().act(obs, history)
+        return command, "A|" + note
