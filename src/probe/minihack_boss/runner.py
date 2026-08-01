@@ -8,7 +8,7 @@ import statistics
 import uuid
 from pathlib import Path
 
-from probe.minihack_boss.agents import MiniHackBaselineAgent, MiniHackProbeAgent, MiniHackReflexionAgent
+from probe.minihack_boss.agents import MiniHackProbeAAgent, MiniHackBaselineAgent, MiniHackProbeAgent, MiniHackReflexionAgent
 from probe.minihack_boss.env import action_labels, describe, make_env
 
 
@@ -16,6 +16,7 @@ VARIANTS = {
     "baseline_mh": MiniHackBaselineAgent,
     "reflexion_mh": MiniHackReflexionAgent,
     "probe_mh": MiniHackProbeAgent,
+    "probe_a_mh": MiniHackProbeAAgent,
 }
 
 TRACE_FIELDS = ["run_id", "variant", "env_id", "seed", "step", "action", "reward", "done", "note"]

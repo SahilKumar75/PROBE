@@ -236,3 +236,58 @@ class MiniHackProbeAgent:
         self.prev_index = index
         tag = " | EXPERIMENT" if experiment else ""
         return index, f"belief={self.belief[:80]} | mech={self.mechanics[:80]}{tag}"
+
+
+class MiniHackProbeAAgent(MiniHackProbeAgent):
+    """PROBE-A on MiniHack: Round 1 core (inherited) + the adaptive instruments.
+
+    Adds per docs/PROBE_A_SPEC.md: an ACTION LEDGER (per-action tallies of
+    moved / blocked / message outcomes, aggregated across the episode and
+    injected once it carries signal), a global 3-step COOLDOWN on an action
+    whose last use changed nothing (the per-spot blocked memory already
+    inherited only covers the current tile), and an explored-count novelty
+    line. Actions are named, so the systematic probe phase never fires.
+    """
+
+    def __init__(self, client=None):
+        super().__init__(client)
+        self.ledger: dict[str, dict] = {}
+        self.cooldown: dict[int, int] = {}
+
+    def act(self, obs: dict, actions: list[str], history: list[dict]) -> tuple[int, str]:
+        # ledger update for the PREVIOUS action
+        if self.prev_index is not None and self.prev_key is not None:
+            name = actions[self.prev_index] if self.prev_index < len(actions) else str(self.prev_index)
+            entry = self.ledger.setdefault(name, {"moved": 0, "blocked": 0})
+            if obs["screen"] == (self.prev_screen or ""):
+                entry["blocked"] += 1
+            else:
+                entry["moved"] += 1
+        # cooldown tick + assignment
+        self.cooldown = {a: t - 1 for a, t in self.cooldown.items() if t - 1 > 0}
+        if self.prev_index is not None and obs["screen"] == (self.prev_screen or ""):
+            self.cooldown[self.prev_index] = 3
+
+        ledger_lines = [
+            f"{n}: moved x{e['moved']}, blocked x{e['blocked']}"
+            for n, e in sorted(self.ledger.items(), key=lambda kv: -(kv[1]["moved"] + kv[1]["blocked"]))[:8]
+        ]
+        explored = len(set(self.recent_keys))
+        extra = ""
+        if ledger_lines:
+            extra = (
+                f"\nACTION LEDGER (observed this episode): {' | '.join(ledger_lines)}"
+                f"\nDistinct views explored: {explored}. On cooldown (just did nothing): "
+                f"{sorted(actions[i] for i in self.cooldown if i < len(actions)) or 'none'}."
+            )
+        obs = dict(obs)
+        obs["message"] = (obs.get("message") or "none") + extra
+
+        index, note = super().act(obs, actions, history)
+        # respect cooldown outside experiments: pick a non-cooled alternative
+        if index in self.cooldown and not self._stagnant():
+            open_idx = [i for i in range(len(actions)) if i not in self.cooldown]
+            if open_idx:
+                index = open_idx[0]
+                self.prev_index = index
+        return index, "A|" + note
