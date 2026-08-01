@@ -1,0 +1,13 @@
+{
+  "probe_a_mh": {
+    "run_id": "b347829f",
+    "variant": "probe_a_mh",
+    "env_id": "MiniHack-River-Narrow-v0",
+    "episodes": 10,
+    "budget": 120,
+    "success_rate": 0.3,
+    "mean_reward": 0.10399999999999995,
+    "mean_steps": 103.8,
+    "trace_file": "/workspaces/PROBE/traces/minihack_probe_a_mh_b347829f_mhc_probe_a_mh_10.csv"
+  }
+}
