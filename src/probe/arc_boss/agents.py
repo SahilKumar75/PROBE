@@ -189,8 +189,49 @@ class ARCProbeAgent:
         self.last_score = score
 
 
+class ARCProbe52Agent(ARCProbeAgent):
+    """probe5.2-style adds for ARC: anti-loop cooldown + budget-aware efficiency.
+
+    ARC frames are fully observable (the whole grid is visible every step), so
+    probe5.2's room map is meaningless here. What ports is the anti-loop: an
+    action that just produced "NOTHING changed" goes on cooldown for a few
+    steps instead of being re-spammed (the smoke showed ACTION2 chosen many
+    times in a row), plus a budget line in the prompt so every move counts.
+    Inherits the Round 1 mechanics (rule belief, stagnation-as-contradiction,
+    active experimentation) from ARCProbeAgent.
+    """
+
+    COOLDOWN = 4
+
+    def __init__(self, client=None):
+        super().__init__(client)
+        self.cooldown: dict[int, int] = {}
+        self.last_aid: int | None = None
+
+    def act(self, obs_text: str, available: list[int], history: list[dict]):
+        # tick cooldowns down each step
+        self.cooldown = {a: t - 1 for a, t in self.cooldown.items() if t - 1 > 0}
+        # if the PREVIOUS action changed nothing, put it on cooldown
+        if history and self.last_aid is not None and "NOTHING changed" in history[-1]["effect"]:
+            self.cooldown[self.last_aid] = self.COOLDOWN
+
+        open_actions = [a for a in available if a not in self.cooldown and a != 0]
+        obs_text = (
+            obs_text
+            + "\nYou have a limited move budget, so every action must count. These actions just did NOTHING and are "
+            + f"on cooldown, do not pick them: {sorted(self.cooldown) or 'none'}."
+        )
+        aid, coord, note = super().act(obs_text, open_actions or available, history)
+        if aid in self.cooldown and open_actions:
+            aid = open_actions[0]
+            coord = (32, 32) if aid == 6 else None
+        self.last_aid = aid
+        return aid, coord, note + f" | cd={sorted(self.cooldown)}"
+
+
 VARIANTS = {
     "baseline_arc": ARCBaselineAgent,
     "reflexion_arc": ARCReflexionAgent,
     "probe_arc": ARCProbeAgent,
+    "probe52_arc": ARCProbe52Agent,
 }
