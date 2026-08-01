@@ -229,9 +229,99 @@ class ARCProbe52Agent(ARCProbeAgent):
         return aid, coord, note + f" | cd={sorted(self.cooldown)}"
 
 
+class ARCProbe53Agent(ARCProbeAgent):
+    """Probe 5.3 for ARC: an ACTION LEDGER (positive memory of what each action
+    actually did) plus novelty-based stagnation, applying the TextWorld lessons.
+
+    Diagnosis of the 0/30 floor: the delta evidence was in the observation each
+    step, but nothing accumulated it, so the model re-derived (and hallucinated)
+    the mechanics every step; and the score-based stagnation trigger kept it in
+    permanent EXPERIMENT mode under the terminal reward, rewriting a fantasy
+    theory each step (the TextWorld thrash again). Fixes:
+      1. Ledger: aggregate per-action outcomes from the FULL history (the
+         harness emits facts like "moved '8' right" / "NOTHING changed" /
+         "changed 5 cells") and print the table each step. Deterministic
+         bookkeeping the model should never have to re-derive.
+      2. Dead actions: an action tried >=3 times that only ever produced
+         NOTHING is listed as useless and excluded from experiments.
+      3. Novelty stagnation: progress = the grid changed or the score rose;
+         experiment fires only after 4 steps with NO grid change (not on a
+         score drought, which is permanent under terminal reward).
+    """
+
+    def act(self, obs_text: str, available: list[int], history: list[dict]):
+        # ---- ledger from full history ----
+        from collections import Counter, defaultdict
+        outcomes: dict[str, Counter] = defaultdict(Counter)
+        for h in history:
+            outcomes[h["action"]][h["effect"].split(" to ")[0]] += 1
+        ledger_lines = []
+        dead: list[int] = []
+        for act_name in sorted(outcomes):
+            c = outcomes[act_name]
+            total = sum(c.values())
+            top = ", ".join(f"{eff} x{n}" for eff, n in c.most_common(3))
+            ledger_lines.append(f"{act_name}: {top}")
+            if total >= 3 and set(c) == {"NOTHING changed"}:
+                dead.append(int(act_name.replace("ACTION", "")))
+        ledger = " | ".join(ledger_lines) or "no data yet"
+
+        # ---- novelty stagnation (grid change or score = progress) ----
+        last_effect = history[-1]["effect"] if history else ""
+        if "NOTHING changed" in last_effect:
+            self.steps_since_change += 1
+        else:
+            self.steps_since_change = 0
+        experiment = self.steps_since_change >= 4 or not history
+
+        live = [a for a in available if a not in dead and a != 0]
+        untried = [a for a in live if a not in self.tried]
+        contradiction = ""
+        if experiment:
+            contradiction = (
+                "CONTRADICTION: the grid has stopped changing, so your current approach is falsified. Using the "
+                "LEDGER, pick the action most likely to move things forward, or an untried live action "
+                f"{untried or '(none untried)'}. Never pick a useless action.\n"
+            )
+
+        system = (
+            "You control a character in a grid puzzle with unknown actions and an unknown goal. You are given a "
+            "LEDGER of what each action has actually done so far: treat it as ground truth physics, do not invent "
+            "mechanics that contradict it. Typical games: a movable symbol must reach a special cell. Form your "
+            "mechanics belief FROM the ledger, plan with it, and act. Reply only with a JSON object."
+        )
+        prompt = (
+            f"{obs_text}\n"
+            f"ACTION LEDGER (observed facts): {ledger}\n"
+            f"Useless actions (only ever did nothing): {dead or 'none known'}\n"
+            f"Recent actions and their effects: {_recent(history)}\n"
+            f"Your mechanics belief: {self.mechanics}\n"
+            f"{contradiction}"
+            'Reply with one JSON object: {"mechanics": "belief grounded in the ledger", '
+            '"action": <integer id from the available actions>} (for action 6 also give integer "x" and "y").'
+        )
+        try:
+            text = self._c().generate_text(system_instruction=system, user_prompt=prompt)
+        except Exception:
+            text = ""
+        parsed = _extract_json(text)
+        mech = parsed.get("mechanics")
+        if isinstance(mech, str) and mech.strip():
+            self.mechanics = mech.strip()[:400]
+        aid, coord = _parse_action(parsed, live or available)
+
+        if aid in dead and live:
+            aid = (untried or live)[0]
+            coord = (32, 32) if aid == 6 else None
+        self.tried.add(aid)
+        tag = " | EXPERIMENT" if experiment else ""
+        return aid, coord, f"mech={self.mechanics[:60]} | dead={dead}{tag}"
+
+
 VARIANTS = {
     "baseline_arc": ARCBaselineAgent,
     "reflexion_arc": ARCReflexionAgent,
     "probe_arc": ARCProbeAgent,
     "probe52_arc": ARCProbe52Agent,
+    "probe53_arc": ARCProbe53Agent,
 }

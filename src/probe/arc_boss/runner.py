@@ -77,11 +77,9 @@ def _effect(prev_small, frame, new_score, old_score) -> str:
     if new_score > old_score:
         return f"score rose to {new_score}"
     try:
-        from probe.arc_boss.interp import downsample, _to_grid
+        from probe.arc_boss.interp import classify_effect, downsample, _to_grid
         cur = downsample(_to_grid(frame.frame))
-        if prev_small is not None and cur.shape == prev_small.shape and int((cur != prev_small).sum()) == 0:
-            return "NOTHING changed"
-        return "grid changed"
+        return classify_effect(prev_small, cur)
     except Exception:
         return "grid changed"
 

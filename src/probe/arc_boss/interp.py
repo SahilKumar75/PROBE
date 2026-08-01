@@ -99,3 +99,34 @@ def describe(frame, available_actions, state, score, prev_small: np.ndarray | No
         f"Effect of your last action: {_changes(small, prev_small)}"
     )
     return text, small
+
+
+def classify_effect(prev_small, cur_small) -> str:
+    """Classify what an action did, as a compact fact for the action ledger.
+
+    Returns "NOTHING changed" (exact string relied on by the agents), a
+    movement fact like "moved '8' right", or "changed N cells".
+    """
+    if prev_small is None or cur_small is None or prev_small.shape != cur_small.shape:
+        return "changed ? cells"
+    diff = np.argwhere(prev_small != cur_small)
+    if diff.size == 0:
+        return "NOTHING changed"
+    if len(diff) == 2:
+        (r1, c1), (r2, c2) = diff
+        a_old, a_new = int(prev_small[r1, c1]), int(cur_small[r1, c1])
+        b_old, b_new = int(prev_small[r2, c2]), int(cur_small[r2, c2])
+        # one glyph left cell A and appeared at cell B: a pure move
+        if a_new == b_old and b_new == a_old:
+            mover = a_old if b_new == a_old and a_old != 0 else b_new
+            src, dst = ((r1, c1), (r2, c2)) if cur_small[r2, c2] == a_old else ((r2, c2), (r1, c1))
+            if int(cur_small[dst[0], dst[1]]) != 0:
+                mover = int(cur_small[dst[0], dst[1]])
+                dr, dc = dst[0] - src[0], dst[1] - src[1]
+                direction = (
+                    "up" if dr < 0 and dc == 0 else "down" if dr > 0 and dc == 0
+                    else "left" if dc < 0 and dr == 0 else "right" if dc > 0 and dr == 0
+                    else f"({dr:+d},{dc:+d})"
+                )
+                return f"moved '{_GLYPHS.get(mover, '?')}' {direction}"
+    return f"changed {len(diff)} cells"
