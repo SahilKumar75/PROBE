@@ -1,0 +1,449 @@
+run_id,variant,game,seed,step,action,score,state,won,note
+a19b3405,probe53_arc,complex_maze,2,0,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,1,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,2,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,3,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,4,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,5,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,6,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,7,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,8,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,9,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,10,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,11,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,2,12,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,13,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,14,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,15,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,16,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,17,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,18,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,19,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,20,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,21,ACTION1,0,GameState.NOT_FINISHED,False,"mech=belief that ACTION1 changes a single cell, likely related to | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,22,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 changes a single cell, likely swapping '6' with '3', | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,23,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 consistently changes a single cell, swapping '6' wit | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,24,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 consistently changes a single cell, swapping '6' wit | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,25,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 consistently changes a single cell, swapping '6' wit | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,26,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 consistently changes a single cell, swapping '6' wit | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,27,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions h | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,28,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,29,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,30,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,31,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,32,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,33,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,34,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,35,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,36,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,37,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps '6' with '3' in a single cell, other actions m | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,38,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,39,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief that actions change a single cell or 33 cells, with A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,40,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief that actions change a single cell or 33 cells, with A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,41,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,42,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,43,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,44,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,45,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,46,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,47,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,48,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,49,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,50,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,51,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,52,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,53,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,54,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,55,ACTION6,0,GameState.NOT_FINISHED,False,"mech=actions change a single cell or 33 cells, with ACTION1 and A | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,56,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,57,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,58,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,59,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,2,60,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief that ACTION6 changes a single cell, likely related to | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,61,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 consistently changes a single cell, likely related t | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,62,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 consistently changes a single cell, likely related t | dead=[]"
+a19b3405,probe53_arc,complex_maze,2,63,ACTION6,0,GameState.GAME_OVER,False,"mech=ACTION6 consistently changes a single cell, likely related t | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,0,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,1,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,2,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,3,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,4,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,5,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,6,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,7,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,8,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,9,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,10,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,11,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,complex_maze,3,12,ACTION1,0,GameState.NOT_FINISHED,False,mech=initial probing to understand action effects | dead=[]
+a19b3405,probe53_arc,complex_maze,3,13,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,14,ACTION1,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, where actions can change eith | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,15,ACTION1,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, where actions can change eith | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,16,ACTION1,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, where actions can change eith | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,17,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,18,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,19,ACTION1,0,GameState.NOT_FINISHED,False,"mech=belief that actions can change 1 or 33 cells, with some acti | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,20,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief that actions can change 1 or 33 cells, with some acti | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,21,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,22,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,23,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,24,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, ACTION1 changes a single cell | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,25,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, ACTION1 changes a single cell | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,26,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, ACTION1 changes a single cell | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,27,ACTION6,0,GameState.NOT_FINISHED,False,"mech=belief grounded in the ledger, ACTION1 changes a single cell | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,28,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,29,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,30,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,31,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,32,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 seems to change one cell at a time, possibly moving  | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,33,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 seems to change one cell at a time, possibly moving  | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,34,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,35,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,36,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,37,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,38,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,39,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,40,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,41,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,42,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,43,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,44,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,45,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,46,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,47,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,48,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,49,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,50,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,51,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,52,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,53,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,54,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,55,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,56,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell at a time, possibly moving a symbol | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,57,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,58,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,complex_maze,3,59,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 changes one cell, likely moving a symbol, given its  | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,60,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 likely moves a symbol, given its high frequency of s | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,61,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 likely moves a symbol, given its high frequency of s | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,62,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION6 likely moves a symbol, given its high frequency of s | dead=[]"
+a19b3405,probe53_arc,complex_maze,3,63,ACTION6,0,GameState.GAME_OVER,False,"mech=ACTION6 likely moves a symbol, given its high frequency of s | dead=[]"
+a19b3405,probe53_arc,merge,2,0,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,1,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,2,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,3,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,4,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,5,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,6,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,7,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,8,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,9,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,10,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,11,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,merge,2,12,ACTION5,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[6]"
+a19b3405,probe53_arc,merge,2,13,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[5, 6]"
+a19b3405,probe53_arc,merge,2,14,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[5, 6]"
+a19b3405,probe53_arc,merge,2,15,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[5]"
+a19b3405,probe53_arc,merge,2,16,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,17,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,18,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,19,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,20,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,21,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,22,ACTION3,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,23,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,24,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,25,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,26,ACTION3,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,27,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,28,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,29,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,30,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,31,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[1]"
+a19b3405,probe53_arc,merge,2,32,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[1]"
+a19b3405,probe53_arc,merge,2,33,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[1]"
+a19b3405,probe53_arc,merge,2,34,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,35,ACTION3,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,36,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[3]"
+a19b3405,probe53_arc,merge,2,37,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[3]"
+a19b3405,probe53_arc,merge,2,38,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[3]"
+a19b3405,probe53_arc,merge,2,39,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,40,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,41,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,42,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,43,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,44,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,45,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,46,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,47,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,48,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,49,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,50,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions 1-4 move symbols '1' and '9' down and right, actions | dead=[]"
+a19b3405,probe53_arc,merge,2,51,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,2,52,ACTION3,0,GameState.NOT_FINISHED,False,"mech=belief that '1' moves down with ACTION1, '9' moves down with | dead=[6]"
+a19b3405,probe53_arc,merge,2,53,ACTION2,0,GameState.NOT_FINISHED,False,"mech=belief that '1' moves down with ACTION1, '9' moves down with | dead=[3, 6]"
+a19b3405,probe53_arc,merge,2,54,ACTION5,0,GameState.NOT_FINISHED,False,"mech=belief that '1' moves down with ACTION1, '9' moves down with | dead=[3, 6]"
+a19b3405,probe53_arc,merge,2,55,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3, 5]"
+a19b3405,probe53_arc,merge,2,56,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[5]"
+a19b3405,probe53_arc,merge,2,57,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[5]"
+a19b3405,probe53_arc,merge,2,58,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,59,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,60,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,61,ACTION3,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,62,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,2,63,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,2,64,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,2,65,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,66,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,67,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,68,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,69,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,70,ACTION3,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,71,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,2,72,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,2,73,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,2,74,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,75,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,2,76,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,2,77,ACTION2,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,2,78,ACTION2,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,2,79,ACTION2,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,3,0,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,1,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,2,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,3,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,4,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,5,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,6,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,7,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,8,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,9,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,10,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,11,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,merge,3,12,ACTION1,0,GameState.NOT_FINISHED,False,mech=unknown | dead=[6]
+a19b3405,probe53_arc,merge,3,13,ACTION1,0,GameState.NOT_FINISHED,False,"mech=The symbol '1' can be moved down or right, and '9' can also  | dead=[6]"
+a19b3405,probe53_arc,merge,3,14,ACTION1,0,GameState.NOT_FINISHED,False,"mech=The symbol '1' can be moved down or right, and '9' can also  | dead=[6]"
+a19b3405,probe53_arc,merge,3,15,ACTION1,0,GameState.NOT_FINISHED,False,"mech=The symbol '1' can be moved down or right, and '9' can also  | dead=[]"
+a19b3405,probe53_arc,merge,3,16,ACTION2,0,GameState.NOT_FINISHED,False,"mech=The symbol '1' can be moved down or right, and '9' can also  | dead=[]"
+a19b3405,probe53_arc,merge,3,17,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,18,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,19,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,20,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,21,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,22,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,23,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,24,ACTION3,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,25,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,26,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,27,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,28,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,29,ACTION4,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,30,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,31,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,32,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,33,ACTION3,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,34,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,35,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,36,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,37,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,38,ACTION4,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,39,ACTION3,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,40,ACTION2,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,41,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,42,ACTION1,0,GameState.NOT_FINISHED,False,mech=Symbols '1' and '9' can be moved down or right by specific a | dead=[]
+a19b3405,probe53_arc,merge,3,43,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,3,44,ACTION3,0,GameState.NOT_FINISHED,False,"mech=belief that actions move specific symbols in the grid, with  | dead=[]"
+a19b3405,probe53_arc,merge,3,45,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[]"
+a19b3405,probe53_arc,merge,3,46,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[]"
+a19b3405,probe53_arc,merge,3,47,ACTION1,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[]"
+a19b3405,probe53_arc,merge,3,48,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[1]"
+a19b3405,probe53_arc,merge,3,49,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[1]"
+a19b3405,probe53_arc,merge,3,50,ACTION3,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[1]"
+a19b3405,probe53_arc,merge,3,51,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[3]"
+a19b3405,probe53_arc,merge,3,52,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[3]"
+a19b3405,probe53_arc,merge,3,53,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[3]"
+a19b3405,probe53_arc,merge,3,54,ACTION2,0,GameState.NOT_FINISHED,False,"mech=actions move specific symbols in the grid, with ACTION1 movi | dead=[]"
+a19b3405,probe53_arc,merge,3,55,ACTION6,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,merge,3,56,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[6]
+a19b3405,probe53_arc,merge,3,57,ACTION2,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[6]
+a19b3405,probe53_arc,merge,3,58,ACTION2,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[6]
+a19b3405,probe53_arc,merge,3,59,ACTION2,0,GameState.NOT_FINISHED,False,"mech=From the ledger, it seems that ACTION1 moves '1' down, ACTIO | dead=[]"
+a19b3405,probe53_arc,merge,3,60,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,61,ACTION3,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,62,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,3,63,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,3,64,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,3,65,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,66,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,67,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,68,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,69,ACTION3,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,70,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,3,71,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,3,72,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,merge,3,73,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,74,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,75,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,76,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,77,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,78,ACTION3,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[]"
+a19b3405,probe53_arc,merge,3,79,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 moves '1' down, ACTION2 moves '9' down, ACTION3 move | dead=[3]"
+a19b3405,probe53_arc,simple_maze,2,0,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,1,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,2,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,3,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,4,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,5,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,6,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,7,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,8,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,9,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,10,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,11,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,2,12,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 can change cells, ACTION2 moves '8' down, other acti | dead=[6]"
+a19b3405,probe53_arc,simple_maze,2,13,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[6]
+a19b3405,probe53_arc,simple_maze,2,14,ACTION2,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[6]
+a19b3405,probe53_arc,simple_maze,2,15,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,16,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,17,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,18,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,19,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,20,ACTION6,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,21,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[6]"
+a19b3405,probe53_arc,simple_maze,2,22,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[6]"
+a19b3405,probe53_arc,simple_maze,2,23,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[6]"
+a19b3405,probe53_arc,simple_maze,2,24,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,25,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,26,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,27,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,28,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,29,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,30,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,31,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,32,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,33,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,34,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,35,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,36,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,37,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,38,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,39,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,40,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,41,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,42,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,43,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,44,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,45,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,46,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,47,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,48,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,49,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,50,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,51,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,52,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,53,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,54,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,55,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,56,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,57,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,58,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,59,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,60,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,61,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,62,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,63,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,64,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,65,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,66,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,67,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,68,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,69,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,70,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,71,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,72,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,73,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,74,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,75,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,76,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,77,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[2]"
+a19b3405,probe53_arc,simple_maze,2,78,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,2,79,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,0,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,1,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,2,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,3,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,4,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,5,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,6,ACTION1,0,GameState.NOT_FINISHED,False,PROBING action 1 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,7,ACTION2,0,GameState.NOT_FINISHED,False,PROBING action 2 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,8,ACTION3,0,GameState.NOT_FINISHED,False,PROBING action 3 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,9,ACTION4,0,GameState.NOT_FINISHED,False,PROBING action 4 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,10,ACTION5,0,GameState.NOT_FINISHED,False,PROBING action 5 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,11,ACTION6,0,GameState.NOT_FINISHED,False,PROBING action 6 (ledger incomplete)
+a19b3405,probe53_arc,simple_maze,3,12,ACTION2,0,GameState.NOT_FINISHED,False,"mech=probing each action to understand its effect, starting with  | dead=[6]"
+a19b3405,probe53_arc,simple_maze,3,13,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[6]"
+a19b3405,probe53_arc,simple_maze,3,14,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[6]"
+a19b3405,probe53_arc,simple_maze,3,15,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,16,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,17,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,18,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 changes two cells, other act | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,19,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 changes two cells, other act | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,20,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 changes two cells, other act | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,21,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 changes two cells, other act | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,22,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,23,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,24,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,25,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,26,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,27,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,28,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,29,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,30,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,31,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,32,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,33,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,34,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,35,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION2 moves '8' down, ACTION1 swaps two cells, other actio | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,36,ACTION1,0,GameState.NOT_FINISHED,False,mech=belief grounded in the ledger | dead=[]
+a19b3405,probe53_arc,simple_maze,3,37,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,38,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,39,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,40,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,41,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,42,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,43,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,44,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,45,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,46,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,47,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,48,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,49,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,50,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,51,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,52,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,53,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,54,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,55,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,56,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,57,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,58,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two cells, ACTION2 moves '8' down if possible | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,59,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,60,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,61,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,62,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,63,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,64,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,65,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,66,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,67,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,68,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,69,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,70,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,71,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,72,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,73,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,74,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,75,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,76,ACTION1,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[2]"
+a19b3405,probe53_arc,simple_maze,3,77,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,78,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"
+a19b3405,probe53_arc,simple_maze,3,79,ACTION2,0,GameState.NOT_FINISHED,False,"mech=ACTION1 swaps two adjacent cells, ACTION2 moves '8' down if  | dead=[]"

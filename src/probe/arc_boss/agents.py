@@ -255,6 +255,20 @@ class ARCProbe53Agent(ARCProbeAgent):
         outcomes: dict[str, Counter] = defaultdict(Counter)
         for h in history:
             outcomes[h["action"]][h["effect"].split(" to ")[0]] += 1
+
+        # ---- systematic probe phase: complete the ledger BEFORE planning ----
+        # 5.3.1 failure: the agent only ever used ledger-confirmed actions
+        # (44x down + 33x up, left and right tried once each), an exploration
+        # collapse. So first give EVERY available action two deterministic
+        # tries (no model call, no hallucination, cheaper), then plan with a
+        # complete ledger. This is PROBE's probe-all-sensors-first move.
+        live_now = [a for a in available if a != 0]
+        under = [a for a in live_now if sum(outcomes[f"ACTION{a}"].values()) < 2]
+        if under:
+            aid = min(under, key=lambda a: sum(outcomes[f"ACTION{a}"].values()))
+            self.tried.add(aid)
+            self.last_aid = aid
+            return aid, ((32, 32) if aid == 6 else None), f"PROBING action {aid} (ledger incomplete)"
         ledger_lines = []
         for act_name in sorted(outcomes):
             c = outcomes[act_name]
