@@ -323,7 +323,9 @@ class SWProbeAAgent(SWProbe52Agent):
         if self.yields:
             top = ", ".join(f"'{c}' earned +{v}" for c, v in sorted(self.yields.items(), key=lambda kv: -kv[1])[:5])
             obs = dict(obs)
-            obs["obs"] = obs["obs"][:650] + f"\nLEDGER of what has earned score (ground truth): {top}"
+            # PREPEND so the parent's observation truncation cannot chop the
+            # ledger off the end (the first probe-u run lost it to [:700])
+            obs["obs"] = f"LEDGER of what has earned score (ground truth): {top}\n" + obs["obs"][:600]
         command, note = super().act(obs, history)
         self._last_cmd, self._last_score = command, score
         return command, "A|" + note

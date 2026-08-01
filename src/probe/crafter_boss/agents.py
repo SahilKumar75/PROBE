@@ -213,13 +213,23 @@ class CrafterProbeUAgent:
             entry["uses"] += 1
             for g in gains:
                 entry["gains"][g] = entry["gains"].get(g, 0) + 1
-            novelty = bool(gains) or bool(nearby - self.seen_entities)
+            # world-state change counts as progress (the spec's novelty rule):
+            # walking changes what is nearby; only a frozen view is stagnation
+            view_changed = nearby != getattr(self, "_last_nearby", set())
+            novelty = bool(gains) or bool(nearby - self.seen_entities) or view_changed
+        self._last_nearby = set(nearby)
         self.seen_entities |= nearby
         self.last_resources = resources
         self.last_achievements = achievements
         self.steps_since_novelty = 0 if novelty else self.steps_since_novelty + 1
 
-        experiment = self.steps_since_novelty >= 10
+        # RULES-GIVEN gate (PROBE-A trigger): Crafter's prompt includes TIPS
+        # that state the tech tree, so the rules are not hidden. Per the
+        # adaptive-effort principle (Insight 041/048), suppress the experiment
+        # machinery in known-rule mode and keep the instruments passive; the
+        # ledger/seen lines still render but no contradiction pressure fires.
+        rules_given = bool(TIPS)
+        experiment = (not rules_given) and self.steps_since_novelty >= 10
         ledger_lines = []
         for a, e in sorted(self.ledger.items(), key=lambda kv: -kv[1]["uses"])[:8]:
             top = ", ".join(f"{g} x{n}" for g, n in sorted(e["gains"].items(), key=lambda kv: -kv[1])[:3]) or "nothing yet"
@@ -277,7 +287,7 @@ class CrafterProbeUAgent:
             self.same_streak += 1
         else:
             self.same_streak = 0
-        if self.same_streak >= 3 and self.steps_since_novelty >= 3:
+        if self.same_streak >= 3 and self.steps_since_novelty >= 3 and not action_name.startswith("move"):
             alt = [i for i, a in enumerate(ACTIONS) if a != action_name]
             if alt:
                 index = alt[0] if not experiment else alt[-1]
